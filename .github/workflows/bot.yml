@@ -1,19 +1,15 @@
 name: Solana DEX Bot
 on:
-schedule:
-- cron: '*/10 * * * *'
-workflow_dispatch:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
 jobs:
-run-bot:
-runs-on: ubuntu-latest
-steps:
-- name: Checkout code
-uses: actions/checkout@v3
-- name: Set up Python
-uses: actions/setup-python@v4
-with:
-python-version: '3.11'
-- name: Install dependencies
-run: pip install requests
-- name: Run trading bot
-run: python bot.py
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python bot.py
