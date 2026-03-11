@@ -1,127 +1,594 @@
-SolSniper
-Signals
-Memepool
-History
-Settings
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SolSniper — AI Trading Bot</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0e1a;
+    --surface: #111827;
+    --surface2: #1a2235;
+    --border: #1e2d45;
+    --accent: #00f5a0;
+    --accent2: #00d4ff;
+    --red: #ff4d6d;
+    --yellow: #ffd166;
+    --text: #e2e8f0;
+    --muted: #64748b;
+    --buy: #00f5a0;
+    --sell: #ff4d6d;
+    --watch: #ffd166;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(ellipse at 20% 20%, rgba(0,245,160,0.04) 0%, transparent 60%),
+                radial-gradient(ellipse at 80% 80%, rgba(0,212,255,0.04) 0%, transparent 60%);
+    pointer-events: none;
+    z-index: 0;
+  }
 
-☀️
-Light
-+ Wallet
-SOL/USD
-$85.42
-+3.2%
-BTC/USD
-$67,227
-+0.4%
-ETH/USD
-$2,041
--1.2%
-Signals Today
-3
-live
-Bot Status
-ACTIVE
-every 5min
-S
-SOL / USD
-Solana · Raydium
-$85.42
-24h High
-$91.20
-24h Low
-$81.05
-Volume
-$2.4B
-Signals
-3 found
-1m
-5m
-15m
-1h
-4h
-1D
-Live Signals
-Last scan: 20:20:52
-↻ Scan
-Auto
-Manual
-History
-PEPE MOON PMOON
-STRONG BUY
-1h Change
-+312%
-Liquidity
-$89K
-Volume 1h
-$1.2M
-Age · MCap
-18 min · $340K
-WIF 2.0 WIF2
-BUY
-1h Change
-+124%
-Liquidity
-$124K
-Volume 1h
-$890K
-Age · MCap
-42 min · $780K
-BONK CHAD BCHAD
-WATCH
-1h Change
-+67%
-Liquidity
-$67K
-Volume 1h
-$540K
-Age · MCap
-78 min · $1.2M
-🎯 Manual Snipe
-Paste token address...
-SNIPE
-Bot Controls
-Auto Trading
-Execute signals automatically
+  /* TOPBAR */
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    height: 56px;
+    background: rgba(17,24,39,0.95);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(12px);
+  }
+  .logo {
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: -0.5px;
+  }
+  .logo span { color: var(--accent2); }
+  .nav { display: flex; gap: 4px; }
+  .nav-btn {
+    background: none;
+    border: none;
+    color: var(--muted);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 500;
+  }
+  .nav-btn:hover, .nav-btn.active {
+    background: var(--surface2);
+    color: var(--text);
+  }
+  .nav-btn.active { color: var(--accent); }
+  .topbar-right { display: flex; align-items: center; gap: 12px; }
+  .ticker-row { display: flex; gap: 16px; }
+  .ticker {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .ticker .val { color: var(--text); }
+  .ticker .up { color: var(--accent); }
+  .ticker .down { color: var(--red); }
+  .wallet-btn {
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    border: none;
+    color: #0a0e1a;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 7px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  .wallet-btn:hover { opacity: 0.85; }
 
-Rug Protection
-Honeypot + rug check
+  /* MAIN LAYOUT */
+  .main {
+    display: grid;
+    grid-template-columns: 280px 1fr 300px;
+    gap: 0;
+    height: calc(100vh - 56px);
+    position: relative;
+    z-index: 1;
+  }
 
-Auto Sell
-TP/SL triggers automatically
+  /* LEFT PANEL */
+  .left-panel {
+    border-right: 1px solid var(--border);
+    overflow-y: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .panel-title {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px;
+  }
+  .stat-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  .stat-row:last-child { margin-bottom: 0; }
+  .stat-label { font-size: 12px; color: var(--muted); }
+  .stat-val { font-family: 'Space Mono', monospace; font-size: 13px; color: var(--text); }
+  .stat-val.accent { color: var(--accent); }
+  .stat-val.red { color: var(--red); }
+  .badge {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .badge.active { background: rgba(0,245,160,0.15); color: var(--accent); }
+  .badge.live { background: rgba(0,212,255,0.15); color: var(--accent2); }
 
-Trade Size
-Per Trade
-0.05
-SOL
-Take Profit 1
-+50%
-Take Profit 2
-+200%
-Stop Loss
--20%
-Moonbag
-10%
-Active Filters
-Token Age
-5–120 min
-Min Liquidity
-$30K
-Max Liquidity
-$500K
-Min Vol 1h
-$50K
-Min Change 1h
-+20%
-Market Cap
-$10K–$2M
-Min Txns 1h
-50+
-Session Stats
-Signals
-3
-Trades
-0
-Win Rate
-—
-P&L
-0 SOL 
+  /* Bot status pulsing dot */
+  .pulse-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+    display: inline-block;
+    margin-right: 6px;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.8); }
+  }
+
+  /* Filters */
+  .filter-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 12px;
+  }
+  .filter-item:last-child { border-bottom: none; }
+  .filter-label { color: var(--muted); }
+  .filter-val { font-family: 'Space Mono', monospace; font-size: 11px; color: var(--accent2); }
+
+  /* MIDDLE PANEL */
+  .mid-panel {
+    overflow-y: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .scan-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .scan-info { font-size: 12px; color: var(--muted); }
+  .scan-info span { color: var(--accent); font-family: 'Space Mono', monospace; }
+  .scan-controls { display: flex; gap: 8px; }
+  .ctrl-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 500;
+  }
+  .ctrl-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .ctrl-btn.primary {
+    background: rgba(0,245,160,0.1);
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* Signal Cards */
+  .signal-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    transition: border-color 0.2s, transform 0.2s;
+    animation: fadeIn 0.4s ease;
+  }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  .signal-card:hover { border-color: var(--accent2); transform: translateY(-1px); }
+  .signal-card.strong { border-left: 3px solid var(--buy); }
+  .signal-card.buy { border-left: 3px solid var(--accent2); }
+  .signal-card.watch { border-left: 3px solid var(--watch); }
+
+  .signal-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+  .token-info {}
+  .token-name { font-weight: 600; font-size: 15px; }
+  .token-ticker { font-family: 'Space Mono', monospace; font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .signal-badge {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 6px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .signal-badge.strong-buy { background: rgba(0,245,160,0.15); color: var(--buy); }
+  .signal-badge.buy-sig { background: rgba(0,212,255,0.12); color: var(--accent2); }
+  .signal-badge.watch-sig { background: rgba(255,209,102,0.12); color: var(--watch); }
+
+  .signal-metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .metric { text-align: center; }
+  .metric-label { font-size: 10px; color: var(--muted); margin-bottom: 3px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .metric-val { font-family: 'Space Mono', monospace; font-size: 12px; color: var(--text); }
+  .metric-val.green { color: var(--accent); }
+  .metric-val.blue { color: var(--accent2); }
+
+  /* Snipe bar */
+  .snipe-bar {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .snipe-input {
+    flex: 1;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .snipe-input:focus { border-color: var(--accent); }
+  .snipe-input::placeholder { color: var(--muted); }
+  .snipe-btn {
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    border: none;
+    color: #0a0e1a;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 9px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    transition: opacity 0.2s;
+  }
+  .snipe-btn:hover { opacity: 0.85; }
+
+  /* RIGHT PANEL */
+  .right-panel {
+    border-left: 1px solid var(--border);
+    overflow-y: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .toggle-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .toggle-row:last-of-type { border-bottom: none; }
+  .toggle-label { font-size: 13px; font-weight: 500; }
+  .toggle-sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .toggle {
+    position: relative;
+    width: 40px; height: 22px;
+  }
+  .toggle input { opacity: 0; width: 0; height: 0; }
+  .slider {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: var(--border);
+    border-radius: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .slider:before {
+    content: '';
+    position: absolute;
+    width: 16px; height: 16px;
+    left: 3px; top: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+  input:checked + .slider { background: var(--accent); }
+  input:checked + .slider:before { transform: translateX(18px); }
+
+  /* Trade size inputs */
+  .trade-input-group { margin-top: 4px; }
+  .trade-input-label { font-size: 11px; color: var(--muted); margin-bottom: 6px; }
+  .trade-input {
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .trade-input:focus { border-color: var(--accent); }
+
+  .tp-sl-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+  .tp-sl-item {}
+  .tp-sl-label { font-size: 10px; color: var(--muted); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .tp-sl-val {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    text-align: center;
+  }
+  .tp-sl-val.green { color: var(--accent); border-color: rgba(0,245,160,0.2); }
+  .tp-sl-val.red { color: var(--red); border-color: rgba(255,77,109,0.2); }
+  .tp-sl-val.blue { color: var(--accent2); }
+
+  /* Session stats */
+  .session-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .session-item {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  .session-num { font-family: 'Space Mono', monospace; font-size: 18px; font-weight: 700; color: var(--accent); }
+  .session-num.muted { color: var(--muted); }
+  .session-lbl { font-size: 10px; color: var(--muted); margin-top: 3px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+  /* Live clock */
+  #clock { font-family: 'Space Mono', monospace; font-size: 11px; color: var(--accent); }
+</style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="logo">Sol<span>Sniper</span></div>
+  <nav class="nav">
+    <button class="nav-btn active">Signals</button>
+    <button class="nav-btn">Memepool</button>
+    <button class="nav-btn">History</button>
+    <button class="nav-btn">Settings</button>
+  </nav>
+  <div class="topbar-right">
+    <div class="ticker-row">
+      <div class="ticker">SOL <span class="val">$85.42</span> <span class="up">+3.2%</span></div>
+      <div class="ticker">BTC <span class="val">$67,227</span> <span class="up">+0.4%</span></div>
+      <div class="ticker">ETH <span class="val">$2,041</span> <span class="down">-1.2%</span></div>
+    </div>
+    <span id="clock"></span>
+    <button class="wallet-btn">+ Connect Wallet</button>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <!-- LEFT -->
+  <div class="left-panel">
+    <div>
+      <div class="panel-title">Bot Status</div>
+      <div class="stat-card">
+        <div class="stat-row">
+          <span class="stat-label"><span class="pulse-dot"></span>Status</span>
+          <span class="badge active">ACTIVE</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Scan Interval</span>
+          <span class="stat-val accent">Every 5min</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Network</span>
+          <span class="stat-val">Solana · Raydium</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Signals Today</span>
+          <span class="stat-val accent">3 <span class="badge live">live</span></span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="panel-title">SOL / USD</div>
+      <div class="stat-card">
+        <div class="stat-row">
+          <span class="stat-label">Price</span>
+          <span class="stat-val accent">$85.42</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">24h High</span>
+          <span class="stat-val">$91.20</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">24h Low</span>
+          <span class="stat-val">$81.05</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Volume</span>
+          <span class="stat-val">$2.4B</span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="panel-title">Active Filters</div>
+      <div class="stat-card">
+        <div class="filter-item"><span class="filter-label">Token Age</span><span class="filter-val">5–120 min</span></div>
+        <div class="filter-item"><span class="filter-label">Min Liquidity</span><span class="filter-val">$30K</span></div>
+        <div class="filter-item"><span class="filter-label">Max Liquidity</span><span class="filter-val">$500K</span></div>
+        <div class="filter-item"><span class="filter-label">Min Vol 1h</span><span class="filter-val">$50K</span></div>
+        <div class="filter-item"><span class="filter-label">Min Change 1h</span><span class="filter-val">+20%</span></div>
+        <div class="filter-item"><span class="filter-label">Market Cap</span><span class="filter-val">$10K–$2M</span></div>
+        <div class="filter-item"><span class="filter-label">Min Txns 1h</span><span class="filter-val">50+</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MIDDLE -->
+  <div class="mid-panel">
+    <div class="scan-header">
+      <div class="scan-info">Last scan: <span id="lastscan">--:--:--</span></div>
+      <div class="scan-controls">
+        <button class="ctrl-btn" onclick="manualScan()">↻ Scan Now</button>
+        <button class="ctrl-btn primary">Auto</button>
+        <button class="ctrl-btn">Manual</button>
+      </div>
+    </div>
+
+    <div class="panel-title">Live Signals</div>
+
+    <!-- Signal 1 -->
+    <div class="signal-card strong">
+      <div class="signal-top">
+        <div class="token-info">
+          <div class="token-name">PEPE MOON</div>
+          <div class="token-ticker">PMOON · Raydium</div>
+        </div>
+        <div class="signal-badge strong-buy">⚡ Strong Buy</div>
+      </div>
+      <div class="signal-metrics">
+        <div class="metric"><div class="metric-label">1h Change</div><div class="metric-val green">+312%</div></div>
+        <div class="metric"><div class="metric-label">Liquidity</div><div class="metric-val">$89K</div></div>
+        <div class="metric"><div class="metric-label">Vol 1h</div><div class="metric-val blue">$1.2M</div></div>
+        <div class="metric"><div class="metric-label">Age · MCap</div><div class="metric-val">18m · $340K</div></div>
+      </div>
+    </div>
+
+    <!-- Signal 2 -->
+    <div class="signal-card buy">
+      <div class="signal-top">
+        <div class="token-info">
+          <div class="token-name">WIF 2.0</div>
+          <div class="token-ticker">WIF2 · Raydium</div>
+        </div>
+        <div class="signal-badge buy-sig">▲ Buy</div>
+      </div>
+      <div class="signal-metrics">
+        <div class="metric"><div class="metric-label">1h Change</div><div class="metric-val green">+124%</div></div>
+        <div class="metric"><div class="metric-label">Liquidity</div><div class="metric-val">$124K</div></div>
+        <div class="metric"><div class="metric-label">Vol 1h</div><div class="metric-val blue">$890K</div></div>
+        <div class="metric"><div class="metric-label">Age · MCap</div><div class="metric-val">42m · $780K</div></div>
+      </div>
+    </div>
+
+    <!-- Signal 3 -->
+    <div class="signal-card watch">
+      <div class="signal-top">
+        <div class="token-info">
+          <div class="token-name">BONK CHAD</div>
+          <div class="token-ticker">BCHAD · Raydium</div>
+        </div>
+        <div class="signal-badge watch-sig">◉ Watch</div>
+      </div>
+      <div class="signal-metrics">
+        <div class="metric"><div class="metric-label">1h Change</div><div class="metric-val green">+67%</div></div>
+        <div class="metric"><div class="metric-label">Liquidity</div><div class="metric-val">$67K</div></div>
+        <div class="metric"><div class="metric-label">Vol 1h</div><div class="metric-val blue">$540K</div></div>
+        <div class="metric"><div class="metric-label">Age · MCap</div><div class="metric-val">78m · $1.2M</div></div>
+      </div>
+    </div>
+
+    <!-- Manual Snipe -->
+    <div class="panel-title" style="margin-top:8px">🎯 Manual Snipe</div>
+    <div class="snipe-bar">
+      <input class="snipe-input" type="text" placeholder="Paste token address...">
+      <button class="snipe-btn">SNIPE</button>
+    </div>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="right-panel">
+    <div class="panel-title">Bot Controls</div>
+    <div class="stat-card">
+      <div class="toggle-row">
+        <div>
+          <div class="toggle-label">Auto Trading</div>
+          <div class="toggle-sub">Execute signals automatically</div>
+        </div>
+        <label class="toggle"><input type="checkbox"><span class="slider"></span></label>
+      </div>
+      <div class="toggle-row">
+        <div>
+          <div class="toggle-label">Rug Protection</div>
+          <div class="toggle-sub">Honeypot + rug check</div>
+        </div>
+        <label class="toggle"><input type="checkbox" checked><span class="slider"></span></label>
+      </div>
+      <div class="toggle-row">
+        <div>
+          <div class="toggle-label">Auto Sell</div>
+          <div class="toggle-sub">TP/SL triggers automatically</div>
+        </div>
+        <label class="toggle"><input type="checkbox" checked><span class="slider"></span></label>
+      </div>
+    </div>
+
+    <div class="panel-title">Trade Size</div>
+    <div class="stat-card">
+      <div class="trade-input-group">
+        <div class="trade-input-label">Per Trade (SOL)</div>
+        <input class="trade-input" type="number" value="0.05" step="0.01">
+      </div>
+      <div class="tp-sl-grid">
+        <div class="tp-sl-item">
+          <div class="tp-sl-label">Take Profit 1</div>
+          <div class="tp-sl-val green">+50%</div>
+        </div>
+        <div class="tp-sl-item">
+          <div class="tp-sl-label">Take Profit 2</div>
+          <div class="tp-sl-val green">+200%</div>
+        </div>
+        <div class="tp-sl-item">
+          <div class="tp-sl-label">Stop Loss<
