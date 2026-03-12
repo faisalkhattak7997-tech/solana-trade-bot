@@ -19,140 +19,72 @@
     --muted: #64748b;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'DM Sans', sans-serif;
-    min-height: 100vh;
-  }
+  body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; min-height: 100vh; }
 
-  /* TOPBAR */
   .topbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 16px;
-    height: 52px;
-    background: rgba(17,24,39,0.98);
-    border-bottom: 1px solid var(--border);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    backdrop-filter: blur(12px);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 16px; height: 52px;
+    background: rgba(17,24,39,0.98); border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; z-index: 100; backdrop-filter: blur(12px);
   }
   .logo { font-family: 'Space Mono', monospace; font-size: 17px; font-weight: 700; color: var(--accent); }
   .logo span { color: var(--accent2); }
   .wallet-btn {
     background: linear-gradient(135deg, #ab9ff2, #9b82f5);
-    border: none; color: white;
-    font-family: 'DM Sans', sans-serif; font-weight: 600; font-size: 12px;
-    padding: 7px 14px; border-radius: 8px; cursor: pointer;
+    border: none; color: white; font-family: 'DM Sans', sans-serif;
+    font-weight: 600; font-size: 12px; padding: 7px 14px; border-radius: 8px; cursor: pointer;
     display: flex; align-items: center; gap: 6px;
   }
   .wallet-btn.connected { background: var(--surface2); border: 1px solid var(--accent); color: var(--accent); }
   .wallet-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); animation: pulse 2s infinite; }
 
-  /* BOTTOM NAV */
   .bottom-nav {
-    position: fixed;
-    bottom: 0; left: 0; right: 0;
-    background: rgba(17,24,39,0.98);
-    border-top: 1px solid var(--border);
-    display: flex;
-    z-index: 100;
-    backdrop-filter: blur(12px);
+    position: fixed; bottom: 0; left: 0; right: 0;
+    background: rgba(17,24,39,0.98); border-top: 1px solid var(--border);
+    display: flex; z-index: 100; backdrop-filter: blur(12px);
   }
   .bottom-nav-btn {
-    flex: 1;
-    background: none; border: none;
-    color: var(--muted);
-    font-family: 'DM Sans', sans-serif;
-    font-size: 11px; font-weight: 500;
-    padding: 10px 4px 8px;
-    cursor: pointer;
-    display: flex; flex-direction: column;
-    align-items: center; gap: 3px;
-    transition: color 0.2s;
+    flex: 1; background: none; border: none; color: var(--muted);
+    font-family: 'DM Sans', sans-serif; font-size: 11px; font-weight: 500;
+    padding: 10px 4px 8px; cursor: pointer;
+    display: flex; flex-direction: column; align-items: center; gap: 3px; transition: color 0.2s;
   }
   .bottom-nav-btn.active { color: var(--accent); }
   .bottom-nav-btn span { font-size: 18px; }
 
-  /* TICKER BAR */
   .ticker-bar {
-    display: flex;
-    gap: 0;
-    overflow-x: auto;
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    padding: 8px 16px;
-    scrollbar-width: none;
+    display: flex; overflow-x: auto; background: var(--surface);
+    border-bottom: 1px solid var(--border); padding: 8px 16px; scrollbar-width: none;
   }
   .ticker-bar::-webkit-scrollbar { display: none; }
-  .ticker-item {
-    font-family: 'Space Mono', monospace;
-    font-size: 11px;
-    color: var(--muted);
-    white-space: nowrap;
-    margin-right: 20px;
-  }
+  .ticker-item { font-family: 'Space Mono', monospace; font-size: 11px; color: var(--muted); white-space: nowrap; margin-right: 20px; }
   .ticker-item .val { color: var(--text); }
   .ticker-item .up { color: var(--accent); }
   .ticker-item .down { color: var(--red); }
 
-  /* MAIN CONTENT */
-  .content {
-    padding: 12px 16px 80px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  /* SECTION */
+  .content { padding: 12px 16px 80px; display: flex; flex-direction: column; gap: 12px; }
   .section { display: none; flex-direction: column; gap: 12px; }
   .section.active { display: flex; }
 
-  /* CARDS */
-  .card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 14px;
-  }
-  .card-title {
-    font-family: 'Space Mono', monospace;
-    font-size: 10px; color: var(--muted);
-    letter-spacing: 1.5px; text-transform: uppercase;
-    margin-bottom: 10px;
-  }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px; }
+  .card-title { font-family: 'Space Mono', monospace; font-size: 10px; color: var(--muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 10px; }
 
-  /* STATUS GRID */
   .status-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
   .status-item { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 10px; }
   .status-label { font-size: 11px; color: var(--muted); margin-bottom: 4px; }
   .status-val { font-family: 'Space Mono', monospace; font-size: 13px; color: var(--text); }
   .status-val.accent { color: var(--accent); }
   .status-val.blue { color: var(--accent2); }
-
-  /* BADGES */
   .badge { font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; }
-  .badge.active-b { background: rgba(0,245,160,0.15); color: var(--accent); }
   .badge.live { background: rgba(0,212,255,0.15); color: var(--accent2); }
-
-  /* PULSE */
   .pulse-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); display: inline-block; margin-right: 5px; animation: pulse 2s infinite; }
   @keyframes pulse { 0%,100% { opacity:1; transform:scale(1); } 50% { opacity:0.4; transform:scale(0.8); } }
 
-  /* SIGNAL CARDS */
-  .signal-card {
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: 12px; padding: 14px;
-    animation: fadeIn 0.3s ease;
-  }
+  .signal-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px; animation: fadeIn 0.3s ease; }
   .signal-card.strong { border-left: 3px solid var(--accent); }
   .signal-card.buy { border-left: 3px solid var(--accent2); }
   .signal-card.watch { border-left: 3px solid var(--yellow); }
   @keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
-
   .signal-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
   .token-name { font-weight: 600; font-size: 15px; }
   .token-ticker { font-family: 'Space Mono', monospace; font-size: 11px; color: var(--muted); margin-top: 2px; }
@@ -160,7 +92,6 @@
   .signal-badge.sb { background: rgba(0,245,160,0.15); color: var(--accent); }
   .signal-badge.b { background: rgba(0,212,255,0.12); color: var(--accent2); }
   .signal-badge.w { background: rgba(255,209,102,0.12); color: var(--yellow); }
-
   .metrics { display: grid; grid-template-columns: repeat(4,1fr); gap: 6px; }
   .metric { text-align: center; background: var(--bg); border-radius: 6px; padding: 6px 4px; }
   .m-label { font-size: 9px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
@@ -168,26 +99,22 @@
   .m-val.g { color: var(--accent); }
   .m-val.b { color: var(--accent2); }
 
-  /* SCAN BAR */
   .scan-bar { display: flex; justify-content: space-between; align-items: center; }
   .scan-time { font-size: 12px; color: var(--muted); }
   .scan-time span { color: var(--accent); font-family: 'Space Mono', monospace; }
   .scan-btn { background: rgba(0,245,160,0.1); border: 1px solid var(--accent); color: var(--accent); font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; padding: 6px 14px; border-radius: 6px; cursor: pointer; }
 
-  /* SNIPE */
   .snipe-row { display: flex; gap: 8px; }
   .snipe-input { flex:1; background: var(--bg); border: 1px solid var(--border); color: var(--text); font-family: 'Space Mono', monospace; font-size: 12px; padding: 10px 12px; border-radius: 8px; outline: none; }
   .snipe-input:focus { border-color: var(--accent); }
   .snipe-input::placeholder { color: var(--muted); }
   .snipe-btn { background: linear-gradient(135deg, var(--accent), var(--accent2)); border: none; color: #0a0e1a; font-weight: 700; font-size: 13px; padding: 10px 18px; border-radius: 8px; cursor: pointer; font-family: 'DM Sans', sans-serif; }
 
-  /* FILTERS */
   .filter-row { display: flex; justify-content: space-between; padding: 9px 0; border-bottom: 1px solid var(--border); font-size: 13px; }
   .filter-row:last-child { border-bottom: none; }
   .filter-label { color: var(--muted); }
   .filter-val { font-family: 'Space Mono', monospace; font-size: 12px; color: var(--accent2); }
 
-  /* TOGGLES */
   .toggle-row { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--border); }
   .toggle-row:last-child { border-bottom: none; }
   .toggle-label { font-size: 14px; font-weight: 500; }
@@ -199,7 +126,6 @@
   input:checked + .slider { background: var(--accent); }
   input:checked + .slider:before { transform: translateX(20px); }
 
-  /* TRADE INPUTS */
   .trade-input { width:100%; background:var(--bg); border:1px solid var(--border); color:var(--text); font-family:'Space Mono',monospace; font-size:14px; padding:10px 12px; border-radius:8px; outline:none; margin-bottom:10px; }
   .trade-input:focus { border-color: var(--accent); }
   .tp-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
@@ -209,7 +135,6 @@
   .tp-val.r { color:var(--red); border-color:rgba(255,77,109,0.25); }
   .tp-val.b { color:var(--accent2); }
 
-  /* STATS */
   .stats-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
   .stat-box { background:var(--bg); border:1px solid var(--border); border-radius:10px; padding:14px; text-align:center; }
   .stat-num { font-family:'Space Mono',monospace; font-size:22px; font-weight:700; color:var(--accent); }
@@ -222,8 +147,14 @@
   .modal { background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:24px; width:320px; max-width:90vw; animation:slideUp 0.3s ease; }
   @keyframes slideUp { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:translateY(0); } }
   .modal-title { font-family:'Space Mono',monospace; font-size:16px; margin-bottom:6px; }
-  .modal-sub { font-size:13px; color:var(--muted); margin-bottom:20px; }
-  .phantom-btn { width:100%; background:linear-gradient(135deg,#ab9ff2,#9b82f5); border:none; color:white; font-family:'DM Sans',sans-serif; font-weight:600; font-size:15px; padding:14px; border-radius:10px; cursor:pointer; margin-bottom:10px; }
+  .modal-sub { font-size:13px; color:var(--muted); margin-bottom:20px; line-height:1.5; }
+  .phantom-btn {
+    width:100%; background:linear-gradient(135deg,#ab9ff2,#9b82f5);
+    border:none; color:white; font-family:'DM Sans',sans-serif;
+    font-weight:600; font-size:15px; padding:14px; border-radius:10px;
+    cursor:pointer; margin-bottom:10px; display:block;
+    text-decoration:none; text-align:center;
+  }
   .modal-note { font-size:11px; color:var(--muted); text-align:center; margin-top:8px; }
   .modal-note a { color:var(--accent2); text-decoration:none; }
   .modal-close { width:100%; background:none; border:1px solid var(--border); color:var(--muted); font-family:'DM Sans',sans-serif; font-size:13px; padding:10px; border-radius:8px; cursor:pointer; margin-top:8px; }
@@ -232,37 +163,32 @@
   .wallet-addr { font-family:'Space Mono',monospace; font-size:11px; color:var(--accent2); background:var(--bg); border:1px solid var(--border); border-radius:8px; padding:10px; word-break:break-all; margin:10px 0; }
   .disco-btn { width:100%; background:rgba(255,77,109,0.1); border:1px solid rgba(255,77,109,0.3); color:var(--red); font-family:'DM Sans',sans-serif; font-weight:600; font-size:13px; padding:10px; border-radius:8px; cursor:pointer; margin-top:8px; }
 
-  /* TOAST */
   .toast { position:fixed; bottom:72px; left:50%; transform:translateX(-50%); background:var(--surface); border:1px solid var(--accent); color:var(--accent); font-family:'Space Mono',monospace; font-size:12px; padding:10px 18px; border-radius:8px; z-index:9999; opacity:0; transition:opacity 0.3s; pointer-events:none; white-space:nowrap; }
   .toast.show { opacity:1; }
 </style>
 </head>
 <body>
 
-<!-- TOPBAR -->
 <div class="topbar">
   <div class="logo">Sol<span>Sniper</span></div>
   <button class="wallet-btn" id="walletBtn" onclick="openWalletModal()">👻 Connect</button>
 </div>
 
-<!-- TICKER -->
 <div class="ticker-bar">
   <div class="ticker-item">SOL <span class="val">$85.42</span> <span class="up">+3.2%</span></div>
   <div class="ticker-item">BTC <span class="val">$67,227</span> <span class="up">+0.4%</span></div>
   <div class="ticker-item">ETH <span class="val">$2,041</span> <span class="down">-1.2%</span></div>
-  <div class="ticker-item">Last scan: <span class="up" id="clock">--:--:--</span></div>
+  <div class="ticker-item">Time: <span class="up" id="clock">--:--:--</span></div>
 </div>
 
-<!-- CONTENT -->
 <div class="content">
 
-  <!-- SIGNALS TAB -->
+  <!-- SIGNALS -->
   <div class="section active" id="tab-signals">
     <div class="scan-bar">
       <div class="scan-time">Signals today: <span>3 live</span></div>
       <button class="scan-btn" onclick="doScan(this)">↻ Scan</button>
     </div>
-
     <div class="signal-card strong">
       <div class="signal-top">
         <div><div class="token-name">PEPE MOON</div><div class="token-ticker">PMOON · Raydium</div></div>
@@ -275,7 +201,6 @@
         <div class="metric"><div class="m-label">Age·MCap</div><div class="m-val">18m·$340K</div></div>
       </div>
     </div>
-
     <div class="signal-card buy">
       <div class="signal-top">
         <div><div class="token-name">WIF 2.0</div><div class="token-ticker">WIF2 · Raydium</div></div>
@@ -288,7 +213,6 @@
         <div class="metric"><div class="m-label">Age·MCap</div><div class="m-val">42m·$780K</div></div>
       </div>
     </div>
-
     <div class="signal-card watch">
       <div class="signal-top">
         <div><div class="token-name">BONK CHAD</div><div class="token-ticker">BCHAD · Raydium</div></div>
@@ -301,7 +225,6 @@
         <div class="metric"><div class="m-label">Age·MCap</div><div class="m-val">78m·$1.2M</div></div>
       </div>
     </div>
-
     <div class="card">
       <div class="card-title">🎯 Manual Snipe</div>
       <div class="snipe-row">
@@ -311,7 +234,7 @@
     </div>
   </div>
 
-  <!-- BOT TAB -->
+  <!-- BOT -->
   <div class="section" id="tab-bot">
     <div class="card">
       <div class="card-title">Bot Status</div>
@@ -322,7 +245,6 @@
         <div class="status-item"><div class="status-label">Signals</div><div class="status-val accent">3 <span class="badge live">live</span></div></div>
       </div>
     </div>
-
     <div class="card">
       <div class="card-title">Controls</div>
       <div class="toggle-row">
@@ -338,7 +260,6 @@
         <label class="toggle"><input type="checkbox" checked><span class="slider"></span></label>
       </div>
     </div>
-
     <div class="card">
       <div class="card-title">Trade Size (SOL)</div>
       <input class="trade-input" type="number" value="0.05" step="0.01">
@@ -351,7 +272,7 @@
     </div>
   </div>
 
-  <!-- FILTERS TAB -->
+  <!-- FILTERS -->
   <div class="section" id="tab-filters">
     <div class="card">
       <div class="card-title">Active Filters</div>
@@ -363,7 +284,6 @@
       <div class="filter-row"><span class="filter-label">Market Cap</span><span class="filter-val">$10K–$2M</span></div>
       <div class="filter-row"><span class="filter-label">Min Txns 1h</span><span class="filter-val">50+</span></div>
     </div>
-
     <div class="card">
       <div class="card-title">SOL / USD</div>
       <div class="filter-row"><span class="filter-label">Price</span><span class="filter-val" style="color:var(--accent)">$85.42</span></div>
@@ -373,7 +293,7 @@
     </div>
   </div>
 
-  <!-- STATS TAB -->
+  <!-- STATS -->
   <div class="section" id="tab-stats">
     <div class="card">
       <div class="card-title">Session Stats</div>
@@ -388,6 +308,15 @@
 
 </div>
 
-<!-- BOTTOM NAV -->
 <nav class="bottom-nav">
-  <button class="bottom-nav-btn active" onclick="showT
+  <button class="bottom-nav-btn active" onclick="showTab('signals',this)"><span>⚡</span>Signals</button>
+  <button class="bottom-nav-btn" onclick="showTab('bot',this)"><span>🤖</span>Bot</button>
+  <button class="bottom-nav-btn" onclick="showTab('filters',this)"><span>🔍</span>Filters</button>
+  <button class="bottom-nav-btn" onclick="showTab('stats',this)"><span>📊</span>Stats</button>
+</nav>
+
+<!-- CONNECT MODAL -->
+<div class="modal-overlay" id="connectModal">
+  <div class="modal">
+    <div class="modal-title">👻 Connect Phantom</div>
+    <div class="modal-sub">Tap the button below. It will open the Phantom app on your phon
