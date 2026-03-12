@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SolSniper — AI Trading Bot</title>
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tweetnacl/1.0.3/nacl.min.js"></script>
 <style>
   :root {
     --bg: #0a0e1a;
@@ -47,7 +48,7 @@
     flex: 1; background: none; border: none; color: var(--muted);
     font-family: 'DM Sans', sans-serif; font-size: 11px; font-weight: 500;
     padding: 10px 4px 8px; cursor: pointer;
-    display: flex; flex-direction: column; align-items: center; gap: 3px; transition: color 0.2s;
+    display: flex; flex-direction: column; align-items: center; gap: 3px;
   }
   .bottom-nav-btn.active { color: var(--accent); }
   .bottom-nav-btn span { font-size: 18px; }
@@ -58,14 +59,13 @@
   }
   .ticker-bar::-webkit-scrollbar { display: none; }
   .ticker-item { font-family: 'Space Mono', monospace; font-size: 11px; color: var(--muted); white-space: nowrap; margin-right: 20px; }
-  .ticker-item .val { color: var(--text); }
   .ticker-item .up { color: var(--accent); }
   .ticker-item .down { color: var(--red); }
+  .ticker-item .val { color: var(--text); }
 
   .content { padding: 12px 16px 80px; display: flex; flex-direction: column; gap: 12px; }
   .section { display: none; flex-direction: column; gap: 12px; }
   .section.active { display: flex; }
-
   .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px; }
   .card-title { font-family: 'Space Mono', monospace; font-size: 10px; color: var(--muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 10px; }
 
@@ -75,16 +75,14 @@
   .status-val { font-family: 'Space Mono', monospace; font-size: 13px; color: var(--text); }
   .status-val.accent { color: var(--accent); }
   .status-val.blue { color: var(--accent2); }
-  .badge { font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; }
-  .badge.live { background: rgba(0,212,255,0.15); color: var(--accent2); }
+  .badge.live { background: rgba(0,212,255,0.15); color: var(--accent2); font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 4px; }
   .pulse-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); display: inline-block; margin-right: 5px; animation: pulse 2s infinite; }
-  @keyframes pulse { 0%,100% { opacity:1; transform:scale(1); } 50% { opacity:0.4; transform:scale(0.8); } }
+  @keyframes pulse { 0%,100%{opacity:1;transform:scale(1);}50%{opacity:0.4;transform:scale(0.8);} }
 
-  .signal-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px; animation: fadeIn 0.3s ease; }
+  .signal-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px; }
   .signal-card.strong { border-left: 3px solid var(--accent); }
   .signal-card.buy { border-left: 3px solid var(--accent2); }
   .signal-card.watch { border-left: 3px solid var(--yellow); }
-  @keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
   .signal-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
   .token-name { font-weight: 600; font-size: 15px; }
   .token-ticker { font-family: 'Space Mono', monospace; font-size: 11px; color: var(--muted); margin-top: 2px; }
@@ -121,15 +119,14 @@
   .toggle-sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
   .toggle { position: relative; width: 44px; height: 24px; flex-shrink: 0; }
   .toggle input { opacity:0; width:0; height:0; }
-  .slider { position:absolute; top:0; left:0; right:0; bottom:0; background:var(--border); border-radius:24px; cursor:pointer; transition:0.3s; }
+  .slider { position:absolute; top:0;left:0;right:0;bottom:0; background:var(--border); border-radius:24px; cursor:pointer; transition:0.3s; }
   .slider:before { content:''; position:absolute; width:18px; height:18px; left:3px; top:3px; background:white; border-radius:50%; transition:0.3s; }
   input:checked + .slider { background: var(--accent); }
   input:checked + .slider:before { transform: translateX(20px); }
 
   .trade-input { width:100%; background:var(--bg); border:1px solid var(--border); color:var(--text); font-family:'Space Mono',monospace; font-size:14px; padding:10px 12px; border-radius:8px; outline:none; margin-bottom:10px; }
-  .trade-input:focus { border-color: var(--accent); }
   .tp-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
-  .tp-item .tp-label { font-size:11px; color:var(--muted); margin-bottom:4px; text-transform:uppercase; letter-spacing:0.5px; }
+  .tp-item .tp-label { font-size:11px; color:var(--muted); margin-bottom:4px; text-transform:uppercase; }
   .tp-val { background:var(--bg); border:1px solid var(--border); border-radius:6px; padding:8px 10px; font-family:'Space Mono',monospace; font-size:13px; text-align:center; }
   .tp-val.g { color:var(--accent); border-color:rgba(0,245,160,0.25); }
   .tp-val.r { color:var(--red); border-color:rgba(255,77,109,0.25); }
@@ -139,29 +136,21 @@
   .stat-box { background:var(--bg); border:1px solid var(--border); border-radius:10px; padding:14px; text-align:center; }
   .stat-num { font-family:'Space Mono',monospace; font-size:22px; font-weight:700; color:var(--accent); }
   .stat-num.dim { color:var(--muted); }
-  .stat-lbl { font-size:11px; color:var(--muted); margin-top:4px; text-transform:uppercase; letter-spacing:0.5px; }
+  .stat-lbl { font-size:11px; color:var(--muted); margin-top:4px; text-transform:uppercase; }
 
-  /* MODAL */
-  .modal-overlay { display:none; position:fixed; top:0;left:0;right:0;bottom:0; background:rgba(0,0,0,0.75); z-index:999; justify-content:center; align-items:center; backdrop-filter:blur(4px); }
+  .modal-overlay { display:none; position:fixed; top:0;left:0;right:0;bottom:0; background:rgba(0,0,0,0.8); z-index:999; justify-content:center; align-items:center; backdrop-filter:blur(4px); }
   .modal-overlay.show { display:flex; }
-  .modal { background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:24px; width:320px; max-width:90vw; animation:slideUp 0.3s ease; }
-  @keyframes slideUp { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:translateY(0); } }
+  .modal { background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:24px; width:320px; max-width:90vw; }
   .modal-title { font-family:'Space Mono',monospace; font-size:16px; margin-bottom:6px; }
-  .modal-sub { font-size:13px; color:var(--muted); margin-bottom:20px; line-height:1.5; }
-  .phantom-btn {
-    width:100%; background:linear-gradient(135deg,#ab9ff2,#9b82f5);
-    border:none; color:white; font-family:'DM Sans',sans-serif;
-    font-weight:600; font-size:15px; padding:14px; border-radius:10px;
-    cursor:pointer; margin-bottom:10px; display:block;
-    text-decoration:none; text-align:center;
-  }
-  .modal-note { font-size:11px; color:var(--muted); text-align:center; margin-top:8px; }
-  .modal-note a { color:var(--accent2); text-decoration:none; }
+  .modal-sub { font-size:13px; color:var(--muted); margin-bottom:20px; line-height:1.6; }
+  .phantom-btn { width:100%; background:linear-gradient(135deg,#ab9ff2,#9b82f5); border:none; color:white; font-family:'DM Sans',sans-serif; font-weight:600; font-size:15px; padding:14px; border-radius:10px; cursor:pointer; margin-bottom:10px; }
   .modal-close { width:100%; background:none; border:1px solid var(--border); color:var(--muted); font-family:'DM Sans',sans-serif; font-size:13px; padding:10px; border-radius:8px; cursor:pointer; margin-top:8px; }
   .wallet-bal { font-family:'Space Mono',monospace; font-size:30px; color:var(--accent); text-align:center; margin:14px 0 4px; }
   .wallet-bal-lbl { font-size:12px; color:var(--muted); text-align:center; margin-bottom:14px; }
   .wallet-addr { font-family:'Space Mono',monospace; font-size:11px; color:var(--accent2); background:var(--bg); border:1px solid var(--border); border-radius:8px; padding:10px; word-break:break-all; margin:10px 0; }
   .disco-btn { width:100%; background:rgba(255,77,109,0.1); border:1px solid rgba(255,77,109,0.3); color:var(--red); font-family:'DM Sans',sans-serif; font-weight:600; font-size:13px; padding:10px; border-radius:8px; cursor:pointer; margin-top:8px; }
+  .modal-note { font-size:11px; color:var(--muted); text-align:center; margin-top:10px; }
+  .modal-note a { color:var(--accent2); text-decoration:none; }
 
   .toast { position:fixed; bottom:72px; left:50%; transform:translateX(-50%); background:var(--surface); border:1px solid var(--accent); color:var(--accent); font-family:'Space Mono',monospace; font-size:12px; padding:10px 18px; border-radius:8px; z-index:9999; opacity:0; transition:opacity 0.3s; pointer-events:none; white-space:nowrap; }
   .toast.show { opacity:1; }
@@ -182,7 +171,6 @@
 </div>
 
 <div class="content">
-
   <!-- SIGNALS -->
   <div class="section active" id="tab-signals">
     <div class="scan-bar">
@@ -305,7 +293,6 @@
       </div>
     </div>
   </div>
-
 </div>
 
 <nav class="bottom-nav">
@@ -319,4 +306,14 @@
 <div class="modal-overlay" id="connectModal">
   <div class="modal">
     <div class="modal-title">👻 Connect Phantom</div>
-    <div class="modal-sub">Tap the button below. It will open the Phantom app on your phon
+    <div class="modal-sub">Tap below — Phantom will open and ask you to approve the connection.</div>
+    <button class="phantom-btn" onclick="connectPhantom()">👻 &nbsp; Connect Phantom Wallet</button>
+    <div class="modal-note">No Phantom? <a href="https://phantom.app" target="_blank">Download here →</a></div>
+    <button class="modal-close" onclick="closeModal('connectModal')">Cancel</button>
+  </div>
+</div>
+
+<!-- WALLET INFO MODAL -->
+<div class="modal-overlay" id="walletInfoModal">
+  <div class="modal">
+    <div class="modal-title">👻 Phantom W
