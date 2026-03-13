@@ -46,6 +46,6 @@ jobs:
           git config --global user.name "SolSniper Bot"
           git config --global user.email "bot@solsniper.io"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git add signals.json
+          git add -f signals.json
           git diff --staged --quiet || git commit -m "🤖 Bot scan: $(date -u '+%Y-%m-%d %H:%M') UTC"
-          git push origin main
+          git push origin HEAD:main
