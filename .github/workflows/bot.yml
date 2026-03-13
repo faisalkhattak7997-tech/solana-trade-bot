@@ -1,0 +1,49 @@
+name: SolSniper Auto Trading Bot
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+          pip install solders solana || true
+
+      - name: Run SolSniper Bot
+        env:
+          SOLANA_PRIVATE_KEY: ${{ secrets.SOLANKEY }}
+          AUTO_TRADE: ${{ secrets.AUTOTRADE }}
+          TRADE_AMOUNT_SOL: ${{ secrets.TRADEAMOUNT }}
+          TAKE_PROFIT_1: "0.50"
+          TAKE_PROFIT_2: "2.00"
+          STOP_LOSS: "0.20"
+          MOONBAG_PCT: "0.10"
+        run: python bot.py
+
+      - name: Commit signals.json
+        run: |
+          git config user.name "SolSniper Bot"
+          git config user.email "bot@solsniper.io"
+          git add signals.json
+          git diff --staged --quiet || git commit -m "🤖 Bot scan: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push
