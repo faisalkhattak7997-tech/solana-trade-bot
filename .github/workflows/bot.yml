@@ -18,6 +18,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -42,8 +43,9 @@ jobs:
 
       - name: Commit signals.json
         run: |
-          git config user.name "SolSniper Bot"
-          git config user.email "bot@solsniper.io"
+          git config --global user.name "SolSniper Bot"
+          git config --global user.email "bot@solsniper.io"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add signals.json
           git diff --staged --quiet || git commit -m "🤖 Bot scan: $(date -u '+%Y-%m-%d %H:%M') UTC"
-          git push
+          git push origin main
