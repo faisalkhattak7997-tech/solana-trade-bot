@@ -44,6 +44,7 @@ jobs:
           SOLANA_PRIVATE_KEY: ${{ secrets.SOLANKEY }}
           AUTO_TRADE: ${{ secrets.AUTOTRADE }}
           TRADE_AMOUNT_SOL: ${{ secrets.TRADEAMOUNT }}
+          WALLET_ADDRESS: ${{ secrets.WALLETADDRESS }}
           TAKE_PROFIT_1: "0.50"
           TAKE_PROFIT_2: "2.00"
           STOP_LOSS: "0.20"
