@@ -15,6 +15,7 @@ log = logging.getLogger("SolSniper")
 
 # ── Config ──
 PRIVATE_KEY_B58  = os.environ.get("SOLANA_PRIVATE_KEY", "")
+WALLET_ADDRESS   = os.environ.get("WALLET_ADDRESS", "")
 TRADE_AMOUNT_SOL = float(os.environ.get("TRADE_AMOUNT_SOL", "0.05"))
 TAKE_PROFIT_1    = float(os.environ.get("TAKE_PROFIT_1", "0.50"))
 TAKE_PROFIT_2    = float(os.environ.get("TAKE_PROFIT_2", "2.00"))
@@ -76,14 +77,21 @@ def get_wallet():
         return None, None
 
 def get_sol_balance(pubkey):
-    try:
-        r = requests.post(SOLANA_RPC, json={
-            "jsonrpc": "2.0", "id": 1,
-            "method": "getBalance", "params": [pubkey]
-        }, timeout=10)
-        return r.json()["result"]["value"] / 1e9
-    except:
-        return 0.0
+    rpcs = [
+        "https://api.mainnet-beta.solana.com",
+        "https://rpc.ankr.com/solana",
+    ]
+    for rpc in rpcs:
+        try:
+            r = requests.post(rpc, json={
+                "jsonrpc": "2.0", "id": 1,
+                "method": "getBalance", "params": [pubkey]
+            }, timeout=10)
+            val = r.json()["result"]["value"]
+            return val / 1e9
+        except:
+            continue
+    return 0.0
 
 # ─────────────────────────────────────────
 # DEXSCREENER
@@ -246,10 +254,12 @@ def run():
     # Wallet
     keypair, pubkey = get_wallet()
     balance = 0.0
-    if pubkey:
-        balance = get_sol_balance(pubkey)
-        log.info(f"Wallet: {pubkey[:8]}... | {balance:.4f} SOL")
-        data["wallet"] = {"address": pubkey, "balance": balance}
+    # Use WALLET_ADDRESS secret as fallback for balance check
+    check_pubkey = pubkey or WALLET_ADDRESS
+    if check_pubkey:
+        balance = get_sol_balance(check_pubkey)
+        log.info(f"Wallet: {check_pubkey[:8]}... | {balance:.4f} SOL")
+        data["wallet"] = {"address": check_pubkey, "balance": balance}
 
     # Scan DexScreener
     log.info("Scanning DexScreener...")
