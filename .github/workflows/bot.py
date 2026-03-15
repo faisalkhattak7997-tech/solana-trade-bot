@@ -227,12 +227,12 @@ def run():
     save(data)  # Save immediately so file always exists
 
     # Get balance - keep old balance if fetch fails
-    bal = get_balance(WALLET_ADDRESS)
-    if bal == 0.0:
-        bal = data.get("wallet", {}).get("balance", 0.0)
-        log.info(f"RPC failed, keeping old balance: {bal} SOL")
-    data["wallet"] = {"address": WALLET_ADDRESS, "balance": bal}
-    log.info(f"Wallet: {WALLET_ADDRESS[:8]}... | {bal} SOL")
+    # Get balance - always keep old if RPC returns 0
+    old_bal = data.get("wallet", {}).get("balance", 0.0)
+    fetched = get_balance(WALLET_ADDRESS)
+    bal = fetched if fetched > 0 else old_bal
+    log.info(f"Balance: fetched={fetched}, using={bal} SOL")
+    data["wallet"] = {"address": WALLET_ADDRESS, "balance": round(bal,6)}
 
     # Get keypair for trading
     kp = get_keypair() if AUTO_TRADE else None
@@ -295,7 +295,7 @@ def run():
 
     data["signals"] = (new_sigs + data.get("signals",[]))[:50]
     data["stats"]["signals"] += len(new_sigs)
-    data["wallet"]["balance"] = bal
+    data["wallet"]["balance"] = round(bal,6)
     save(data)
     log.info(f"Complete. {len(new_sigs)} signals found this run.")
 
