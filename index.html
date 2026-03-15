@@ -476,7 +476,7 @@ async function fetchBalanceDirect(){
     const r=await fetch('https://mainnet.helius-rpc.com/?api-key=08d214d9-315d-40d5-90e1-54638e2c9508',{
       method:'POST',
       headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({jsonrpc:'2.0',id:1,method:'getBalance',params:['CcShAzoAiuxksmUSMEX6dvjtWxVXSZp8WM4rDNyq9PzL']})
+      body:JSON.stringify({jsonrpc:'2.0',id:1,method:'getBalance',params:['Cc5hAzoAiuxksmU5MEX6dvjtWxVXSZp8WM4rDNyq9PzL']})
     });
     const d=await r.json();
     const bal=(d.result.value/1e9).toFixed(4);
