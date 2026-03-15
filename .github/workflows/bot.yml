@@ -26,7 +26,12 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          pip install --upgrade pip
+          pip install requests
+          pip install solders==0.21.0
+          pip install solana==0.35.0
+          pip install anchorpy || true
 
       - name: Create signals.json if missing
         run: |
