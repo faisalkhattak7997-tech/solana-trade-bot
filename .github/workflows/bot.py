@@ -226,8 +226,11 @@ def run():
     data["last_scan"] = now_utc().strftime("%Y-%m-%d %H:%M:%S UTC")
     save(data)  # Save immediately so file always exists
 
-    # Get balance
+    # Get balance - keep old balance if fetch fails
     bal = get_balance(WALLET_ADDRESS)
+    if bal == 0.0:
+        bal = data.get("wallet", {}).get("balance", 0.0)
+        log.info(f"RPC failed, keeping old balance: {bal} SOL")
     data["wallet"] = {"address": WALLET_ADDRESS, "balance": bal}
     log.info(f"Wallet: {WALLET_ADDRESS[:8]}... | {bal} SOL")
 
