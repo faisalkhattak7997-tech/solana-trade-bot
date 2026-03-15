@@ -11,7 +11,7 @@ log = logging.getLogger("SolSniper")
 
 # ── Config from GitHub Secrets ──
 PRIVATE_KEY      = os.environ.get("SOLANKEY", "")
-WALLET_ADDRESS   = os.environ.get("WALLETADDRESS", "CcShAzoAiuxksmUSMEX6dvjtWxVXSZp8WM4rDNyq9PzL")
+WALLET_ADDRESS   = os.environ.get("WALLETADDRESS", "Cc5hAzoAiuxksmU5MEX6dvjtWxVXSZp8WM4rDNyq9PzL")
 TRADE_SOL        = float(os.environ.get("TRADEAMOUNT", "0.05"))
 AUTO_TRADE       = os.environ.get("AUTOTRADE", "false").lower() == "true"
 TP1              = 0.50
