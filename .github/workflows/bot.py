@@ -22,15 +22,15 @@ STOP_LOSS        = float(os.environ.get("STOP_LOSS", "0.20"))
 AUTO_TRADE       = os.environ.get("AUTO_TRADE", "false").lower() == "true"
 
 # ── Filters ──
-MIN_LIQUIDITY  = 30_000
-MAX_LIQUIDITY  = 500_000
-MIN_VOL_1H     = 50_000
-MIN_CHANGE_1H  = 20.0
-MIN_AGE_MIN    = 5
-MAX_AGE_MIN    = 120
-MIN_MCAP       = 10_000
-MAX_MCAP       = 2_000_000
-MIN_TXNS_1H    = 50
+MIN_LIQUIDITY  = 10_000
+MAX_LIQUIDITY  = 1_000_000
+MIN_VOL_1H     = 10_000
+MIN_CHANGE_1H  = 10.0
+MIN_AGE_MIN    = 1
+MAX_AGE_MIN    = 240
+MIN_MCAP       = 5_000
+MAX_MCAP       = 5_000_000
+MIN_TXNS_1H    = 10
 
 SOL_MINT     = "So11111111111111111111111111111111111111112"
 JUPITER_API  = "https://quote-api.jup.ag/v6"
