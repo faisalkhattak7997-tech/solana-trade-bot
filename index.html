@@ -128,6 +128,10 @@ input:checked+.tsl:before{transform:translateX(20px)}
 <div class="hdr">
   <div class="logo">Sol<span>Sniper</span></div>
   <div class="hdr-r">
+    <div style="position:relative;cursor:pointer;margin-right:4px" onclick="openNotifs()">
+      <span style="font-size:20px">🔔</span>
+      <span id="notifBadge" style="display:none;position:absolute;top:-4px;right:-6px;background:#f6465d;color:#fff;font-size:9px;font-weight:700;min-width:16px;height:16px;border-radius:8px;display:none;align-items:center;justify-content:center;padding:0 3px">0</span>
+    </div>
     <div class="bal-pill" id="balPill">-- SOL</div>
     <button class="conn-btn" id="walletBtn" onclick="openWallet()">Connect</button>
   </div>
@@ -354,6 +358,7 @@ async function loadData(){
       document.getElementById('wAddr').textContent=d.wallet.address;
     }
 
+    checkNewSignals(d.signals||[], d.trades||[]);
     renderSignals(d.signals||[]);
     renderTrades(d.trades||[]);
   }catch(e){
@@ -498,6 +503,87 @@ window.addEventListener('load',async()=>{
 });
 
 setInterval(()=>{loadData();fetchPrices();fetchBalanceDirect();}, 5*60*1000);
+</script>
+
+<!-- NOTIF MODAL -->
+<div class="ov" id="notifMod">
+  <div class="modal" style="max-height:80vh;overflow-y:auto">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+      <div class="mtitle">🔔 Notifications</div>
+      <button onclick="clearNotifs()" style="background:none;border:none;color:var(--mu);font-size:11px;cursor:pointer">Clear all</button>
+    </div>
+    <div id="notifList"><div style="text-align:center;color:var(--mu);font-size:12px;padding:20px">No notifications yet</div></div>
+    <button class="mcancel" onclick="closeM('notifMod')">Close</button>
+  </div>
+</div>
+
+<script>
+var notifs = [];
+var lastSigCount = 0;
+var lastTradeCount = 0;
+
+function addNotif(icon, title, msg){
+  notifs.unshift({icon:icon, title:title, msg:msg, time:new Date().toLocaleTimeString()});
+  if(notifs.length > 50) notifs = notifs.slice(0,50);
+  updateBadge();
+  toast(icon + ' ' + title);
+  if(Notification && Notification.permission === 'granted'){
+    new Notification('SolSniper: ' + title, {body: msg, icon: '/favicon.ico'});
+  }
+}
+
+function updateBadge(){
+  var b = document.getElementById('notifBadge');
+  if(notifs.length > 0){
+    b.style.display = 'flex';
+    b.textContent = notifs.length > 99 ? '99+' : notifs.length;
+  } else {
+    b.style.display = 'none';
+  }
+}
+
+function openNotifs(){
+  var el = document.getElementById('notifList');
+  if(!notifs.length){
+    el.innerHTML = '<div style="text-align:center;color:var(--mu);font-size:12px;padding:20px">No notifications yet</div>';
+  } else {
+    el.innerHTML = notifs.map(function(n){
+      return '<div style="padding:10px 0;border-bottom:1px solid var(--br)">' +
+        '<div style="display:flex;justify-content:space-between">' +
+        '<div style="font-size:13px;font-weight:600">' + n.icon + ' ' + n.title + '</div>' +
+        '<div style="font-size:10px;color:var(--mu)">' + n.time + '</div></div>' +
+        '<div style="font-size:11px;color:var(--mu);margin-top:3px">' + n.msg + '</div></div>';
+    }).join('');
+  }
+  document.getElementById('notifMod').classList.add('show');
+}
+
+function clearNotifs(){
+  notifs = [];
+  updateBadge();
+  document.getElementById('notifList').innerHTML = '<div style="text-align:center;color:var(--mu);font-size:12px;padding:20px">No notifications yet</div>';
+}
+
+function checkNewSignals(sigs, trades){
+  if(sigs.length > lastSigCount && lastSigCount > 0){
+    var n = sigs.length - lastSigCount;
+    for(var i=0;i<Math.min(n,sigs.length);i++){
+      var s = sigs[i];
+      if(s.label === 'STRONG BUY') addNotif('⚡', 'STRONG BUY: ' + s.symbol, '+' + parseFloat(s.change_1h||0).toFixed(0) + '% | Score:' + s.score);
+      else if(s.label === 'BUY') addNotif('▲', 'BUY Signal: ' + s.symbol, '+' + parseFloat(s.change_1h||0).toFixed(0) + '% | Liq:$' + fmt(s.liquidity||0));
+    }
+  }
+  if(trades.length > lastTradeCount && lastTradeCount > 0){
+    addNotif('✅', 'Trade Executed!', trades[0].symbol + ' bought at $' + parseFloat(trades[0].buy_price||0).toFixed(6));
+  }
+  lastSigCount = sigs.length;
+  lastTradeCount = trades.length;
+}
+
+// Request notification permission
+if(Notification && Notification.permission === 'default'){
+  Notification.requestPermission();
+}
 </script>
 </body>
 </html>
