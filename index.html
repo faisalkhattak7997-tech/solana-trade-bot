@@ -470,6 +470,22 @@ function snipe(){
   toast('🎯 Sniping '+a.slice(0,8)+'...');
 }
 
+// ── Fetch balance directly via Helius ──
+async function fetchBalanceDirect(){
+  try{
+    const r=await fetch('https://mainnet.helius-rpc.com/?api-key=08d214d9-315d-40d5-90e1-54638e2c9508',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({jsonrpc:'2.0',id:1,method:'getBalance',params:['CcShAzoAiuxksmUSMEX6dvjtWxVXSZp8WM4rDNyq9PzL']})
+    });
+    const d=await r.json();
+    const bal=(d.result.value/1e9).toFixed(4);
+    document.getElementById('balPill').textContent=bal+' SOL';
+    document.getElementById('wBal').textContent=bal;
+    console.log('Balance from Helius:',bal);
+  }catch(e){console.log('Balance fetch error:',e);}
+}
+
 // ── Auto connect ──
 window.addEventListener('load',async()=>{
   const p=window.phantom?.solana||window.solana;
@@ -478,9 +494,10 @@ window.addEventListener('load',async()=>{
   }
   fetchPrices();
   loadData();
+  fetchBalanceDirect();
 });
 
-setInterval(()=>{loadData();fetchPrices();}, 5*60*1000);
+setInterval(()=>{loadData();fetchPrices();fetchBalanceDirect();}, 5*60*1000);
 </script>
 </body>
 </html>
