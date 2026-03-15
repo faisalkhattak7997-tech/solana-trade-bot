@@ -14,48 +14,39 @@ jobs:
     timeout-minutes: 4
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - name: Setup Python
+      - name: Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install packages
         run: |
           pip install --upgrade pip
-          pip install requests
-          pip install solders==0.21.0
-          pip install solana==0.35.0
-          pip install anchorpy || true
+          pip install requests solders==0.21.0 solana==0.35.0 || pip install requests
 
-      - name: Create signals.json if missing
+      - name: Ensure signals.json exists
         run: |
-          if [ ! -f signals.json ]; then
-            echo '{"signals":[],"trades":[],"stats":{"scans":0,"signals":0,"trades":0},"wallet":{"address":"","balance":0},"last_scan":""}' > signals.json
-          fi
+          [ -f signals.json ] || echo '{"signals":[],"trades":[],"stats":{"scans":0,"signals":0,"trades":0},"wallet":{"address":"","balance":0},"last_scan":"never"}' > signals.json
 
-      - name: Run SolSniper Bot
+      - name: Run Bot
         env:
-          SOLANA_PRIVATE_KEY: ${{ secrets.SOLANKEY }}
-          AUTO_TRADE: ${{ secrets.AUTOTRADE }}
-          TRADE_AMOUNT_SOL: ${{ secrets.TRADEAMOUNT }}
-          WALLET_ADDRESS: ${{ secrets.WALLETADDRESS }}
-          TAKE_PROFIT_1: "0.50"
-          TAKE_PROFIT_2: "2.00"
-          STOP_LOSS: "0.20"
-          MOONBAG_PCT: "0.10"
+          SOLANKEY: ${{ secrets.SOLANKEY }}
+          AUTOTRADE: ${{ secrets.AUTOTRADE }}
+          TRADEAMOUNT: ${{ secrets.TRADEAMOUNT }}
+          WALLETADDRESS: ${{ secrets.WALLETADDRESS }}
         run: python bot.py
 
-      - name: Commit signals.json
+      - name: Push signals.json
         run: |
-          git config --global user.name "SolSniper Bot"
+          git config --global user.name "SolSniper"
           git config --global user.email "bot@solsniper.io"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add -f signals.json
-          git diff --staged --quiet && echo "No changes" || git commit -m "🤖 Bot scan: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git diff --staged --quiet && echo "no changes" || git commit -m "bot: $(date -u '+%H:%M %d-%b')"
           git push origin HEAD:main || true
