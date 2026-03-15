@@ -1,341 +1,300 @@
 """
-SolSniper - Professional Solana Meme Coin Auto Trading Bot
-Runs every 5 minutes via GitHub Actions
+SolSniper - Complete Auto Trading Bot
+Scans DexScreener, finds meme coins, auto buys via Jupiter
 """
 
-import os
-import json
-import time
-import logging
-import requests
+import os, json, time, logging, requests, base64
 from datetime import datetime, timezone
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 log = logging.getLogger("SolSniper")
 
-# ── Config ──
-PRIVATE_KEY_B58  = os.environ.get("SOLANA_PRIVATE_KEY", "")
-WALLET_ADDRESS   = os.environ.get("WALLET_ADDRESS", "")
-TRADE_AMOUNT_SOL = float(os.environ.get("TRADE_AMOUNT_SOL", "0.05"))
-TAKE_PROFIT_1    = float(os.environ.get("TAKE_PROFIT_1", "0.50"))
-TAKE_PROFIT_2    = float(os.environ.get("TAKE_PROFIT_2", "2.00"))
-STOP_LOSS        = float(os.environ.get("STOP_LOSS", "0.20"))
-AUTO_TRADE       = os.environ.get("AUTO_TRADE", "false").lower() == "true"
+# ── Config from GitHub Secrets ──
+PRIVATE_KEY      = os.environ.get("SOLANKEY", "")
+WALLET_ADDRESS   = os.environ.get("WALLETADDRESS", "CcShAzoAiuxksmUSMEX6dvjtWxVXSZp8WM4rDNyq9PzL")
+TRADE_SOL        = float(os.environ.get("TRADEAMOUNT", "0.05"))
+AUTO_TRADE       = os.environ.get("AUTOTRADE", "false").lower() == "true"
+TP1              = 0.50
+TP2              = 2.00
+SL               = 0.20
+SOL_MINT         = "So11111111111111111111111111111111111111112"
+SIGNALS_FILE     = "signals.json"
 
-# ── Filters ──
-MIN_LIQUIDITY  = 10_000
-MAX_LIQUIDITY  = 1_000_000
-MIN_VOL_1H     = 10_000
-MIN_CHANGE_1H  = 10.0
-MIN_AGE_MIN    = 1
-MAX_AGE_MIN    = 240
-MIN_MCAP       = 5_000
-MAX_MCAP       = 5_000_000
-MIN_TXNS_1H    = 10
+def now_utc():
+    return datetime.now(timezone.utc)
 
-SOL_MINT     = "So11111111111111111111111111111111111111112"
-JUPITER_API  = "https://quote-api.jup.ag/v6"
-SOLANA_RPC   = "https://api.mainnet-beta.solana.com"
-SIGNALS_FILE = "signals.json"
-
-# ─────────────────────────────────────────
-# ALWAYS write signals.json first (prevents git error)
-# ─────────────────────────────────────────
-def load_signals():
+# ═══════════════════════════════════════
+# SIGNALS FILE
+# ═══════════════════════════════════════
+def load():
     try:
         if os.path.exists(SIGNALS_FILE):
-            with open(SIGNALS_FILE, "r") as f:
-                return json.load(f)
-    except:
-        pass
-    return {
-        "signals": [],
-        "trades": [],
-        "stats": {"scans": 0, "signals": 0, "trades": 0},
-        "wallet": {"address": "", "balance": 0},
-        "last_scan": ""
-    }
+            return json.load(open(SIGNALS_FILE))
+    except: pass
+    return {"signals":[],"trades":[],"stats":{"scans":0,"signals":0,"trades":0},
+            "wallet":{"address":WALLET_ADDRESS,"balance":0},"last_scan":""}
 
-def save_signals(data):
-    with open(SIGNALS_FILE, "w") as f:
-        json.dump(data, f, indent=2)
-    log.info(f"✅ signals.json saved ({len(data['signals'])} signals)")
+def save(data):
+    json.dump(data, open(SIGNALS_FILE,"w"), indent=2)
+    log.info(f"Saved: {len(data['signals'])} signals, wallet={data['wallet']['balance']} SOL")
 
-# ─────────────────────────────────────────
-# WALLET
-# ─────────────────────────────────────────
-def get_wallet():
-    if not PRIVATE_KEY_B58:
-        log.warning("No SOLANKEY set — signal-only mode")
-        return None, None
-    try:
-        from solders.keypair import Keypair
-        kp = Keypair.from_base58_string(PRIVATE_KEY_B58)
-        return kp, str(kp.pubkey())
-    except Exception as e:
-        log.error(f"Wallet error: {e}")
-        return None, None
-
-def get_sol_balance(pubkey):
-    rpcs = [
+# ═══════════════════════════════════════
+# WALLET BALANCE - using Helius free RPC
+# ═══════════════════════════════════════
+def get_balance(address):
+    endpoints = [
         "https://api.mainnet-beta.solana.com",
         "https://rpc.ankr.com/solana",
+        "https://solana-mainnet.g.alchemy.com/v2/demo",
     ]
-    for rpc in rpcs:
+    for ep in endpoints:
         try:
-            r = requests.post(rpc, json={
-                "jsonrpc": "2.0", "id": 1,
-                "method": "getBalance", "params": [pubkey]
-            }, timeout=10)
+            r = requests.post(ep,
+                json={"jsonrpc":"2.0","id":1,"method":"getBalance","params":[address]},
+                timeout=10, headers={"Content-Type":"application/json"})
             val = r.json()["result"]["value"]
-            return val / 1e9
-        except:
-            continue
+            sol = round(val / 1e9, 6)
+            log.info(f"Balance: {sol} SOL from {ep}")
+            return sol
+        except Exception as e:
+            log.warning(f"RPC failed {ep}: {e}")
     return 0.0
 
-# ─────────────────────────────────────────
-# DEXSCREENER
-# ─────────────────────────────────────────
-def fetch_new_tokens():
+# ═══════════════════════════════════════
+# DEXSCREENER SCANNER
+# ═══════════════════════════════════════
+def get_tokens():
+    tokens = []
+    seen = set()
+
+    urls = [
+        "https://api.dexscreener.com/token-profiles/latest/v1",
+        "https://api.dexscreener.com/token-boosts/latest/v1",
+        "https://api.dexscreener.com/token-boosts/top/v1",
+    ]
+
+    for url in urls:
+        try:
+            r = requests.get(url, timeout=15)
+            data = r.json()
+            if isinstance(data, list):
+                for t in data:
+                    if t.get("chainId") == "solana":
+                        addr = t.get("tokenAddress","")
+                        if addr and addr not in seen:
+                            seen.add(addr)
+                            tokens.append(addr)
+        except Exception as e:
+            log.warning(f"Fetch failed {url}: {e}")
+
+    # Also search trending
     try:
-        r = requests.get(
-            "https://api.dexscreener.com/token-profiles/latest/v1",
-            timeout=15
-        )
-        r.raise_for_status()
-        data = r.json()
-        return data if isinstance(data, list) else []
-    except Exception as e:
-        log.error(f"DexScreener error: {e}")
-        return []
+        r = requests.get("https://api.dexscreener.com/latest/dex/search?q=solana", timeout=15)
+        for p in r.json().get("pairs", []):
+            if p.get("chainId") == "solana":
+                addr = p.get("baseToken",{}).get("address","")
+                if addr and addr not in seen:
+                    seen.add(addr)
+                    tokens.append(addr)
+    except: pass
 
-def fetch_pair_data(token_address):
+    log.info(f"Found {len(tokens)} unique Solana tokens to check")
+    return tokens
+
+def get_pair(token):
     try:
-        url = f"https://api.dexscreener.com/latest/dex/tokens/{token_address}"
-        r = requests.get(url, timeout=10)
-        data = r.json()
-        pairs = [p for p in data.get("pairs", []) if p.get("chainId") == "solana"]
-        if not pairs:
-            return None
-        return max(pairs, key=lambda x: float(x.get("liquidity", {}).get("usd", 0) or 0))
-    except:
-        return None
+        r = requests.get(f"https://api.dexscreener.com/latest/dex/tokens/{token}", timeout=10)
+        pairs = [p for p in r.json().get("pairs",[]) if p.get("chainId")=="solana"]
+        if not pairs: return None
+        return max(pairs, key=lambda x: float(x.get("liquidity",{}).get("usd",0) or 0))
+    except: return None
 
-def get_age_minutes(pair):
+def age_min(pair):
     try:
-        created = pair.get("pairCreatedAt", 0)
-        if not created:
-            return 999
-        now_ms = int(datetime.now(timezone.utc).timestamp() * 1000)
-        return (now_ms - created) / 60000
-    except:
-        return 999
+        ts = pair.get("pairCreatedAt", 0)
+        if not ts: return 9999
+        return (int(now_utc().timestamp()*1000) - ts) / 60000
+    except: return 9999
 
-def passes_filters(pair):
+def check(pair):
     try:
-        liq       = float(pair.get("liquidity", {}).get("usd", 0) or 0)
-        vol_1h    = float(pair.get("volume", {}).get("h1", 0) or 0)
-        change_1h = float(pair.get("priceChange", {}).get("h1", 0) or 0)
-        mcap      = float(pair.get("fdv", 0) or 0)
-        buys      = int(pair.get("txns", {}).get("h1", {}).get("buys", 0) or 0)
-        sells     = int(pair.get("txns", {}).get("h1", {}).get("sells", 0) or 0)
-        txns      = buys + sells
-        age       = get_age_minutes(pair)
+        liq  = float(pair.get("liquidity",{}).get("usd",0) or 0)
+        vol  = float(pair.get("volume",{}).get("h1",0) or 0)
+        chg  = float(pair.get("priceChange",{}).get("h1",0) or 0)
+        mcap = float(pair.get("fdv",0) or 0)
+        buys = int(pair.get("txns",{}).get("h1",{}).get("buys",0) or 0)
+        sells= int(pair.get("txns",{}).get("h1",{}).get("sells",0) or 0)
+        txns = buys + sells
+        age  = age_min(pair)
 
-        if not (MIN_LIQUIDITY <= liq <= MAX_LIQUIDITY): return False
-        if vol_1h < MIN_VOL_1H: return False
-        if change_1h < MIN_CHANGE_1H: return False
-        if not (MIN_AGE_MIN <= age <= MAX_AGE_MIN): return False
-        if mcap and not (MIN_MCAP <= mcap <= MAX_MCAP): return False
-        if txns < MIN_TXNS_1H: return False
-        if sells > 0 and buys / (sells + 1) < 1.2: return False
-
+        if liq < 3000: return False         # min $3K liquidity
+        if vol < 1000: return False         # min $1K volume
+        if chg < 3.0: return False          # min 3% change
+        if age < 1 or age > 720: return False
+        if txns < 3: return False
+        if sells > 0 and buys/(sells+1) < 0.8: return False
         return True
-    except:
-        return False
+    except: return False
 
-def score_signal(pair):
-    score = 0
-    change = float(pair.get("priceChange", {}).get("h1", 0) or 0)
-    vol    = float(pair.get("volume", {}).get("h1", 0) or 0)
-    liq    = float(pair.get("liquidity", {}).get("usd", 0) or 0)
-    buys   = int(pair.get("txns", {}).get("h1", {}).get("buys", 0) or 0)
-    sells  = int(pair.get("txns", {}).get("h1", {}).get("sells", 0) or 0)
+def score(pair):
+    s = 0
+    chg  = float(pair.get("priceChange",{}).get("h1",0) or 0)
+    vol  = float(pair.get("volume",{}).get("h1",0) or 0)
+    buys = int(pair.get("txns",{}).get("h1",{}).get("buys",0) or 0)
+    sells= int(pair.get("txns",{}).get("h1",{}).get("sells",0) or 0)
 
-    if change >= 200: score += 35
-    elif change >= 100: score += 25
-    elif change >= 50: score += 15
-    else: score += 5
+    if chg >= 200: s += 40
+    elif chg >= 100: s += 30
+    elif chg >= 50: s += 20
+    elif chg >= 20: s += 10
+    else: s += 3
 
-    if vol >= 1_000_000: score += 25
-    elif vol >= 500_000: score += 15
-    elif vol >= 100_000: score += 8
-
-    if 50_000 <= liq <= 200_000: score += 20
-    elif liq > 200_000: score += 10
+    if vol >= 500_000: s += 25
+    elif vol >= 100_000: s += 15
+    elif vol >= 10_000: s += 8
+    else: s += 2
 
     if sells > 0:
-        ratio = buys / (sells + 1)
-        if ratio >= 3: score += 20
-        elif ratio >= 2: score += 12
-        elif ratio >= 1.5: score += 6
+        r = buys/(sells+1)
+        if r >= 3: s += 20
+        elif r >= 2: s += 12
+        elif r >= 1.5: s += 6
+    else:
+        s += 15  # all buys no sells is bullish
 
-    return min(score, 100)
+    return min(s, 100)
 
-# ─────────────────────────────────────────
-# TRADING
-# ─────────────────────────────────────────
-def buy_token(keypair, token_mint, token_name, price):
-    if not keypair:
-        log.info(f"[SIGNAL] Would buy {token_name}")
-        return None
+# ═══════════════════════════════════════
+# TRADING via Jupiter
+# ═══════════════════════════════════════
+def get_keypair():
+    if not PRIVATE_KEY: return None
     try:
         from solders.keypair import Keypair
+        return Keypair.from_base58_string(PRIVATE_KEY)
+    except Exception as e:
+        log.error(f"Keypair error: {e}")
+        return None
+
+def buy(keypair, mint, name):
+    try:
+        from solders.transaction import VersionedTransaction
         from solana.rpc.api import Client
-        import base64
 
-        amount_lamports = int(TRADE_AMOUNT_SOL * 1e9)
+        lamports = int(TRADE_SOL * 1e9)
+        q = requests.get("https://quote-api.jup.ag/v6/quote", params={
+            "inputMint": SOL_MINT, "outputMint": mint,
+            "amount": lamports, "slippageBps": 500
+        }, timeout=10).json()
 
-        # Get Jupiter quote
-        r = requests.get(f"{JUPITER_API}/quote", params={
-            "inputMint": SOL_MINT,
-            "outputMint": token_mint,
-            "amount": amount_lamports,
-            "slippageBps": 300,
-        }, timeout=10)
-        quote = r.json()
-        if "error" in quote:
-            log.error(f"Quote error: {quote}")
+        if "error" in q:
+            log.error(f"Quote error: {q}")
             return None
 
-        # Get swap transaction
-        r2 = requests.post(f"{JUPITER_API}/swap", json={
-            "quoteResponse": quote,
+        sw = requests.post("https://quote-api.jup.ag/v6/swap", json={
+            "quoteResponse": q,
             "userPublicKey": str(keypair.pubkey()),
             "wrapAndUnwrapSol": True,
             "dynamicComputeUnitLimit": True,
-            "prioritizationFeeLamports": 1000,
-        }, timeout=15)
-        swap = r2.json()
-        if "swapTransaction" not in swap:
-            log.error(f"Swap error: {swap}")
+            "prioritizationFeeLamports": 5000,
+        }, timeout=15).json()
+
+        if "swapTransaction" not in sw:
+            log.error(f"Swap error: {sw}")
             return None
 
-        # Sign and send
-        from solders.transaction import VersionedTransaction
-        client = Client(SOLANA_RPC)
-        tx_bytes = base64.b64decode(swap["swapTransaction"])
-        tx = VersionedTransaction.from_bytes(tx_bytes)
+        client = Client("https://api.mainnet-beta.solana.com")
+        tx = VersionedTransaction.from_bytes(base64.b64decode(sw["swapTransaction"]))
         result = client.send_raw_transaction(bytes(tx))
         tx_hash = str(result.value)
-        log.info(f"✅ BUY SUCCESS: {tx_hash}")
+        log.info(f"BUY {name}: {tx_hash}")
         return tx_hash
-
     except Exception as e:
-        log.error(f"Trade error: {e}")
+        log.error(f"Buy error: {e}")
         return None
 
-# ─────────────────────────────────────────
+# ═══════════════════════════════════════
 # MAIN
-# ─────────────────────────────────────────
+# ═══════════════════════════════════════
 def run():
-    log.info("=" * 50)
-    log.info(f"SolSniper | Mode: {'AUTO TRADE' if AUTO_TRADE else 'SIGNAL ONLY'}")
-    log.info("=" * 50)
+    log.info("=" * 55)
+    log.info(f"SolSniper Bot | Mode: {'AUTO TRADE' if AUTO_TRADE else 'SIGNAL ONLY'}")
+    log.info("=" * 55)
 
-    # Load existing data
-    data = load_signals()
+    data = load()
     data["stats"]["scans"] += 1
-    data["last_scan"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    data["last_scan"] = now_utc().strftime("%Y-%m-%d %H:%M:%S UTC")
+    save(data)  # Save immediately so file always exists
 
-    # Save immediately so file always exists
-    save_signals(data)
+    # Get balance
+    bal = get_balance(WALLET_ADDRESS)
+    data["wallet"] = {"address": WALLET_ADDRESS, "balance": bal}
+    log.info(f"Wallet: {WALLET_ADDRESS[:8]}... | {bal} SOL")
 
-    # Wallet
-    keypair, pubkey = get_wallet()
-    balance = 0.0
-    # Use WALLET_ADDRESS secret as fallback for balance check
-    check_pubkey = pubkey or WALLET_ADDRESS
-    if check_pubkey:
-        balance = get_sol_balance(check_pubkey)
-        log.info(f"Wallet: {check_pubkey[:8]}... | {balance:.4f} SOL")
-        data["wallet"] = {"address": check_pubkey, "balance": balance}
+    # Get keypair for trading
+    kp = get_keypair() if AUTO_TRADE else None
 
-    # Scan DexScreener
-    log.info("Scanning DexScreener...")
-    profiles = fetch_new_tokens()
-    log.info(f"Got {len(profiles)} profiles")
-
-    new_signals = []
+    # Scan
+    tokens = get_tokens()
+    new_sigs = []
     seen = set()
 
-    for profile in profiles[:60]:
-        token_address = profile.get("tokenAddress", "")
-        if not token_address or token_address in seen:
-            continue
-        if profile.get("chainId") != "solana":
-            continue
-        seen.add(token_address)
+    for addr in tokens:
+        if addr in seen: continue
+        seen.add(addr)
 
-        pair = fetch_pair_data(token_address)
-        if not pair:
-            continue
+        pair = get_pair(addr)
+        if not pair: continue
+        if not check(pair): continue
 
-        if not passes_filters(pair):
-            continue
+        sc    = score(pair)
+        label = "STRONG BUY" if sc >= 70 else "BUY" if sc >= 50 else "WATCH"
+        chg   = float(pair.get("priceChange",{}).get("h1",0) or 0)
+        liq   = float(pair.get("liquidity",{}).get("usd",0) or 0)
+        vol   = float(pair.get("volume",{}).get("h1",0) or 0)
+        mcap  = float(pair.get("fdv",0) or 0)
+        price = float(pair.get("priceUsd",0) or 0)
+        name  = pair.get("baseToken",{}).get("name","Unknown")
+        sym   = pair.get("baseToken",{}).get("symbol","???")
+        url   = pair.get("url","")
 
-        score  = score_signal(pair)
-        label  = "STRONG BUY" if score >= 75 else "BUY" if score >= 55 else "WATCH"
-        change = float(pair.get("priceChange", {}).get("h1", 0) or 0)
-        liq    = float(pair.get("liquidity", {}).get("usd", 0) or 0)
-        vol    = float(pair.get("volume", {}).get("h1", 0) or 0)
-        mcap   = float(pair.get("fdv", 0) or 0)
-        age    = get_age_minutes(pair)
-        price  = float(pair.get("priceUsd", 0) or 0)
-        name   = pair.get("baseToken", {}).get("name", "Unknown")
-        sym    = pair.get("baseToken", {}).get("symbol", "???")
-        url    = pair.get("url", "")
-
-        signal = {
-            "token": name, "symbol": sym, "address": token_address,
-            "label": label, "score": score, "price": price,
-            "change_1h": change, "liquidity": liq, "volume_1h": vol,
-            "mcap": mcap, "age_min": round(age, 1), "dex_url": url,
-            "time": datetime.now(timezone.utc).strftime("%H:%M:%S"),
-            "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-            "traded": False, "tx": None,
+        sig = {
+            "token":name, "symbol":sym, "address":addr,
+            "label":label, "score":sc, "price":price,
+            "change_1h":chg, "liquidity":liq, "volume_1h":vol,
+            "mcap":mcap, "age_min":round(age_min(pair),1),
+            "dex_url":url,
+            "time":now_utc().strftime("%H:%M:%S"),
+            "date":now_utc().strftime("%Y-%m-%d"),
+            "traded":False, "tx":None,
         }
 
-        log.info(f"✅ {label} | {name} ({sym}) | +{change:.0f}% | Score:{score}")
-        new_signals.append(signal)
+        log.info(f"SIGNAL [{label}] {name} ({sym}) +{chg:.0f}% score={sc}")
+        new_sigs.append(sig)
 
         # Auto trade
-        if AUTO_TRADE and keypair and label in ["STRONG BUY", "BUY"] and balance > TRADE_AMOUNT_SOL + 0.01:
-            tx = buy_token(keypair, token_address, name, price)
+        if AUTO_TRADE and kp and label in ["STRONG BUY","BUY"] and bal > TRADE_SOL + 0.01:
+            tx = buy(kp, addr, name)
             if tx:
-                signal["traded"] = True
-                signal["tx"] = tx
+                sig["traded"] = True
+                sig["tx"] = tx
                 data["stats"]["trades"] += 1
+                bal -= TRADE_SOL
                 data["trades"].insert(0, {
-                    "token": name, "symbol": sym, "address": token_address,
-                    "buy_tx": tx, "amount_sol": TRADE_AMOUNT_SOL,
-                    "buy_price": price,
-                    "tp1": price * (1 + TAKE_PROFIT_1),
-                    "tp2": price * (1 + TAKE_PROFIT_2),
-                    "sl": price * (1 - STOP_LOSS),
-                    "status": "OPEN",
-                    "time": signal["time"],
+                    "token":name, "symbol":sym, "address":addr,
+                    "buy_tx":tx, "amount_sol":TRADE_SOL, "buy_price":price,
+                    "tp1":price*(1+TP1), "tp2":price*(1+TP2),
+                    "sl":price*(1-SL), "status":"OPEN",
+                    "time":sig["time"],
                 })
 
-        time.sleep(0.3)
+        time.sleep(0.2)
 
-    # Update data
-    data["signals"] = (new_signals + data.get("signals", []))[:50]
-    data["stats"]["signals"] += len(new_signals)
-
-    # Save final
-    save_signals(data)
-    log.info(f"Done. {len(new_signals)} new signals this run.")
+    data["signals"] = (new_sigs + data.get("signals",[]))[:50]
+    data["stats"]["signals"] += len(new_sigs)
+    data["wallet"]["balance"] = bal
+    save(data)
+    log.info(f"Complete. {len(new_sigs)} signals found this run.")
 
 if __name__ == "__main__":
     run()
