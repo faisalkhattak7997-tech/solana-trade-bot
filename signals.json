@@ -6,6 +6,42 @@
       "address": "3tN15KJSEA1NsYn3nbDrUWNiTyubUxXbS5roZxuYpump",
       "label": "BUY",
       "score": 65,
+      "price": 0.0001154,
+      "change_1h": 198.0,
+      "liquidity": 28321.99,
+      "volume_1h": 298098.38,
+      "mcap": 115496.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/fnhbugxbapncpxcg3jqpxnoef9eqhmg6yqjqp3w9xu1v",
+      "time": "11:12:47",
+      "date": "2026-03-16",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "DELUSIONAL BULLS",
+      "symbol": "BULLS",
+      "address": "GBJpKgvZuEc3fzHZKoedJ14R8N5JwMd8MavfomNcpump",
+      "label": "WATCH",
+      "score": 35,
+      "price": 6.38e-05,
+      "change_1h": 41.78,
+      "liquidity": 20634.78,
+      "volume_1h": 31436.28,
+      "mcap": 63809.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/4cthhmkymbnubtztcl6j5zlgws2t5rfe58tgvw13rtix",
+      "time": "11:12:48",
+      "date": "2026-03-16",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Mule Run",
+      "symbol": "MULERUN",
+      "address": "3tN15KJSEA1NsYn3nbDrUWNiTyubUxXbS5roZxuYpump",
+      "label": "BUY",
+      "score": 65,
       "price": 8.466e-05,
       "change_1h": 119.0,
       "liquidity": 24055.41,
@@ -273,13 +309,13 @@
   ],
   "trades": [],
   "stats": {
-    "scans": 4,
-    "signals": 15,
+    "scans": 5,
+    "signals": 17,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-16 11:05:49 UTC"
+  "last_scan": "2026-03-16 11:12:46 UTC"
 }
