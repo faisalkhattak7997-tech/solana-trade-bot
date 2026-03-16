@@ -11,7 +11,7 @@ permissions:
 jobs:
   trade:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 8
 
     steps:
       - name: Checkout
@@ -40,6 +40,7 @@ jobs:
           AUTOTRADE: ${{ secrets.AUTOTRADE }}
           TRADEAMOUNT: ${{ secrets.TRADEAMOUNT }}
           WALLETADDRESS: ${{ secrets.WALLETADDRESS }}
+          RPCURL: ${{ secrets.RPCURL }}
         run: python bot.py
 
       - name: Push signals.json
