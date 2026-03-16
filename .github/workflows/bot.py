@@ -121,20 +121,30 @@ def check(pair):
         liq  = float(pair.get("liquidity",{}).get("usd",0) or 0)
         vol  = float(pair.get("volume",{}).get("h1",0) or 0)
         chg  = float(pair.get("priceChange",{}).get("h1",0) or 0)
-        mcap = float(pair.get("fdv",0) or 0)
         buys = int(pair.get("txns",{}).get("h1",{}).get("buys",0) or 0)
         sells= int(pair.get("txns",{}).get("h1",{}).get("sells",0) or 0)
         txns = buys + sells
-        age  = age_min(pair)
 
-        if liq < 3000: return False         # min $3K liquidity
-        if vol < 1000: return False         # min $1K volume
-        if chg < 3.0: return False          # min 3% change
-        if age < 1 or age > 720: return False
-        if txns < 3: return False
-        if sells > 0 and buys/(sells+1) < 0.8: return False
+        sym = pair.get("baseToken",{}).get("symbol","?")
+        log.info(f"Checking {sym}: liq={liq:.0f} vol={vol:.0f} chg={chg:.1f} txns={txns}")
+
+        if liq < 1000: 
+            log.info(f"SKIP {sym}: liq too low")
+            return False
+        if vol < 100:
+            log.info(f"SKIP {sym}: vol too low")
+            return False
+        if chg < 1.0:
+            log.info(f"SKIP {sym}: chg too low")
+            return False
+        if txns < 2:
+            log.info(f"SKIP {sym}: txns too low")
+            return False
+        log.info(f"PASS {sym}")
         return True
-    except: return False
+    except Exception as e:
+        log.error(f"Check error: {e}")
+        return False
 
 def score(pair):
     s = 0
