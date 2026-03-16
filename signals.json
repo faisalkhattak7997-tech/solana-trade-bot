@@ -1,6 +1,24 @@
 {
   "signals": [
     {
+      "token": "Aquila Token ",
+      "symbol": "AQUILA",
+      "address": "CZFfHy6QSTyPrwyceP3bcNL7Vh3Ep2mkw5j1LutXpump",
+      "label": "WATCH",
+      "score": 20,
+      "price": 7.84e-05,
+      "change_1h": 2.48,
+      "liquidity": 23248.76,
+      "volume_1h": 127.27,
+      "mcap": 78403.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/g5z1ryvapfeigmhjrxmkreeh89xhwnjjxgp21q5o8wng",
+      "time": "23:02:14",
+      "date": "2026-03-16",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Perpolator",
       "symbol": "PERP",
       "address": "5UCNsNY2oHDB7i2m8bW7nKJXxRoh5WS4N4xKmUB2pump",
@@ -881,35 +899,17 @@
       "date": "2026-03-16",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Crawfish by Claude AI",
-      "symbol": "Crawstar",
-      "address": "8DzH1XEh7AC7d1f6BnxYtTG6K1y7FrcMm9pbPfxZpump",
-      "label": "WATCH",
-      "score": 18,
-      "price": 1.725e-05,
-      "change_1h": 13.44,
-      "liquidity": 10686.91,
-      "volume_1h": 9024.77,
-      "mcap": 17253.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/2ynjthujgaj9whddqf8kxrb5pt9ywbabph24u6ev5b5q",
-      "time": "10:57:49",
-      "date": "2026-03-16",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 14,
-    "signals": 58,
+    "scans": 15,
+    "signals": 59,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-16 22:00:06 UTC"
+  "last_scan": "2026-03-16 23:02:13 UTC"
 }
