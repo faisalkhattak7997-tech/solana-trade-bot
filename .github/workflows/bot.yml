@@ -36,7 +36,7 @@ jobs:
 
       - name: Run Bot
         env:
-          SOLANKEY: ${{ secrets.SOLANKEY }}
+          SOLANKEY: ${{ secrets.PRIVKEY }}
           AUTOTRADE: ${{ secrets.AUTOTRADE }}
           TRADEAMOUNT: ${{ secrets.TRADEAMOUNT }}
           WALLETADDRESS: ${{ secrets.WALLETADDRESS }}
