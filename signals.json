@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "TaoNet",
+      "symbol": "TAO",
+      "address": "HHAQ3VRbwPFbWxwAZw8VejW1eqwdNQydbPv7kHGDpump",
+      "label": "STRONG BUY",
+      "score": 70,
+      "price": 0.0002056,
+      "change_1h": 177.0,
+      "liquidity": 37535.74,
+      "volume_1h": 40878.05,
+      "mcap": 205658.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/hr7ypzkg9k4tucdnn8zozqgqqxfjjijcdxct2j7q8rv2",
+      "time": "20:03:46",
+      "date": "2026-03-17",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Mr. Dot",
+      "symbol": "DOT",
+      "address": "H2qAfVZFSq898u58g4Kh6BcHv4PnXkevcgNZTQ7Spump",
+      "label": "WATCH",
+      "score": 35,
+      "price": 4.135e-05,
+      "change_1h": 5.29,
+      "liquidity": 16734.7,
+      "volume_1h": 124834.05,
+      "mcap": 41358.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/ebqtbxgpcc4de6piaqid5xs5yrg7wxg4vntyausq15qp",
+      "time": "20:03:47",
+      "date": "2026-03-17",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "just a memecoin",
       "symbol": "memecoin",
       "address": "Bb4jR951QtVjeFAYFLBYXDSMKjbTDroCLPbFLdd7pump",
@@ -863,53 +899,17 @@
       "date": "2026-03-16",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Tradecoin",
-      "symbol": "Trade",
-      "address": "BHk3DeAjE9yNXsJ7i9wYvYpEbzBiXP4zvTzXN65xpump",
-      "label": "BUY",
-      "score": 65,
-      "price": 0.0001647,
-      "change_1h": 331.0,
-      "liquidity": 33965.02,
-      "volume_1h": 406530.31,
-      "mcap": 164735.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/c4au6anqvzb9nmuka6hdvtbsf7cxboraabc8qfscxx3m",
-      "time": "15:15:58",
-      "date": "2026-03-16",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Solana changed my life",
-      "symbol": "Solana",
-      "address": "DmcLfX6HKvYedauGXztf7tKuWnqsyTiRY52vW4bvpump",
-      "label": "BUY",
-      "score": 65,
-      "price": 8.233e-05,
-      "change_1h": 116.0,
-      "liquidity": 24969.63,
-      "volume_1h": 1071172.39,
-      "mcap": 82338.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/4as75gbqkzvck4lsv5hexc2k9peenhfpw88upbmmticd",
-      "time": "15:15:59",
-      "date": "2026-03-16",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 21,
-    "signals": 85,
+    "scans": 22,
+    "signals": 87,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-17 18:08:17 UTC"
+  "last_scan": "2026-03-17 20:03:45 UTC"
 }
