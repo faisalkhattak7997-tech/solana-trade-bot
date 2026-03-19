@@ -1,6 +1,24 @@
 {
   "signals": [
     {
+      "token": "the life was great",
+      "symbol": "nostalgia",
+      "address": "DYj7FZxLumxz78EVqhtamKGF1na3hDYW1YvEtGPSpump",
+      "label": "WATCH",
+      "score": 43,
+      "price": 9.346e-05,
+      "change_1h": 41.02,
+      "liquidity": 24496.71,
+      "volume_1h": 76657.93,
+      "mcap": 93463.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/jnfremxksfzp9e3ga4sfi4fsx6d294qzy3vgqle14i2",
+      "time": "21:49:08",
+      "date": "2026-03-19",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Downlon Mwusk",
       "symbol": "DOWNLON",
       "address": "7ZfAFYKRWw9RnyNmXJmfPXhgqonZ2kB51cXbKHwUpump",
@@ -881,35 +899,17 @@
       "date": "2026-03-18",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Peugeot Token",
-      "symbol": "PG",
-      "address": "9iJczeno2Br8yfe1P1MQGyWAsvJjyyGPygzb4yU9pump",
-      "label": "BUY",
-      "score": 55,
-      "price": 7.357e-05,
-      "change_1h": 70.97,
-      "liquidity": 22301.54,
-      "volume_1h": 146920.01,
-      "mcap": 73579.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/geykbejakpvf7kkrj3qyn7ky3mzjmbktzkkda3qz6adc",
-      "time": "11:12:35",
-      "date": "2026-03-18",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 40,
-    "signals": 152,
+    "scans": 41,
+    "signals": 153,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-19 19:54:33 UTC"
+  "last_scan": "2026-03-19 21:49:07 UTC"
 }
