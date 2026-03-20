@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "Karate Kommandos",
+      "symbol": "KARATECHUCK",
+      "address": "FSu3og1HvNoNb4VhgmwKfoEYaPHncz7iX3j6HAXNpump",
+      "label": "STRONG BUY",
+      "score": 80,
+      "price": 7.363e-05,
+      "change_1h": 102.0,
+      "liquidity": 21810.81,
+      "volume_1h": 163879.06,
+      "mcap": 73637.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/fyhlzbfec3pjcsnkxozneezhuhn6mkufmtnajbuw8dzu",
+      "time": "21:01:50",
+      "date": "2026-03-20",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Nothing To Lose",
+      "symbol": "NOTHING",
+      "address": "7mtXLUoAcT9Sxrf1K5PjSmfkPbYMyMP5pmrdFFixbonk",
+      "label": "BUY",
+      "score": 65,
+      "price": 0.0002273,
+      "change_1h": 520.0,
+      "liquidity": 46571.73,
+      "volume_1h": 556527.53,
+      "mcap": 227358.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/cuc5arrjdx8rartdtasdkszq3dy8po6k2pxy2dfcrvyy",
+      "time": "21:01:51",
+      "date": "2026-03-20",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Bella Bumper Play 2 Earn",
       "symbol": "PISTA",
       "address": "9CaQUthsVMugZzMvskrrvcHXyjFqHGdNtGkPT8QSRACE",
@@ -863,53 +899,17 @@
       "date": "2026-03-19",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Trump Coin",
-      "symbol": "LIBERTY",
-      "address": "8hRJmbL7Z7PeGmox8Mj3xX4v19ovqRQC4q2m3PEPpump",
-      "label": "WATCH",
-      "score": 18,
-      "price": 2.755e-06,
-      "change_1h": 5.75,
-      "liquidity": 4144.93,
-      "volume_1h": 2368.4,
-      "mcap": 2756.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/99csz6patr7qnyra5r2zzcaxsgyuvjzvb2z44mzpl7rw",
-      "time": "14:39:11",
-      "date": "2026-03-19",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Chibi Elon",
-      "symbol": "CHIBIELON",
-      "address": "3K2MiS93Ly1vPEPFRcHNBAkfaG3ZaSF69UXs9PTwpump",
-      "label": "WATCH",
-      "score": 48,
-      "price": 7.213e-06,
-      "change_1h": 184.0,
-      "liquidity": 6813.26,
-      "volume_1h": 6916.37,
-      "mcap": 7212.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/aft9s1tww4baiclpqgoglhly1iipch6nssdmtsr9b1g6",
-      "time": "14:39:11",
-      "date": "2026-03-19",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 51,
-    "signals": 191,
+    "scans": 52,
+    "signals": 193,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-20 19:51:23 UTC"
+  "last_scan": "2026-03-20 21:01:49 UTC"
 }
