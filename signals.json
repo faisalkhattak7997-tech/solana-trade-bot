@@ -1,6 +1,24 @@
 {
   "signals": [
     {
+      "token": "Lobsty Klawfman",
+      "symbol": "Lobsty",
+      "address": "3kKD1N2NdFb8gKissQjt8wgeoVewh6puKRWE8chmpump",
+      "label": "WATCH",
+      "score": 28,
+      "price": 1.389e-05,
+      "change_1h": 26.72,
+      "liquidity": 9471.13,
+      "volume_1h": 2822.53,
+      "mcap": 13900.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/fehxr5tpw1h7v5obfqstgvgyvj28rx3lvslaw7hjbjfz",
+      "time": "23:00:58",
+      "date": "2026-03-20",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Jessica Foster",
       "symbol": "Jessica",
       "address": "526VE3BG8KRNLH85wVsvXBUpvfdzWQ2bxn9ZKXJfpump",
@@ -881,35 +899,17 @@
       "date": "2026-03-19",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Return to Tradition",
-      "symbol": "RETURN",
-      "address": "CMt4uqjSJKqgyjVSeouJ3wRgGjaAfoSDCrEiNyJZpump",
-      "label": "WATCH",
-      "score": 35,
-      "price": 3.843e-05,
-      "change_1h": 6.6,
-      "liquidity": 15694.09,
-      "volume_1h": 185817.82,
-      "mcap": 38433.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/cqwknwb32btpvsab5hrmovrbcqxqmxoxdsdsepa13yze",
-      "time": "17:45:17",
-      "date": "2026-03-19",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 53,
-    "signals": 196,
+    "scans": 54,
+    "signals": 197,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-20 21:57:23 UTC"
+  "last_scan": "2026-03-20 23:00:56 UTC"
 }
