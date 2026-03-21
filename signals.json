@@ -5,6 +5,24 @@
       "symbol": "KITCAT",
       "address": "7NGP5DS4EKu5XxJJ2J14zQrv4MDbJ2TYHV63tM9Bbonk",
       "label": "BUY",
+      "score": 65,
+      "price": 6.792e-05,
+      "change_1h": 121.0,
+      "liquidity": 26329.03,
+      "volume_1h": 407118.6,
+      "mcap": 67929.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/c95k3v8pnbp7hdnodtpsznuegj6g4shgjx8eznuigpxh",
+      "time": "19:59:51",
+      "date": "2026-03-21",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "KITCAT",
+      "symbol": "KITCAT",
+      "address": "7NGP5DS4EKu5XxJJ2J14zQrv4MDbJ2TYHV63tM9Bbonk",
+      "label": "BUY",
       "score": 55,
       "price": 6.851e-05,
       "change_1h": 81.5,
@@ -881,35 +899,17 @@
       "date": "2026-03-21",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Beecat",
-      "symbol": "Beecat",
-      "address": "9auHzZ7dkZctwR6VFKi6osodWVD66siZMMfFWpgAbonk",
-      "label": "WATCH",
-      "score": 28,
-      "price": 3.478e-05,
-      "change_1h": 21.84,
-      "liquidity": 16940.59,
-      "volume_1h": 9651.48,
-      "mcap": 34785.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/26aprpec4kpde3hqmk1uxuuz6qgvzhhm5zqozpjnc1pj",
-      "time": "23:56:10",
-      "date": "2026-03-20",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 70,
-    "signals": 250,
+    "scans": 71,
+    "signals": 251,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-21 19:47:42 UTC"
+  "last_scan": "2026-03-21 19:59:49 UTC"
 }
