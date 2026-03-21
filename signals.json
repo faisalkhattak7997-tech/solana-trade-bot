@@ -1,6 +1,24 @@
 {
   "signals": [
     {
+      "token": "KITCAT",
+      "symbol": "KITCAT",
+      "address": "7NGP5DS4EKu5XxJJ2J14zQrv4MDbJ2TYHV63tM9Bbonk",
+      "label": "BUY",
+      "score": 55,
+      "price": 6.851e-05,
+      "change_1h": 81.5,
+      "liquidity": 25879.55,
+      "volume_1h": 426017.44,
+      "mcap": 68518.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/c95k3v8pnbp7hdnodtpsznuegj6g4shgjx8eznuigpxh",
+      "time": "19:47:44",
+      "date": "2026-03-21",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Believe In Something",
       "symbol": "SOMETHING",
       "address": "BbiFLmfnbZPhm6hUCo78h5kAoAtwsXSHYjvDUHeNbonk",
@@ -881,35 +899,17 @@
       "date": "2026-03-20",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "All or Nothing",
-      "symbol": "ALLORNOT",
-      "address": "6PkBndNvNSYaPQJSJpZtUQ4Q1fY2VPKQh2NaZvmtpump",
-      "label": "BUY",
-      "score": 65,
-      "price": 0.0001,
-      "change_1h": 122.0,
-      "liquidity": 25912.82,
-      "volume_1h": 383296.12,
-      "mcap": 100032.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/4jtd6mhcfin1otnrvschk9ifvxhlxg8vxgtyt8xq5es8",
-      "time": "23:56:10",
-      "date": "2026-03-20",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 69,
-    "signals": 249,
+    "scans": 70,
+    "signals": 250,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-21 19:03:52 UTC"
+  "last_scan": "2026-03-21 19:47:42 UTC"
 }
