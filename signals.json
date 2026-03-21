@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "\u5976\u9f99",
+      "symbol": "Nailoong",
+      "address": "CRRDAujdKKBoxSw1Rc6tYSMLRLMLjp26DQECSgqTbonk",
+      "label": "BUY",
+      "score": 65,
+      "price": 8.794e-05,
+      "change_1h": 152.0,
+      "liquidity": 29880.52,
+      "volume_1h": 160061.01,
+      "mcap": 87942.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/g1bfdqqzbfvhktwv6ur945zmf48js54auvlp2vapux2v",
+      "time": "09:02:57",
+      "date": "2026-03-21",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Cheems",
+      "symbol": "Cheems",
+      "address": "3Jt2Cbpj87iSuoKDHqfmET4Pn7enXksJw5hyuQgNbonk",
+      "label": "BUY",
+      "score": 53,
+      "price": 2.13e-05,
+      "change_1h": 77.86,
+      "liquidity": 13039.66,
+      "volume_1h": 11370.04,
+      "mcap": 21308.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/9aypvdtdgwjbrc6azjck2ua4cf3c6rpf9nkeuyuca19n",
+      "time": "09:02:58",
+      "date": "2026-03-21",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Optimistic Elon",
       "symbol": "Optimusk",
       "address": "GyqMY9k1tSmTpWGtMfw6Qf3StkukD73P1GiwvgL8pump",
@@ -863,53 +899,17 @@
       "date": "2026-03-20",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "\u3082\u3061",
-      "symbol": "MOCHI",
-      "address": "2G8Qajwkb5Rjc6HjbnN7VocfeKSh8x5UzNf6kmcapump",
-      "label": "BUY",
-      "score": 65,
-      "price": 0.0001463,
-      "change_1h": 129.0,
-      "liquidity": 31406.79,
-      "volume_1h": 136773.25,
-      "mcap": 146314.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/5uxkkduy4f7mb7cjismxuqt6ral1ctgtohjhn8icnpw3",
-      "time": "07:51:45",
-      "date": "2026-03-20",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "One Million Pixels",
-      "symbol": "PIXELS",
-      "address": "pixvL7orpc8AfVUmeQ3kJZ588EegnXSQd7UW4TcVzDk",
-      "label": "WATCH",
-      "score": 25,
-      "price": 0.0002786,
-      "change_1h": 13.41,
-      "liquidity": 42244.18,
-      "volume_1h": 30234.24,
-      "mcap": 266104.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/49f3uqtzfuaakr6kgebaxslznweonvkbh9uhckeargah",
-      "time": "05:08:32",
-      "date": "2026-03-20",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 58,
-    "signals": 211,
+    "scans": 59,
+    "signals": 213,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-21 07:57:10 UTC"
+  "last_scan": "2026-03-21 09:02:56 UTC"
 }
