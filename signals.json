@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "The Last Trencher",
+      "symbol": "ONODA",
+      "address": "9F1JTAnfEoeozWQUcXktpDWfxeB3odQw1UCVtXMppump",
+      "label": "WATCH",
+      "score": 45,
+      "price": 5.807e-05,
+      "change_1h": 64.24,
+      "liquidity": 18957.53,
+      "volume_1h": 65849.31,
+      "mcap": 58070.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/e45vvylwft8jfslhvpyjqrtubkvn45qzkgkvirufrvbf",
+      "time": "13:54:34",
+      "date": "2026-03-22",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Downald Trump",
+      "symbol": "DOWNALD",
+      "address": "6vg3WrueEJwPuFVJmU8D6Jv8dacJcLVv7ac3t86Spump",
+      "label": "WATCH",
+      "score": 45,
+      "price": 0.001482,
+      "change_1h": 34.35,
+      "liquidity": 96855.85,
+      "volume_1h": 128451.39,
+      "mcap": 1482813.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/25r8b7rw5twsx8qz3gmw87dqzrztdqeqwdzd39ouvzqz",
+      "time": "13:54:35",
+      "date": "2026-03-22",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Downald Trump",
       "symbol": "DOWNALD",
       "address": "6vg3WrueEJwPuFVJmU8D6Jv8dacJcLVv7ac3t86Spump",
@@ -863,53 +899,17 @@
       "date": "2026-03-21",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Everything to Chibi",
-      "symbol": "CHIBITHING",
-      "address": "AJwfjnjw964Z5SZPsvshJwF41EaQo2xNkKuEtHCepump",
-      "label": "STRONG BUY",
-      "score": 80,
-      "price": 0.0001212,
-      "change_1h": 227.0,
-      "liquidity": 28228.39,
-      "volume_1h": 236123.71,
-      "mcap": 121278.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/hguson4zv5e6udvyzsgx9pawssayenmjfhwm3zfkkqzw",
-      "time": "16:58:04",
-      "date": "2026-03-21",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Chibi President",
-      "symbol": "CBTRUMP",
-      "address": "2WybzxHzn7oRdGk6MnSdy9NhcprzxMjdP4SSZrT8pump",
-      "label": "STRONG BUY",
-      "score": 80,
-      "price": 0.0001279,
-      "change_1h": 247.0,
-      "liquidity": 29150.08,
-      "volume_1h": 316314.46,
-      "mcap": 127972.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/5khargy1ypnfqtlpoqpedqdsxegm1nstnkpfob6yazfz",
-      "time": "16:58:05",
-      "date": "2026-03-21",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 81,
-    "signals": 292,
+    "scans": 82,
+    "signals": 294,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-22 11:47:55 UTC"
+  "last_scan": "2026-03-22 13:54:34 UTC"
 }
