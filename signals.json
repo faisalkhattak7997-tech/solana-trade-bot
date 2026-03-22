@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "The Immortal Dog",
+      "symbol": "Neren",
+      "address": "235X2EVCRBizBCXRq9nMSJKjBvQuuANDtdoZuFmGbonk",
+      "label": "WATCH",
+      "score": 45,
+      "price": 4.871e-05,
+      "change_1h": 34.03,
+      "liquidity": 18744.51,
+      "volume_1h": 121043.1,
+      "mcap": 48716.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/ecrqdqnzwpz4uzbirvhuugb8ijserm5dpnnjfxvfoj2o",
+      "time": "10:56:36",
+      "date": "2026-03-22",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Fwogfication",
+      "symbol": "CHWIBI",
+      "address": "BALKcn5xLxLGV18wVv6H2bq87sYZjPJzhPEWQCyNpump",
+      "label": "BUY",
+      "score": 65,
+      "price": 0.0001641,
+      "change_1h": 122.0,
+      "liquidity": 34757.88,
+      "volume_1h": 1146970.6,
+      "mcap": 164137.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/6wae1b8qzdi7ta3ys4nhfpahu96ax4bdtusswsbpo4tf",
+      "time": "10:56:37",
+      "date": "2026-03-22",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "cowgorithm",
       "symbol": "cowgorithm",
       "address": "q8h9U8Xoow2qAsohyxxNNppbpBQpNj79Ur5gt16pump",
@@ -863,53 +899,17 @@
       "date": "2026-03-21",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Chibi Elon Musk",
-      "symbol": "Smoker",
-      "address": "GQABx7RitSNSjDff4QaeTvwMemj6oaBxnKhm6N6wpump",
-      "label": "WATCH",
-      "score": 45,
-      "price": 0.0006805,
-      "change_1h": 31.19,
-      "liquidity": 67238.91,
-      "volume_1h": 278457.94,
-      "mcap": 680527.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/5wdwxh3sipn1na2fdupdlkmrvuhscalbfyp3ntghj2cg",
-      "time": "15:50:37",
-      "date": "2026-03-21",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Grace",
-      "symbol": "Grace",
-      "address": "9EbFuDLzT9iCRJgZrZDDdpQfZWXHEM8ET3T7A6Habonk",
-      "label": "WATCH",
-      "score": 45,
-      "price": 5.302e-05,
-      "change_1h": 44.57,
-      "liquidity": 20205.47,
-      "volume_1h": 160618.1,
-      "mcap": 53021.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/d1rjydscfz7a79xk1ru2zhk5mgtva6yxxwcqgqx9fqap",
-      "time": "14:56:23",
-      "date": "2026-03-21",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 79,
-    "signals": 287,
+    "scans": 80,
+    "signals": 289,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-22 09:49:18 UTC"
+  "last_scan": "2026-03-22 10:56:36 UTC"
 }
