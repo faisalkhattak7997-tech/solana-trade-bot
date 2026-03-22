@@ -1,6 +1,24 @@
 {
   "signals": [
     {
+      "token": "Fentanyl Barbie Doll",
+      "symbol": "FBD",
+      "address": "BqzhSThoMCQfraJTYzmhbu5eRoHEox3jBGwnhEX5bonk",
+      "label": "WATCH",
+      "score": 25,
+      "price": 3.823e-05,
+      "change_1h": 9.37,
+      "liquidity": 16295.37,
+      "volume_1h": 69065.32,
+      "mcap": 38231.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/cacvwrcdncz6cx6cny5cgvhmsxwrev6ryim1lhkohp7p",
+      "time": "16:58:50",
+      "date": "2026-03-22",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "if memecoins have a million fans",
       "symbol": "ONE",
       "address": "8hnTvUufnowuvTxwnj84maNDf1NJWyxT9B7NXM62pump",
@@ -881,35 +899,17 @@
       "date": "2026-03-21",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Delusional Bull",
-      "symbol": "Bull",
-      "address": "BAFXas1cQ9wdRSufcS5iTuqSee2vCP5r1WzG3Bhhbonk",
-      "label": "BUY",
-      "score": 65,
-      "price": 0.0001128,
-      "change_1h": 207.0,
-      "liquidity": 30186.45,
-      "volume_1h": 271959.4,
-      "mcap": 112861.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/3xrupajgkgfmgbynbe1g5fwdn6lnzukz9jzqkk3euldg",
-      "time": "21:50:04",
-      "date": "2026-03-21",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 84,
-    "signals": 306,
+    "scans": 85,
+    "signals": 307,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-22 15:52:17 UTC"
+  "last_scan": "2026-03-22 16:58:49 UTC"
 }
