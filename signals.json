@@ -1,6 +1,24 @@
 {
   "signals": [
     {
+      "token": "unc",
+      "symbol": "unc",
+      "address": "DPhbcSyTvejGvXKfYpae5R3wkFfuumhJnEHb1GJWbonk",
+      "label": "BUY",
+      "score": 55,
+      "price": 0.0001035,
+      "change_1h": 187.0,
+      "liquidity": 26234.11,
+      "volume_1h": 80353.59,
+      "mcap": 103598.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/garqvjnpivwympelgvsgym8ddqijcfsiqzqfnerge7wo",
+      "time": "20:55:45",
+      "date": "2026-03-22",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Gusic",
       "symbol": "Gusic",
       "address": "7Su4Toe32xk56Zh1EikSe8FxUpVfF664nN9oMarybonk",
@@ -881,35 +899,17 @@
       "date": "2026-03-21",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Kermit Vocal Stim",
-      "symbol": "LETMEKNOW",
-      "address": "3MfJUyB4Ehk2PdA3cnQmXMSWhPDFbSu6uBF6PpDipump",
-      "label": "WATCH",
-      "score": 35,
-      "price": 4.825e-05,
-      "change_1h": 30.32,
-      "liquidity": 17515.51,
-      "volume_1h": 28400.33,
-      "mcap": 48254.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/3btivpstt6iwqupet7a95ahzejy7pzh5vewqdhtwhv95",
-      "time": "22:53:54",
-      "date": "2026-03-21",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 88,
-    "signals": 313,
+    "scans": 89,
+    "signals": 314,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-22 19:51:32 UTC"
+  "last_scan": "2026-03-22 20:55:44 UTC"
 }
