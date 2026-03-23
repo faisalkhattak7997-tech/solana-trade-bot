@@ -1,6 +1,24 @@
 {
   "signals": [
     {
+      "token": "Peace",
+      "symbol": "PEACE",
+      "address": "HmXQeqkrnV1HjPjqwxosrFCmkedD9Q27rDqqKHvYE2iF",
+      "label": "WATCH",
+      "score": 25,
+      "price": 7.135e-05,
+      "change_1h": 18.0,
+      "liquidity": 27509.58,
+      "volume_1h": 28223.07,
+      "mcap": 71350.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/a7xk1bnstrta4wmpkxmq8bxspigc8sggvycp5fghv7vr",
+      "time": "11:30:14",
+      "date": "2026-03-23",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "The Dino",
       "symbol": "DRONGO",
       "address": "H5aYB8F9zUJERDeojp2TXxph7azDPbghD93cbdTtpump",
@@ -881,35 +899,17 @@
       "date": "2026-03-22",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Blackout Desk",
-      "symbol": "Blackout",
-      "address": "65YGg5NYdS8T11TFd1ARM69t2MHFkjMXMfoj6FCWpump",
-      "label": "WATCH",
-      "score": 35,
-      "price": 4.217e-05,
-      "change_1h": 18.97,
-      "liquidity": 16494.55,
-      "volume_1h": 251457.79,
-      "mcap": 42171.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/3mahihybrhqg4mkbyogcxmbbjaxjrjyhfp2j6axbhtbz",
-      "time": "09:49:19",
-      "date": "2026-03-22",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 94,
-    "signals": 335,
+    "scans": 95,
+    "signals": 336,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-23 08:37:19 UTC"
+  "last_scan": "2026-03-23 11:30:13 UTC"
 }
