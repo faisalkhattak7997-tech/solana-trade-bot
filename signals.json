@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "Dumb Money",
+      "symbol": "DUMBMONEY",
+      "address": "FQkcMPfp9RxLrvkggfsRFugYhDrcseut5ApNWA2Apump",
+      "label": "WATCH",
+      "score": 35,
+      "price": 6.405e-05,
+      "change_1h": 44.34,
+      "liquidity": 20415.01,
+      "volume_1h": 43643.32,
+      "mcap": 64059.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/5s7tbe99zj2psrg9vtezstjxyludxluxzfyrkwkf74ny",
+      "time": "23:02:35",
+      "date": "2026-03-25",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Bagwork",
+      "symbol": "BAGWORK",
+      "address": "D1KTCJYVwuwydhzTMePCGemrzq4VR1XBG4CPutMKwork",
+      "label": "WATCH",
+      "score": 25,
+      "price": 5.638e-05,
+      "change_1h": 7.59,
+      "liquidity": 20259.78,
+      "volume_1h": 99938.0,
+      "mcap": 56385.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/cg4hqvptn7sqsgczzsidsj31jkutuq5ny5msccomezfi",
+      "time": "23:02:36",
+      "date": "2026-03-25",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Trump\u2019s Dog",
       "symbol": "ASPEN",
       "address": "2XsiHAfMtsjkEnKRJrWzQEm2rLHZUz83eQtcx736pump",
@@ -863,53 +899,17 @@
       "date": "2026-03-24",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Eitherway",
-      "symbol": "EITHER",
-      "address": "HmBdm8vbisABUjkxms6ZUnoaXbfwFM6ymxShWfAENaoi",
-      "label": "BUY",
-      "score": 55,
-      "price": 0.0479,
-      "change_1h": 59.76,
-      "liquidity": 189171.61,
-      "volume_1h": 251548.04,
-      "mcap": 0.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/4c47jjgdhztupnheu9da7mroh676exbpouhevx3fpfr3",
-      "time": "18:07:35",
-      "date": "2026-03-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "The Golden Wanderer",
-      "symbol": "\u9ec4\u6bdb",
-      "address": "EYq55Q8xCq3fCr5eFemUthD7SVk2hR1qBk2xL68Vpump",
-      "label": "STRONG BUY",
-      "score": 80,
-      "price": 9.917e-05,
-      "change_1h": 169.0,
-      "liquidity": 25260.8,
-      "volume_1h": 125558.74,
-      "mcap": 99171.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/a8zx1cplrvkpwsifp48nwtlunuzjseaa2mqtg1g2sttr",
-      "time": "14:44:48",
-      "date": "2026-03-24",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 117,
-    "signals": 434,
+    "scans": 118,
+    "signals": 436,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-25 21:06:48 UTC"
+  "last_scan": "2026-03-25 23:02:35 UTC"
 }
