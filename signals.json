@@ -1,6 +1,24 @@
 {
   "signals": [
     {
+      "token": "\ud83e\udde2",
+      "symbol": "Cap",
+      "address": "CEyiSFncoatpkUS9dujp8z2ggn7RyFSeqTHoK9Tp67w6",
+      "label": "WATCH",
+      "score": 45,
+      "price": 6.376e-05,
+      "change_1h": 34.91,
+      "liquidity": 20960.98,
+      "volume_1h": 139989.82,
+      "mcap": 63763.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/cbtyxf8d2lga8zccxm3zs83u46owpdujranrujtmgrnx",
+      "time": "08:02:13",
+      "date": "2026-03-25",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "bob",
       "symbol": "\ud81a\ude06",
       "address": "AjBkCw7SDzWC2sCs16R2guEs42bH7HYa3rHkTe2Rpump",
@@ -881,35 +899,17 @@
       "date": "2026-03-23",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Delusional Bulls Will Win",
-      "symbol": "DBWW",
-      "address": "AM9BFKtaGwk6pxXz9JBUfqRsxAL4MrRRPZSeTCmRpump",
-      "label": "WATCH",
-      "score": 28,
-      "price": 5.584e-05,
-      "change_1h": 29.05,
-      "liquidity": 18985.17,
-      "volume_1h": 4707.44,
-      "mcap": 55848.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/3hjyxiwv59qelbensjmsjrtxunbrlctjr6npiwbf2ikl",
-      "time": "23:04:19",
-      "date": "2026-03-23",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 111,
-    "signals": 406,
+    "scans": 112,
+    "signals": 407,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-25 05:18:13 UTC"
+  "last_scan": "2026-03-25 08:02:12 UTC"
 }
