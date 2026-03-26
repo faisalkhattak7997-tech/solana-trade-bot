@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "Just a testicle guy",
+      "symbol": "TSTCLGUY",
+      "address": "AhWAP53EZ5YvbogzDpCdzXUfi7tVorj8EmgAdwmPpump",
+      "label": "STRONG BUY",
+      "score": 73,
+      "price": 8.53e-05,
+      "change_1h": 126.0,
+      "liquidity": 24207.67,
+      "volume_1h": 344777.5,
+      "mcap": 85306.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/j293xbqqbiswwof73ep5sj197xk14pefticmynrvrfm",
+      "time": "00:04:46",
+      "date": "2026-03-26",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Justice for Noelia",
+      "symbol": "NOELIA",
+      "address": "AfyV6Dk2hzovyszuFcUcrcdGqD6ZYgtCiRWUK4kpump",
+      "label": "BUY",
+      "score": 65,
+      "price": 0.0001133,
+      "change_1h": 198.0,
+      "liquidity": 27685.99,
+      "volume_1h": 123166.02,
+      "mcap": 113305.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/126nhlvqk2tgaecufytwcp4ayg2fhvnucyprvn94pbfa",
+      "time": "00:04:48",
+      "date": "2026-03-26",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Dumb Money",
       "symbol": "DUMBMONEY",
       "address": "FQkcMPfp9RxLrvkggfsRFugYhDrcseut5ApNWA2Apump",
@@ -863,53 +899,17 @@
       "date": "2026-03-24",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Token",
-      "symbol": "Token",
-      "address": "CHD1ciJA5ivUu3JPHv8hFyeRw5WyPx32CpEa9cPhpump",
-      "label": "BUY",
-      "score": 53,
-      "price": 2.93e-05,
-      "change_1h": 37.91,
-      "liquidity": 13596.01,
-      "volume_1h": 152149.25,
-      "mcap": 29307.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/fbpherdvjkyfhe5q3tabkzizpnmyeistao1h6geydel3",
-      "time": "18:07:33",
-      "date": "2026-03-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "peepeepoopoo",
-      "symbol": "PP",
-      "address": "472NZ1TYHUPJ5nZTZiKAooVoA3pH829VKXjfTu9Lpump",
-      "label": "WATCH",
-      "score": 35,
-      "price": 4.098e-05,
-      "change_1h": 11.51,
-      "liquidity": 16559.45,
-      "volume_1h": 406272.69,
-      "mcap": 40990.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/h11h2nfdfu91n4qdy9qau8bjekjunsaerkzve69td8vv",
-      "time": "18:07:34",
-      "date": "2026-03-24",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 118,
-    "signals": 436,
+    "scans": 119,
+    "signals": 438,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-25 23:02:35 UTC"
+  "last_scan": "2026-03-26 00:04:46 UTC"
 }
