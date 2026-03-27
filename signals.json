@@ -1,6 +1,24 @@
 {
   "signals": [
     {
+      "token": "Dojo",
+      "symbol": "DOJO",
+      "address": "7hpAfzJpaYRwRDptJbxXAdbBWQ1Zvs5X7eEy8UYqt3rQ",
+      "label": "WATCH",
+      "score": 33,
+      "price": 7.705e-06,
+      "change_1h": 5.75,
+      "liquidity": 5578.38,
+      "volume_1h": 65601.99,
+      "mcap": 7706.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/gw8ssy8dms85gjccadgxmewfak9k92tdykhf3bvz3vo7",
+      "time": "08:08:53",
+      "date": "2026-03-27",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Farting Unicorn Relaunch",
       "symbol": "FUR",
       "address": "Br1JRpNwhMeGth6doBQtQB7iwmyMzLKVixrLdLUTpump",
@@ -881,35 +899,17 @@
       "date": "2026-03-25",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "67911",
-      "symbol": "67911",
-      "address": "47VwCyeBfrZM61AzmSJx8SL4uqtFKGLoM1YSTQT2pump",
-      "label": "BUY",
-      "score": 65,
-      "price": 0.0001176,
-      "change_1h": 212.0,
-      "liquidity": 28269.12,
-      "volume_1h": 236052.77,
-      "mcap": 117629.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/3xedafkdphm1txxnkcfsfmshwg3atznratxi8z2spgv8",
-      "time": "12:07:09",
-      "date": "2026-03-25",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 129,
-    "signals": 466,
+    "scans": 130,
+    "signals": 467,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-27 05:53:17 UTC"
+  "last_scan": "2026-03-27 08:08:52 UTC"
 }
