@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "Farting Unicorn Relaunch",
+      "symbol": "FUR",
+      "address": "Br1JRpNwhMeGth6doBQtQB7iwmyMzLKVixrLdLUTpump",
+      "label": "BUY",
+      "score": 53,
+      "price": 5.842e-05,
+      "change_1h": 64.52,
+      "liquidity": 18929.41,
+      "volume_1h": 40683.35,
+      "mcap": 58411.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/avtnasytpu4q8rckkwucjeujpt8gp8afzvpdq36cqua7",
+      "time": "00:02:08",
+      "date": "2026-03-27",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Sweet Robot Empire",
+      "symbol": "SWEET",
+      "address": "AiSuEMaCGyExFude3kUnwnVS3m6UHdsF9ekmszRNpump",
+      "label": "WATCH",
+      "score": 25,
+      "price": 0.0003999,
+      "change_1h": 12.51,
+      "liquidity": 49951.55,
+      "volume_1h": 31994.07,
+      "mcap": 399963.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/51aaxje3prqp1uwad7jasrkxwhzbnzxj9bzavuq7rtvb",
+      "time": "00:02:09",
+      "date": "2026-03-27",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Cosmic Hamster",
       "symbol": "CHAM",
       "address": "2uPJiLd2AXpYixitKNqPK5eRoWx1q8Z4Wcq2FdqphHyd",
@@ -863,53 +899,17 @@
       "date": "2026-03-25",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Trader Therapy",
-      "symbol": "PUNCH",
-      "address": "AoZSUuunZfbtzs27G8mHYvAeVRmzd6pcf3uF2z9tpump",
-      "label": "BUY",
-      "score": 55,
-      "price": 0.0001045,
-      "change_1h": 59.92,
-      "liquidity": 26596.17,
-      "volume_1h": 134550.96,
-      "mcap": 104530.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/8pj9lezadisc4mfsnp6k22pw5lpsdu6gbg3hns7jb3de",
-      "time": "12:07:09",
-      "date": "2026-03-25",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Harbinger of Doom",
-      "symbol": "HARBINGER",
-      "address": "YmV71RwmkMX1amU5CK7GMHUhkDLK9i44p1ccVZupump",
-      "label": "WATCH",
-      "score": 35,
-      "price": 5.628e-05,
-      "change_1h": 47.43,
-      "liquidity": 19290.97,
-      "volume_1h": 98093.95,
-      "mcap": 56283.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/6pmujubunjhmndgcpjcanvzfo8ufqcc8sj9vjjycb2tt",
-      "time": "12:07:09",
-      "date": "2026-03-25",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 127,
-    "signals": 464,
+    "scans": 128,
+    "signals": 466,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-26 23:00:22 UTC"
+  "last_scan": "2026-03-27 00:02:08 UTC"
 }
