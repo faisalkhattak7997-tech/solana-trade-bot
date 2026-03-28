@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "wiener",
+      "symbol": "wiener",
+      "address": "GvQH1VGGbrjeRSbsCreptYN4GUcZ9w7vMFJ5ic8ypump",
+      "label": "WATCH",
+      "score": 20,
+      "price": 4.9e-05,
+      "change_1h": 9.93,
+      "liquidity": 19317.65,
+      "volume_1h": 682.19,
+      "mcap": 40844.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/dssa7drkm2gthxdvftkwpvpvcqwp1g2gydlxd1twfwwh",
+      "time": "23:01:57",
+      "date": "2026-03-28",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Clover",
+      "symbol": "Clover",
+      "address": "7XcMXWHhzZCxqMqP3Ksd7b5JTJ5vjFK9zZHBYxZtFwXQ",
+      "label": "BUY",
+      "score": 53,
+      "price": 2.667e-05,
+      "change_1h": 80.83,
+      "liquidity": 12520.64,
+      "volume_1h": 69757.39,
+      "mcap": 26676.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/6nrdioe6svahj1s3njn2aqmeawimwahlhnvu8wlzux5u",
+      "time": "23:01:57",
+      "date": "2026-03-28",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "The Dogewalker",
       "symbol": "DOGEWALKER",
       "address": "eGUjo1FPgv6zb6ALSuMYoXWexW7ZrrepfPWhSnBTtvA",
@@ -863,53 +899,17 @@
       "date": "2026-03-27",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Asscoin ",
-      "symbol": "Asscoin",
-      "address": "5BC7XgR6CcCg4EMoptEPoLu5KtAwMUGn26daxBENpump",
-      "label": "BUY",
-      "score": 55,
-      "price": 5.442e-05,
-      "change_1h": 60.0,
-      "liquidity": 18171.02,
-      "volume_1h": 215937.47,
-      "mcap": 54424.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/22yhn6mrndn8vdfumna6snc3n5tercrwnx9imbhhkkto",
-      "time": "23:57:40",
-      "date": "2026-03-27",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Rocket Bunny",
-      "symbol": "$RBUNNY",
-      "address": "UXWRXMN14kZ4zD6NFZYnBHvR1wc5sC6xnWuBJADpump",
-      "label": "WATCH",
-      "score": 12,
-      "price": 3.695e-05,
-      "change_1h": 12.59,
-      "liquidity": 555.32,
-      "volume_1h": 111.17,
-      "mcap": 24024.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/jaenm1y4dhp9lmxzg7yjaw9inqxjgfmaxpfhoyvsvwfr",
-      "time": "23:57:40",
-      "date": "2026-03-27",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 150,
-    "signals": 542,
+    "scans": 151,
+    "signals": 544,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-28 21:56:33 UTC"
+  "last_scan": "2026-03-28 23:01:56 UTC"
 }
