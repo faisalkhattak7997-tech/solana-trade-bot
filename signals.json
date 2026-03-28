@@ -1,6 +1,24 @@
 {
   "signals": [
     {
+      "token": "The Dogewalker",
+      "symbol": "DOGEWALKER",
+      "address": "eGUjo1FPgv6zb6ALSuMYoXWexW7ZrrepfPWhSnBTtvA",
+      "label": "BUY",
+      "score": 55,
+      "price": 2.379e-05,
+      "change_1h": 170.0,
+      "liquidity": 11826.97,
+      "volume_1h": 27696.2,
+      "mcap": 23794.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/ku8eovysjla142yzv9gqa421vamfcx1k6zkcwuhncev",
+      "time": "21:56:35",
+      "date": "2026-03-28",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "LONGIFY",
       "symbol": "LONGIFY",
       "address": "CUsZmSSHQB753nVGjtVbhDNeQ3dFxRc1cpdHkNpSpump",
@@ -881,35 +899,17 @@
       "date": "2026-03-27",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Don\u2019t forget who you are",
-      "symbol": "whiteboy",
-      "address": "6ncV9WviEGjhnTD8SRHctW6WRGNwiC2qPeFZPGR5pump",
-      "label": "BUY",
-      "score": 55,
-      "price": 5.458e-05,
-      "change_1h": 60.29,
-      "liquidity": 18637.07,
-      "volume_1h": 490017.83,
-      "mcap": 54584.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/bfumwhavoclszw7jba2pwhqvxzb2rlcmdqfrfw6trm6l",
-      "time": "23:57:40",
-      "date": "2026-03-27",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 149,
-    "signals": 541,
+    "scans": 150,
+    "signals": 542,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-28 20:59:30 UTC"
+  "last_scan": "2026-03-28 21:56:33 UTC"
 }
