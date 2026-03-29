@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "Lay Down And Rot",
+      "symbol": "LDAR",
+      "address": "49mEeevpY1N18WJf3wz69jv7qxqypdM1qhhcMVUEpump",
+      "label": "STRONG BUY",
+      "score": 70,
+      "price": 6.571e-05,
+      "change_1h": 61.77,
+      "liquidity": 19794.92,
+      "volume_1h": 204249.76,
+      "mcap": 65712.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/chpzcj7upfg8vhjvvt1e3jmu27uratfd3jogrdrghvjo",
+      "time": "17:04:07",
+      "date": "2026-03-29",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Lay Down And Rot",
+      "symbol": "LDAR",
+      "address": "9b7b2pGFkWuez3RFnwhL3T1gt5N7gmfxZ3NYwbv8gLSC",
+      "label": "BUY",
+      "score": 65,
+      "price": 9.288e-05,
+      "change_1h": 176.0,
+      "liquidity": 24104.3,
+      "volume_1h": 462659.38,
+      "mcap": 92888.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/bqw4449lm3sxbdfvangpmfxamvzecnx4jt1qotinhuxq",
+      "time": "17:04:07",
+      "date": "2026-03-29",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Maya the Samoyed",
       "symbol": "MAYA",
       "address": "NmSvdEAFwf9mQpKgYiSgvSmC4WK8VkbSdsmLijmpump",
@@ -863,53 +899,17 @@
       "date": "2026-03-28",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Game Elon",
-      "symbol": "GameElon",
-      "address": "3qsAjQcJDyWwCbLwZofHckacBNoFrjFvjHQQ8TnLpump",
-      "label": "STRONG BUY",
-      "score": 80,
-      "price": 7.486e-05,
-      "change_1h": 119.0,
-      "liquidity": 21443.21,
-      "volume_1h": 243528.23,
-      "mcap": 74861.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/9unrvs6gqwnwa6r8grqsytmzj5wnpsmgjhuszd3xh6tf",
-      "time": "15:05:03",
-      "date": "2026-03-28",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "CUBA TAKE OVER",
-      "symbol": "CTO",
-      "address": "HEU3Gb66S6wAa3S2bByB6gV5snQoNLsbXQmLPnrRpump",
-      "label": "WATCH",
-      "score": 43,
-      "price": 1.615e-05,
-      "change_1h": 22.11,
-      "liquidity": 9731.11,
-      "volume_1h": 1577.69,
-      "mcap": 16156.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/exspnvyz9rhpngdotggu8wgcsz9dfviuybt7nkhtrbmy",
-      "time": "15:05:03",
-      "date": "2026-03-28",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 159,
-    "signals": 568,
+    "scans": 160,
+    "signals": 570,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-29 15:49:19 UTC"
+  "last_scan": "2026-03-29 17:04:06 UTC"
 }
