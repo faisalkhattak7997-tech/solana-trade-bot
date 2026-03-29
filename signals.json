@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "Feet",
+      "symbol": "Feet",
+      "address": "3dmWv6dKUKxBxrHxDzAsuCXpbRVwVv2ifiXWcSKDpump",
+      "label": "BUY",
+      "score": 53,
+      "price": 7.16e-05,
+      "change_1h": 98.97,
+      "liquidity": 20834.2,
+      "volume_1h": 87201.29,
+      "mcap": 71607.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/9deoritp3zptzaatjkr8vsjnajuyqqq1yh3lr2i5upc",
+      "time": "08:02:29",
+      "date": "2026-03-29",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "OpenClaw Ai\ud83e\udd9e",
+      "symbol": "OpenClaw",
+      "address": "53ZyxZho2VkFNd3MyxNHFdsNss6tvuBLa4KsdyHAKggj",
+      "label": "WATCH",
+      "score": 45,
+      "price": 0.0005016,
+      "change_1h": 25.07,
+      "liquidity": 205283.27,
+      "volume_1h": 261395.92,
+      "mcap": 501638.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/4pp7b9tpdg5gpey1lqlqbearyun5yi1xvoexcye59cry",
+      "time": "08:02:29",
+      "date": "2026-03-29",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "(F)Art",
       "symbol": "(F)Art",
       "address": "4uhVeLRzp7QExBKBtyhMkZTykpaZVkauaa86MW7Zpump",
@@ -863,53 +899,17 @@
       "date": "2026-03-28",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "npc",
-      "symbol": "NPC",
-      "address": "CCt17qPmewRAtbMX5bnpokFvBtT3U1cP8uGawcv4pump",
-      "label": "WATCH",
-      "score": 45,
-      "price": 2.348e-05,
-      "change_1h": 75.43,
-      "liquidity": 12135.28,
-      "volume_1h": 16295.37,
-      "mcap": 21980.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/bel5aurkvamjxpl9mfyfcpjyq54tgwoplwfjvkhkdk3n",
-      "time": "07:51:01",
-      "date": "2026-03-28",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "kotaro",
-      "symbol": "kota",
-      "address": "ugovAfZhnrhpZBXtbXTGq7WNMQeQNdNYpUWvMyMpump",
-      "label": "BUY",
-      "score": 65,
-      "price": 0.0003398,
-      "change_1h": 116.0,
-      "liquidity": 45043.76,
-      "volume_1h": 195159.09,
-      "mcap": 339885.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/8awb4dnpjwi2zlriwbkvyiafg7bz2nq7ukqfxnubrftg",
-      "time": "05:15:59",
-      "date": "2026-03-28",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 153,
-    "signals": 548,
+    "scans": 154,
+    "signals": 550,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-29 05:55:35 UTC"
+  "last_scan": "2026-03-29 08:02:28 UTC"
 }
