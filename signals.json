@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "The Nostalgic Bear",
+      "symbol": "BEAR",
+      "address": "F1BvaJG2vEGDN4qTvN5cscPGvDrtfvBPyHQTf4p1GL4P",
+      "label": "BUY",
+      "score": 53,
+      "price": 5.274e-05,
+      "change_1h": 27.26,
+      "liquidity": 18252.09,
+      "volume_1h": 274030.22,
+      "mcap": 52740.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/hytvcqupawskvm7ql7axhpcplnxwtvpiexudpurchseh",
+      "time": "00:00:11",
+      "date": "2026-03-29",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "pumpfun saved my life",
+      "symbol": "won",
+      "address": "2o9b6qNRoNq3YgJXvWDAxyxcJR8Pe6uuULaqmztkpump",
+      "label": "WATCH",
+      "score": 35,
+      "price": 4.173e-05,
+      "change_1h": 23.7,
+      "liquidity": 15652.38,
+      "volume_1h": 80681.33,
+      "mcap": 41633.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/8dzm47px4hyc1be3ezjnxdpa3afxwsntvxnapfrnzdur",
+      "time": "00:00:11",
+      "date": "2026-03-29",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "wiener",
       "symbol": "wiener",
       "address": "GvQH1VGGbrjeRSbsCreptYN4GUcZ9w7vMFJ5ic8ypump",
@@ -863,53 +899,17 @@
       "date": "2026-03-28",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Spiderkash",
-      "symbol": "Spiderkash",
-      "address": "EJ6WpzXDsykFBECHKtGJC7pm34TZLVn4FBn3i3bPzyXY",
-      "label": "WATCH",
-      "score": 45,
-      "price": 6.105e-05,
-      "change_1h": 85.59,
-      "liquidity": 19445.14,
-      "volume_1h": 67693.14,
-      "mcap": 61050.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/czeg3wkjwhqrjjccvg4dfesys932tvrup1fbnbrn2k8c",
-      "time": "05:16:00",
-      "date": "2026-03-28",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Cornedian",
-      "symbol": "Corn",
-      "address": "Hu1sDQzGSucBRAhhYGsGy3dq2juWmNpGWoFZ8ei2pump",
-      "label": "STRONG BUY",
-      "score": 73,
-      "price": 9.085e-05,
-      "change_1h": 167.0,
-      "liquidity": 23981.67,
-      "volume_1h": 401717.45,
-      "mcap": 90854.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/ayqu6tpwjasi5mq8xw7fkmcvxb9xxm5epurzbj9jjw1t",
-      "time": "23:57:39",
-      "date": "2026-03-27",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 151,
-    "signals": 544,
+    "scans": 152,
+    "signals": 546,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-28 23:01:56 UTC"
+  "last_scan": "2026-03-29 00:00:10 UTC"
 }
