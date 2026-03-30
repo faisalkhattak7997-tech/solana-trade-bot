@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "KitKat",
+      "symbol": "KITKAT",
+      "address": "GHEyyLjr5SGGkoYBaakekvVfcmrQBcv93yJF2AnU5RBi",
+      "label": "WATCH",
+      "score": 18,
+      "price": 3.486e-05,
+      "change_1h": 4.04,
+      "liquidity": 14212.38,
+      "volume_1h": 66186.22,
+      "mcap": 34864.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/rvq83er5lwygruhb4exnsuxdvuznj67kthbrplkbgnf",
+      "time": "00:04:51",
+      "date": "2026-03-30",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Some of us gonna make it",
+      "symbol": "SUGMI",
+      "address": "mrzMCnXFbHY41BxyhLaQ5pZwXC1rzMc1muSjg7Vpump",
+      "label": "BUY",
+      "score": 63,
+      "price": 9.668e-05,
+      "change_1h": 663.0,
+      "liquidity": 24205.24,
+      "volume_1h": 88833.73,
+      "mcap": 96686.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/gog6n4oncvy6fqwk5djuenzwmmia3sn6ww5hr9grr23z",
+      "time": "00:04:52",
+      "date": "2026-03-30",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "The KitKat Heist",
       "symbol": "Heist",
       "address": "BjiCoaMNKVdK967BrQWfeXEmhTdAPC2k9hYL5dj5pump",
@@ -863,53 +899,17 @@
       "date": "2026-03-28",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Inu",
-      "symbol": "\u67f4\u72ac",
-      "address": "GQekUZ4uAcDgFWqMVPrXTSFxrAG41z22PMybKEwNpump",
-      "label": "WATCH",
-      "score": 45,
-      "price": 8.345e-06,
-      "change_1h": 53.83,
-      "liquidity": 7059.45,
-      "volume_1h": 26305.55,
-      "mcap": 8344.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/7m4lhtfzz8nxywpp9bfr2m8dktnwtj2nzf5uultkq5qg",
-      "time": "20:59:30",
-      "date": "2026-03-28",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Frogonoid",
-      "symbol": "Frogonoid",
-      "address": "7pDmN4QTfqXWx5rWd8UKdBgdEUwmMNxginYAUA8npump",
-      "label": "BUY",
-      "score": 65,
-      "price": 8.164e-05,
-      "change_1h": 138.0,
-      "liquidity": 22272.32,
-      "volume_1h": 193624.5,
-      "mcap": 81504.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/fbeogk1ruodqydzdh8wy3mqmzprhep1tpfxk49blryfc",
-      "time": "19:47:04",
-      "date": "2026-03-28",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 165,
-    "signals": 588,
+    "scans": 166,
+    "signals": 590,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-29 23:06:19 UTC"
+  "last_scan": "2026-03-30 00:04:51 UTC"
 }
