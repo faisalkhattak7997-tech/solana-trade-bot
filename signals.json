@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "Quant Redemption",
+      "symbol": "QUANT",
+      "address": "GvEk1xzfzw3tg7xHBGM8BgUY2GniTtRQfQ1QNuM6pump",
+      "label": "BUY",
+      "score": 65,
+      "price": 0.0001003,
+      "change_1h": 117.0,
+      "liquidity": 24697.1,
+      "volume_1h": 207522.72,
+      "mcap": 100323.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/dlqnvpk77nr8rjpn2nnphj2jyuvpsahbiowxonaejypk",
+      "time": "22:03:44",
+      "date": "2026-03-30",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Trump Thugs",
+      "symbol": "TRUMPTHUG",
+      "address": "ArpNDKQszhUtuEfbvuTvPVvSVvqgL1vKVH7oXRrBpump",
+      "label": "BUY",
+      "score": 65,
+      "price": 0.001114,
+      "change_1h": 2139.0,
+      "liquidity": 81349.01,
+      "volume_1h": 218704.59,
+      "mcap": 1114711.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/fsyev58p91nd869mypswuhr2mzucippotedmebzqxr86",
+      "time": "22:03:44",
+      "date": "2026-03-30",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Gambo III",
       "symbol": "Gambo",
       "address": "EPF5Sc935E8w1AjR7vpbMUdcEbrfSuMCn2xx8MELpump",
@@ -863,53 +899,17 @@
       "date": "2026-03-29",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "pixel boob",
-      "symbol": "pixelboob",
-      "address": "2VXYw7Y9dzMB8kSvkvX2MXKWeZz2nCsixk5YiYXBpump",
-      "label": "BUY",
-      "score": 65,
-      "price": 0.0004836,
-      "change_1h": 627.0,
-      "liquidity": 56667.14,
-      "volume_1h": 1118665.76,
-      "mcap": 483613.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/3hoqddndvr9cdjzk8tbzxhtjwstr1yyyq8mnvzg8v49v",
-      "time": "11:57:36",
-      "date": "2026-03-29",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Make A Change",
-      "symbol": "Change",
-      "address": "6yNcaFhYv7kpBtmMWr9vMcnX7rGF7mM6bNha7KdBbonk",
-      "label": "BUY",
-      "score": 63,
-      "price": 5.2e-05,
-      "change_1h": 53.14,
-      "liquidity": 19873.13,
-      "volume_1h": 197740.21,
-      "mcap": 52007.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/d7wreypuc69punazte9le5yphgnoberapl7eqirtasvx",
-      "time": "11:57:36",
-      "date": "2026-03-29",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 171,
-    "signals": 608,
+    "scans": 172,
+    "signals": 610,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-30 20:06:41 UTC"
+  "last_scan": "2026-03-30 22:03:43 UTC"
 }
