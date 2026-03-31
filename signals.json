@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "Tardigrade",
+      "symbol": "TARDIGRADE",
+      "address": "6NPPgsMc49q2xjFAMYP1uaWAVFgxHfT7fu6DHsq1pump",
+      "label": "WATCH",
+      "score": 25,
+      "price": 3.685e-05,
+      "change_1h": 10.36,
+      "liquidity": 14536.95,
+      "volume_1h": 25109.27,
+      "mcap": 36857.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/fsxfazgg3jcomwa364wgm5hk8tp9hc3wzgmnbrwmldnx",
+      "time": "15:54:39",
+      "date": "2026-03-31",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "The God Flywheel",
+      "symbol": "GODWHEEL",
+      "address": "21Jvincer2GQhQsBWvi4PJSjK69nyFjNc4WYmvN1j777",
+      "label": "WATCH",
+      "score": 45,
+      "price": 2.154e-05,
+      "change_1h": 99.4,
+      "liquidity": 15661.43,
+      "volume_1h": 38836.09,
+      "mcap": 21547.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/7efbpjwyzjabruucmehj5pug8bhbdqwbcklswpywjslj",
+      "time": "15:54:39",
+      "date": "2026-03-31",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Revolutionary Guard",
       "symbol": "GUARD",
       "address": "AxUeVRMbjQeLp2mpSi4ZkZMr93EYZ4Px2Zoo6yPd3wga",
@@ -863,53 +899,17 @@
       "date": "2026-03-29",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "YOSHI COIN",
-      "symbol": "YOSHI COIN",
-      "address": "4voY2qHSVijpZ5Jq7tSjy3k9iAtDGF5fRpEFmkZ4dzoi",
-      "label": "WATCH",
-      "score": 36,
-      "price": 1.558e-05,
-      "change_1h": 28.59,
-      "liquidity": 5694.68,
-      "volume_1h": 6635.65,
-      "mcap": 15591.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/5mznha3hcg1hfhujq7mbqmnn3e2dgzalk55kvn5a1wen",
-      "time": "21:01:49",
-      "date": "2026-03-29",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "6 \u5185\u5411\u7684\u72d7",
-      "symbol": "\u5185\u5411\u7684\u72d7",
-      "address": "GpnkxeZp32mBpibcuk26DhzaZ5NMzaSjrFQmLscgpump",
-      "label": "STRONG BUY",
-      "score": 80,
-      "price": 8.988e-05,
-      "change_1h": 118.0,
-      "liquidity": 23821.96,
-      "volume_1h": 328895.63,
-      "mcap": 89885.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/bg5xwefpyd9psgjzpvpnn3nogvz9vevua6lmuhpoqvv6",
-      "time": "21:01:49",
-      "date": "2026-03-29",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 177,
-    "signals": 630,
+    "scans": 178,
+    "signals": 632,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-31 12:04:46 UTC"
+  "last_scan": "2026-03-31 15:54:38 UTC"
 }
