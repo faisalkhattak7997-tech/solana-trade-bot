@@ -40,6 +40,8 @@ jobs:
           AUTOTRADE: ${{ secrets.AUTOTRADE }}
           TRADEAMOUNT: ${{ secrets.TRADEAMOUNT }}
           WALLETADDRESS: ${{ secrets.WALLETADDRESS }}
+          TELEGRAMTOKEN: ${{ secrets.TELEGRAMTOKEN }}
+          TELEGRAMCHAT: ${{ secrets.TELEGRAMCHAT }}
           RPCURL: ${{ secrets.RPCURL }}
         run: python bot.py
 
