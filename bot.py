@@ -8,6 +8,20 @@ AUTO    = os.environ.get("AUTOTRADE","false").lower()=="true"
 RPC     = "https://mainnet.helius-rpc.com/?api-key=08d214d9-315d-40d5-90e1-54638e2c9508"
 SOL     = "So11111111111111111111111111111111111111112"
 FILE    = "signals.json"
+TGTOKEN = os.environ.get("TELEGRAMTOKEN","")
+TGCHAT  = os.environ.get("TELEGRAMCHAT","")
+
+def telegram(msg):
+    if not TGTOKEN or not TGCHAT: return
+    try:
+        requests.post(
+            f"https://api.telegram.org/bot{TGTOKEN}/sendMessage",
+            json={"chat_id":TGCHAT,"text":msg,"parse_mode":"HTML"},
+            timeout=10
+        )
+        log("Telegram sent!")
+    except Exception as e:
+        log(f"Telegram error: {e}")
 
 def log(msg):
     print(f"[{datetime.now(timezone.utc).strftime('%H:%M:%S')}] {msg}", flush=True)
@@ -92,42 +106,54 @@ def score(p):
 
 def buy_token(mint, name):
     if not KEY: return None
-    # Try multiple Jupiter endpoints
-    jup_endpoints = [
-        "https://quote-api.jup.ag/v6",
-        "https://jup.ag/api/v6",
-    ]
-    for jup_base in jup_endpoints:
+    try:
+        from solders.keypair import Keypair
+        from solders.transaction import VersionedTransaction
+        from solana.rpc.api import Client
+        import socket
+
+        # Resolve Jupiter DNS manually
         try:
-            from solders.keypair import Keypair
-            from solders.transaction import VersionedTransaction
-            from solana.rpc.api import Client
-            kp = Keypair.from_base58_string(KEY)
-            lam = int(TRADE*1e9)
-            log(f"Trying Jupiter: {jup_base}")
-            q = requests.get(f"{jup_base}/quote", params={
-                "inputMint":SOL,"outputMint":mint,"amount":lam,"slippageBps":500
-            }, timeout=15).json()
-            if "error" in q:
-                log(f"Quote error: {q}")
-                continue
-            sw = requests.post(f"{jup_base}/swap", json={
-                "quoteResponse":q,"userPublicKey":str(kp.pubkey()),
-                "wrapAndUnwrapSol":True,"prioritizationFeeLamports":5000
-            }, timeout=15).json()
-            if "swapTransaction" not in sw:
-                log(f"Swap error: {sw}")
-                continue
-            client = Client(RPC)
-            tx = VersionedTransaction.from_bytes(base64.b64decode(sw["swapTransaction"]))
-            result = client.send_raw_transaction(bytes(tx))
-            tx_hash = str(result.value)
-            log(f"BUY SUCCESS: {tx_hash}")
-            return tx_hash
-        except Exception as e:
-            log(f"Buy error ({jup_base}): {e}")
-            continue
-    return None
+            ip = socket.gethostbyname("quote-api.jup.ag")
+            log(f"Jupiter IP: {ip}")
+            jup_base = f"https://quote-api.jup.ag/v6"
+        except:
+            log("DNS resolution failed for Jupiter")
+            return None
+
+        kp = Keypair.from_base58_string(KEY)
+        lam = int(TRADE*1e9)
+
+        session = requests.Session()
+        session.headers.update({"Host": "quote-api.jup.ag"})
+
+        q = session.get(f"{jup_base}/quote", params={
+            "inputMint":SOL,"outputMint":mint,"amount":lam,"slippageBps":500
+        }, timeout=15).json()
+
+        if "error" in q:
+            log(f"Quote error: {q}")
+            return None
+
+        sw = session.post(f"{jup_base}/swap", json={
+            "quoteResponse":q,"userPublicKey":str(kp.pubkey()),
+            "wrapAndUnwrapSol":True,"prioritizationFeeLamports":5000
+        }, timeout=15).json()
+
+        if "swapTransaction" not in sw:
+            log(f"Swap error: {sw}")
+            return None
+
+        client = Client(RPC)
+        tx = VersionedTransaction.from_bytes(base64.b64decode(sw["swapTransaction"]))
+        result = client.send_raw_transaction(bytes(tx))
+        tx_hash = str(result.value)
+        log(f"BUY SUCCESS: {tx_hash}")
+        return tx_hash
+
+    except Exception as e:
+        log(f"Buy error: {e}")
+        return None
 
 def main():
     log("="*50)
@@ -205,8 +231,16 @@ def main():
 
         log(f"SIGNAL [{label}] {name} ({sym}) +{chg:.0f}% score={sc}")
         new_sigs.append(sig)
+        if label == "STRONG BUY":
+            telegram(f"""⚡ <b>STRONG BUY SIGNAL!</b>
+🪙 <b>{name} ({sym})</b>
+📈 Change: +{chg:.0f}%
+💧 Liquidity: ${liq:,.0f}
+📊 Volume 1h: ${vol:,.0f}
+🎯 Score: {sc}/100
+🔗 <a href="{url}">View on DEX</a>""")
 
-        if AUTO and KEY and label in ["STRONG BUY","BUY"] and bal > TRADE+0.01:
+        if AUTO and KEY and label == "STRONG BUY" and bal > TRADE+0.01:
             tx = buy_token(addr, name)
             if tx:
                 sig["traded"] = True
@@ -216,7 +250,7 @@ def main():
                 d["trades"].insert(0,{
                     "token":name,"symbol":sym,"address":addr,"buy_tx":tx,
                     "amount_sol":TRADE,"buy_price":price,
-                    "tp1":price*1.5,"tp2":price*3,"sl":price*0.8,
+                    "tp1":price*10,"tp2":price*100,"sl":price*0.8,
                     "status":"OPEN","time":sig["time"]
                 })
         time.sleep(0.2)
