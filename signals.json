@@ -1,6 +1,24 @@
 {
   "signals": [
     {
+      "token": "Clowd Coad",
+      "symbol": "Clowd",
+      "address": "493CRTESzWsRS3wZj4EmtUJued2kGcFrQbR93zGMS6to",
+      "label": "BUY",
+      "score": 53,
+      "price": 5.387e-05,
+      "change_1h": 62.4,
+      "liquidity": 17524.36,
+      "volume_1h": 28131.54,
+      "mcap": 53873.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/cj2tu4tahjvvyf8ckay3cosogxgxo1ty2mhdinvxpnvn",
+      "time": "10:38:24",
+      "date": "2026-03-31",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "\u30e2\u30c3\u30d5\u30a3\u30fc",
       "symbol": "Moffy",
       "address": "ESMSZCKPYoBZ67Ey8JzkMz35bUYsPHomfARW7kQupump",
@@ -881,35 +899,17 @@
       "date": "2026-03-29",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Fentanyl Barbie",
-      "symbol": "FENTY ",
-      "address": "U73LJanK2ENpbvGg85iPQJmj2WGPKBLnLxNmrgvpump",
-      "label": "BUY",
-      "score": 53,
-      "price": 4.941e-05,
-      "change_1h": 46.6,
-      "liquidity": 17235.27,
-      "volume_1h": 245993.97,
-      "mcap": 49410.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/f3ycy23b1pzmlnm5bspkzwfrin5tbvkv2nn8fmo7kqqg",
-      "time": "18:03:11",
-      "date": "2026-03-29",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 175,
-    "signals": 620,
+    "scans": 176,
+    "signals": 621,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-31 09:46:00 UTC"
+  "last_scan": "2026-03-31 10:38:23 UTC"
 }
