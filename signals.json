@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "token": "Byron Wif Boobs",
+      "symbol": "BWB",
+      "address": "Asi1U3mtBP5AUMS5cUCtCC5Tri484SgzVLof354pump",
+      "label": "BUY",
+      "score": 60,
+      "price": 0.001114,
+      "change_1h": 54.97,
+      "liquidity": 81188.35,
+      "volume_1h": 95626.6,
+      "mcap": 1114387.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/3b8tgt4jpujk3husralqdacwwf58vtbtwfri8mmun1ss",
+      "time": "00:05:06",
+      "date": "2026-04-01",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Taichi Meme",
+      "symbol": "$Taichi",
+      "address": "6acLsFBcqh7KfzwnRkYSeic2A2R7UH4PNdtzwvJNpump",
+      "label": "WATCH",
+      "score": 18,
+      "price": 8.033e-05,
+      "change_1h": 16.13,
+      "liquidity": 21721.54,
+      "volume_1h": 1594.45,
+      "mcap": 80340.0,
+      "age_min": 0,
+      "dex_url": "https://dexscreener.com/solana/39uvtr1nbachtf6emuvtkyyt849g2knbxekvx4oykyjg",
+      "time": "00:05:06",
+      "date": "2026-04-01",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": " ",
       "symbol": " ",
       "address": "DEbqPuyxexiBRbT69Zev5mrdgiQ28YBTobtnkQiepump",
@@ -863,53 +899,17 @@
       "date": "2026-03-30",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Atlas",
-      "symbol": "ATLAS",
-      "address": "usmDk9j97FY7TR6QQ4TRtz9fPUZr1pk6SLAt3xepump",
-      "label": "STRONG BUY",
-      "score": 70,
-      "price": 9.892e-05,
-      "change_1h": 185.0,
-      "liquidity": 24350.0,
-      "volume_1h": 87124.3,
-      "mcap": 98927.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/8d1d7eg4q6lkdrsbqavngrdvpeus4ya82njmdyrmry75",
-      "time": "10:47:08",
-      "date": "2026-03-30",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "RAGE",
-      "symbol": "RAGE",
-      "address": "2vtuXdpMKHx8CsdeU1y2rr3tfyhPD51B2t5WTbUUpump",
-      "label": "BUY",
-      "score": 65,
-      "price": 0.0001115,
-      "change_1h": 221.0,
-      "liquidity": 26695.12,
-      "volume_1h": 445992.44,
-      "mcap": 111567.0,
-      "age_min": 0,
-      "dex_url": "https://dexscreener.com/solana/ajglpdcdzfgjgpxytf64d8j4b4iwofm348kzcejvsv9h",
-      "time": "10:47:08",
-      "date": "2026-03-30",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 182,
-    "signals": 649,
+    "scans": 183,
+    "signals": 651,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-03-31 23:02:19 UTC"
+  "last_scan": "2026-04-01 00:05:03 UTC"
 }
