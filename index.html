@@ -337,4 +337,330 @@ body { background:var(--bg); color:var(--tx); font-family:'Inter',sans-serif; fo
 
 <!-- BOTTOM NAV -->
 <nav class="bnav">
-  <button class="nb on" onclick="showSec('signals',this)"><
+  <button class="nb on" onclick="showSec('signals',this)"><span class="ni">⚡</span>Signals</button>
+  <button class="nb" onclick="showSec('trade',this)"><span class="ni">📈</span>Trade</button>
+  <button class="nb" onclick="showSec('bot',this)"><span class="ni">🤖</span>Bot</button>
+  <button class="nb" onclick="showSec('stats',this)"><span class="ni">📊</span>Stats</button>
+</nav>
+
+<!-- CONNECT MODAL -->
+<div class="ov" id="conMod">
+  <div class="modal">
+    <div class="mtitle">👻 Connect Phantom</div>
+    <div class="msub">Desktop: install Phantom Chrome extension.<br>Mobile: open inside Phantom app browser.</div>
+    <button class="phbtn" onclick="connectPh()">👻 &nbsp; Connect Phantom Wallet</button>
+    <div class="mnote">No Phantom? <a href="https://phantom.app" target="_blank">Download here →</a></div>
+    <button class="mcancel" onclick="closeM('conMod')">Cancel</button>
+  </div>
+</div>
+
+<!-- WALLET INFO -->
+<div class="ov" id="walMod">
+  <div class="modal">
+    <div class="mtitle">👻 Phantom Wallet</div>
+    <div class="wbal" id="wBal">0.00</div>
+    <div class="wlbl">SOL Balance</div>
+    <div style="font-size:10px;color:var(--mu);text-transform:uppercase;letter-spacing:1px">Address</div>
+    <div class="waddr" id="wAddr">—</div>
+    <button class="mcancel" onclick="closeM('walMod')">Close</button>
+    <button class="disco" onclick="disconn()">Disconnect</button>
+  </div>
+</div>
+
+<!-- NOTIF MODAL -->
+<div class="ov" id="notifMod">
+  <div class="modal" style="max-height:80vh;overflow-y:auto">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+      <div class="mtitle">🔔 Notifications</div>
+      <button onclick="clearNotifs()" style="background:none;border:none;color:var(--mu);font-size:11px;cursor:pointer">Clear all</button>
+    </div>
+    <div id="notifList"><div style="text-align:center;color:var(--mu);font-size:12px;padding:20px">No notifications yet</div></div>
+    <button class="mcancel" onclick="closeM('notifMod')">Close</button>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const REPO = "faisalkhattak7997-tech/solana-trade-bot";
+const WALLET_ADDR = "Cc5hAzoAiuxksmU5MEX6dvjtWxVXSZp8WM4rDNyq9PzL";
+const HELIUS = "https://mainnet.helius-rpc.com/?api-key=08d214d9-315d-40d5-90e1-54638e2c9508";
+
+// ── Theme ──
+function toggleTheme(){
+  const html = document.documentElement;
+  const isDark = html.getAttribute('data-theme') === 'dark';
+  const newTheme = isDark ? 'light' : 'dark';
+  html.setAttribute('data-theme', newTheme);
+  document.getElementById('themeBtn').textContent = newTheme === 'dark' ? '🌙' : '☀️';
+  localStorage.setItem('theme', newTheme);
+  toast(newTheme === 'light' ? '☀️ Light mode' : '🌙 Dark mode');
+}
+// Load saved theme
+const savedTheme = localStorage.getItem('theme') || 'dark';
+document.documentElement.setAttribute('data-theme', savedTheme);
+window.addEventListener('load', () => {
+  document.getElementById('themeBtn').textContent = savedTheme === 'dark' ? '🌙' : '☀️';
+});
+
+function fmt(n){
+  if(n>=1e9) return (n/1e9).toFixed(1)+'B';
+  if(n>=1e6) return (n/1e6).toFixed(1)+'M';
+  if(n>=1e3) return (n/1e3).toFixed(1)+'K';
+  return parseFloat(n||0).toFixed(0);
+}
+
+function toast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg; t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),3000);
+}
+
+// ── Fetch prices ──
+async function fetchPrices(){
+  try{
+    const r=await fetch('https://api.coingecko.com/api/v3/simple/price?ids=solana,bitcoin,ethereum,binancecoin&vs_currencies=usd&include_24hr_change=true&include_24hr_high=true&include_24hr_low=true&include_24hr_vol=true');
+    const d=await r.json();
+    function setT(idP,idC,price,ch){
+      document.getElementById(idP).textContent=price;
+      const el=document.getElementById(idC);
+      el.textContent=(ch>=0?'+':'')+ch.toFixed(2)+'%';
+      el.className='tc '+(ch>=0?'up':'dn');
+    }
+    const sol=d.solana;
+    setT('solP','solC',sol.usd.toFixed(2),sol.usd_24h_change);
+    setT('btcP','btcC',d.bitcoin.usd.toLocaleString(),d.bitcoin.usd_24h_change);
+    setT('ethP','ethC',d.ethereum.usd.toFixed(0),d.ethereum.usd_24h_change);
+    setT('bnbP','bnbC',d.binancecoin.usd.toFixed(1),d.binancecoin.usd_24h_change);
+    document.getElementById('pBig').textContent='$'+sol.usd.toFixed(2);
+    const up=sol.usd_24h_change>=0;
+    document.getElementById('pCh').textContent=(up?'▲ +':'▼ ')+sol.usd_24h_change.toFixed(2)+'%';
+    document.getElementById('pCh').style.color=up?'var(--g)':'var(--r)';
+    if(sol.usd_24h_high) document.getElementById('hi').textContent='$'+sol.usd_24h_high.toFixed(2);
+    if(sol.usd_24h_low) document.getElementById('lo').textContent='$'+sol.usd_24h_low.toFixed(2);
+    if(sol.usd_24h_vol) document.getElementById('vol').textContent='$'+fmt(sol.usd_24h_vol);
+  }catch(e){}
+}
+
+// ── Fetch balance via Helius ──
+async function fetchBalance(){
+  try{
+    const r=await fetch(HELIUS,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({jsonrpc:'2.0',id:1,method:'getBalance',params:[WALLET_ADDR]})
+    });
+    const d=await r.json();
+    if(d.result?.value !== undefined){
+      const bal=(d.result.value/1e9).toFixed(4);
+      document.getElementById('balPill').textContent=bal+' SOL';
+      document.getElementById('wBal').textContent=bal;
+    }
+  }catch(e){}
+}
+
+// ── Load signals ──
+let lastSigCount=0, lastTradeCount=0;
+async function loadData(){
+  const btn=document.getElementById('rfBtn');
+  btn.textContent='⟳...'; btn.disabled=true;
+  try{
+    const r=await fetch(`https://raw.githubusercontent.com/${REPO}/main/signals.json?t=${Date.now()}`);
+    if(!r.ok) throw new Error();
+    const d=await r.json();
+
+    // Filter STRONG BUY only
+    const strongBuys=(d.signals||[]).filter(s=>s.label==='STRONG BUY');
+
+    document.getElementById('sigHdr').textContent=strongBuys.length+' Live';
+    document.getElementById('sigCount').textContent=strongBuys.length;
+    document.getElementById('lastScan').textContent=d.last_scan?.slice(11,19)||'--';
+    document.getElementById('totScans').textContent=d.stats?.scans||0;
+    document.getElementById('stSig').textContent=d.stats?.signals||0;
+    document.getElementById('stTrd').textContent=d.stats?.trades||0;
+
+    if(d.wallet?.balance!==undefined){
+      const b=parseFloat(d.wallet.balance||0).toFixed(4);
+      document.getElementById('balPill').textContent=b+' SOL';
+      document.getElementById('wBal').textContent=b;
+    }
+    if(d.wallet?.address) document.getElementById('wAddr').textContent=d.wallet.address;
+
+    // Check new strong buys for notifications
+    if(strongBuys.length>lastSigCount && lastSigCount>0){
+      const newOnes=strongBuys.slice(0,strongBuys.length-lastSigCount);
+      newOnes.forEach(s=>addNotif('⚡',`STRONG BUY: ${s.symbol}`,`+${parseFloat(s.change_1h||0).toFixed(0)}% | Score: ${s.score}/100`));
+    }
+    if((d.trades||[]).length>lastTradeCount && lastTradeCount>0){
+      addNotif('✅','Trade Executed!',`${d.trades[0].symbol} bought`);
+    }
+    lastSigCount=strongBuys.length;
+    lastTradeCount=(d.trades||[]).length;
+
+    renderSignals(strongBuys);
+    renderTrades(d.trades||[]);
+  }catch(e){
+    document.getElementById('sigList').innerHTML=`<div class="empty"><div class="ei">🤖</div><div class="et">Bot hasn't run yet</div><div class="es">Waiting for first scan...</div></div>`;
+    document.getElementById('sigCount').textContent='0';
+  }
+  btn.textContent='↻ Refresh'; btn.disabled=false;
+}
+
+function renderSignals(sigs){
+  const el=document.getElementById('sigList');
+  if(!sigs.length){
+    el.innerHTML=`<div class="empty">
+      <div class="ei">🔍</div>
+      <div class="et">No Strong Buy Signals Yet</div>
+      <div class="es">Bot only shows score 70+ signals<br>Scanning every 5 minutes...</div>
+    </div>`;
+    return;
+  }
+  el.innerHTML=sigs.map(s=>{
+    const chg=parseFloat(s.change_1h||0).toFixed(0);
+    const sc=s.score||0;
+    return `<div class="si">
+      <div class="si-badge">⚡ STRONG BUY</div>
+      <div class="si-name">${s.token}</div>
+      <div class="si-pair">${s.symbol}/SOL · Raydium</div>
+      <div class="si-grid">
+        <div class="si-cell"><div class="si-lbl">1h Change</div><div class="si-val g">+${chg}%</div></div>
+        <div class="si-cell"><div class="si-lbl">Liquidity</div><div class="si-val n">$${fmt(s.liquidity||0)}</div></div>
+        <div class="si-cell"><div class="si-lbl">Volume 1h</div><div class="si-val b">$${fmt(s.volume_1h||0)}</div></div>
+        <div class="si-cell"><div class="si-lbl">Market Cap</div><div class="si-val y">$${fmt(s.mcap||0)}</div></div>
+      </div>
+      <div class="si-score">
+        <div class="score-bar"><div class="score-fill" style="width:${sc}%"></div></div>
+        <div class="score-txt">Score: ${sc}/100</div>
+      </div>
+      ${s.narrative ? `<div style="margin-bottom:8px"><span style="font-size:10px;font-weight:600;background:rgba(24,144,255,0.1);color:var(--bl);padding:3px 8px;border-radius:12px;border:1px solid rgba(24,144,255,0.2)">${s.narrative}</span></div>` : ''}
+      <div class="si-footer">
+        <span class="si-time">${s.date} ${s.time}</span>
+        ${s.dex_url?`<a class="dlink" href="${s.dex_url}" target="_blank">View DEX →</a>`:''}
+        ${s.traded?'<span class="traded-tag">✅ Traded</span>':''}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderTrades(trades){
+  const el=document.getElementById('trdHist');
+  if(!trades.length){el.innerHTML='<div style="padding:16px;text-align:center;color:var(--mu);font-size:12px">No trades yet</div>';return;}
+  el.innerHTML=trades.slice(0,20).map(t=>`
+    <div class="trow">
+      <div class="tc1">${t.symbol}</div>
+      <div class="tc2">$${parseFloat(t.buy_price||0).toFixed(6)}</div>
+      <div class="tc3" style="color:${t.status==='OPEN'?'var(--y)':t.status==='WIN'?'var(--g)':'var(--r)'}">${t.status}</div>
+      <div class="tc4"><a href="https://solscan.io/tx/${t.buy_tx}" target="_blank" style="color:var(--bl);font-size:10px">View</a></div>
+    </div>`).join('');
+}
+
+// ── Nav ──
+function showSec(name,btn){
+  document.querySelectorAll('.sec').forEach(s=>s.classList.remove('on'));
+  document.querySelectorAll('.nb').forEach(b=>b.classList.remove('on'));
+  document.getElementById('tab-'+name).classList.add('on');
+  btn.classList.add('on');
+}
+
+function setTab(type,el){
+  document.querySelectorAll('.ttab').forEach(t=>t.classList.remove('on'));
+  el.classList.add('on');
+  const b=document.getElementById('tradeBtn');
+  if(type==='buy'){b.className='buybtn';b.textContent='BUY SOL';}
+  else{b.className='sellbtn';b.textContent='SELL SOL';}
+}
+
+function doTrade(){
+  if(!window._wc){toast('⚠ Connect wallet first!');openWallet();return;}
+  toast('✓ Order placed!');
+}
+
+// ── Modals ──
+function openWallet(){document.getElementById(window._wc?'walMod':'conMod').classList.add('show');}
+function closeM(id){document.getElementById(id).classList.remove('show');}
+document.querySelectorAll('.ov').forEach(o=>o.addEventListener('click',e=>{if(e.target===o)o.classList.remove('show');}));
+
+// ── Phantom ──
+function connectPh(){
+  const p=window.phantom?.solana||window.solana;
+  if(p&&p.isPhantom){
+    p.connect().then(r=>onConn(r.publicKey.toString())).catch(()=>{toast('Cancelled');closeM('conMod');});
+    return;
+  }
+  const app=encodeURIComponent('https://faisalkhattak7997-tech.github.io');
+  const red=encodeURIComponent(window.location.href.split('?')[0]);
+  window.location.href=`https://phantom.app/ul/v1/connect?app_url=${app}&redirect_link=${red}&cluster=mainnet-beta`;
+  closeM('conMod'); toast('Opening Phantom...');
+}
+
+function onConn(pk){
+  window._wc=true;
+  const short=pk.slice(0,4)+'...'+pk.slice(-4);
+  const b=document.getElementById('walletBtn');
+  b.innerHTML='<span class="dot"></span> '+short;
+  b.classList.add('on');
+  document.getElementById('wAddr').textContent=pk;
+  closeM('conMod'); toast('✓ Wallet connected!');
+}
+
+function disconn(){
+  const p=window.phantom?.solana||window.solana;
+  if(p) p.disconnect();
+  window._wc=false;
+  const b=document.getElementById('walletBtn');
+  b.innerHTML='Connect'; b.classList.remove('on');
+  closeM('walMod'); toast('Disconnected');
+}
+
+function snipe(){
+  if(!window._wc){toast('⚠ Connect wallet first!');openWallet();return;}
+  const a=document.getElementById('snAddr').value.trim();
+  if(!a){toast('⚠ Enter token address');return;}
+  toast('🎯 Sniping '+a.slice(0,8)+'...');
+}
+
+// ── Notifications ──
+var notifs=[];
+function addNotif(icon,title,msg){
+  notifs.unshift({icon,title,msg,time:new Date().toLocaleTimeString()});
+  if(notifs.length>50) notifs=notifs.slice(0,50);
+  updateBadge();
+  toast(icon+' '+title);
+  if(Notification&&Notification.permission==='granted'){
+    new Notification('SolSniper: '+title,{body:msg});
+  }
+}
+function updateBadge(){
+  const b=document.getElementById('notifBadge');
+  if(notifs.length>0){b.style.display='flex';b.textContent=notifs.length>99?'99+':notifs.length;}
+  else{b.style.display='none';}
+}
+function openNotifs(){
+  const el=document.getElementById('notifList');
+  if(!notifs.length){el.innerHTML='<div style="text-align:center;color:var(--mu);font-size:12px;padding:20px">No notifications yet</div>';}
+  else{el.innerHTML=notifs.map(n=>`<div style="padding:10px 0;border-bottom:1px solid var(--br)"><div style="display:flex;justify-content:space-between"><div style="font-size:13px;font-weight:600">${n.icon} ${n.title}</div><div style="font-size:10px;color:var(--mu)">${n.time}</div></div><div style="font-size:11px;color:var(--mu);margin-top:3px">${n.msg}</div></div>`).join('');}
+  document.getElementById('notifMod').classList.add('show');
+}
+function clearNotifs(){
+  notifs=[];updateBadge();
+  document.getElementById('notifList').innerHTML='<div style="text-align:center;color:var(--mu);font-size:12px;padding:20px">No notifications yet</div>';
+}
+
+if(Notification&&Notification.permission==='default') Notification.requestPermission();
+
+// ── Auto connect ──
+window.addEventListener('load',async()=>{
+  const p=window.phantom?.solana||window.solana;
+  if(p&&p.isPhantom){
+    try{const r=await p.connect({onlyIfTrusted:true});onConn(r.publicKey.toString());}catch(e){}
+  }
+  fetchPrices();
+  fetchBalance();
+  loadData();
+});
+
+setInterval(()=>{loadData();fetchPrices();fetchBalance();},5*60*1000);
+</script>
+</body>
+</html>
