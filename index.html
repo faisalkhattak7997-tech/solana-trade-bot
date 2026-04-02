@@ -169,6 +169,12 @@ body { background:var(--bg); color:var(--tx); font-family:'Inter',sans-serif; fo
 .bgiv.y { color:var(--y); }
 .ftrow { display:flex; justify-content:space-between; padding:9px 12px; border-bottom:1px solid var(--br); }
 .ftrow:last-child { border:none; }
+.toggle{position:relative;width:42px;height:22px;flex-shrink:0}
+.toggle input{opacity:0;width:0;height:0}
+.tsl{position:absolute;top:0;left:0;right:0;bottom:0;background:var(--dm);border-radius:22px;cursor:pointer;transition:.3s}
+.tsl:before{content:'';position:absolute;width:16px;height:16px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.3s}
+input:checked+.tsl{background:var(--g)}
+input:checked+.tsl:before{transform:translateX(20px)}
 .ftl { color:var(--mu); font-size:12px; }
 .ftv { font-size:12px; font-weight:600; color:var(--bl); }
 
@@ -303,6 +309,24 @@ body { background:var(--bg); color:var(--tx); font-family:'Inter',sans-serif; fo
         <div class="bgi"><div class="bgil">Total Scans</div><div class="bgiv y" id="totScans">--</div></div>
       </div>
     </div>
+    <div class="card">
+      <div class="ch"><div class="cht">Bot Controls</div></div>
+      <div style="padding:12px;display:flex;flex-direction:column;gap:10px">
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--br)">
+          <div><div style="font-size:13px;font-weight:500">Auto Trading</div><div style="font-size:11px;color:var(--mu);margin-top:2px">Set AUTOTRADE=true in GitHub Secrets</div></div>
+          <label class="toggle"><input type="checkbox" id="autoCheck" onchange="toggleAuto(this)"><span class="tsl"></span></label>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--br)">
+          <div><div style="font-size:13px;font-weight:500">Rug Protection</div><div style="font-size:11px;color:var(--mu);margin-top:2px">Buy/sell ratio + liquidity check</div></div>
+          <label class="toggle"><input type="checkbox" checked><span class="tsl"></span></label>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0">
+          <div><div style="font-size:13px;font-weight:500">Narrative Filter</div><div style="font-size:11px;color:var(--mu);margin-top:2px">AI, PolitiFi, Animal, Community</div></div>
+          <label class="toggle"><input type="checkbox" checked><span class="tsl"></span></label>
+        </div>
+      </div>
+    </div>
+
     <div class="card">
       <div class="ch"><div class="cht">Active Filters</div></div>
       <div class="ftrow"><span class="ftl">Signal Type</span><span class="ftv">⚡ Strong Buy Only</span></div>
@@ -648,6 +672,13 @@ function clearNotifs(){
 }
 
 if(Notification&&Notification.permission==='default') Notification.requestPermission();
+
+function toggleAuto(el){
+  if(el.checked){
+    toast('⚠ Enable AUTOTRADE=true in GitHub Secrets to activate');
+    el.checked = false;
+  }
+}
 
 // ── Auto connect ──
 window.addEventListener('load',async()=>{
