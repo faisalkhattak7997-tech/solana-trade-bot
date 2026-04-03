@@ -1,6 +1,71 @@
 {
   "signals": [
     {
+      "token": "Tung Tung Tung Sahur",
+      "symbol": "TripleT",
+      "address": "Cg8ioBEREePk6FumB1n8X4tF2S2gDVe3FnVa9yZZpump",
+      "label": "WATCH",
+      "score": 40,
+      "tech_score": 40,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 4.642e-05,
+      "change_1h": 40.31,
+      "liquidity": 16593.56,
+      "volume_1h": 209014.81,
+      "mcap": 46421.0,
+      "dex_url": "https://dexscreener.com/solana/5lzmyfugjyz9nzka661zzxzyrns9xo9tc3uj98aoi1jr",
+      "time": "21:50:43",
+      "date": "2026-04-03",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "dumptruck",
+      "symbol": "DUMPTRUCK",
+      "address": "AZ85CxUBw9G8DeddCmbQBEKmvfiUHAEpw94aPXgopump",
+      "label": "WATCH",
+      "score": 45,
+      "tech_score": 45,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001875,
+      "change_1h": 27.32,
+      "liquidity": 35710.14,
+      "volume_1h": 818059.48,
+      "mcap": 187530.0,
+      "dex_url": "https://dexscreener.com/solana/f22vcgp1xpgyqtqo4cwrmqp88er2vc3syyhhex6iudsk",
+      "time": "21:50:44",
+      "date": "2026-04-03",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "\u30b8\u30e3\u30f3\u30b1\u30c3\u30c8\u30d0\u30f3\u30af",
+      "symbol": "JUNKETBANK",
+      "address": "3Le8ZkQnnUggocKjPyCKXrriVyNDAtxWBjpyMuS4pump",
+      "label": "WATCH",
+      "score": 33,
+      "tech_score": 23,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 2.292e-05,
+      "change_1h": 13.16,
+      "liquidity": 11399.75,
+      "volume_1h": 1274.75,
+      "mcap": 22929.0,
+      "dex_url": "https://dexscreener.com/solana/cnsbhhh7c1wzqbbvbqjuiwnhno2hd6na9pl7q7vq2cjd",
+      "time": "21:50:44",
+      "date": "2026-04-03",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "JEO BODEN",
       "symbol": "BODEN",
       "address": "9yhBFvWeaPEeRVsX42ATp4TH3bRjEZTd4FAsWBz9pump",
@@ -1024,85 +1089,17 @@
       "date": "2026-04-02",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "PEPE",
-      "symbol": "PEPE",
-      "address": "Drfv7jnfTXpEMuppzBZnBxpSyfpTWUqeTqMhoGfzpump",
-      "label": "BUY",
-      "score": 68,
-      "tech_score": 48,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 5.885e-05,
-      "change_1h": 80.84,
-      "liquidity": 18235.37,
-      "volume_1h": 136704.82,
-      "mcap": 58852.0,
-      "dex_url": "https://dexscreener.com/solana/862wyuennwz2dcfahzb7bnmv8gstqwnzq26wbg76ipiz",
-      "time": "21:55:24",
-      "date": "2026-04-02",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Lens",
-      "symbol": "LENS",
-      "address": "7FinZs9DTvrqQ55iRcoqcwGyTJK14v65wPJsLNoepump",
-      "label": "WATCH",
-      "score": 35,
-      "tech_score": 35,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 3.083e-05,
-      "change_1h": 70.89,
-      "liquidity": 13099.83,
-      "volume_1h": 25518.08,
-      "mcap": 30833.0,
-      "dex_url": "https://dexscreener.com/solana/5xqntje8ymiy1yzqga6dwicekkrhkwemjjef22htgbic",
-      "time": "21:55:24",
-      "date": "2026-04-02",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "spongmonkeys",
-      "symbol": "spong",
-      "address": "A1zvkas7XaGYaV9ztokfN11VwaiNGHkhqGCi4AYwpump",
-      "label": "WATCH",
-      "score": 45,
-      "tech_score": 25,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal",
-        "\ud83d\ude80 Pump.fun"
-      ],
-      "price": 0.0001141,
-      "change_1h": 1.78,
-      "liquidity": 25417.64,
-      "volume_1h": 10170.11,
-      "mcap": 114135.0,
-      "dex_url": "https://dexscreener.com/solana/7kiwgewlm4ec35jzps4eszkypgxcwfi5vsgfcajvtuor",
-      "time": "21:55:25",
-      "date": "2026-04-02",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 207,
-    "signals": 785,
+    "scans": 208,
+    "signals": 788,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-03 19:54:53 UTC"
+  "last_scan": "2026-04-03 21:50:41 UTC"
 }
