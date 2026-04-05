@@ -5,6 +5,29 @@
       "symbol": "scubacat",
       "address": "EBKPekNusjfKt3Dmpuu2in8KC3pJVXYJYP8ESRi8pump",
       "label": "STRONG BUY",
+      "score": 83,
+      "tech_score": 63,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0001139,
+      "change_1h": 245.0,
+      "liquidity": 26180.92,
+      "volume_1h": 369581.3,
+      "mcap": 113908.0,
+      "dex_url": "https://dexscreener.com/solana/6kzqv7syjwr7gepuux4d95qwnhjjus75v4lrdmecjfnl",
+      "time": "17:03:59",
+      "date": "2026-04-05",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "scuba cat",
+      "symbol": "scubacat",
+      "address": "EBKPekNusjfKt3Dmpuu2in8KC3pJVXYJYP8ESRi8pump",
+      "label": "STRONG BUY",
       "score": 76,
       "tech_score": 56,
       "narr_bonus": 20,
@@ -1060,40 +1083,17 @@
       "date": "2026-04-05",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Pluto the Penguin",
-      "symbol": "Pluto",
-      "address": "3WsibZCj7dpyJduiXfFSDpbFpeaAKUB2eHY3VQdtpump",
-      "label": "BUY",
-      "score": 54,
-      "tech_score": 34,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0001363,
-      "change_1h": 16.09,
-      "liquidity": 28667.25,
-      "volume_1h": 235998.45,
-      "mcap": 136337.0,
-      "dex_url": "https://dexscreener.com/solana/b2lkgqpw4fhbr11avyti1cuknvvegvemm6j32gcg7fho",
-      "time": "11:18:39",
-      "date": "2026-04-05",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 237,
-    "signals": 950,
+    "scans": 238,
+    "signals": 951,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-05 16:31:33 UTC"
+  "last_scan": "2026-04-05 17:03:58 UTC"
 }
