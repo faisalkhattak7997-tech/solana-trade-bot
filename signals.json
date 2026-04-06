@@ -1,6 +1,27 @@
 {
   "signals": [
     {
+      "token": "\u3061\u3044\u304b\u308f",
+      "symbol": "Chiikawa",
+      "address": "2c1KjiyQow66QfsnCtoyuqfo3AuxgpBMEoAq5oiiXqdu",
+      "label": "WATCH",
+      "score": 48,
+      "tech_score": 48,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 5.376e-05,
+      "change_1h": 58.25,
+      "liquidity": 17767.01,
+      "volume_1h": 167912.41,
+      "mcap": 53766.0,
+      "dex_url": "https://dexscreener.com/solana/ey75tsmuy7gnb3noq7pdcjg8gxczthou6h6xjwccfvh3",
+      "time": "16:11:09",
+      "date": "2026-04-06",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "dream big",
       "symbol": "dream",
       "address": "DbfxHfVSXAbxKRUgyASumggGE1BAZpYFZkhnHfNQpump",
@@ -1077,38 +1098,17 @@
       "date": "2026-04-06",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "NUGGETS",
-      "symbol": "NUGGETS",
-      "address": "pDmgyd6CgmRZLoErUrdqkyc3q5xWcHfiKug1UPVpump",
-      "label": "WATCH",
-      "score": 40,
-      "tech_score": 40,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0001225,
-      "change_1h": 32.39,
-      "liquidity": 27742.65,
-      "volume_1h": 178394.4,
-      "mcap": 122509.0,
-      "dex_url": "https://dexscreener.com/solana/5eas1jbalneruugqjpbyvfqgjz4vsthzmcuzvbr2w2un",
-      "time": "06:10:42",
-      "date": "2026-04-06",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 260,
-    "signals": 1075,
+    "scans": 261,
+    "signals": 1076,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-06 15:29:57 UTC"
+  "last_scan": "2026-04-06 16:11:08 UTC"
 }
