@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "The backyard of the",
+      "symbol": "MOON",
+      "address": "BdLpbJSXrBpCZKDxd1LYD7MMkR8CfMhrrT8evJA4pump",
+      "label": "STRONG BUY",
+      "score": 91,
+      "tech_score": 73,
+      "narr_bonus": 18,
+      "narrative": "\ud83d\ude80 Pump.fun",
+      "all_narratives": [
+        "\ud83d\ude80 Pump.fun"
+      ],
+      "price": 0.0001654,
+      "change_1h": 390.0,
+      "liquidity": 32937.54,
+      "volume_1h": 1004545.13,
+      "mcap": 165436.0,
+      "dex_url": "https://dexscreener.com/solana/cvrnplrmn9sb5h8jdv4wmywdmhrktb8nrwkmbzxikynw",
+      "time": "21:58:58",
+      "date": "2026-04-06",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "this is going to zero",
+      "symbol": "zero",
+      "address": "ANqi2nVUuytWiMXK5KDSnPpUxsG9JP6yCsoEztiopump",
+      "label": "WATCH",
+      "score": 43,
+      "tech_score": 43,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 6.179e-05,
+      "change_1h": 84.24,
+      "liquidity": 18971.43,
+      "volume_1h": 79895.23,
+      "mcap": 61795.0,
+      "dex_url": "https://dexscreener.com/solana/8sbkncfeudpdgddxkeduz52mzhb7bwbksafqchviiedj",
+      "time": "21:58:59",
+      "date": "2026-04-06",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "STNKS",
       "symbol": "STNKS",
       "address": "9h49YjtCDHfvdDwiDkcr1YsqTm59dX3y6GtbcjSXpump",
@@ -1064,61 +1108,17 @@
       "date": "2026-04-06",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "BIT10 SOL",
-      "symbol": "BIT10SOL",
-      "address": "9g2yB2v4AweqiZhYNYEUjNvvagRcp65Hoyf9265ohukf",
-      "label": "WATCH",
-      "score": 35,
-      "tech_score": 25,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 6.832e-05,
-      "change_1h": 3.48,
-      "liquidity": 23533.65,
-      "volume_1h": 58501.03,
-      "mcap": 0.0,
-      "dex_url": "https://dexscreener.com/solana/4dbhfpeqqji8c6acnca4fywxvc2wazkghgp4vpwpyaxn",
-      "time": "14:37:14",
-      "date": "2026-04-06",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "TRAP",
-      "symbol": "TRAP",
-      "address": "3rmTtuMfZ2tSnYb64Y5KKaF8urjXEegy7rzzNoBcTRAP",
-      "label": "STRONG BUY",
-      "score": 74,
-      "tech_score": 74,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.00265,
-      "change_1h": 177341.0,
-      "liquidity": 125386.19,
-      "volume_1h": 69216.69,
-      "mcap": 2650232.0,
-      "dex_url": "https://dexscreener.com/solana/5n1tc4zh7ayfsdwp6fcbfjmezc3jtpqw5ja4xbtdbxhu",
-      "time": "14:37:15",
-      "date": "2026-04-06",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 267,
-    "signals": 1119,
+    "scans": 268,
+    "signals": 1121,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-06 21:25:20 UTC"
+  "last_scan": "2026-04-06 21:58:58 UTC"
 }
