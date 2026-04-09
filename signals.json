@@ -1,6 +1,97 @@
 {
   "signals": [
     {
+      "token": "PEPE TRUMP",
+      "symbol": "PETE",
+      "address": "7PBaeW8sBtZPNfYUjCncpaRHgSpShMRQw9MT3MxEpump",
+      "label": "STRONG BUY",
+      "score": 78,
+      "tech_score": 56,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi",
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0001199,
+      "change_1h": 189.0,
+      "liquidity": 26562.45,
+      "volume_1h": 126131.84,
+      "mcap": 119947.0,
+      "dex_url": "https://dexscreener.com/solana/fmt2onj3abkrudbxm1lykndy3cpe6fs9ahl6yizh3wqr",
+      "time": "04:11:49",
+      "date": "2026-04-09",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "KUNEKUNE",
+      "symbol": "KUNEKUNE",
+      "address": "3QakkeCux4FtnvwWapVfVZYxCd6ETqpP5oTyjca1pump",
+      "label": "BUY",
+      "score": 68,
+      "tech_score": 68,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0003442,
+      "change_1h": 768.0,
+      "liquidity": 45595.2,
+      "volume_1h": 359045.26,
+      "mcap": 344255.0,
+      "dex_url": "https://dexscreener.com/solana/c6ct98eexpdwhfwbjgx352mibfvbisldcjdeanacspk8",
+      "time": "04:11:50",
+      "date": "2026-04-09",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Global Nuclear War Reserve",
+      "symbol": "GNWR",
+      "address": "E68mB566wAGMrxuk4Y779QxjyQkUzZffLpVXAbty4X9v",
+      "label": "WATCH",
+      "score": 48,
+      "tech_score": 30,
+      "narr_bonus": 18,
+      "narrative": "\ud83d\ude80 Pump.fun",
+      "all_narratives": [
+        "\ud83d\ude80 Pump.fun"
+      ],
+      "price": 0.00675,
+      "change_1h": 13.58,
+      "liquidity": 210773.39,
+      "volume_1h": 251215.67,
+      "mcap": 6750604.0,
+      "dex_url": "https://dexscreener.com/solana/8n3xdzkmz3iba3kbzxgpbqv3bsecsmusg63nn2k89scg",
+      "time": "04:11:53",
+      "date": "2026-04-09",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Art Of Word",
+      "symbol": "AOW",
+      "address": "9AwxXyhehSMyoKH54doKGg4fCetxvPGtUPFt77Rpump",
+      "label": "BUY",
+      "score": 52,
+      "tech_score": 40,
+      "narr_bonus": 12,
+      "narrative": "\ud83d\ude02 Meme Culture",
+      "all_narratives": [
+        "\ud83d\ude02 Meme Culture"
+      ],
+      "price": 0.001633,
+      "change_1h": 16.55,
+      "liquidity": 114374.91,
+      "volume_1h": 724322.06,
+      "mcap": 1633512.0,
+      "dex_url": "https://dexscreener.com/solana/dcejdiknr1lxbtgkzrwbymymtcqfxvfmamzf8vhy64qg",
+      "time": "04:11:53",
+      "date": "2026-04-09",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "\u30d1\u30f3\u30c1",
       "symbol": "PUNCH",
       "address": "H1CknM7TXz134nY5YT7KUYG6fL2Egn4ieLyzkTk7BAGS",
@@ -1009,109 +1100,17 @@
       "date": "2026-04-08",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Solana The Jaguar",
-      "symbol": "SOLANA",
-      "address": "DZVdwzBSBautnueNyiYX1UnuHH4PQmn9Hy2SgvPXpump",
-      "label": "WATCH",
-      "score": 18,
-      "tech_score": 8,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 2.003e-06,
-      "change_1h": 10.37,
-      "liquidity": 3425.04,
-      "volume_1h": 446.94,
-      "mcap": 2003.0,
-      "dex_url": "https://dexscreener.com/solana/3huxpfee7wagpdlmk2qa2vv5vt18umaancqwbpxpcg4v",
-      "time": "19:12:43",
-      "date": "2026-04-08",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "slop coin",
-      "symbol": "SLOP",
-      "address": "2YxWYU6tHoozQEmCe3JWFxtxU67fRaD5dausryfXpump",
-      "label": "STRONG BUY",
-      "score": 73,
-      "tech_score": 63,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 6.441e-05,
-      "change_1h": 422.0,
-      "liquidity": 19999.9,
-      "volume_1h": 104447.87,
-      "mcap": 64413.0,
-      "dex_url": "https://dexscreener.com/solana/eeatbncv3najttq8v5c5pjwlvfllse4epxofgpdm19ay",
-      "time": "19:12:44",
-      "date": "2026-04-08",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "PEPE",
-      "symbol": "PEPE",
-      "address": "Drfv7jnfTXpEMuppzBZnBxpSyfpTWUqeTqMhoGfzpump",
-      "label": "BUY",
-      "score": 63,
-      "tech_score": 43,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0002131,
-      "change_1h": 27.42,
-      "liquidity": 40696.29,
-      "volume_1h": 11791.73,
-      "mcap": 200122.0,
-      "dex_url": "https://dexscreener.com/solana/862wyuennwz2dcfahzb7bnmv8gstqwnzq26wbg76ipiz",
-      "time": "19:12:44",
-      "date": "2026-04-08",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Art Of Word",
-      "symbol": "AOW",
-      "address": "9AwxXyhehSMyoKH54doKGg4fCetxvPGtUPFt77Rpump",
-      "label": "BUY",
-      "score": 65,
-      "tech_score": 53,
-      "narr_bonus": 12,
-      "narrative": "\ud83d\ude02 Meme Culture",
-      "all_narratives": [
-        "\ud83d\ude02 Meme Culture"
-      ],
-      "price": 0.0004143,
-      "change_1h": 64.69,
-      "liquidity": 53098.15,
-      "volume_1h": 652749.48,
-      "mcap": 414308.0,
-      "dex_url": "https://dexscreener.com/solana/dcejdiknr1lxbtgkzrwbymymtcqfxvfmamzf8vhy64qg",
-      "time": "17:55:12",
-      "date": "2026-04-08",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 311,
-    "signals": 1377,
+    "scans": 312,
+    "signals": 1381,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-09 01:25:27 UTC"
+  "last_scan": "2026-04-09 04:11:47 UTC"
 }
