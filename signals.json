@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "MOHM",
+      "symbol": "MOHM",
+      "address": "Faq2TqEvHwfHunDNh4p8yjbznMa7iKqjoqRMczNJpump",
+      "label": "WATCH",
+      "score": 41,
+      "tech_score": 41,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 1.252e-05,
+      "change_1h": 158.0,
+      "liquidity": 1887.71,
+      "volume_1h": 11462.1,
+      "mcap": 25055.0,
+      "dex_url": "https://dexscreener.com/solana/fxrscy2y2o2yvnjjfmyytb5qhrzmqga4azyjyknewhho",
+      "time": "23:01:31",
+      "date": "2026-04-10",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Lola the Otter",
+      "symbol": "LOLA",
+      "address": "7BeoEbgJepbf4mAyw4PZ48TcgrDK25kR7zexV42Apump",
+      "label": "WATCH",
+      "score": 47,
+      "tech_score": 35,
+      "narr_bonus": 12,
+      "narrative": "\ud83d\ude02 Meme Culture",
+      "all_narratives": [
+        "\ud83d\ude02 Meme Culture"
+      ],
+      "price": 0.0003565,
+      "change_1h": 24.1,
+      "liquidity": 63868.63,
+      "volume_1h": 45710.51,
+      "mcap": 356512.0,
+      "dex_url": "https://dexscreener.com/solana/di86dbvyd5w26oktp6vo3nmupw5cv2fqu3r8gcuz3jjf",
+      "time": "23:01:32",
+      "date": "2026-04-10",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Skibidi Toilet",
       "symbol": "Skibidi",
       "address": "FFvp48WygUSxCCNP3n9Zu5G7F2yatwXQHbpD2Mkkpump",
@@ -1057,59 +1101,17 @@
       "date": "2026-04-10",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "\u306b\u3089",
-      "symbol": "Nira-Chan",
-      "address": "7q6de497FfUciebhmxijXxExgUS1AMaS8A4ke1w5pump",
-      "label": "WATCH",
-      "score": 35,
-      "tech_score": 35,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 2.899e-05,
-      "change_1h": 56.89,
-      "liquidity": 13261.79,
-      "volume_1h": 15548.48,
-      "mcap": 28996.0,
-      "dex_url": "https://dexscreener.com/solana/j8evdcany6ha6v6uwyvzvfd1txhabldkkj99nc3qx3t5",
-      "time": "16:02:29",
-      "date": "2026-04-10",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "severus nigga",
-      "symbol": "SNIGGA",
-      "address": "7c5gm5fqvQuyteJ9G4pFaubqRVHuegsFXtfHJXBBpump",
-      "label": "BUY",
-      "score": 54,
-      "tech_score": 54,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.002444,
-      "change_1h": 96.1,
-      "liquidity": 134560.17,
-      "volume_1h": 1997887.65,
-      "mcap": 2419649.0,
-      "dex_url": "https://dexscreener.com/solana/4yu8biaw6mfmsnzeljgvdgnjsbbykj9gnjm31fwzruya",
-      "time": "16:02:29",
-      "date": "2026-04-10",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 348,
-    "signals": 1619,
+    "scans": 349,
+    "signals": 1621,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-10 22:22:59 UTC"
+  "last_scan": "2026-04-10 23:01:30 UTC"
 }
