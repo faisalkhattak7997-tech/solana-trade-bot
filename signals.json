@@ -1,6 +1,48 @@
 {
   "signals": [
     {
+      "token": "\u8c6a\u5343\u4ee3",
+      "symbol": "Gochiyo",
+      "address": "8KrW9F93pBZ15YDb3S3yeJHkWk39LuYo5X5X8hyypump",
+      "label": "WATCH",
+      "score": 14,
+      "tech_score": 14,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 4.828e-06,
+      "change_1h": 4.87,
+      "liquidity": 5422.45,
+      "volume_1h": 1984.41,
+      "mcap": 4828.0,
+      "dex_url": "https://dexscreener.com/solana/6uqcwhu5h7mdfju52ukqdaxzcensacc8zcyqmaqlr8wv",
+      "time": "17:01:44",
+      "date": "2026-04-11",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Retarded Boat Guy",
+      "symbol": "BOATGUY",
+      "address": "578sfyEs3dVmBDq9D4azot7YZmhUiVPY61q4AJTupump",
+      "label": "WATCH",
+      "score": 35,
+      "tech_score": 35,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001595,
+      "change_1h": 45.29,
+      "liquidity": 33820.99,
+      "volume_1h": 63728.2,
+      "mcap": 159200.0,
+      "dex_url": "https://dexscreener.com/solana/eqjeb8b8qwtbzxw6eschsedc1dtzqodgbs5tzymmho7d",
+      "time": "17:01:45",
+      "date": "2026-04-11",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "gooner",
       "symbol": "gooner",
       "address": "EaLimRLYpdL4LQ453RwQruE3kVTJGtV8YxasgGopump",
@@ -1052,62 +1094,17 @@
       "date": "2026-04-11",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "unc",
-      "symbol": "unc",
-      "address": "ACtfUWtgvaXrQGNMiohTusi5jcx5RJf5zwu9aAxkpump",
-      "label": "WATCH",
-      "score": 29,
-      "tech_score": 29,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0001275,
-      "change_1h": 10.29,
-      "liquidity": 28041.95,
-      "volume_1h": 79221.08,
-      "mcap": 127583.0,
-      "dex_url": "https://dexscreener.com/solana/bwfzkx1pmpvwxammwtrizvowzzzgifeyuyw6ee51shly",
-      "time": "09:52:11",
-      "date": "2026-04-11",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Flying Carpet Hamster",
-      "symbol": "MAGICHAM",
-      "address": "APkEs9swkWy6r6Rbaob9dHpMMgTaekjMJieouqxiTsgM",
-      "label": "WATCH",
-      "score": 46,
-      "tech_score": 21,
-      "narr_bonus": 25,
-      "narrative": "\ud83e\udd16 AI Agent",
-      "all_narratives": [
-        "\ud83e\udd16 AI Agent",
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 2.214e-06,
-      "change_1h": 12.91,
-      "liquidity": 1863.28,
-      "volume_1h": 835.86,
-      "mcap": 2215.0,
-      "dex_url": "https://dexscreener.com/solana/2unlbsxth63ateyofwacy5cwhlhblcoht66lbhmzg7mr",
-      "time": "09:52:11",
-      "date": "2026-04-11",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 368,
-    "signals": 1709,
+    "scans": 369,
+    "signals": 1711,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-11 16:22:21 UTC"
+  "last_scan": "2026-04-11 17:01:43 UTC"
 }
