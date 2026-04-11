@@ -1,6 +1,74 @@
 {
   "signals": [
     {
+      "token": "The Lone Chick",
+      "symbol": "CHICK",
+      "address": "8x7ddW59NkKDuQFyPX3xw1uSFyge88rv1MJ2zhHDpump",
+      "label": "WATCH",
+      "score": 24,
+      "tech_score": 24,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 4.7e-06,
+      "change_1h": 27.77,
+      "liquidity": 5283.71,
+      "volume_1h": 2930.15,
+      "mcap": 4700.0,
+      "dex_url": "https://dexscreener.com/solana/5ukljjotddh4yxegzft2wttnyanv2qaznucvnj57j1dt",
+      "time": "05:17:26",
+      "date": "2026-04-11",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "chad",
+      "symbol": "chad",
+      "address": "4ehgdEQuid2AbofbvVqEWcft5Vw7KXfh3wDgLJXppump",
+      "label": "BUY",
+      "score": 61,
+      "tech_score": 43,
+      "narr_bonus": 18,
+      "narrative": "\ud83d\ude80 Pump.fun",
+      "all_narratives": [
+        "\ud83d\ude80 Pump.fun",
+        "\ud83d\ude02 Meme Culture"
+      ],
+      "price": 2.488e-05,
+      "change_1h": 142.0,
+      "liquidity": 12163.05,
+      "volume_1h": 21236.39,
+      "mcap": 24886.0,
+      "dex_url": "https://dexscreener.com/solana/fvlgcjgkj2hjxxrtqaingahzycxbajervpm5fqez1pcg",
+      "time": "05:17:26",
+      "date": "2026-04-11",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Strategic Defense Reserve Token",
+      "symbol": "SDR",
+      "address": "3DiHoTLRFzuMHmTBfo84Q22yX16Bv6XviFzgLaxnUJSe",
+      "label": "WATCH",
+      "score": 40,
+      "tech_score": 30,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.1623,
+      "change_1h": 18.22,
+      "liquidity": 234234.68,
+      "volume_1h": 258511.43,
+      "mcap": 162390304.0,
+      "dex_url": "https://dexscreener.com/solana/8jjmsujnzdd32et5q7sxpx6qnqkrbblk1exbnzfotkcp",
+      "time": "05:17:26",
+      "date": "2026-04-11",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Strategic Defense Reserve Token",
       "symbol": "SDR",
       "address": "3DiHoTLRFzuMHmTBfo84Q22yX16Bv6XviFzgLaxnUJSe",
@@ -1032,85 +1100,17 @@
       "date": "2026-04-10",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Bored of Peace",
-      "symbol": "BOP",
-      "address": "HNumANjxm2jRvib1rznxqbgSzCUDQH7DpDqn2LrFpump",
-      "label": "WATCH",
-      "score": 40,
-      "tech_score": 40,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 8.22e-05,
-      "change_1h": 47.57,
-      "liquidity": 22795.24,
-      "volume_1h": 113329.32,
-      "mcap": 82208.0,
-      "dex_url": "https://dexscreener.com/solana/exzqwrbqsee2f8yuesb5suxesg2w8dc6rphyutfaosvj",
-      "time": "17:56:30",
-      "date": "2026-04-10",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "brainrot",
-      "symbol": "brainrot",
-      "address": "9gycPgLpJBypLLm1N1RSNdyJQrXfFg9noJ7vL63bpump",
-      "label": "BUY",
-      "score": 65,
-      "tech_score": 40,
-      "narr_bonus": 25,
-      "narrative": "\ud83e\udd16 AI Agent",
-      "all_narratives": [
-        "\ud83e\udd16 AI Agent"
-      ],
-      "price": 0.0001488,
-      "change_1h": 38.51,
-      "liquidity": 44496.68,
-      "volume_1h": 8951.68,
-      "mcap": 131364.0,
-      "dex_url": "https://dexscreener.com/solana/gz4aubnwshuknadevovx9cuvxszpiyflnmrsudqkhfwr",
-      "time": "17:56:30",
-      "date": "2026-04-10",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Pepe Brain Rot",
-      "symbol": "PBR",
-      "address": "9xtAfAmqnxUTEaSnA6QRVQFNrdDoR6QrCcmzZCwwpump",
-      "label": "BUY",
-      "score": 51,
-      "tech_score": 26,
-      "narr_bonus": 25,
-      "narrative": "\ud83e\udd16 AI Agent",
-      "all_narratives": [
-        "\ud83e\udd16 AI Agent",
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 7.211e-05,
-      "change_1h": 15.92,
-      "liquidity": 20875.13,
-      "volume_1h": 823.19,
-      "mcap": 72110.0,
-      "dex_url": "https://dexscreener.com/solana/3cgqmcqakrs8tjsfdwjp7zvab6euzdahwgmw42glzpwz",
-      "time": "17:56:30",
-      "date": "2026-04-10",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 352,
-    "signals": 1631,
+    "scans": 353,
+    "signals": 1634,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-11 03:43:42 UTC"
+  "last_scan": "2026-04-11 05:17:24 UTC"
 }
