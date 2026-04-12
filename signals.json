@@ -5,6 +5,52 @@
       "symbol": "Wifejak",
       "address": "4RUKEudrEN46okm6najQhxnhs6ioKW6tzNWiCFTmpump",
       "label": "STRONG BUY",
+      "score": 72,
+      "tech_score": 52,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0002355,
+      "change_1h": 31.41,
+      "liquidity": 38446.78,
+      "volume_1h": 270361.35,
+      "mcap": 235593.0,
+      "dex_url": "https://dexscreener.com/solana/3mfqirqewskhouwaf4h7rqfywhtd9xdg2xp4rns9hsyx",
+      "time": "13:21:58",
+      "date": "2026-04-12",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "chair sydney",
+      "symbol": "sydney",
+      "address": "GfKymcZ95xcJbmgYv9TTTx75f2XWt7S2uSkQVWCWpump",
+      "label": "STRONG BUY",
+      "score": 70,
+      "tech_score": 45,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent"
+      ],
+      "price": 8.964e-05,
+      "change_1h": 4.24,
+      "liquidity": 24425.0,
+      "volume_1h": 175657.13,
+      "mcap": 89646.0,
+      "dex_url": "https://dexscreener.com/solana/2fknhjopasvfg6ldvk85l9xbzjnwfuybd8bfgj7mapwq",
+      "time": "13:21:59",
+      "date": "2026-04-12",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Wifejak",
+      "symbol": "Wifejak",
+      "address": "4RUKEudrEN46okm6najQhxnhs6ioKW6tzNWiCFTmpump",
+      "label": "STRONG BUY",
       "score": 98,
       "tech_score": 78,
       "narr_bonus": 20,
@@ -1056,63 +1102,17 @@
       "date": "2026-04-12",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Mogcoin",
-      "symbol": "MOG",
-      "address": "8yeUyEaxBkBgcG5i22zR6JiLmVPbA3p6FUBHjFLFpump",
-      "label": "WATCH",
-      "score": 28,
-      "tech_score": 18,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 5.621e-06,
-      "change_1h": 14.35,
-      "liquidity": 5888.59,
-      "volume_1h": 1206.67,
-      "mcap": 5621.0,
-      "dex_url": "https://dexscreener.com/solana/8jl5pbxjqyhxzgwydyzhvdifvusip7kwzu8zcggssrzk",
-      "time": "01:09:23",
-      "date": "2026-04-12",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Dolores Trump",
-      "symbol": "TRUMP47",
-      "address": "BRKFJs1jxrYBKR5sxBiuxTTbyipNBmT6GWenb3c9pump",
-      "label": "BUY",
-      "score": 57,
-      "tech_score": 35,
-      "narr_bonus": 22,
-      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
-      "all_narratives": [
-        "\ud83c\udfdb\ufe0f PolitiFi"
-      ],
-      "price": 0.0001881,
-      "change_1h": 28.81,
-      "liquidity": 34333.38,
-      "volume_1h": 97826.66,
-      "mcap": 188170.0,
-      "dex_url": "https://dexscreener.com/solana/egca2shdhzk4sg7n6h7ygztjxptpunrrbzw231wlwedh",
-      "time": "01:09:23",
-      "date": "2026-04-12",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 390,
-    "signals": 1824,
+    "scans": 391,
+    "signals": 1826,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-12 12:02:36 UTC"
+  "last_scan": "2026-04-12 13:21:56 UTC"
 }
