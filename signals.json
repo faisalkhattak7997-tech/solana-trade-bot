@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "April Fish",
+      "symbol": "AF",
+      "address": "rTakQQum9VPYPmz7tng2e99yBytsAdR2Kc1Ljofpump",
+      "label": "BUY",
+      "score": 64,
+      "tech_score": 44,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.001163,
+      "change_1h": 13.18,
+      "liquidity": 88850.57,
+      "volume_1h": 808028.11,
+      "mcap": 1163417.0,
+      "dex_url": "https://dexscreener.com/solana/bopvibfeaxltnyttm6qsiyxqpzif2tgqjv4anjh9ze9f",
+      "time": "18:04:53",
+      "date": "2026-04-12",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "XChat",
+      "symbol": "XChat",
+      "address": "AMA59cbF8QKqCk8JSuRcVebqUqCjPCRvF74rspKZ5p2U",
+      "label": "WATCH",
+      "score": 30,
+      "tech_score": 30,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.1655,
+      "change_1h": 10.22,
+      "liquidity": 233731.93,
+      "volume_1h": 240983.57,
+      "mcap": 165597069.0,
+      "dex_url": "https://dexscreener.com/solana/61zj7ccxhn2d3hssphnnxb7u1fvzsrlstd25wlxdatoy",
+      "time": "18:04:54",
+      "date": "2026-04-12",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Pizza Coin",
       "symbol": "PIZZA",
       "address": "9VPPTamfc2nQSik4vHXp9hRXrXvsrFyzU2APtdDwpump",
@@ -1054,63 +1098,17 @@
       "date": "2026-04-12",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Global Nuclear War Reserve",
-      "symbol": "GNWR",
-      "address": "GjHiCdvt1Zeti6rdSJeCqdkNMQKcxCkShRss5rGLWwbF",
-      "label": "BUY",
-      "score": 54,
-      "tech_score": 36,
-      "narr_bonus": 18,
-      "narrative": "\ud83d\ude80 Pump.fun",
-      "all_narratives": [
-        "\ud83d\ude80 Pump.fun"
-      ],
-      "price": 0.1172,
-      "change_1h": 21.4,
-      "liquidity": 196708.8,
-      "volume_1h": 251648.58,
-      "mcap": 117228666.0,
-      "dex_url": "https://dexscreener.com/solana/38wyp9ogtnguglekt6fv7dpwurattobbo6t7fgt51ug9",
-      "time": "10:08:01",
-      "date": "2026-04-12",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Anime Bitcoin",
-      "symbol": "ANIME",
-      "address": "82MmG1uH2BWLyoU7VCFYMohP9CT63q5paiKHAAAn3zWx",
-      "label": "WATCH",
-      "score": 39,
-      "tech_score": 29,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.0003553,
-      "change_1h": 6.15,
-      "liquidity": 65382.9,
-      "volume_1h": 11074.26,
-      "mcap": 354139.0,
-      "dex_url": "https://dexscreener.com/solana/6ubuqq6ymmqeyojubbf2xup1yt67rsfvgwk8o1p6jhkg",
-      "time": "10:08:01",
-      "date": "2026-04-12",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 397,
-    "signals": 1855,
+    "scans": 398,
+    "signals": 1857,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-12 17:33:11 UTC"
+  "last_scan": "2026-04-12 18:04:52 UTC"
 }
