@@ -1,6 +1,74 @@
 {
   "signals": [
     {
+      "token": "Elons Dog",
+      "symbol": "XYZ",
+      "address": "4St4JynBxu75owJC7yU5GvdoeRoiMRRWCcfPHYp4pump",
+      "label": "WATCH",
+      "score": 39,
+      "tech_score": 17,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi",
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 2.131e-05,
+      "change_1h": 1.15,
+      "liquidity": 11748.54,
+      "volume_1h": 22161.17,
+      "mcap": 21314.0,
+      "dex_url": "https://dexscreener.com/solana/edohlvgytnxppu8gfn9tfxhjg1yeeualptte2ktznvqm",
+      "time": "06:06:33",
+      "date": "2026-04-12",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Global Nuclear War Reserve",
+      "symbol": "GNWR",
+      "address": "4csVrSsbr7iDtKEP4Rwrnb96rSxMVQZHH7c7AYyMpump",
+      "label": "WATCH",
+      "score": 44,
+      "tech_score": 26,
+      "narr_bonus": 18,
+      "narrative": "\ud83d\ude80 Pump.fun",
+      "all_narratives": [
+        "\ud83d\ude80 Pump.fun"
+      ],
+      "price": 4.425e-05,
+      "change_1h": 18.41,
+      "liquidity": 16039.77,
+      "volume_1h": 973.29,
+      "mcap": 44254.0,
+      "dex_url": "https://dexscreener.com/solana/2rdvva38ynwdqgumnvkk5z1m7akt5t9nitfnbbrp9bfr",
+      "time": "06:06:33",
+      "date": "2026-04-12",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "oil inu",
+      "symbol": "OILINU",
+      "address": "GJqCjtgEwqdFWVRsDs8JXKFoTeRVZeHs1RL4ccvrpump",
+      "label": "WATCH",
+      "score": 22,
+      "tech_score": 22,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 7.033e-05,
+      "change_1h": 1.8,
+      "liquidity": 25772.11,
+      "volume_1h": 1771.02,
+      "mcap": 70283.0,
+      "dex_url": "https://dexscreener.com/solana/9bvmg9w8yfv3bkawecbnwwktcnyi8bgkqgktdtsrrpvx",
+      "time": "06:06:34",
+      "date": "2026-04-12",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "doland tremp",
       "symbol": "tremp",
       "address": "EmtpJyHqWqH2xGvdag4DyLFNfnjDM6qTAv9QN17npump",
@@ -1032,82 +1100,17 @@
       "date": "2026-04-11",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "for all mankind",
-      "symbol": "mankind",
-      "address": "FsuYYApwxYnEHM2C7qpRooSSCyHtDGYAeGz8MaLpUxWT",
-      "label": "WATCH",
-      "score": 40,
-      "tech_score": 40,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 4.919e-05,
-      "change_1h": 37.65,
-      "liquidity": 17420.23,
-      "volume_1h": 108078.94,
-      "mcap": 49193.0,
-      "dex_url": "https://dexscreener.com/solana/gnxedghfsumcau6jnomajspfiayjjtrcokwoch73wspj",
-      "time": "19:48:40",
-      "date": "2026-04-11",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Doorbell President",
-      "symbol": "Trump",
-      "address": "6TRyMNFbS6y444mDECfaENQrVnvZP4XzMr2fa6f8pump",
-      "label": "STRONG BUY",
-      "score": 78,
-      "tech_score": 56,
-      "narr_bonus": 22,
-      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
-      "all_narratives": [
-        "\ud83c\udfdb\ufe0f PolitiFi"
-      ],
-      "price": 0.0001082,
-      "change_1h": 76.58,
-      "liquidity": 26599.84,
-      "volume_1h": 245408.62,
-      "mcap": 108225.0,
-      "dex_url": "https://dexscreener.com/solana/bjlar38fz2accurrabzawdimez8mf3ky5tl6q853bgbh",
-      "time": "19:48:41",
-      "date": "2026-04-11",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Adamity",
-      "symbol": "ADAMITY",
-      "address": "EfupM6buY9QeqVHYcB9Se5ukhavggEkdaxyAWdfKpump",
-      "label": "BUY",
-      "score": 68,
-      "tech_score": 68,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0002272,
-      "change_1h": 542.0,
-      "liquidity": 37969.62,
-      "volume_1h": 402361.31,
-      "mcap": 227232.0,
-      "dex_url": "https://dexscreener.com/solana/ghfiurrhntvzs1jqheaxouxenpr4aanmyfu6phtqywxd",
-      "time": "19:48:42",
-      "date": "2026-04-11",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 382,
-    "signals": 1782,
+    "scans": 383,
+    "signals": 1785,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-12 04:19:55 UTC"
+  "last_scan": "2026-04-12 06:06:32 UTC"
 }
