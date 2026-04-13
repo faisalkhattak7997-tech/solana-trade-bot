@@ -1,6 +1,69 @@
 {
   "signals": [
     {
+      "token": "NOTHING EVER HAPPENS",
+      "symbol": "NOTHING ",
+      "address": "Gy5xrHm7xS9UkD8VmiGQrkCBJTSAXCvSdNExzjPmpump",
+      "label": "WATCH",
+      "score": 34,
+      "tech_score": 34,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 3.78e-05,
+      "change_1h": 9.51,
+      "liquidity": 15073.97,
+      "volume_1h": 111199.95,
+      "mcap": 37803.0,
+      "dex_url": "https://dexscreener.com/solana/esrshhqkb5kvbhxd4qkqidrqymdrviy3ckpbukmrga6v",
+      "time": "21:27:39",
+      "date": "2026-04-13",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "England Football Association",
+      "symbol": "ENG",
+      "address": "4yaMkZ3R5xXdaMmdVCY2cphEaMq7M2M2ZKx24PqPpump",
+      "label": "WATCH",
+      "score": 23,
+      "tech_score": 23,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 1.296e-05,
+      "change_1h": 19.65,
+      "liquidity": 8764.4,
+      "volume_1h": 2356.45,
+      "mcap": 12966.0,
+      "dex_url": "https://dexscreener.com/solana/cr97u8ltnvc1ge7sxsqgay9l9iavowjoc6wblrqjtbw",
+      "time": "21:27:42",
+      "date": "2026-04-13",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": " \ud83d\ude4f",
+      "symbol": "\ud83d\ude4f",
+      "address": "91wxUJpWaBVoz9sFYYYT1PWuoJJ6LWCoSo81rRfkbrrr",
+      "label": "WATCH",
+      "score": 26,
+      "tech_score": 26,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 1.049e-05,
+      "change_1h": 14.97,
+      "liquidity": 9946.56,
+      "volume_1h": 36523.65,
+      "mcap": 10037.0,
+      "dex_url": "https://dexscreener.com/solana/cup3vb8adydndj7yrwt5bvgs3779ewehnxvjyelzkjs6",
+      "time": "21:27:43",
+      "date": "2026-04-13",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "zoomer",
       "symbol": "zoomer",
       "address": "71utbKBwCwL22NsJZzeuR23K3BTZaTmzj3X7kzTzpump",
@@ -1038,86 +1101,17 @@
       "date": "2026-04-13",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Mimi the Bull",
-      "symbol": "MIMI",
-      "address": "Aj12QM25QoTcnNiAe2DG9rpPGxAUtHUYzyCcqH4Wpump",
-      "label": "BUY",
-      "score": 55,
-      "tech_score": 35,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 3.575e-05,
-      "change_1h": 41.97,
-      "liquidity": 14924.33,
-      "volume_1h": 15577.72,
-      "mcap": 35751.0,
-      "dex_url": "https://dexscreener.com/solana/frftok3guecvrqymt7ydqtqmezvphsew52nq6psxpyk4",
-      "time": "10:09:09",
-      "date": "2026-04-13",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "REDBULL",
-      "symbol": "REDBULL",
-      "address": "H1RHrywTKUPpkzzo4ZEB8QWTx7abYU8WAWtcZUUPpump",
-      "label": "STRONG BUY",
-      "score": 83,
-      "tech_score": 63,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.00012,
-      "change_1h": 251.0,
-      "liquidity": 27409.21,
-      "volume_1h": 490708.71,
-      "mcap": 120027.0,
-      "dex_url": "https://dexscreener.com/solana/5vyb6pshzeta4d46qqwydn6lp3zkoqw5rjw8vswqppbr",
-      "time": "08:18:57",
-      "date": "2026-04-13",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "AI Coach Rudi",
-      "symbol": "Rudi",
-      "address": "Hc2CZzfiuBuSjTg6mpUByHVryy5e4yu8L7L4vtppump",
-      "label": "BUY",
-      "score": 65,
-      "tech_score": 40,
-      "narr_bonus": 25,
-      "narrative": "\ud83e\udd16 AI Agent",
-      "all_narratives": [
-        "\ud83e\udd16 AI Agent"
-      ],
-      "price": 8.678e-05,
-      "change_1h": 48.2,
-      "liquidity": 22803.07,
-      "volume_1h": 165468.54,
-      "mcap": 83940.0,
-      "dex_url": "https://dexscreener.com/solana/dbkqvhetntr4zjb4qcanfokjmhu3pq6w9cymhlzuhxcl",
-      "time": "08:18:58",
-      "date": "2026-04-13",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 419,
-    "signals": 1959,
+    "scans": 420,
+    "signals": 1962,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-13 20:34:09 UTC"
+  "last_scan": "2026-04-13 21:27:38 UTC"
 }
