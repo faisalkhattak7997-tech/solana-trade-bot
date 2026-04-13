@@ -1,6 +1,52 @@
 {
   "signals": [
     {
+      "token": "REDBULL",
+      "symbol": "REDBULL",
+      "address": "H1RHrywTKUPpkzzo4ZEB8QWTx7abYU8WAWtcZUUPpump",
+      "label": "STRONG BUY",
+      "score": 83,
+      "tech_score": 63,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.00012,
+      "change_1h": 251.0,
+      "liquidity": 27409.21,
+      "volume_1h": 490708.71,
+      "mcap": 120027.0,
+      "dex_url": "https://dexscreener.com/solana/5vyb6pshzeta4d46qqwydn6lp3zkoqw5rjw8vswqppbr",
+      "time": "08:18:57",
+      "date": "2026-04-13",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "AI Coach Rudi",
+      "symbol": "Rudi",
+      "address": "Hc2CZzfiuBuSjTg6mpUByHVryy5e4yu8L7L4vtppump",
+      "label": "BUY",
+      "score": 65,
+      "tech_score": 40,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent"
+      ],
+      "price": 8.678e-05,
+      "change_1h": 48.2,
+      "liquidity": 22803.07,
+      "volume_1h": 165468.54,
+      "mcap": 83940.0,
+      "dex_url": "https://dexscreener.com/solana/dbkqvhetntr4zjb4qcanfokjmhu3pq6w9cymhlzuhxcl",
+      "time": "08:18:58",
+      "date": "2026-04-13",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "The Star",
       "symbol": "HIMA",
       "address": "AyNtXxkmJ9nmDh8qwBBWTk4n1CcuKDoBbWx9TR1Spump",
@@ -1057,64 +1103,17 @@
       "date": "2026-04-12",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "RandomCoin",
-      "symbol": "RND",
-      "address": "CTGJLCzs9LsmjCCWZfSqPCnByfqLLLxiWotpVckBpump",
-      "label": "STRONG BUY",
-      "score": 73,
-      "tech_score": 63,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.0001361,
-      "change_1h": 299.0,
-      "liquidity": 28729.44,
-      "volume_1h": 267954.97,
-      "mcap": 136110.0,
-      "dex_url": "https://dexscreener.com/solana/7znwa93ufnu9ngr9gr1fcmpf6b7okh4vckot1xnufm4o",
-      "time": "19:05:44",
-      "date": "2026-04-12",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Bull Coin",
-      "symbol": "BC",
-      "address": "CQ4xdLak6KBZ5DCwMCuxpWHjn5BtLvPZ1DWLgSs6pump",
-      "label": "WATCH",
-      "score": 42,
-      "tech_score": 22,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal",
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 3.418e-05,
-      "change_1h": 1.57,
-      "liquidity": 14058.02,
-      "volume_1h": 1660.75,
-      "mcap": 34180.0,
-      "dex_url": "https://dexscreener.com/solana/6fvkrk4rcfgjp9e9sp8rtuuqf5qtqc3uqqamxkm3wbl1",
-      "time": "19:05:45",
-      "date": "2026-04-12",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 409,
-    "signals": 1909,
+    "scans": 410,
+    "signals": 1911,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-13 06:01:54 UTC"
+  "last_scan": "2026-04-13 08:18:56 UTC"
 }
