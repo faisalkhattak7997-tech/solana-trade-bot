@@ -1,6 +1,71 @@
 {
   "signals": [
     {
+      "token": "Doctor Trump",
+      "symbol": "DRTRUMP",
+      "address": "mkVctykRCQq7ePhKATvqVh4X9CfudxiGmZmWFiwpump",
+      "label": "BUY",
+      "score": 67,
+      "tech_score": 45,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi"
+      ],
+      "price": 0.0007735,
+      "change_1h": 23.87,
+      "liquidity": 72056.07,
+      "volume_1h": 717946.22,
+      "mcap": 773546.0,
+      "dex_url": "https://dexscreener.com/solana/dkrmrgjuyr6xamrztvtzad6u3zsy8f1amvvbelffjdhm",
+      "time": "08:12:34",
+      "date": "2026-04-15",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Conviction",
+      "symbol": "Conviction",
+      "address": "5UWXCteECEEPvjyW5cnDtLY2BR9wvTB8F8HBtg7dpump",
+      "label": "WATCH",
+      "score": 48,
+      "tech_score": 48,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 5.464e-05,
+      "change_1h": 58.13,
+      "liquidity": 18046.29,
+      "volume_1h": 103092.06,
+      "mcap": 54646.0,
+      "dex_url": "https://dexscreener.com/solana/f7cyhqxqh7droepi8tg8hpjcnmb6wtfdetdjqq9cyqa7",
+      "time": "08:12:34",
+      "date": "2026-04-15",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Gradient Bang",
+      "symbol": "Bang",
+      "address": "7cfgQCgfwYGuLNvg8xTiVMJfQxUXA4MVm3oS1gd7pump",
+      "label": "WATCH",
+      "score": 43,
+      "tech_score": 43,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 2.742e-05,
+      "change_1h": 122.0,
+      "liquidity": 12743.65,
+      "volume_1h": 12690.94,
+      "mcap": 27421.0,
+      "dex_url": "https://dexscreener.com/solana/8nvrihjdfv1eff8fimutwzehybzgmz89mayueizrqpcy",
+      "time": "08:12:35",
+      "date": "2026-04-15",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "yn",
       "symbol": "yn",
       "address": "9rPoaV7XE1uCYYGrFmzEX8Fa8kEVP3xDsdwypC5qpump",
@@ -1023,89 +1088,17 @@
       "date": "2026-04-14",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "ShibaCumGMElonKishuTurboAssFloki",
-      "symbol": "INU",
-      "address": "AoR4QXgeC1sEx1BENWxoNs7GCWf25kHYzNAPJDCppump",
-      "label": "STRONG BUY",
-      "score": 78,
-      "tech_score": 56,
-      "narr_bonus": 22,
-      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
-      "all_narratives": [
-        "\ud83c\udfdb\ufe0f PolitiFi",
-        "\ud83d\udc3e Animal",
-        "\ud83d\ude80 Pump.fun"
-      ],
-      "price": 0.0001865,
-      "change_1h": 178.0,
-      "liquidity": 34724.29,
-      "volume_1h": 426819.51,
-      "mcap": 186445.0,
-      "dex_url": "https://dexscreener.com/solana/fathyvft7d3r3tfdajhrj7he5besboug1fg5t1twf3yr",
-      "time": "17:54:15",
-      "date": "2026-04-14",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "AI MEME TRADER",
-      "symbol": "AIMT",
-      "address": "8PYUAhbLRCj4bZQ4SPH4EawNXNLAAwXfDQMhjacFF2wk",
-      "label": "BUY",
-      "score": 60,
-      "tech_score": 35,
-      "narr_bonus": 25,
-      "narrative": "\ud83e\udd16 AI Agent",
-      "all_narratives": [
-        "\ud83e\udd16 AI Agent",
-        "\ud83d\ude02 Meme Culture"
-      ],
-      "price": 2.892e-07,
-      "change_1h": 14.94,
-      "liquidity": 103550.86,
-      "volume_1h": 508697.73,
-      "mcap": 289283.0,
-      "dex_url": "https://dexscreener.com/solana/8q7js1njvrmea3oqec8m8gmuwckwd7pwdlraoekkeumu",
-      "time": "17:54:16",
-      "date": "2026-04-14",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "the pepe killer",
-      "symbol": "YARL",
-      "address": "3AJi6t93KKQbHit6x6F9txia5sNozLaTcgYZKyNopump",
-      "label": "WATCH",
-      "score": 24,
-      "tech_score": 4,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 2.824e-06,
-      "change_1h": 3.2,
-      "liquidity": 4122.34,
-      "volume_1h": 1623.71,
-      "mcap": 2824.0,
-      "dex_url": "https://dexscreener.com/solana/94wfq4w7wwg6p739vuigg9hu28xl4ivjnbndho635t4l",
-      "time": "17:54:17",
-      "date": "2026-04-14",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 443,
-    "signals": 2086,
+    "scans": 444,
+    "signals": 2089,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-15 06:25:12 UTC"
+  "last_scan": "2026-04-15 08:12:33 UTC"
 }
