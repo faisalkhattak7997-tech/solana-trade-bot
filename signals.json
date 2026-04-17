@@ -1,6 +1,75 @@
 {
   "signals": [
     {
+      "token": "Universal Nigga Coin",
+      "symbol": "unc",
+      "address": "G2k2GRjWxR4qkTrfmwA8Cbf4fdeXkTcorRjrZCnopump",
+      "label": "BUY",
+      "score": 58,
+      "tech_score": 48,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 6.593e-05,
+      "change_1h": 78.1,
+      "liquidity": 20628.56,
+      "volume_1h": 188804.1,
+      "mcap": 65937.0,
+      "dex_url": "https://dexscreener.com/solana/scbraw1t6mkem4kdrxknfqo9gz7p8izje81pfpkftgo",
+      "time": "15:54:46",
+      "date": "2026-04-17",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "InfinityPot",
+      "symbol": "INF",
+      "address": "A3Nvwnj5eXpumPpxCtof5XSqvmju5wEdwfDGB6aGpump",
+      "label": "BUY",
+      "score": 63,
+      "tech_score": 63,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.000129,
+      "change_1h": 248.0,
+      "liquidity": 28760.75,
+      "volume_1h": 100259.25,
+      "mcap": 129041.0,
+      "dex_url": "https://dexscreener.com/solana/2z9dp72eqfsrsdbx7kwgtvhdvlbdfrvwib5xusjrxqyg",
+      "time": "15:54:47",
+      "date": "2026-04-17",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Smart Money",
+      "symbol": "SMARTMONEY",
+      "address": "26jyBRf3nCxAs12tNgsb6ZN2LUHubX7T895t6TtUpump",
+      "label": "STRONG BUY",
+      "score": 70,
+      "tech_score": 45,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent",
+        "\ud83d\ude02 Meme Culture",
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.000294,
+      "change_1h": 32.67,
+      "liquidity": 52796.52,
+      "volume_1h": 151820.12,
+      "mcap": 294067.0,
+      "dex_url": "https://dexscreener.com/solana/gmjczsyzrzdjdxn7avshnxulrzy31g9vfwxj1eu3mxnf",
+      "time": "15:54:48",
+      "date": "2026-04-17",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "MAKE LEBANON GREAT AGAIN",
       "symbol": "MLGA",
       "address": "Hho5Jy5bBo79XeBFb7v3NnFx9jojQ1iVjigVYi75pump",
@@ -1034,85 +1103,17 @@
       "date": "2026-04-17",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "ASTEROID",
-      "symbol": "ASTEROID",
-      "address": "F1ppSHedBsGGwEKH78JVgoqr4xkQHswtsGGLpgM7bCP2",
-      "label": "WATCH",
-      "score": 46,
-      "tech_score": 46,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.007187,
-      "change_1h": 35.02,
-      "liquidity": 256869.85,
-      "volume_1h": 9495761.67,
-      "mcap": 7187579.0,
-      "dex_url": "https://dexscreener.com/solana/91tdwygdurpekg8jcwcfzjn7agflgb9zb711fhpygr2j",
-      "time": "05:16:47",
-      "date": "2026-04-17",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "pepecoin",
-      "symbol": "pepecoin",
-      "address": "5G6PscuMix3xoxtEXeWuVYtY6bTvDr9JdgU3AkF71htB",
-      "label": "BUY",
-      "score": 51,
-      "tech_score": 31,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal",
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 4.395e-06,
-      "change_1h": 12.86,
-      "liquidity": 5257.52,
-      "volume_1h": 804.92,
-      "mcap": 4388.0,
-      "dex_url": "https://dexscreener.com/solana/2nhdb3lgnopjkpbowixxdae3bmkyhnkmajckhzm1hz8d",
-      "time": "05:16:48",
-      "date": "2026-04-17",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "NASA ZGI Moon Mascot",
-      "symbol": "Rise",
-      "address": "CpFJrfYq32Wae2Bt36hEAUwzdyT29WwVLpZmYDF7pump",
-      "label": "BUY",
-      "score": 50,
-      "tech_score": 32,
-      "narr_bonus": 18,
-      "narrative": "\ud83d\ude80 Pump.fun",
-      "all_narratives": [
-        "\ud83d\ude80 Pump.fun"
-      ],
-      "price": 8.565e-05,
-      "change_1h": 35.05,
-      "liquidity": 30108.37,
-      "volume_1h": 7822.73,
-      "mcap": 85532.0,
-      "dex_url": "https://dexscreener.com/solana/fgyamjki6ccuc3sdafqsbxa3y9hrqiwnalapt9zgu7ax",
-      "time": "05:16:49",
-      "date": "2026-04-17",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 485,
-    "signals": 2337,
+    "scans": 486,
+    "signals": 2340,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-17 14:53:41 UTC"
+  "last_scan": "2026-04-17 15:54:44 UTC"
 }
