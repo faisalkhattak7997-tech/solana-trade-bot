@@ -5,6 +5,27 @@
       "symbol": "Jared",
       "address": "4vBVUhWhk1XBz32S6iJZJuWAaJyG9kJuiyGRQ4ixpump",
       "label": "WATCH",
+      "score": 48,
+      "tech_score": 48,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001082,
+      "change_1h": 93.73,
+      "liquidity": 26434.98,
+      "volume_1h": 257858.96,
+      "mcap": 108273.0,
+      "dex_url": "https://dexscreener.com/solana/cktmfprsjot85gwubmm28ka2w6uygwm19sjwcjz5id8s",
+      "time": "11:45:32",
+      "date": "2026-04-19",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Jared",
+      "symbol": "Jared",
+      "address": "4vBVUhWhk1XBz32S6iJZJuWAaJyG9kJuiyGRQ4ixpump",
+      "label": "WATCH",
       "score": 40,
       "tech_score": 40,
       "narr_bonus": 0,
@@ -1087,41 +1108,17 @@
       "date": "2026-04-18",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "The First Space Dog",
-      "symbol": "Laika",
-      "address": "4Zgy1jjkYZ1a1xZtUeDCGhjcydyyAjkjYkbTVhmPpump",
-      "label": "STRONG BUY",
-      "score": 81,
-      "tech_score": 56,
-      "narr_bonus": 25,
-      "narrative": "\ud83e\udd16 AI Agent",
-      "all_narratives": [
-        "\ud83e\udd16 AI Agent",
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 2.315e-05,
-      "change_1h": 195.0,
-      "liquidity": 11642.18,
-      "volume_1h": 9434.96,
-      "mcap": 23149.0,
-      "dex_url": "https://dexscreener.com/solana/2rhbfxydsmja5xcxbvnsgwnrvrfffdavbam6zckcw2tp",
-      "time": "23:06:10",
-      "date": "2026-04-18",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 530,
-    "signals": 2619,
+    "scans": 531,
+    "signals": 2620,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-19 11:00:31 UTC"
+  "last_scan": "2026-04-19 11:45:29 UTC"
 }
