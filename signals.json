@@ -1,6 +1,71 @@
 {
   "signals": [
     {
+      "token": "Nietzsche's Last Man",
+      "symbol": "LASTMAN",
+      "address": "AmSYbLUcwYmBZc8G9GTenSn2dsLjsZiVeMxMQvcUpump",
+      "label": "BUY",
+      "score": 68,
+      "tech_score": 68,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001376,
+      "change_1h": 293.0,
+      "liquidity": 30296.81,
+      "volume_1h": 585436.32,
+      "mcap": 137675.0,
+      "dex_url": "https://dexscreener.com/solana/akxyxns4pfxgmzk7scczvg2jtyjnn1iivkrgakpavu3o",
+      "time": "06:51:32",
+      "date": "2026-04-25",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "ELIEN MUSK",
+      "symbol": "ELIEN",
+      "address": "5o61DgZrDGbCp5EBeyzLidUFXNVTtbfUGP3nY3s7pump",
+      "label": "WATCH",
+      "score": 36,
+      "tech_score": 36,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001598,
+      "change_1h": 14.15,
+      "liquidity": 34574.54,
+      "volume_1h": 36373.45,
+      "mcap": 159856.0,
+      "dex_url": "https://dexscreener.com/solana/bk7lazv9g4wdp5pf3fyfk6ufpfootjhhzhz5sr977hnf",
+      "time": "06:51:33",
+      "date": "2026-04-25",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Ouroboraphax",
+      "symbol": "OUROBORAPHAX",
+      "address": "DLvz3ukvGwmaKoPB5n1mQbc5qhBzeZ6zKDLd7Zznpump",
+      "label": "BUY",
+      "score": 62,
+      "tech_score": 37,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent"
+      ],
+      "price": 8.57e-06,
+      "change_1h": 35.34,
+      "liquidity": 7284.52,
+      "volume_1h": 1126.41,
+      "mcap": 8570.0,
+      "dex_url": "https://dexscreener.com/solana/9ujmytenioalxbfih5yqbap5zr713wd1lzcirvtkdcbq",
+      "time": "06:51:33",
+      "date": "2026-04-25",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Communism",
       "symbol": "Communism",
       "address": "CmzZVJWTPqZJDo2822KB6LTYzKFXxJC3QCCizGAK8R9o",
@@ -1033,84 +1098,17 @@
       "date": "2026-04-24",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "SARA",
-      "symbol": "SARA",
-      "address": "HjdPHsym5HtMMYXiipxJnpwEBt3U1kAhg3cs23jYpump",
-      "label": "WATCH",
-      "score": 32,
-      "tech_score": 32,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 2.418e-05,
-      "change_1h": 34.12,
-      "liquidity": 12198.53,
-      "volume_1h": 40137.21,
-      "mcap": 24184.0,
-      "dex_url": "https://dexscreener.com/solana/7hg8gwasqkly9vkkcpheetwucmbocjvveqxwfy9m1zwm",
-      "time": "21:00:19",
-      "date": "2026-04-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "silly cat",
-      "symbol": "silly",
-      "address": "JCKHsnkYCHJvAuSrApKAfPiqYiaaQYTVmaDeGGaUpump",
-      "label": "WATCH",
-      "score": 49,
-      "tech_score": 29,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 4.154e-05,
-      "change_1h": 15.72,
-      "liquidity": 15979.92,
-      "volume_1h": 71789.1,
-      "mcap": 41547.0,
-      "dex_url": "https://dexscreener.com/solana/6cb8mdtbcjgvspczgqfc8fwjpmff9sjxktwy2v6r196l",
-      "time": "20:00:03",
-      "date": "2026-04-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "The Trump Alien",
-      "symbol": "TRUMPLIEN",
-      "address": "H6aaQMzXN2JZryVf2Hv9urLJEvsBEArPNia4YnBmpump",
-      "label": "STRONG BUY",
-      "score": 70,
-      "tech_score": 48,
-      "narr_bonus": 22,
-      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
-      "all_narratives": [
-        "\ud83c\udfdb\ufe0f PolitiFi"
-      ],
-      "price": 6.165e-05,
-      "change_1h": 71.74,
-      "liquidity": 19506.71,
-      "volume_1h": 92886.2,
-      "mcap": 61653.0,
-      "dex_url": "https://dexscreener.com/solana/3eazwqzk1fvs7xvjm9btmefh9kqvuab3x9pu8aegrsjq",
-      "time": "20:00:04",
-      "date": "2026-04-24",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 637,
-    "signals": 3397,
+    "scans": 638,
+    "signals": 3400,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-25 05:27:40 UTC"
+  "last_scan": "2026-04-25 06:51:31 UTC"
 }
