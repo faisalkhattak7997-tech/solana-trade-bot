@@ -1,6 +1,73 @@
 {
   "signals": [
     {
+      "token": "EarthShare",
+      "symbol": "$EARTH",
+      "address": "5xH86GAuvRjtS4gKJ5Bj9BMxT5XqihDctHZBV73Kpump",
+      "label": "WATCH",
+      "score": 28,
+      "tech_score": 16,
+      "narr_bonus": 12,
+      "narrative": "\ud83d\ude02 Meme Culture",
+      "all_narratives": [
+        "\ud83d\ude02 Meme Culture"
+      ],
+      "price": 1.021e-05,
+      "change_1h": 16.36,
+      "liquidity": 824.72,
+      "volume_1h": 1011.36,
+      "mcap": 10219.0,
+      "dex_url": "https://dexscreener.com/solana/bafjcxoevedfauokznw7qrdqw4ne6s8tvduighw2xtra",
+      "time": "14:27:00",
+      "date": "2026-04-30",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Rat Elon",
+      "symbol": "RATELON",
+      "address": "BSJnMxNSXY8K5DFa6Xi1ks75NDDmSZnJRUNJf28YLDqZ",
+      "label": "STRONG BUY",
+      "score": 90,
+      "tech_score": 68,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi"
+      ],
+      "price": 0.0002872,
+      "change_1h": 1386.0,
+      "liquidity": 46136.71,
+      "volume_1h": 447693.45,
+      "mcap": 287107.0,
+      "dex_url": "https://dexscreener.com/solana/8dp7uwu7bmacnfmj5wsddf3cd3zb3w2bjw9ruzq8okuu",
+      "time": "14:27:03",
+      "date": "2026-04-30",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Fitter Circle ",
+      "symbol": "FIT",
+      "address": "CFRX4w9w2mvhwZAxCPnyTY3PhHTJ9vQgninuXZfH5Wwn",
+      "label": "WATCH",
+      "score": 22,
+      "tech_score": 22,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 6.541e-05,
+      "change_1h": 1.12,
+      "liquidity": 22801.33,
+      "volume_1h": 490.69,
+      "mcap": 65415.0,
+      "dex_url": "https://dexscreener.com/solana/f9n3z8matu3wdmr3f1kfbfqcxpcv6ncutxvrmt5msa3v",
+      "time": "14:27:04",
+      "date": "2026-04-30",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Sisyphus",
       "symbol": "SISYPHUS",
       "address": "9qbi1K9Z6NMDhdxGri6eWjk5Hsj7n9AsQ5GCjx1wxiTv",
@@ -1029,82 +1096,17 @@
       "date": "2026-04-29",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "FOFAR",
-      "symbol": "FOFAR",
-      "address": "Ha5Z2DfRv6Ar2nAeBLCGWHqzwXKL3of4DqKwzzwpump",
-      "label": "STRONG BUY",
-      "score": 78,
-      "tech_score": 78,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0008675,
-      "change_1h": 650.0,
-      "liquidity": 74702.86,
-      "volume_1h": 1156311.12,
-      "mcap": 867517.0,
-      "dex_url": "https://dexscreener.com/solana/djr81dfuo2vehb7crbwgtxxidpg3bssqfrfqwhyfhqls",
-      "time": "22:01:04",
-      "date": "2026-04-29",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Barking Puppy - kg",
-      "symbol": "BP",
-      "address": "JB8rMqyFmypiMqjiJ13bitubssM6aYDdq5ndUF5Wpump",
-      "label": "BUY",
-      "score": 69,
-      "tech_score": 51,
-      "narr_bonus": 18,
-      "narrative": "\ud83d\ude80 Pump.fun",
-      "all_narratives": [
-        "\ud83d\ude80 Pump.fun"
-      ],
-      "price": 8.333e-05,
-      "change_1h": 145.0,
-      "liquidity": 22160.99,
-      "volume_1h": 51624.55,
-      "mcap": 83332.0,
-      "dex_url": "https://dexscreener.com/solana/ehjys3zxtujopbszqgycg783gzcx8mkuggfvkzxgaxyf",
-      "time": "22:01:04",
-      "date": "2026-04-29",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "no aura",
-      "symbol": "NOAURA",
-      "address": "28rNwAqGdksNTYXFf8qe7vFLU9AK6zT5Y2LD2CGepump",
-      "label": "BUY",
-      "score": 63,
-      "tech_score": 63,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0001591,
-      "change_1h": 363.0,
-      "liquidity": 31550.63,
-      "volume_1h": 397669.19,
-      "mcap": 159174.0,
-      "dex_url": "https://dexscreener.com/solana/d8nzywn4qaaujn8kdyiazxhy1gckyqsbpkc6wwoaaryk",
-      "time": "22:01:05",
-      "date": "2026-04-29",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 728,
-    "signals": 4029,
+    "scans": 729,
+    "signals": 4032,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-30 12:19:24 UTC"
+  "last_scan": "2026-04-30 14:26:59 UTC"
 }
