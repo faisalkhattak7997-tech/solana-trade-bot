@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "support walter white",
+      "symbol": "walter",
+      "address": "HY86RCjBQT4jdYc3M97t2d9t83cLgiBBknFVUQx5pump",
+      "label": "WATCH",
+      "score": 43,
+      "tech_score": 21,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi"
+      ],
+      "price": 2.457e-05,
+      "change_1h": 8.44,
+      "liquidity": 12275.22,
+      "volume_1h": 25480.28,
+      "mcap": 24576.0,
+      "dex_url": "https://dexscreener.com/solana/a8njog2fiehd2etqt5ltad9iedxrgnrcw1mdm53phlse",
+      "time": "11:00:46",
+      "date": "2026-04-30",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Mental Health Awareness",
+      "symbol": "HEALTH",
+      "address": "6RhH7zVMckGazH6DMBQrKfpKc2C3M7Rk8D6HzEgqpump",
+      "label": "WATCH",
+      "score": 40,
+      "tech_score": 40,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 7.913e-05,
+      "change_1h": 31.82,
+      "liquidity": 22029.62,
+      "volume_1h": 67925.89,
+      "mcap": 79137.0,
+      "dex_url": "https://dexscreener.com/solana/46daxqhffrcvvat6fe6s3hi8owh1vqsvwnpvfvjjlhdv",
+      "time": "11:00:46",
+      "date": "2026-04-30",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Salon Muskman",
       "symbol": "SM",
       "address": "69rg9RiK5wEU86yLBaQJHQMd3Yh5UCHFofMyDg8kpump",
@@ -1050,59 +1094,17 @@
       "date": "2026-04-29",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "ITS OVER WERE BACK",
-      "symbol": "CYCLE",
-      "address": "79fmkspuv6ryKyjGJ947FiwL5Ao4UxsSocx7iMT1pump",
-      "label": "WATCH",
-      "score": 14,
-      "tech_score": 14,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 1.874e-05,
-      "change_1h": 0.88,
-      "liquidity": 10451.6,
-      "volume_1h": 1101.93,
-      "mcap": 18749.0,
-      "dex_url": "https://dexscreener.com/solana/cfhjqc9eewnl6zfe15fqnp1svajoc4w7g3gem7atnr7v",
-      "time": "20:56:50",
-      "date": "2026-04-29",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Wage Cuck",
-      "symbol": "WAGECUCK",
-      "address": "BticUQGTU3DMEE8nBV5udSTe2XLnqKBT1D3knHf5pump",
-      "label": "WATCH",
-      "score": 34,
-      "tech_score": 34,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 4.46e-05,
-      "change_1h": 12.17,
-      "liquidity": 16480.97,
-      "volume_1h": 224164.13,
-      "mcap": 44604.0,
-      "dex_url": "https://dexscreener.com/solana/hgpchjh6xxgpbif5amkjpsvuwtuthwgpmormzotthumh",
-      "time": "20:56:51",
-      "date": "2026-04-29",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 726,
-    "signals": 4022,
+    "scans": 727,
+    "signals": 4024,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-04-30 08:59:51 UTC"
+  "last_scan": "2026-04-30 11:00:44 UTC"
 }
