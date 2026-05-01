@@ -1,6 +1,73 @@
 {
   "signals": [
     {
+      "token": "Sandy & Luna",
+      "symbol": "S&L",
+      "address": "D5HvqYiwmvt7b7hkWvCYBEGKcTK6y8T8wXoRDQJrYXLt",
+      "label": "WATCH",
+      "score": 34,
+      "tech_score": 34,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 5.769e-05,
+      "change_1h": 13.69,
+      "liquidity": 19428.44,
+      "volume_1h": 349074.01,
+      "mcap": 57692.0,
+      "dex_url": "https://dexscreener.com/solana/fugj9jvusl26p29xlkyrtsq1yv9g4srhyrgnlmb9ra4x",
+      "time": "18:10:56",
+      "date": "2026-05-01",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Banjo the Frog",
+      "symbol": "BANJO",
+      "address": "HaqYjRixokh8FsHxK6pi8XLwsS2JkDTXWPpLySppump",
+      "label": "WATCH",
+      "score": 45,
+      "tech_score": 25,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 6.121e-05,
+      "change_1h": 3.76,
+      "liquidity": 19498.06,
+      "volume_1h": 21979.82,
+      "mcap": 61220.0,
+      "dex_url": "https://dexscreener.com/solana/5k7ypn3zemzcwbpkkxnibynjet27pqlknhzzssjhh6yu",
+      "time": "18:10:57",
+      "date": "2026-05-01",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "AINL",
+      "symbol": "AINL",
+      "address": "56hrCR3n7danhHNjWaU4VeUHpE1eRE9VRBWpHRPKpump",
+      "label": "BUY",
+      "score": 56,
+      "tech_score": 31,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent"
+      ],
+      "price": 0.0003811,
+      "change_1h": 6.01,
+      "liquidity": 50190.62,
+      "volume_1h": 4099.92,
+      "mcap": 381082.0,
+      "dex_url": "https://dexscreener.com/solana/6dnmwxhcrbuixe5m3clqkicgo1xvuwkfjh3s9utvh3mx",
+      "time": "18:10:58",
+      "date": "2026-05-01",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Scribbillion EWON",
       "symbol": "Ewon",
       "address": "G9j4AN81ZFLKJ2e6xV3f3PDAYxQHDC4csPyms3fBpump",
@@ -1020,84 +1087,17 @@
       "date": "2026-05-01",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Dragoncoin",
-      "symbol": "Dragon",
-      "address": "2p5e3sudKx2LtM8iSefaSszMY9nCiHz6CTEASQ9Xpump",
-      "label": "BUY",
-      "score": 50,
-      "tech_score": 40,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.0002422,
-      "change_1h": 30.94,
-      "liquidity": 42169.1,
-      "volume_1h": 146164.2,
-      "mcap": 217827.0,
-      "dex_url": "https://dexscreener.com/solana/dvekmbaqzymqmktcssaiovkr3oicawt8fj5sjlphuhba",
-      "time": "06:45:25",
-      "date": "2026-05-01",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "\u0e2b\u0e21\u0e39\u0e41\u0e14\u0e07",
-      "symbol": "MOODANG",
-      "address": "DWeB4iHoQ2gMKwaU3NjCYW9RJfpiXcuzUkCvcNf6pump",
-      "label": "WATCH",
-      "score": 35,
-      "tech_score": 35,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 9.22e-05,
-      "change_1h": 36.94,
-      "liquidity": 24782.98,
-      "volume_1h": 79861.42,
-      "mcap": 92208.0,
-      "dex_url": "https://dexscreener.com/solana/gcsi3uh5ktiynptswqmjnrqexreeexcg8ji42wswpdps",
-      "time": "06:45:25",
-      "date": "2026-05-01",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Dragoncoin",
-      "symbol": "Dragon",
-      "address": "2p5e3sudKx2LtM8iSefaSszMY9nCiHz6CTEASQ9Xpump",
-      "label": "STRONG BUY",
-      "score": 83,
-      "tech_score": 73,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.0002732,
-      "change_1h": 683.0,
-      "liquidity": 43123.6,
-      "volume_1h": 862119.62,
-      "mcap": 273287.0,
-      "dex_url": "https://dexscreener.com/solana/dvekmbaqzymqmktcssaiovkr3oicawt8fj5sjlphuhba",
-      "time": "04:12:32",
-      "date": "2026-05-01",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 747,
-    "signals": 4152,
+    "scans": 748,
+    "signals": 4155,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-01 17:11:56 UTC"
+  "last_scan": "2026-05-01 18:10:55 UTC"
 }
