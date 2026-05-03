@@ -1,6 +1,72 @@
 {
   "signals": [
     {
+      "token": "Murk Kretschmunn",
+      "symbol": "Murk",
+      "address": "F1yRQ7VC8Qpz3dbTryn44A8fcy2cGfV4Q5kV7e4Npump",
+      "label": "WATCH",
+      "score": 18,
+      "tech_score": 18,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 6.741e-06,
+      "change_1h": 6.24,
+      "liquidity": 6364.89,
+      "volume_1h": 2678.6,
+      "mcap": 6738.0,
+      "dex_url": "https://dexscreener.com/solana/qyqhw46g2s2bxcdzarps35zh1rwqfta3kfm8aurtcaq",
+      "time": "12:06:45",
+      "date": "2026-05-03",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "mogging",
+      "symbol": "mogging",
+      "address": "5oq4zKetRkUMMrFtkWH7r1Q6HZJMsTjgCeU6isgYpump",
+      "label": "WATCH",
+      "score": 29,
+      "tech_score": 29,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0002146,
+      "change_1h": 9.13,
+      "liquidity": 49182.56,
+      "volume_1h": 10526.32,
+      "mcap": 214652.0,
+      "dex_url": "https://dexscreener.com/solana/5gjuboxlt8te68gvoaxttsx6pwfw1uzlsvhcp35esyxz",
+      "time": "12:06:45",
+      "date": "2026-05-03",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "FervusAI",
+      "symbol": "FERVUSAI",
+      "address": "AtEvKAGgLD3YZn7y1o5Yf5LfDypwWgRcH5TzdZcepump",
+      "label": "WATCH",
+      "score": 43,
+      "tech_score": 18,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent",
+        "\ud83c\udfdb\ufe0f PolitiFi"
+      ],
+      "price": 6.119e-05,
+      "change_1h": 15.93,
+      "liquidity": 19399.96,
+      "volume_1h": 3404.58,
+      "mcap": 61197.0,
+      "dex_url": "https://dexscreener.com/solana/8eha3fj8crbmty3yhqtyhfq6ewm2gidsksmst4afdrbd",
+      "time": "12:06:45",
+      "date": "2026-05-03",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Gamestop",
       "symbol": "GME",
       "address": "EaVgvwzmQfFvodfnRAZ3aiwGiHnFacyMr4uVY4hrpump",
@@ -1020,84 +1086,17 @@
       "date": "2026-05-02",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Nutcoin",
-      "symbol": "Nutcoin",
-      "address": "uoYL47TPSTgWTUsV6WDUwHEM6AsYnntNVC64Gmgpump",
-      "label": "BUY",
-      "score": 50,
-      "tech_score": 40,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 5.192e-05,
-      "change_1h": 47.96,
-      "liquidity": 17825.37,
-      "volume_1h": 177483.38,
-      "mcap": 51922.0,
-      "dex_url": "https://dexscreener.com/solana/3bnyedwzg6focagjhmxo41kopq31wuvpphosk4ntuk5z",
-      "time": "22:49:52",
-      "date": "2026-05-02",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "PumpPerps",
-      "symbol": "PUMPPERPS",
-      "address": "95Sow4SVvEvPAbxAqe41y7mvqxzNQzg1RkXYMnn6pump",
-      "label": "BUY",
-      "score": 53,
-      "tech_score": 35,
-      "narr_bonus": 18,
-      "narrative": "\ud83d\ude80 Pump.fun",
-      "all_narratives": [
-        "\ud83d\ude80 Pump.fun"
-      ],
-      "price": 3.897e-05,
-      "change_1h": 31.66,
-      "liquidity": 15265.04,
-      "volume_1h": 15195.95,
-      "mcap": 38973.0,
-      "dex_url": "https://dexscreener.com/solana/ft8vqblzk8sq6nmxgxespggzntjbzswpwatyktfahufj",
-      "time": "22:49:53",
-      "date": "2026-05-02",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Mog Glasses",
-      "symbol": "MOG",
-      "address": "5fctAP4JyfytHdQoonnS4epKTmWdQwCugUUM8EbRpump",
-      "label": "WATCH",
-      "score": 32,
-      "tech_score": 32,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 7.589e-06,
-      "change_1h": 55.95,
-      "liquidity": 6719.79,
-      "volume_1h": 6487.09,
-      "mcap": 7588.0,
-      "dex_url": "https://dexscreener.com/solana/gsgmpfe9q9husyndn4umyzs23vrhkt3goubtznlydxgg",
-      "time": "22:49:53",
-      "date": "2026-05-02",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 781,
-    "signals": 4354,
+    "scans": 782,
+    "signals": 4357,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-03 11:27:22 UTC"
+  "last_scan": "2026-05-03 12:06:43 UTC"
 }
