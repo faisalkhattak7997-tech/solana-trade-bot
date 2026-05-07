@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "NAJIN AND FATU",
+      "symbol": "RHINOS ",
+      "address": "2RuPn3xbxwKcx2VsQtfjZpjrNP3p2GX864yAwsafpump",
+      "label": "WATCH",
+      "score": 40,
+      "tech_score": 40,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 5.135e-05,
+      "change_1h": 39.64,
+      "liquidity": 18158.36,
+      "volume_1h": 80530.35,
+      "mcap": 51353.0,
+      "dex_url": "https://dexscreener.com/solana/8yqqyww9ci36nkrdfdcwjauzsduraqc2rhh29kbwezgv",
+      "time": "07:33:59",
+      "date": "2026-05-07",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "1sol1lambo",
+      "symbol": "1sol1lambo",
+      "address": "6uY6K1RbHsVL1ie181e7ieYdGZDbpaaJXWa2MNtApump",
+      "label": "STRONG BUY",
+      "score": 78,
+      "tech_score": 68,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.0003117,
+      "change_1h": 322.0,
+      "liquidity": 46041.0,
+      "volume_1h": 534233.38,
+      "mcap": 311729.0,
+      "dex_url": "https://dexscreener.com/solana/5llefnfq55pkr1trxbjt2oyzt5fzjf8pa7lygu4yzhbj",
+      "time": "07:33:59",
+      "date": "2026-05-07",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "PepeFart4BrettAsteroidInu",
       "symbol": "PUMP",
       "address": "DTPpZEzTdB6wMDyKgyexhB6h3r7fVBksSB363DLopump",
@@ -1060,61 +1104,17 @@
       "date": "2026-05-06",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Chudbob",
-      "symbol": "CHUDBOB",
-      "address": "Bvh8xqP2nkzZBBEywAFqNAc7Mek7QiUofeTmTbKRpump",
-      "label": "WATCH",
-      "score": 18,
-      "tech_score": 18,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 4.659e-05,
-      "change_1h": 5.63,
-      "liquidity": 18361.19,
-      "volume_1h": 930.59,
-      "mcap": 46592.0,
-      "dex_url": "https://dexscreener.com/solana/7nbuvpjeitqfmwfhfsjzo75eqeuedgjzyxq742tcbkg2",
-      "time": "15:38:50",
-      "date": "2026-05-06",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "MEMES IN BLACK",
-      "symbol": "MIB",
-      "address": "reaaHQZfKRiL6U7CpjitAS2GAi88MpUbzyfSCkepump",
-      "label": "WATCH",
-      "score": 47,
-      "tech_score": 35,
-      "narr_bonus": 12,
-      "narrative": "\ud83d\ude02 Meme Culture",
-      "all_narratives": [
-        "\ud83d\ude02 Meme Culture"
-      ],
-      "price": 0.0001685,
-      "change_1h": 26.88,
-      "liquidity": 33097.85,
-      "volume_1h": 11173.19,
-      "mcap": 168549.0,
-      "dex_url": "https://dexscreener.com/solana/2zgqx959ktvuy4gqfl3rvsdmbhufpbdgnfb5oevjqye3",
-      "time": "15:38:50",
-      "date": "2026-05-06",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 836,
-    "signals": 4722,
+    "scans": 837,
+    "signals": 4724,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-07 04:46:53 UTC"
+  "last_scan": "2026-05-07 07:33:58 UTC"
 }
