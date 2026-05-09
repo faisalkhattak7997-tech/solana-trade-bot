@@ -1,6 +1,27 @@
 {
   "signals": [
     {
+      "token": "Aliun",
+      "symbol": "Aliun",
+      "address": "8nESVCYcPuuf6nRZeSHWEKonimQdyzmzneY7FPeUpump",
+      "label": "WATCH",
+      "score": 35,
+      "tech_score": 35,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 5.779e-05,
+      "change_1h": 49.88,
+      "liquidity": 19546.16,
+      "volume_1h": 23342.78,
+      "mcap": 57792.0,
+      "dex_url": "https://dexscreener.com/solana/blfvqcgtoves523qvsovstkqajt6sdvgvaswjgv65vq3",
+      "time": "03:55:34",
+      "date": "2026-05-09",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Bully",
       "symbol": "Bully",
       "address": "BrCk87b8mRa3ukontSaWbNtkGtKtnQpKyCEtBR19pump",
@@ -1074,38 +1095,17 @@
       "date": "2026-05-08",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Scribble Alien",
-      "symbol": "SCRIBLIEN",
-      "address": "21AnmvRNE6v18vNGUY7vppCzL7Gf5RntmakmSfJipump",
-      "label": "WATCH",
-      "score": 48,
-      "tech_score": 48,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 7.328e-05,
-      "change_1h": 92.59,
-      "liquidity": 22461.27,
-      "volume_1h": 379620.61,
-      "mcap": 73286.0,
-      "dex_url": "https://dexscreener.com/solana/dasfpveno4arzgj5ctna8zvdkuerlsqlmt96e47d3muu",
-      "time": "17:49:59",
-      "date": "2026-05-08",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 863,
-    "signals": 4929,
+    "scans": 864,
+    "signals": 4930,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-09 00:10:15 UTC"
+  "last_scan": "2026-05-09 03:55:33 UTC"
 }
