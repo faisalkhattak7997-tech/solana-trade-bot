@@ -1,6 +1,71 @@
 {
   "signals": [
     {
+      "token": "Hanta Spa",
+      "symbol": "HS",
+      "address": "D8PzpvgzufJrudc97d6ewaTb8mtKUYSBo5PwjuU8EZiF",
+      "label": "BUY",
+      "score": 68,
+      "tech_score": 68,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 9.412e-05,
+      "change_1h": 521.0,
+      "liquidity": 36948.78,
+      "volume_1h": 135349.96,
+      "mcap": 93850.0,
+      "dex_url": "https://dexscreener.com/solana/d9icvl2q442cfukbuf8bkg4sq9saum4wi1sy2tvf1bug",
+      "time": "12:38:12",
+      "date": "2026-05-09",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "America Is Back",
+      "symbol": "AMERICA",
+      "address": "AVA8YuCsD2YgUSpdv3Hb2cjpdf8XAhGwyXmchxwopump",
+      "label": "WATCH",
+      "score": 35,
+      "tech_score": 13,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi"
+      ],
+      "price": 0.001743,
+      "change_1h": 2.43,
+      "liquidity": 121777.22,
+      "volume_1h": 52044.25,
+      "mcap": 1743110.0,
+      "dex_url": "https://dexscreener.com/solana/e9pq8h8cn2ck3uzxsq6lhkwgbyaanlgah4ywcznqdu3f",
+      "time": "12:38:13",
+      "date": "2026-05-09",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Hanta-Kun",
+      "symbol": "HANTA",
+      "address": "HANTAYLiPiQ8d8dkJizcL8gJQHWBKF5ZeL1neeLqwbzc",
+      "label": "WATCH",
+      "score": 25,
+      "tech_score": 25,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0003162,
+      "change_1h": 2.24,
+      "liquidity": 49137.16,
+      "volume_1h": 30738.66,
+      "mcap": 314753.0,
+      "dex_url": "https://dexscreener.com/solana/b4wct2ow4hy8gwtzdbtjs4xjsjys5291qj3ahs2gwnsk",
+      "time": "12:38:13",
+      "date": "2026-05-09",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Samantha",
       "symbol": "Samantha",
       "address": "4MWMLvya16PbUjxXJWmjxfDsPE3tzqyu1mYuaRs6pump",
@@ -1014,84 +1079,17 @@
       "date": "2026-05-08",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Clawx Trading Agent",
-      "symbol": "CLAWX",
-      "address": "BTZCK66E14pqwACetBNhpbCEFx7L2dx8YR1YUUkbpump",
-      "label": "STRONG BUY",
-      "score": 88,
-      "tech_score": 63,
-      "narr_bonus": 25,
-      "narrative": "\ud83e\udd16 AI Agent",
-      "all_narratives": [
-        "\ud83e\udd16 AI Agent"
-      ],
-      "price": 0.0001851,
-      "change_1h": 397.0,
-      "liquidity": 35014.7,
-      "volume_1h": 139627.4,
-      "mcap": 185107.0,
-      "dex_url": "https://dexscreener.com/solana/f2kfkjjqbcthnz3jakllarfestzeun51w1zhbeyxicat",
-      "time": "22:13:58",
-      "date": "2026-05-08",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Save Salvador",
-      "symbol": "Salvador",
-      "address": "BVKZtJFjTvBcB4iufxYVmfvaxRmVGeHe5DeXywhrpump",
-      "label": "BUY",
-      "score": 63,
-      "tech_score": 63,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0001451,
-      "change_1h": 283.0,
-      "liquidity": 31633.88,
-      "volume_1h": 389584.46,
-      "mcap": 145192.0,
-      "dex_url": "https://dexscreener.com/solana/gg2s2nr5d5g6bqzo2qwsgslxtcgxyxwupvr3eylaxzar",
-      "time": "22:13:59",
-      "date": "2026-05-08",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "X MONEY",
-      "symbol": "XMNE",
-      "address": "7Qo91GB2KDGPeguXUi6y5SRdjVqmW1HSsobrhMtLL1jU",
-      "label": "WATCH",
-      "score": 24,
-      "tech_score": 14,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.0004204,
-      "change_1h": 0.57,
-      "liquidity": 21139.05,
-      "volume_1h": 105.26,
-      "mcap": 420489.0,
-      "dex_url": "https://dexscreener.com/solana/hxwjhygmchxbsguagl2hzs8aykpmsu1kcdn8fdwnhmxp",
-      "time": "22:13:59",
-      "date": "2026-05-08",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 869,
-    "signals": 4961,
+    "scans": 870,
+    "signals": 4964,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-09 11:33:48 UTC"
+  "last_scan": "2026-05-09 12:38:11 UTC"
 }
