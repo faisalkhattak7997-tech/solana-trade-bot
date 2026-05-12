@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "LARPGOD",
+      "symbol": "LARPGOD",
+      "address": "7cfnkmquW2WkCjHcfPuVySQmBTbV3GLUqLg8digLpump",
+      "label": "BUY",
+      "score": 53,
+      "tech_score": 35,
+      "narr_bonus": 18,
+      "narrative": "\ud83d\ude80 Pump.fun",
+      "all_narratives": [
+        "\ud83d\ude80 Pump.fun"
+      ],
+      "price": 5.607e-05,
+      "change_1h": 43.78,
+      "liquidity": 19497.35,
+      "volume_1h": 74977.92,
+      "mcap": 56075.0,
+      "dex_url": "https://dexscreener.com/solana/2ccehrbcekucphagte5qxabes9znsnrtf9h72lzykwjb",
+      "time": "13:22:43",
+      "date": "2026-05-12",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Mirumi",
+      "symbol": "Mirumi",
+      "address": "3BRC7ZfRXXfXNFwYkQr1dJCPNZKDRYc4n7KGwrtzpump",
+      "label": "WATCH",
+      "score": 30,
+      "tech_score": 30,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0002865,
+      "change_1h": 2.74,
+      "liquidity": 53539.65,
+      "volume_1h": 2074.51,
+      "mcap": 285613.0,
+      "dex_url": "https://dexscreener.com/solana/a1rwbphpwuytm2ccpq8e4scdxeyyfufy5jikyrhmq696",
+      "time": "13:22:45",
+      "date": "2026-05-12",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "TROLLOPOOP",
       "symbol": "TROLLOPOOP",
       "address": "AFaycnPrFsLbHNQKRpXdUzUcsKFENWwkzvSSSToCpump",
@@ -1046,59 +1090,17 @@
       "date": "2026-05-11",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Pop Troll",
-      "symbol": "POPTROLL",
-      "address": "ADVAviLMaZXLVjxYDHNd3VcV68EE8HUbo9FowLPbpump",
-      "label": "WATCH",
-      "score": 37,
-      "tech_score": 37,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0001158,
-      "change_1h": 3.7,
-      "liquidity": 29482.78,
-      "volume_1h": 3680.94,
-      "mcap": 115884.0,
-      "dex_url": "https://dexscreener.com/solana/hctawvjrz9hj8l3d1aqdxffceypmefn9s3rmdgfce9tk",
-      "time": "22:08:45",
-      "date": "2026-05-11",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "ALTSEASON",
-      "symbol": "ALTSZN",
-      "address": "CcLd8HTAKLWtQHatqPwBQjtuCA72FNB9E1ckRTEzpump",
-      "label": "WATCH",
-      "score": 17,
-      "tech_score": 17,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.005344,
-      "change_1h": 5.34,
-      "liquidity": 211682.08,
-      "volume_1h": 13806.86,
-      "mcap": 5344637.0,
-      "dex_url": "https://dexscreener.com/solana/89xnvggvkvtx5trrltkrpz6g2td2trsgphxewqps5in9",
-      "time": "22:08:45",
-      "date": "2026-05-11",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 914,
-    "signals": 5254,
+    "scans": 915,
+    "signals": 5256,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-12 11:30:29 UTC"
+  "last_scan": "2026-05-12 13:22:40 UTC"
 }
