@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "Strategic American Oil Supply",
+      "symbol": "SAOS",
+      "address": "Giaiz6FzsncSj25wwfnC9NjuNJGXRRoCQ172rVZrpump",
+      "label": "WATCH",
+      "score": 44,
+      "tech_score": 22,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi"
+      ],
+      "price": 5.811e-05,
+      "change_1h": 1.46,
+      "liquidity": 19675.03,
+      "volume_1h": 1878.31,
+      "mcap": 58111.0,
+      "dex_url": "https://dexscreener.com/solana/ducyy7u7pdcvwwf4jymohrnc9b7jshyfetvfbe8bbyjd",
+      "time": "23:43:38",
+      "date": "2026-05-12",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "ANDV-26",
+      "symbol": "ANDV26",
+      "address": "6f24Zo1fmHyHdjMUZ5WXCW5838aEwPTDP93XkF4pump",
+      "label": "BUY",
+      "score": 63,
+      "tech_score": 63,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001347,
+      "change_1h": 247.0,
+      "liquidity": 30252.0,
+      "volume_1h": 140122.09,
+      "mcap": 134788.0,
+      "dex_url": "https://dexscreener.com/solana/7xnspifvhtscfembkehzyzxterggmagpym3wk8g7hupi",
+      "time": "23:43:38",
+      "date": "2026-05-12",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Pokemon strategy",
       "symbol": "PKMN",
       "address": "WHSQkWSUVtsYj4L2XTryaA27rgjBEssMn6TbGRfPKMN",
@@ -1037,59 +1081,17 @@
       "date": "2026-05-12",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "UFO",
-      "symbol": "UFO",
-      "address": "4CJiyMRSyHURUMyupcyYfW3wzoiMPNS8aJYngZ799SZx",
-      "label": "WATCH",
-      "score": 44,
-      "tech_score": 44,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.03722,
-      "change_1h": 53.39,
-      "liquidity": 9137.11,
-      "volume_1h": 1353.35,
-      "mcap": 37002.0,
-      "dex_url": "https://dexscreener.com/solana/dvrxntajgcbl84fdhswz9wqc6o3hubyyf1ohutbasefj",
-      "time": "11:30:32",
-      "date": "2026-05-12",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Pill Gaytes",
-      "symbol": "GAYTES",
-      "address": "HSznAnNhSFgyRWiZh4m7pBmtjHsSLi4Dbmjp18zppump",
-      "label": "WATCH",
-      "score": 40,
-      "tech_score": 40,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0003421,
-      "change_1h": 31.81,
-      "liquidity": 70113.91,
-      "volume_1h": 258666.21,
-      "mcap": 342142.0,
-      "dex_url": "https://dexscreener.com/solana/69vfyvsbzcgfbkiqqwsxmuhaqt2a1zuxyvwzavzpqhvm",
-      "time": "11:30:32",
-      "date": "2026-05-12",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 920,
-    "signals": 5293,
+    "scans": 921,
+    "signals": 5295,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-12 22:43:29 UTC"
+  "last_scan": "2026-05-12 23:43:36 UTC"
 }
