@@ -1,6 +1,48 @@
 {
   "signals": [
     {
+      "token": "DR Congo",
+      "symbol": "CONGO",
+      "address": "E4gCAyCBorg8K4x6MU7SbXsKqTJKdGVYSy6QcVNxpump",
+      "label": "WATCH",
+      "score": 23,
+      "tech_score": 23,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 8.782e-06,
+      "change_1h": 6.4,
+      "liquidity": 7494.56,
+      "volume_1h": 2658.91,
+      "mcap": 8783.0,
+      "dex_url": "https://dexscreener.com/solana/a357kwjwga8eih7yzmjkfypewas4fiajmohy2zusyv2a",
+      "time": "08:10:39",
+      "date": "2026-05-14",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Japan",
+      "symbol": "JAPAN",
+      "address": "3myG7jK9ejeofY67E6sK3U4T1RVYuW875nmb1MKZpump",
+      "label": "WATCH",
+      "score": 32,
+      "tech_score": 32,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 1.66e-05,
+      "change_1h": 22.68,
+      "liquidity": 10313.24,
+      "volume_1h": 1830.17,
+      "mcap": 16609.0,
+      "dex_url": "https://dexscreener.com/solana/9dym5rtvwyvgftbrwpvsgkdasi37qutqvjp5z4pf6kmg",
+      "time": "08:10:39",
+      "date": "2026-05-14",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Red Claw Cartel",
       "symbol": "Rcc",
       "address": "B8H8iRXMLP7VmbBJx8GoBA9un7sAJbCwn8bWqGktpump",
@@ -1039,59 +1081,17 @@
       "date": "2026-05-13",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Jellybean",
-      "symbol": "Jellybean",
-      "address": "412zDygnwP9DzitnQVgRKUFFTDmrYScFch6P2k39pump",
-      "label": "WATCH",
-      "score": 26,
-      "tech_score": 26,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0001494,
-      "change_1h": 1.26,
-      "liquidity": 61540.43,
-      "volume_1h": 134.64,
-      "mcap": 148835.0,
-      "dex_url": "https://dexscreener.com/solana/2jbxebefzmnzgmp8frhsujjqqzudlhjzwbjvh7vbw7df",
-      "time": "17:51:18",
-      "date": "2026-05-13",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "chinese unc",
-      "symbol": "UNCHINA",
-      "address": "KpHDQ1VBz8bNQePmYtCzpuBph6KYRiCdDHqucs8pump",
-      "label": "BUY",
-      "score": 56,
-      "tech_score": 56,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 8.324e-05,
-      "change_1h": 117.0,
-      "liquidity": 23675.85,
-      "volume_1h": 277447.57,
-      "mcap": 83245.0,
-      "dex_url": "https://dexscreener.com/solana/6jjrmwggaadsxafvn5hdgzyfu6v36vbjgidnetsmikfe",
-      "time": "15:47:26",
-      "date": "2026-05-13",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 934,
-    "signals": 5378,
+    "scans": 935,
+    "signals": 5380,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-14 05:29:56 UTC"
+  "last_scan": "2026-05-14 08:10:36 UTC"
 }
