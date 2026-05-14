@@ -1,6 +1,76 @@
 {
   "signals": [
     {
+      "token": "meme mode",
+      "symbol": "MEMELON",
+      "address": "GLpMf2yfRsnxRMd7VQJVguHAagE1dK5cyrKehQJA2vqN",
+      "label": "STRONG BUY",
+      "score": 83,
+      "tech_score": 61,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi",
+        "\ud83d\ude02 Meme Culture"
+      ],
+      "price": 0.000263,
+      "change_1h": 114.0,
+      "liquidity": 44278.08,
+      "volume_1h": 559248.96,
+      "mcap": 263074.0,
+      "dex_url": "https://dexscreener.com/solana/ambgjds6gvt536qx9foxbwwuhlrcdc71dvukqpcpdm2x",
+      "time": "12:13:43",
+      "date": "2026-05-14",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Unstable Dumb Troll",
+      "symbol": "USDUDT",
+      "address": "Aea3VZzKXGPxggazSdtgeKq1wJHJjm6nfcrcqjuUpump",
+      "label": "BUY",
+      "score": 58,
+      "tech_score": 48,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.0004304,
+      "change_1h": 61.79,
+      "liquidity": 55140.78,
+      "volume_1h": 250770.79,
+      "mcap": 430467.0,
+      "dex_url": "https://dexscreener.com/solana/cnzmscxl3asu54k6jqe9ttgrt5mcgce3gj3hgdepefuh",
+      "time": "12:13:44",
+      "date": "2026-05-14",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Nietzschean Brown Bear",
+      "symbol": "Bear",
+      "address": "8BuGJvmzrtKg1Pq31pdcabFk5UVdvykAYqNqPfWGpump",
+      "label": "BUY",
+      "score": 55,
+      "tech_score": 35,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0001096,
+      "change_1h": 43.7,
+      "liquidity": 36224.22,
+      "volume_1h": 20091.01,
+      "mcap": 109640.0,
+      "dex_url": "https://dexscreener.com/solana/6zgrww3ucgdyraij3nwgyhszeqs4wzaabftjrcebofvp",
+      "time": "12:13:45",
+      "date": "2026-05-14",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "World Cup 2026",
       "symbol": "CUP",
       "address": "122ahG3U1W4xDqeqd3FskKdEAFyb1gDaLyN5m2thpump",
@@ -1021,80 +1091,17 @@
       "date": "2026-05-13",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Chinese Oil Asset Reserve",
-      "symbol": "COAR",
-      "address": "CoARSp4P9Yr7MEnKMZE7chyAkK3mNbPFyArdQeMm9a1G",
-      "label": "WATCH",
-      "score": 39,
-      "tech_score": 39,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.003614,
-      "change_1h": 20.4,
-      "liquidity": 161330.74,
-      "volume_1h": 79505.58,
-      "mcap": 3614915.0,
-      "dex_url": "https://dexscreener.com/solana/ffumd7yknlb49b9spye53zzs9c8hw2pw7heeddtvid8e",
-      "time": "19:26:16",
-      "date": "2026-05-13",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "John Pork",
-      "symbol": "Pork",
-      "address": "73jj6SFe9FKn6qqpaGwbSd7TL1sHheh3HqDo9RwA7BHB",
-      "label": "WATCH",
-      "score": 40,
-      "tech_score": 40,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0002428,
-      "change_1h": 47.5,
-      "liquidity": 41055.43,
-      "volume_1h": 303838.68,
-      "mcap": 242847.0,
-      "dex_url": "https://dexscreener.com/solana/9rpogiergqqpcyj5hbxu7lsujxa5g9dca3d9px1bvuox",
-      "time": "19:26:16",
-      "date": "2026-05-13",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "ALTSEASON",
-      "symbol": "ALTSZN",
-      "address": "CcLd8HTAKLWtQHatqPwBQjtuCA72FNB9E1ckRTEzpump",
-      "label": "WATCH",
-      "score": 25,
-      "tech_score": 25,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.005291,
-      "change_1h": 7.7,
-      "liquidity": 203971.86,
-      "volume_1h": 18337.99,
-      "mcap": 5291317.0,
-      "dex_url": "https://dexscreener.com/solana/89xnvggvkvtx5trrltkrpz6g2td2trsgphxewqps5in9",
-      "time": "19:26:16",
-      "date": "2026-05-13",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 936,
-    "signals": 5385,
+    "scans": 937,
+    "signals": 5388,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-14 10:33:11 UTC"
+  "last_scan": "2026-05-14 12:13:42 UTC"
 }
