@@ -1,6 +1,48 @@
 {
   "signals": [
     {
+      "token": "Trionda",
+      "symbol": "Trionda",
+      "address": "7Ddbgc4JAEz6fKb56AF5UmDcqzfDHKhpfSiUsYGzpump",
+      "label": "WATCH",
+      "score": 24,
+      "tech_score": 24,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 2.825e-05,
+      "change_1h": 20.21,
+      "liquidity": 13094.34,
+      "volume_1h": 6149.01,
+      "mcap": 27943.0,
+      "dex_url": "https://dexscreener.com/solana/ffm53mikdyzfhgn4tn7fzfb2hvdfcycxghwm9qyfxdoa",
+      "time": "17:17:57",
+      "date": "2026-05-17",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Purple Troll",
+      "symbol": "TROLL",
+      "address": "GyNThEeLEvnrUJu62nct1TErb33nE2gUiyM6tuGNpump",
+      "label": "WATCH",
+      "score": 40,
+      "tech_score": 40,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 4.729e-05,
+      "change_1h": 20.01,
+      "liquidity": 17078.8,
+      "volume_1h": 2652.99,
+      "mcap": 47298.0,
+      "dex_url": "https://dexscreener.com/solana/bqanfds6rcqkeuvftanh8dgy94ejbhktme5rid1jp85n",
+      "time": "17:17:58",
+      "date": "2026-05-17",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "fluff",
       "symbol": "fluff",
       "address": "8Hf1E4bBo7c3kccbWVrpWuZnTJ64tm6nqETTd1RZpump",
@@ -1048,59 +1090,17 @@
       "date": "2026-05-17",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Planet Destroyer ",
-      "symbol": "DESTROYER ",
-      "address": "Am534dYDkfzWKPNDedQoc7Snvq471GHpVJ1p3EQGpump",
-      "label": "WATCH",
-      "score": 48,
-      "tech_score": 48,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 6.877e-05,
-      "change_1h": 91.59,
-      "liquidity": 20735.54,
-      "volume_1h": 124247.41,
-      "mcap": 68771.0,
-      "dex_url": "https://dexscreener.com/solana/6qzc2kd8jpw3rmm2q1reehx833pqz8btjlegy7sxadvo",
-      "time": "07:22:24",
-      "date": "2026-05-17",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Measles",
-      "symbol": "Measles",
-      "address": "CjURMxk1mSLfF9VWSKup1kpcpFMWxyu1LeS6VoC3pump",
-      "label": "WATCH",
-      "score": 32,
-      "tech_score": 32,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 1.27e-05,
-      "change_1h": 41.23,
-      "liquidity": 8842.52,
-      "volume_1h": 5471.33,
-      "mcap": 12700.0,
-      "dex_url": "https://dexscreener.com/solana/8kcyetq9e1knm4nbnq2zxi9jpb8b9dkmbjjesu62tubq",
-      "time": "07:22:25",
-      "date": "2026-05-17",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 984,
-    "signals": 5709,
+    "scans": 985,
+    "signals": 5711,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-17 16:15:21 UTC"
+  "last_scan": "2026-05-17 17:17:56 UTC"
 }
