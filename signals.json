@@ -1,6 +1,48 @@
 {
   "signals": [
     {
+      "token": "BOZZY",
+      "symbol": "BOZZY",
+      "address": "4VmdEj8feG2XV3DR1D1MfrsRNs4kiy4CRkk3mVHcpump",
+      "label": "WATCH",
+      "score": 48,
+      "tech_score": 48,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 6.26e-05,
+      "change_1h": 70.75,
+      "liquidity": 20174.61,
+      "volume_1h": 305788.64,
+      "mcap": 62608.0,
+      "dex_url": "https://dexscreener.com/solana/8rmlamkzv5lqv6wbxy3z46kyzchmhttxr7kpwntdvypk",
+      "time": "21:29:18",
+      "date": "2026-05-17",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Andes Virus",
+      "symbol": "ANDV",
+      "address": "jvKtLFLnNGPM7edS9KEpYqPxuY8HPGTZohLFM4Spump",
+      "label": "WATCH",
+      "score": 27,
+      "tech_score": 27,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0006538,
+      "change_1h": 3.58,
+      "liquidity": 79951.55,
+      "volume_1h": 9031.36,
+      "mcap": 653827.0,
+      "dex_url": "https://dexscreener.com/solana/jhmcrrlmpte1qvypwe1yjtjzm2k44eorpducj6j8pwc",
+      "time": "21:29:20",
+      "date": "2026-05-17",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "sTROLL",
       "symbol": "sTROLL",
       "address": "B55SRUxgKs3VTTACKjvgLNyXkNwgJJWtzvNWjFvVTAk3",
@@ -1052,59 +1094,17 @@
       "date": "2026-05-17",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "You have a friend like that",
-      "symbol": "BEERMAN",
-      "address": "7G8MECUQTBp2ineSexHC2Z1D4X1YccyMT9f3hihopump",
-      "label": "WATCH",
-      "score": 35,
-      "tech_score": 35,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.000156,
-      "change_1h": 36.34,
-      "liquidity": 31653.82,
-      "volume_1h": 72683.4,
-      "mcap": 156046.0,
-      "dex_url": "https://dexscreener.com/solana/ahawtwgyq5hzsb1aykwm2218utpbxfyyzqhzuwqwbw8e",
-      "time": "10:42:56",
-      "date": "2026-05-17",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Teddy",
-      "symbol": "\u30c6\u30c7\u30a3",
-      "address": "CWKmHKei25UDuNrFQn8Yq9pA28C3s94MeEHLUgvFpump",
-      "label": "WATCH",
-      "score": 24,
-      "tech_score": 24,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 6.007e-06,
-      "change_1h": 36.05,
-      "liquidity": 6085.13,
-      "volume_1h": 6239.22,
-      "mcap": 5529.0,
-      "dex_url": "https://dexscreener.com/solana/2ulesy8fcqqtppcnfavwj4vn84crfgiafqkb3xpxj2ag",
-      "time": "10:42:57",
-      "date": "2026-05-17",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 988,
-    "signals": 5721,
+    "scans": 989,
+    "signals": 5723,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-17 20:29:36 UTC"
+  "last_scan": "2026-05-17 21:29:16 UTC"
 }
