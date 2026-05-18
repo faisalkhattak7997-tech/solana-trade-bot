@@ -1,6 +1,51 @@
 {
   "signals": [
     {
+      "token": "Solana Agent ",
+      "symbol": "SOAG",
+      "address": "ADue87cPcDhsyGq2hrDsukp7j8AFTSnaYHSanDATpump",
+      "label": "WATCH",
+      "score": 47,
+      "tech_score": 22,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent",
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 8.334e-06,
+      "change_1h": 4.54,
+      "liquidity": 7112.41,
+      "volume_1h": 1410.16,
+      "mcap": 8335.0,
+      "dex_url": "https://dexscreener.com/solana/8mqqqir1ivjbff5iiuxiaku3th2cdhb67cpgxhzbe8ul",
+      "time": "22:30:40",
+      "date": "2026-05-18",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "SpaceX Puppy",
+      "symbol": "JUDE",
+      "address": "Fco9JvJwvwQ7nYVHAiUwddH9xF87TXaBHwSeLJr8pump",
+      "label": "WATCH",
+      "score": 29,
+      "tech_score": 29,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 2.465e-05,
+      "change_1h": 34.69,
+      "liquidity": 12843.91,
+      "volume_1h": 3845.37,
+      "mcap": 24650.0,
+      "dex_url": "https://dexscreener.com/solana/9skvvxr4bhrghtyo6s2va9rnvh8m1fgkyag5orm2qcqx",
+      "time": "22:30:41",
+      "date": "2026-05-18",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Shift",
       "symbol": "SHIFT",
       "address": "6qwBy48P8DQNEeXpzYtHRpUhvuGWckD83NuQMqGwSHFT",
@@ -1043,62 +1088,17 @@
       "date": "2026-05-18",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "BIPOLAR",
-      "symbol": "BIPOLAR",
-      "address": "ijz345R9TGPuN7Pck5TFFgNb3ZpXmZnwBZodYnupump",
-      "label": "BUY",
-      "score": 58,
-      "tech_score": 58,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 7.036e-05,
-      "change_1h": 87.76,
-      "liquidity": 20752.16,
-      "volume_1h": 79929.46,
-      "mcap": 70362.0,
-      "dex_url": "https://dexscreener.com/solana/a9jnmjzue6bvcgqmghr7fzgmwmmaenpd4yusvnnrrnaf",
-      "time": "23:31:47",
-      "date": "2026-05-17",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "The Trump Whale",
-      "symbol": "Surfer",
-      "address": "5LCFuxVyQmeZ2SpXGFa1NY3Cc8kf46F8xiDxoz8apump",
-      "label": "STRONG BUY",
-      "score": 78,
-      "tech_score": 56,
-      "narr_bonus": 22,
-      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
-      "all_narratives": [
-        "\ud83c\udfdb\ufe0f PolitiFi",
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 7.765e-05,
-      "change_1h": 125.0,
-      "liquidity": 22245.31,
-      "volume_1h": 301958.99,
-      "mcap": 77658.0,
-      "dex_url": "https://dexscreener.com/solana/ag1fhjrkdcikpv5xvsri67umnxmwv6xzayvkxff7ypta",
-      "time": "23:31:47",
-      "date": "2026-05-17",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 999,
-    "signals": 5783,
+    "scans": 1000,
+    "signals": 5785,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-18 21:22:00 UTC"
+  "last_scan": "2026-05-18 22:30:38 UTC"
 }
