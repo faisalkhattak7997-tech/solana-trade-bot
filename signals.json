@@ -1,6 +1,30 @@
 {
   "signals": [
     {
+      "token": "Degen Coin ",
+      "symbol": "DEGEN",
+      "address": "FmjijgwEHpe32VPvHy1s7u7TLthh9yu1j75djVbWpump",
+      "label": "BUY",
+      "score": 54,
+      "tech_score": 36,
+      "narr_bonus": 18,
+      "narrative": "\ud83d\ude80 Pump.fun",
+      "all_narratives": [
+        "\ud83d\ude80 Pump.fun",
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.00199,
+      "change_1h": 26.77,
+      "liquidity": 141291.56,
+      "volume_1h": 132116.22,
+      "mcap": 1990179.0,
+      "dex_url": "https://dexscreener.com/solana/g4s53adujukyz5hikyrctbgfnsroixpp12yxy8qm4tjc",
+      "time": "22:24:55",
+      "date": "2026-05-21",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Buffalo Don",
       "symbol": "BUFFDON",
       "address": "CbyQSD5njpmhcEa8S3MczdF5xRHKT5NpyyceX285pump",
@@ -1074,38 +1098,17 @@
       "date": "2026-05-21",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "REST",
-      "symbol": "REST",
-      "address": "ERpXkEafaKuKEARBCFsVnLZA1GARWUjBBbQCukXpbonk",
-      "label": "WATCH",
-      "score": 34,
-      "tech_score": 34,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.001167,
-      "change_1h": 12.26,
-      "liquidity": 60933.56,
-      "volume_1h": 2503.97,
-      "mcap": 583700.0,
-      "dex_url": "https://dexscreener.com/solana/gcgjzpxmdaxzuqmlbtdv8vbuwz9cey224py8dysbvc4e",
-      "time": "00:05:52",
-      "date": "2026-05-21",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1028,
-    "signals": 5959,
+    "scans": 1029,
+    "signals": 5960,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-21 20:59:51 UTC"
+  "last_scan": "2026-05-21 22:24:52 UTC"
 }
