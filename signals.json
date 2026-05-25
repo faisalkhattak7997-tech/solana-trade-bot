@@ -1,6 +1,48 @@
 {
   "signals": [
     {
+      "token": "HeKnitt",
+      "symbol": "HEKNITT",
+      "address": "Az4fsoCeeyM4njFDRAY1pvZYiEX25bLpjizfZbmPpump",
+      "label": "BUY",
+      "score": 63,
+      "tech_score": 63,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.000117,
+      "change_1h": 230.0,
+      "liquidity": 27488.54,
+      "volume_1h": 347975.93,
+      "mcap": 117084.0,
+      "dex_url": "https://dexscreener.com/solana/8pvxgdtyqtdwblevvmajukrk55zyccwnbxa6jdvwptvm",
+      "time": "15:29:35",
+      "date": "2026-05-25",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "HOPPY",
+      "symbol": "HOPPY",
+      "address": "2RWndXkxWkaKhGjE7dZivVbK5qXtpwnCZJ1jpnxapump",
+      "label": "BUY",
+      "score": 58,
+      "tech_score": 58,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.001215,
+      "change_1h": 44.25,
+      "liquidity": 97096.14,
+      "volume_1h": 1661229.59,
+      "mcap": 1215728.0,
+      "dex_url": "https://dexscreener.com/solana/9o9hstqrd8yv7b3nwd742smre9ad6ddhewxzwu466qjn",
+      "time": "15:29:36",
+      "date": "2026-05-25",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Compute",
       "symbol": "Compute",
       "address": "4A3voKPgy5MJRdCEMmNrjbQPbJ13p6UM96dsYZjdpump",
@@ -1049,59 +1091,17 @@
       "date": "2026-05-24",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Corporation",
-      "symbol": "CORP",
-      "address": "J7ojmpE6NoLEe2onq87QTw4Wi7nWHUnNzYD31f3Dpump",
-      "label": "BUY",
-      "score": 56,
-      "tech_score": 56,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 8.824e-05,
-      "change_1h": 150.0,
-      "liquidity": 23429.35,
-      "volume_1h": 184914.96,
-      "mcap": 88247.0,
-      "dex_url": "https://dexscreener.com/solana/eyus8a2elcpdhlxpos7cruo1m9vwwgncryjxnmsctege",
-      "time": "18:48:20",
-      "date": "2026-05-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "penispoop420",
-      "symbol": "PP420",
-      "address": "Ac8EScJ4ufRo8PiFkun7diUrcCCktg4JvArb3mPmpump",
-      "label": "STRONG BUY",
-      "score": 78,
-      "tech_score": 78,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.000732,
-      "change_1h": 828.0,
-      "liquidity": 71645.14,
-      "volume_1h": 1678186.44,
-      "mcap": 732031.0,
-      "dex_url": "https://dexscreener.com/solana/dyhvcioygvzrvvt7wsowmyi3uhrxnyzwzra6c55ptjb7",
-      "time": "18:48:21",
-      "date": "2026-05-24",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1077,
-    "signals": 6268,
+    "scans": 1078,
+    "signals": 6270,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-25 12:13:59 UTC"
+  "last_scan": "2026-05-25 15:29:33 UTC"
 }
