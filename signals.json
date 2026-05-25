@@ -1,6 +1,30 @@
 {
   "signals": [
     {
+      "token": "Degen Coin ",
+      "symbol": "DEGEN",
+      "address": "FmjijgwEHpe32VPvHy1s7u7TLthh9yu1j75djVbWpump",
+      "label": "WATCH",
+      "score": 35,
+      "tech_score": 17,
+      "narr_bonus": 18,
+      "narrative": "\ud83d\ude80 Pump.fun",
+      "all_narratives": [
+        "\ud83d\ude80 Pump.fun",
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.0004902,
+      "change_1h": 1.71,
+      "liquidity": 76673.13,
+      "volume_1h": 35659.22,
+      "mcap": 490265.0,
+      "dex_url": "https://dexscreener.com/solana/g4s53adujukyz5hikyrctbgfnsroixpp12yxy8qm4tjc",
+      "time": "00:10:09",
+      "date": "2026-05-25",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "GameFund",
       "symbol": "GAMEFUND",
       "address": "2ETdRmbeW39Q3Z8RX6NfinYZyDPayKCuVvpqXrmjpump",
@@ -1077,38 +1101,17 @@
       "date": "2026-05-24",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "cake",
-      "symbol": "cake ",
-      "address": "6MBs7ngXWjZNcU9L9PU2Juiib1qCq6AMq99pNxuppump",
-      "label": "BUY",
-      "score": 68,
-      "tech_score": 68,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 7.343e-05,
-      "change_1h": 1513.0,
-      "liquidity": 21437.46,
-      "volume_1h": 206153.61,
-      "mcap": 73438.0,
-      "dex_url": "https://dexscreener.com/solana/2azdq6eogqkhydzi2vmgv5eqxekz9kummslp4etlgk3b",
-      "time": "16:40:15",
-      "date": "2026-05-24",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1073,
-    "signals": 6249,
+    "scans": 1074,
+    "signals": 6250,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-24 23:01:57 UTC"
+  "last_scan": "2026-05-25 00:10:07 UTC"
 }
