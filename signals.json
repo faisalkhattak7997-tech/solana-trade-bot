@@ -1,6 +1,48 @@
 {
   "signals": [
     {
+      "token": "\u65e5\u7d4c\u5e73\u5747 69000",
+      "symbol": "NI69000",
+      "address": "7dyjuHbAzuApct1cVkN5tZ7xB2iaEdrLZMTozmobpump",
+      "label": "WATCH",
+      "score": 40,
+      "tech_score": 40,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 6.235e-06,
+      "change_1h": 54.32,
+      "liquidity": 6022.28,
+      "volume_1h": 11541.06,
+      "mcap": 6231.0,
+      "dex_url": "https://dexscreener.com/solana/bbptdccesqhgou2tzgwkva3jwxz7gitwudc5txfhenlw",
+      "time": "09:45:45",
+      "date": "2026-05-29",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Beachball underwater",
+      "symbol": "BBALL",
+      "address": "4AJiHGU2DTgD6NSGKTmQvqX92qawyTuVbfcskFBrpump",
+      "label": "WATCH",
+      "score": 26,
+      "tech_score": 26,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 5.051e-05,
+      "change_1h": 5.5,
+      "liquidity": 17521.63,
+      "volume_1h": 7833.95,
+      "mcap": 50506.0,
+      "dex_url": "https://dexscreener.com/solana/5rdlajdw1e9on3z82jgeqhreztsbuin1qeqibygscsmy",
+      "time": "09:45:46",
+      "date": "2026-05-29",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Tower of Babel",
       "symbol": "BABEL",
       "address": "5Jjw95dWbRFDUCM4MKJv4HBzZkwUiVVT1GQSmRdpump",
@@ -1047,61 +1089,17 @@
       "date": "2026-05-28",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "just a stablecoin",
-      "symbol": "stablecoin",
-      "address": "4MrnXyiavn5uHmntspb2JqQkVa4Ecg2uy1M9nKjVpump",
-      "label": "WATCH",
-      "score": 29,
-      "tech_score": 19,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 4.049e-05,
-      "change_1h": 2.55,
-      "liquidity": 20540.81,
-      "volume_1h": 2360.71,
-      "mcap": 40222.0,
-      "dex_url": "https://dexscreener.com/solana/8rtfy1ttwasqv8emvti4g4hxyyispxaunqwey9yhjryp",
-      "time": "10:41:28",
-      "date": "2026-05-28",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "James Translarico",
-      "symbol": "Translarico",
-      "address": "AgurqCQnfxyG46Sx3dwQ6R6jpnDAmQjoZ9L6YBbxpump",
-      "label": "WATCH",
-      "score": 43,
-      "tech_score": 43,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 5.692e-05,
-      "change_1h": 71.32,
-      "liquidity": 18132.2,
-      "volume_1h": 87945.2,
-      "mcap": 56927.0,
-      "dex_url": "https://dexscreener.com/solana/6hupvmlmp8q7xemsy3x5ggwcymm4r7fgn2xwhryxfxk5",
-      "time": "06:39:58",
-      "date": "2026-05-28",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1111,
-    "signals": 6469,
+    "scans": 1112,
+    "signals": 6471,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-29 05:54:21 UTC"
+  "last_scan": "2026-05-29 09:45:44 UTC"
 }
