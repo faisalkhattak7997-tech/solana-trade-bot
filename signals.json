@@ -1,6 +1,71 @@
 {
   "signals": [
     {
+      "token": "The U.S. Constitution",
+      "symbol": "951492",
+      "address": "A1m3XcyzhE31NdDVz4zcsHB6tCwQ6vm1swd2JjQzpump",
+      "label": "WATCH",
+      "score": 40,
+      "tech_score": 40,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 4.887e-05,
+      "change_1h": 44.59,
+      "liquidity": 17155.72,
+      "volume_1h": 181038.03,
+      "mcap": 48872.0,
+      "dex_url": "https://dexscreener.com/solana/gbsacf1f8qojk2mm8euxqxbev7ugn6m2hifcgqxntnxt",
+      "time": "21:16:53",
+      "date": "2026-05-29",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Trump on TikTok",
+      "symbol": "TOT",
+      "address": "9bCAxofkmMmnrfT3xRqofncdV63fmPBmUa9tSHmVpump",
+      "label": "STRONG BUY",
+      "score": 75,
+      "tech_score": 53,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi"
+      ],
+      "price": 0.0001672,
+      "change_1h": 80.44,
+      "liquidity": 32398.86,
+      "volume_1h": 333580.94,
+      "mcap": 167283.0,
+      "dex_url": "https://dexscreener.com/solana/em7zjmpa79nt9fkuvfvt8j87wdk15rqmp4s8zzl52kcp",
+      "time": "21:16:54",
+      "date": "2026-05-29",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "LUNA CLASSIC",
+      "symbol": "LUNC",
+      "address": "3zKhzZhbfU2wgpaTwNTL6tietudCQFZFC9c3MuNRpump",
+      "label": "WATCH",
+      "score": 31,
+      "tech_score": 31,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0002792,
+      "change_1h": 9.67,
+      "liquidity": 42659.3,
+      "volume_1h": 1435.5,
+      "mcap": 279249.0,
+      "dex_url": "https://dexscreener.com/solana/ardjvvx3nswprcqk4fo7abaaoel2oxgghzabbujnj7go",
+      "time": "21:16:55",
+      "date": "2026-05-29",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "this online shit isn't real",
       "symbol": "online",
       "address": "5XpTv4Fnr1jQya5mS7xKtQVGofpFamc8FbWnHoGPpump",
@@ -1013,84 +1078,17 @@
       "date": "2026-05-28",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "National Gas Asset Fund",
-      "symbol": "NGAF",
-      "address": "NGAFwGpXMnN3xYpGZ1byxoVSdMwtEYKRZqCwTLLoQQW",
-      "label": "WATCH",
-      "score": 46,
-      "tech_score": 34,
-      "narr_bonus": 12,
-      "narrative": "\ud83d\ude02 Meme Culture",
-      "all_narratives": [
-        "\ud83d\ude02 Meme Culture"
-      ],
-      "price": 0.001106,
-      "change_1h": 15.77,
-      "liquidity": 21040.18,
-      "volume_1h": 6457.84,
-      "mcap": 1106724.0,
-      "dex_url": "https://dexscreener.com/solana/b3pvgufcm5uunvbgurt7mngp5nbsyvyd17sk5vzwkjic",
-      "time": "21:59:44",
-      "date": "2026-05-28",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Raindrop",
-      "symbol": "RAIN",
-      "address": "9HNQnHXuZopxm2qqbncDSuAdMKfxqJhEMPSVssFupump",
-      "label": "BUY",
-      "score": 60,
-      "tech_score": 35,
-      "narr_bonus": 25,
-      "narrative": "\ud83e\udd16 AI Agent",
-      "all_narratives": [
-        "\ud83e\udd16 AI Agent"
-      ],
-      "price": 5.927e-05,
-      "change_1h": 22.05,
-      "liquidity": 18637.57,
-      "volume_1h": 15275.93,
-      "mcap": 59274.0,
-      "dex_url": "https://dexscreener.com/solana/hfdete6cjq8r2mx2ulzbf8f8gvwko7zgbjokqxi7hzrl",
-      "time": "21:59:44",
-      "date": "2026-05-28",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Rechard Ptardio",
-      "symbol": "Ptardio",
-      "address": "DfKrawVbRsWdjmKtp1uDaRksoCSbpZwZfF7d7B1Dpump",
-      "label": "WATCH",
-      "score": 4,
-      "tech_score": 4,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 2.01e-06,
-      "change_1h": 2.81,
-      "liquidity": 3448.88,
-      "volume_1h": 1450.47,
-      "mcap": 2011.0,
-      "dex_url": "https://dexscreener.com/solana/aqrjzmfncruakb3oqn9kox8ywv4w8rw28kyqcjm74ttc",
-      "time": "21:59:45",
-      "date": "2026-05-28",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1115,
-    "signals": 6495,
+    "scans": 1116,
+    "signals": 6498,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-29 19:10:13 UTC"
+  "last_scan": "2026-05-29 21:16:52 UTC"
 }
