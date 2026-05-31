@@ -1,6 +1,71 @@
 {
   "signals": [
     {
+      "token": "Scetch Cats",
+      "symbol": "SCATS",
+      "address": "GWedCE4fHTMVKo1gj4mRh63NYREYx9gJwDErsYTGpump",
+      "label": "STRONG BUY",
+      "score": 73,
+      "tech_score": 53,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0002028,
+      "change_1h": 77.33,
+      "liquidity": 37031.92,
+      "volume_1h": 592143.31,
+      "mcap": 202812.0,
+      "dex_url": "https://dexscreener.com/solana/ewfoyewuywv4hbhpzd929uwsytzvwjfut3oq3kawv692",
+      "time": "10:24:38",
+      "date": "2026-05-31",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "GIBBS",
+      "symbol": "GIBBS",
+      "address": "HCKj8sRyz81kYTN5V87caBfoPH7K8BWxmSNpoLnHpump",
+      "label": "BUY",
+      "score": 56,
+      "tech_score": 56,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001352,
+      "change_1h": 57.93,
+      "liquidity": 28650.49,
+      "volume_1h": 129964.57,
+      "mcap": 135201.0,
+      "dex_url": "https://dexscreener.com/solana/5cjdgbrtjhvaw3nw7xszlgxotlvdnxvql2m3grji4iif",
+      "time": "10:24:39",
+      "date": "2026-05-31",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "SAM GAYMAN",
+      "symbol": "GAYMAN",
+      "address": "Bmog8jpV6s1akWAuFxPhQqF1V8VZ2NrzfCDPY34ppump",
+      "label": "BUY",
+      "score": 61,
+      "tech_score": 61,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 9.245e-05,
+      "change_1h": 169.0,
+      "liquidity": 23506.07,
+      "volume_1h": 154798.1,
+      "mcap": 92453.0,
+      "dex_url": "https://dexscreener.com/solana/7js1tr3l7wiwmc4wazc1nvkykk8mr5iuzlhgym8fbtj",
+      "time": "10:24:40",
+      "date": "2026-05-31",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "USAMEME",
       "symbol": "USAMEME",
       "address": "FMegdCNZnpUc23rawjKsPsmYChGYeE47NuMMjkBFpump",
@@ -1023,88 +1088,17 @@
       "date": "2026-05-30",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "The Lucky 8's Coin",
-      "symbol": "888Coin",
-      "address": "28xnGP6NjAhuTuwqjBcaCAQ2sUAMwpF4grsphEBwpump",
-      "label": "STRONG BUY",
-      "score": 83,
-      "tech_score": 73,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.0001075,
-      "change_1h": 594.0,
-      "liquidity": 26917.69,
-      "volume_1h": 248162.31,
-      "mcap": 107589.0,
-      "dex_url": "https://dexscreener.com/solana/gqks3nvl5q7c4zq7qitvb2ajzavjc8znanfka9swufnb",
-      "time": "17:32:53",
-      "date": "2026-05-30",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "RAINBOWCOIN",
-      "symbol": "LGBT",
-      "address": "BHVBX1XUFGbhicwxTGfgqhUqsjuki2aiukJETTFApump",
-      "label": "WATCH",
-      "score": 49,
-      "tech_score": 24,
-      "narr_bonus": 25,
-      "narrative": "\ud83e\udd16 AI Agent",
-      "all_narratives": [
-        "\ud83e\udd16 AI Agent",
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 3.101e-05,
-      "change_1h": 42.39,
-      "liquidity": 13509.82,
-      "volume_1h": 8623.37,
-      "mcap": 31018.0,
-      "dex_url": "https://dexscreener.com/solana/honz33pt9ktalrfq1gv5fmjfdfknfpath4fttszdsbzz",
-      "time": "17:32:54",
-      "date": "2026-05-30",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "PumpFun Grok",
-      "symbol": "pruk",
-      "address": "8ZQaeo9RHEpD6aN7QNKRqAX64m1GmtYucUW3Jdo1pump",
-      "label": "WATCH",
-      "score": 42,
-      "tech_score": 24,
-      "narr_bonus": 18,
-      "narrative": "\ud83d\ude80 Pump.fun",
-      "all_narratives": [
-        "\ud83d\ude80 Pump.fun",
-        "\ud83d\ude02 Meme Culture"
-      ],
-      "price": 6.467e-05,
-      "change_1h": 36.87,
-      "liquidity": 21095.27,
-      "volume_1h": 8630.94,
-      "mcap": 63828.0,
-      "dex_url": "https://dexscreener.com/solana/ccgwd5ubxp81xrgjtvtko9jvwjszb5ps7ubrydigkify",
-      "time": "17:32:55",
-      "date": "2026-05-30",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1135,
-    "signals": 6602,
+    "scans": 1136,
+    "signals": 6605,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-31 08:11:44 UTC"
+  "last_scan": "2026-05-31 10:24:37 UTC"
 }
