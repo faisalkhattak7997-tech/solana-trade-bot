@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "The Official Dat Bih Gah Coin",
+      "symbol": "DATBIHGAH",
+      "address": "Fuabm8jWYzXNVKa3eybg6qig6XgzkL21J1yeo8ybpump",
+      "label": "STRONG BUY",
+      "score": 73,
+      "tech_score": 63,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.0001196,
+      "change_1h": 253.0,
+      "liquidity": 26879.65,
+      "volume_1h": 284576.1,
+      "mcap": 119662.0,
+      "dex_url": "https://dexscreener.com/solana/78m3zykkeczghztq3bctr1j8wdxgrawu2pxh8v6xpfmm",
+      "time": "01:35:49",
+      "date": "2026-06-01",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Aura",
+      "symbol": "Aura",
+      "address": "9UTgqFKBrcgwgxy27c16u3GcrXhjWgnGw2wCDwXcGChf",
+      "label": "WATCH",
+      "score": 29,
+      "tech_score": 29,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 3.999e-06,
+      "change_1h": 31.7,
+      "liquidity": 4896.91,
+      "volume_1h": 1087.15,
+      "mcap": 3999.0,
+      "dex_url": "https://dexscreener.com/solana/4fjkrucsrz2pfja8sbhlhxlprj1qho4pjufiudqj2mzc",
+      "time": "01:35:52",
+      "date": "2026-06-01",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "SOLANA SIMD-547 ",
       "symbol": "SIMD-547",
       "address": "8S4Qb9YtHr4jHG4ipodnHBpSwa59bx1aWztJm6FLpump",
@@ -1040,61 +1084,17 @@
       "date": "2026-05-31",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "United States Gas Reserve",
-      "symbol": "USGR",
-      "address": "4xN1TLmjLLHuV2GMNUPwce2B2aq56iPK7Q9J1859pump",
-      "label": "WATCH",
-      "score": 40,
-      "tech_score": 40,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 7.348e-05,
-      "change_1h": 88.27,
-      "liquidity": 20728.69,
-      "volume_1h": 6615.42,
-      "mcap": 73484.0,
-      "dex_url": "https://dexscreener.com/solana/au7ow6neqj8rvwoxqh2yfcnmggfip7nwv6zpaxkkynsh",
-      "time": "11:56:06",
-      "date": "2026-05-31",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "The homophobic cat",
-      "symbol": "Luca",
-      "address": "GmLuMSSyuqNtVEfKuCBuugRu3oupArhHGntT7erxpump",
-      "label": "WATCH",
-      "score": 34,
-      "tech_score": 14,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 9.585e-06,
-      "change_1h": 4.9,
-      "liquidity": 7476.83,
-      "volume_1h": 7593.38,
-      "mcap": 9585.0,
-      "dex_url": "https://dexscreener.com/solana/dbuvcuzvvudyuxypoonhvmbtgkgk56egqksm74jm3vqg",
-      "time": "11:56:07",
-      "date": "2026-05-31",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1146,
-    "signals": 6656,
+    "scans": 1147,
+    "signals": 6658,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-05-31 23:17:33 UTC"
+  "last_scan": "2026-06-01 01:35:47 UTC"
 }
