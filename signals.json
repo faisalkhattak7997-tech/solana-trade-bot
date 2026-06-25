@@ -1,6 +1,71 @@
 {
   "signals": [
     {
+      "token": "George",
+      "symbol": "George",
+      "address": "EwdmRdyL7m3M34XxEvcpfz5banrLAjJPd1tRgbzHpump",
+      "label": "WATCH",
+      "score": 43,
+      "tech_score": 43,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 5.006e-05,
+      "change_1h": 51.04,
+      "liquidity": 16289.94,
+      "volume_1h": 17414.89,
+      "mcap": 38024.0,
+      "dex_url": "https://dexscreener.com/solana/3zcgdhzx5ng7qias5qcw6umqnqoeey6sfdqimjtxcu1a",
+      "time": "20:29:35",
+      "date": "2026-06-25",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "world.xyz",
+      "symbol": "WORLD",
+      "address": "3sctFwdFgVNNrQFyoaLyZN7gweFx5Uw6yyBZgh1Tpump",
+      "label": "WATCH",
+      "score": 25,
+      "tech_score": 25,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 2.792e-05,
+      "change_1h": 1.22,
+      "liquidity": 11470.57,
+      "volume_1h": 13426.55,
+      "mcap": 27927.0,
+      "dex_url": "https://dexscreener.com/solana/fc8kgrmh2eeccqlhwjrbezgz3dyjwwtwap7cp3ndqa9y",
+      "time": "20:29:35",
+      "date": "2026-06-25",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Solomon ",
+      "symbol": "SOL777",
+      "address": "23Y1bUqVcJsvWH9WpVJfj1xDozq2GdKbEhRSdGhDpump",
+      "label": "WATCH",
+      "score": 39,
+      "tech_score": 29,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.0009281,
+      "change_1h": 2.43,
+      "liquidity": 70256.49,
+      "volume_1h": 389.85,
+      "mcap": 928106.0,
+      "dex_url": "https://dexscreener.com/solana/e218zbtuprkk8xaqwa2fjflhxfa749towuqj4bxvnjuk",
+      "time": "20:29:38",
+      "date": "2026-06-25",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "it\u2019s all about perspective",
       "symbol": "SISYPHUS",
       "address": "31j8nSD8MKqkP6Q4zkawm2ePhpaVocvWkAwFgNvW1Upy",
@@ -1036,86 +1101,17 @@
       "date": "2026-06-25",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Meep Cat",
-      "symbol": "Meep",
-      "address": "E7wbcQSGnuC29vNeDX8SrosiD46piaUnBHTg5X8apump",
-      "label": "STRONG BUY",
-      "score": 76,
-      "tech_score": 56,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 5.953e-05,
-      "change_1h": 126.0,
-      "liquidity": 17257.6,
-      "volume_1h": 197639.67,
-      "mcap": 59534.0,
-      "dex_url": "https://dexscreener.com/solana/ac5snsr7qawrsdkxpugbe3ohy9zu9dr2cjuxar3nts7y",
-      "time": "23:46:42",
-      "date": "2026-06-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Just a chill cat",
-      "symbol": "CHILLCAT",
-      "address": "DeaY79QpPqArVG4PuLxvvAZeg31zfFaxhvT7ybTspump",
-      "label": "BUY",
-      "score": 60,
-      "tech_score": 40,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 6.43e-05,
-      "change_1h": 44.86,
-      "liquidity": 17948.97,
-      "volume_1h": 174187.42,
-      "mcap": 64307.0,
-      "dex_url": "https://dexscreener.com/solana/ekr86hwmu5pkwgarm6wmqynnd6htexmdaczfhbsrr6gy",
-      "time": "23:46:43",
-      "date": "2026-06-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Wendy's",
-      "symbol": "WNDY",
-      "address": "45a1fk7ygjqjRpEGVxL2v5em4TrdjZ121KVCznZUWNDY",
-      "label": "WATCH",
-      "score": 40,
-      "tech_score": 22,
-      "narr_bonus": 18,
-      "narrative": "\ud83d\ude80 Pump.fun",
-      "all_narratives": [
-        "\ud83d\ude80 Pump.fun"
-      ],
-      "price": 0.002674,
-      "change_1h": 0.78,
-      "liquidity": 85377.53,
-      "volume_1h": 1371.04,
-      "mcap": 0.0,
-      "dex_url": "https://dexscreener.com/solana/7mf1pfsgtkt2uswt8vrvkyeft1ydcwpy4ye9ryewhwct",
-      "time": "23:46:43",
-      "date": "2026-06-24",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1372,
-    "signals": 8120,
+    "scans": 1373,
+    "signals": 8123,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-06-25 18:24:21 UTC"
+  "last_scan": "2026-06-25 20:29:33 UTC"
 }
