@@ -1,6 +1,73 @@
 {
   "signals": [
     {
+      "token": "Pump ICO",
+      "symbol": "Pump ICO",
+      "address": "Ha1JzNcMtzffLaivL7b4Wzoj5um7Nctcy529BbbYpump",
+      "label": "WATCH",
+      "score": 47,
+      "tech_score": 29,
+      "narr_bonus": 18,
+      "narrative": "\ud83d\ude80 Pump.fun",
+      "all_narratives": [
+        "\ud83d\ude80 Pump.fun"
+      ],
+      "price": 3.149e-05,
+      "change_1h": 12.83,
+      "liquidity": 12299.08,
+      "volume_1h": 55586.96,
+      "mcap": 31496.0,
+      "dex_url": "https://dexscreener.com/solana/9nstgvvcincykobimgmfcm2ig3tw411edmucqqhxl2ek",
+      "time": "01:52:42",
+      "date": "2026-06-26",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "\ud835\udd4fGIFT",
+      "symbol": "\ud835\udd4fGIFT",
+      "address": "FGnzUzwqULDuZk3WX4CGdKeeZiSwp9kHQKL5HGeFpump",
+      "label": "WATCH",
+      "score": 48,
+      "tech_score": 48,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0002525,
+      "change_1h": 55.02,
+      "liquidity": 35776.97,
+      "volume_1h": 254138.76,
+      "mcap": 252503.0,
+      "dex_url": "https://dexscreener.com/solana/9hlxx5hqjgjjsve1xsdjjjsnzmnhvafximqg7cbtnpp6",
+      "time": "01:52:42",
+      "date": "2026-06-26",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Dog Wif Stick",
+      "symbol": "WifStick",
+      "address": "ArbfsZ5ACDZx6nUL84AtRHPqRnC9aaHTqTrAbbD4pump",
+      "label": "BUY",
+      "score": 66,
+      "tech_score": 46,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0002079,
+      "change_1h": 18.24,
+      "liquidity": 32968.2,
+      "volume_1h": 129115.45,
+      "mcap": 207923.0,
+      "dex_url": "https://dexscreener.com/solana/dcmij8hbfywnnupuza9pc3ynjviyvnmt3bcfudkjepxa",
+      "time": "01:52:44",
+      "date": "2026-06-26",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Mooncoin",
       "symbol": "MOON",
       "address": "A178BwyDynPDUaeUcZvq37Li2f4A4TcKZekqpzjgpump",
@@ -1039,82 +1106,17 @@
       "date": "2026-06-25",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "AIAIAI",
-      "symbol": "AIAIAI",
-      "address": "BfUSq4rYH3w6tKCasS7AXoEM526nGchiAaPEoD2upump",
-      "label": "BUY",
-      "score": 65,
-      "tech_score": 40,
-      "narr_bonus": 25,
-      "narrative": "\ud83e\udd16 AI Agent",
-      "all_narratives": [
-        "\ud83e\udd16 AI Agent"
-      ],
-      "price": 3.472e-05,
-      "change_1h": 22.37,
-      "liquidity": 13017.33,
-      "volume_1h": 13959.11,
-      "mcap": 34728.0,
-      "dex_url": "https://dexscreener.com/solana/ei5bywvjqaschurdotb78d8yfbc29xbehecrxur224yy",
-      "time": "08:52:33",
-      "date": "2026-06-25",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Pray For Venezuela",
-      "symbol": "VENEZUELA",
-      "address": "4Fg7opd6HG2ofRcLyN6BbRjCYUdAd6KsGQkTeUHgoDep",
-      "label": "WATCH",
-      "score": 26,
-      "tech_score": 26,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 4.735e-05,
-      "change_1h": 9.48,
-      "liquidity": 15310.99,
-      "volume_1h": 6290.57,
-      "mcap": 47359.0,
-      "dex_url": "https://dexscreener.com/solana/8896ybl1z2yeb3ksmx3xekzgxwpckapjf56pmzszntem",
-      "time": "08:52:34",
-      "date": "2026-06-25",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "VEIL",
-      "symbol": "VEIL",
-      "address": "9nX5Wd82J6VmTvEgq47XrbJucoWRFgGDEEkp526Qpump",
-      "label": "WATCH",
-      "score": 35,
-      "tech_score": 35,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 3.399e-05,
-      "change_1h": 30.29,
-      "liquidity": 13257.88,
-      "volume_1h": 23569.95,
-      "mcap": 33990.0,
-      "dex_url": "https://dexscreener.com/solana/ewced9phw8ydb4u6p3banvqdwpyedr3qhnkahzikgcsc",
-      "time": "08:52:34",
-      "date": "2026-06-25",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1375,
-    "signals": 8137,
+    "scans": 1376,
+    "signals": 8140,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-06-25 23:42:48 UTC"
+  "last_scan": "2026-06-26 01:52:40 UTC"
 }
