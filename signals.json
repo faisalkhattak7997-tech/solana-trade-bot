@@ -1,6 +1,71 @@
 {
   "signals": [
     {
+      "token": "Teddy",
+      "symbol": "Teddy",
+      "address": "9iZQ5U1xTyVTH9nkZRqXiXzbjndk7sEpSY3daxoXpump",
+      "label": "BUY",
+      "score": 63,
+      "tech_score": 63,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 8.667e-05,
+      "change_1h": 215.0,
+      "liquidity": 21143.36,
+      "volume_1h": 326077.89,
+      "mcap": 86677.0,
+      "dex_url": "https://dexscreener.com/solana/2bxqnyfgyydhfkunq1wr6subk81shcm67ntwkmul314j",
+      "time": "12:03:23",
+      "date": "2026-06-26",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "xmoney",
+      "symbol": "$xmoney",
+      "address": "JSe8xojfFPkcjP1xqQGCopfKrwLDb62wx7HMCPLA8Sy",
+      "label": "WATCH",
+      "score": 45,
+      "tech_score": 35,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.0001108,
+      "change_1h": 25.72,
+      "liquidity": 43554.15,
+      "volume_1h": 38681.27,
+      "mcap": 110879.0,
+      "dex_url": "https://dexscreener.com/solana/8z5uyd8jjbi2uxrmectnnwtcvfk9g6x8frhin3e7qbc4",
+      "time": "12:03:24",
+      "date": "2026-06-26",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Heisted",
+      "symbol": "Heisted",
+      "address": "Fv23pDm8HMwEUE5ZwGbRCbCXjnwVEXkGM56KtHeisted",
+      "label": "WATCH",
+      "score": 40,
+      "tech_score": 40,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 5.1e-05,
+      "change_1h": 45.67,
+      "liquidity": 16082.55,
+      "volume_1h": 17687.62,
+      "mcap": 51007.0,
+      "dex_url": "https://dexscreener.com/solana/ezkfs5j4rd1sx54dbmia1tfft4krwbmtdnbckxx5nwy",
+      "time": "12:03:25",
+      "date": "2026-06-26",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Spacedrive",
       "symbol": "Spacedrive",
       "address": "8nV1A94UnmoidK3ujRMmxdgBZzeJTrezz4Hd2nRMpump",
@@ -1038,84 +1103,17 @@
       "date": "2026-06-25",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Bitcoin bubble",
-      "symbol": "BBL",
-      "address": "2S6rEjmbPyLTA4ASZSU15EE3qDXNozV6wsHGkLmcpump",
-      "label": "WATCH",
-      "score": 32,
-      "tech_score": 22,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 1.992e-06,
-      "change_1h": 32.87,
-      "liquidity": 3058.72,
-      "volume_1h": 655.03,
-      "mcap": 1992.0,
-      "dex_url": "https://dexscreener.com/solana/65y163naqtfmqlvxnicz8s9y57xaiw2l41a5lsrcmyjz",
-      "time": "16:08:37",
-      "date": "2026-06-25",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Greatest Token Alive",
-      "symbol": "GTA",
-      "address": "y1Jx8x2yQCJbJ8xm6MDuahELaiBmb6KeNoXqTAspump",
-      "label": "BUY",
-      "score": 50,
-      "tech_score": 40,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.0003715,
-      "change_1h": 27.46,
-      "liquidity": 44861.98,
-      "volume_1h": 55062.66,
-      "mcap": 371590.0,
-      "dex_url": "https://dexscreener.com/solana/j7akaauziwdp7rbt27myr3ywapnfdogkrlywppbv9s7b",
-      "time": "16:08:37",
-      "date": "2026-06-25",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Overton Window",
-      "symbol": "OvertonWindow",
-      "address": "E7jfuQmMQtbSiKiV7iVVoLfsEXYkY616nQhjahbrpump",
-      "label": "BUY",
-      "score": 63,
-      "tech_score": 63,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 9.464e-05,
-      "change_1h": 68.67,
-      "liquidity": 21675.03,
-      "volume_1h": 222983.35,
-      "mcap": 94642.0,
-      "dex_url": "https://dexscreener.com/solana/2rtawm42nnhjrcfrlzgo3j47hpsqcsirnbnbctkwaagd",
-      "time": "13:37:55",
-      "date": "2026-06-25",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1378,
-    "signals": 8157,
+    "scans": 1379,
+    "signals": 8160,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-06-26 09:46:57 UTC"
+  "last_scan": "2026-06-26 12:03:22 UTC"
 }
