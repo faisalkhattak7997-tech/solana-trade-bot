@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "DRINS",
+      "symbol": "DRINS",
+      "address": "Cc2ARNpZNWs6vo4weJ79xPdAUxDUxCtYfAuHjDuZpump",
+      "label": "WATCH",
+      "score": 40,
+      "tech_score": 40,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001052,
+      "change_1h": 23.68,
+      "liquidity": 24044.16,
+      "volume_1h": 5676.96,
+      "mcap": 105230.0,
+      "dex_url": "https://dexscreener.com/solana/5fxgrc5tck4tebj9ticxpbrh5nq9v71v34ydw5exu3qf",
+      "time": "18:22:23",
+      "date": "2026-06-29",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Snill.ai",
+      "symbol": "SNILL",
+      "address": "4quUyZSeuNkBDwR3xqV83cqEB9EnAT348B9ExbhGwory",
+      "label": "WATCH",
+      "score": 43,
+      "tech_score": 18,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent"
+      ],
+      "price": 0.07741,
+      "change_1h": 8.34,
+      "liquidity": 21096.07,
+      "volume_1h": 1039.26,
+      "mcap": 38705.0,
+      "dex_url": "https://dexscreener.com/solana/376gw7jcdxivnfkn3xwttqh2w4zqvcpsvlwzknbhmfer",
+      "time": "18:22:23",
+      "date": "2026-06-29",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "The Course goat",
       "symbol": "BREZ",
       "address": "49n34WGSx5XpnreuU9gBkS2dbEv6iL4eN5VeDMFmpump",
@@ -1067,61 +1111,17 @@
       "date": "2026-06-28",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "The Asian Bull",
-      "symbol": "YEN",
-      "address": "5roz8AK6ewzM9te6ZE6XAoeTgTeQHtms7BMFWaEjpump",
-      "label": "STRONG BUY",
-      "score": 93,
-      "tech_score": 73,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0002194,
-      "change_1h": 261.0,
-      "liquidity": 34635.56,
-      "volume_1h": 670057.17,
-      "mcap": 219428.0,
-      "dex_url": "https://dexscreener.com/solana/f3k8rd5csnmbxyd8ubshcn7rbkgdgijcukvwxrghs7tc",
-      "time": "18:08:28",
-      "date": "2026-06-28",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "The TrenchFather",
-      "symbol": "ANSEM",
-      "address": "GoNjyiedptfBQhawztERSaoZhaVmiTGYb4MPAsGRpump",
-      "label": "WATCH",
-      "score": 34,
-      "tech_score": 34,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 3.943e-05,
-      "change_1h": 10.64,
-      "liquidity": 14296.08,
-      "volume_1h": 122583.41,
-      "mcap": 39440.0,
-      "dex_url": "https://dexscreener.com/solana/5mt2tphjbzaqpnfbuhkjmhnepsgw8kefabnddhivqmlq",
-      "time": "18:08:29",
-      "date": "2026-06-28",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1418,
-    "signals": 8412,
+    "scans": 1419,
+    "signals": 8414,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-06-29 16:10:54 UTC"
+  "last_scan": "2026-06-29 18:22:22 UTC"
 }
