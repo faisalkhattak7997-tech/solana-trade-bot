@@ -1,6 +1,73 @@
 {
   "signals": [
     {
+      "token": "The Top Floor Boss",
+      "symbol": "TJR",
+      "address": "4U4U8oXwDyVXGeTffMXds4NAgBgLFwq3wNvTCRTSpump",
+      "label": "BUY",
+      "score": 64,
+      "tech_score": 64,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.001885,
+      "change_1h": 346.0,
+      "liquidity": 103108.56,
+      "volume_1h": 304365.45,
+      "mcap": 1885498.0,
+      "dex_url": "https://dexscreener.com/solana/eg2sxq3zkt3zjqmnxg318avur8eo4yfupuvzeu6rigjn",
+      "time": "22:42:47",
+      "date": "2026-06-29",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "The Patriots",
+      "symbol": "PATRIOTS",
+      "address": "27b3yPhPVJQzCSDtML8XTNVYQcNa2urnMZXgzGhfpump",
+      "label": "STRONG BUY",
+      "score": 85,
+      "tech_score": 63,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi"
+      ],
+      "price": 0.00014,
+      "change_1h": 264.0,
+      "liquidity": 27588.55,
+      "volume_1h": 177982.76,
+      "mcap": 140065.0,
+      "dex_url": "https://dexscreener.com/solana/2gsskamszbf5zefajwfd26t8ekgpyax1axxqipprwnhv",
+      "time": "22:42:47",
+      "date": "2026-06-29",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "AIRSEM",
+      "symbol": "AIRSEM",
+      "address": "Fugm7Zq3Sku9KK7AWgw7nr4A8K3ro2SHif6Ai3qLpump",
+      "label": "STRONG BUY",
+      "score": 81,
+      "tech_score": 56,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent"
+      ],
+      "price": 0.0005865,
+      "change_1h": 147.0,
+      "liquidity": 57277.98,
+      "volume_1h": 185703.13,
+      "mcap": 586509.0,
+      "dex_url": "https://dexscreener.com/solana/5cu8skrutjdgiyx3f6npjtxsyuhhswszqmrr1mbmuwhn",
+      "time": "22:42:48",
+      "date": "2026-06-29",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "AIRSEM",
       "symbol": "AIRSEM",
       "address": "Fugm7Zq3Sku9KK7AWgw7nr4A8K3ro2SHif6Ai3qLpump",
@@ -1045,87 +1112,17 @@
       "date": "2026-06-28",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "The White Bull",
-      "symbol": "DAVID",
-      "address": "HULaBKR1eK3SA18FpfEav8Z2t7TJ1qEC775YHTLNpump",
-      "label": "STRONG BUY",
-      "score": 73,
-      "tech_score": 51,
-      "narr_bonus": 22,
-      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
-      "all_narratives": [
-        "\ud83c\udfdb\ufe0f PolitiFi",
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0002741,
-      "change_1h": 114.0,
-      "liquidity": 37172.97,
-      "volume_1h": 70489.79,
-      "mcap": 274171.0,
-      "dex_url": "https://dexscreener.com/solana/5fl9afwwbhwyrngmoaadvr3ch3rjfqugnkwywglihwsa",
-      "time": "22:45:45",
-      "date": "2026-06-28",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "BULLSHIT",
-      "symbol": "BULLSHIT",
-      "address": "CNFNPhdpe2KEzCGStnzce7YbCNF6f4unSNWFXJoPpump",
-      "label": "BUY",
-      "score": 63,
-      "tech_score": 43,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 4.801e-05,
-      "change_1h": 67.26,
-      "liquidity": 15481.56,
-      "volume_1h": 60463.19,
-      "mcap": 48016.0,
-      "dex_url": "https://dexscreener.com/solana/2jshakabkjjqv6jc7iqm8sdiy6eb7r4czxamu2uqzs4o",
-      "time": "22:45:46",
-      "date": "2026-06-28",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "The First Black Bull",
-      "symbol": "DAVINCI",
-      "address": "F2SwCKHb6K3ksPPGS71ZmGFKSnYjQcMscWEk8WGFpump",
-      "label": "WATCH",
-      "score": 47,
-      "tech_score": 27,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 2.995e-05,
-      "change_1h": 4.96,
-      "liquidity": 12212.55,
-      "volume_1h": 736.01,
-      "mcap": 29956.0,
-      "dex_url": "https://dexscreener.com/solana/e11jwjesjvut9zgprhw1quonnc1rmezcu5a9mvf43gb2",
-      "time": "21:46:29",
-      "date": "2026-06-28",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1421,
-    "signals": 8425,
+    "scans": 1422,
+    "signals": 8428,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-06-29 21:47:36 UTC"
+  "last_scan": "2026-06-29 22:42:46 UTC"
 }
