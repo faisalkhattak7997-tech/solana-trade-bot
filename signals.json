@@ -1,6 +1,29 @@
 {
   "signals": [
     {
+      "token": "AIRSEM",
+      "symbol": "AIRSEM",
+      "address": "Fugm7Zq3Sku9KK7AWgw7nr4A8K3ro2SHif6Ai3qLpump",
+      "label": "STRONG BUY",
+      "score": 86,
+      "tech_score": 61,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent"
+      ],
+      "price": 0.0002398,
+      "change_1h": 154.0,
+      "liquidity": 36441.35,
+      "volume_1h": 338211.75,
+      "mcap": 239857.0,
+      "dex_url": "https://dexscreener.com/solana/5cu8skrutjdgiyx3f6npjtxsyuhhswszqmrr1mbmuwhn",
+      "time": "21:47:37",
+      "date": "2026-06-29",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "ALL U NEED IS 100$",
       "symbol": "$100",
       "address": "h5f6q75JcVDhKy3gZRZ8G6nnQnsEMVDzaEeFYkDzAao",
@@ -1092,38 +1115,17 @@
       "date": "2026-06-28",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Ansem",
-      "symbol": "Ansem",
-      "address": "F23GvgK5TvSA78FmibZot7gtU3yfAiPb4BkD4RrZc18B",
-      "label": "WATCH",
-      "score": 48,
-      "tech_score": 48,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0001261,
-      "change_1h": 77.16,
-      "liquidity": 28917.7,
-      "volume_1h": 42569.95,
-      "mcap": 125979.0,
-      "dex_url": "https://dexscreener.com/solana/3nytfzvrkgwudzi9jrdqbvfkd3nkc3nbnefrgehbr7cl",
-      "time": "21:46:30",
-      "date": "2026-06-28",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1420,
-    "signals": 8424,
+    "scans": 1421,
+    "signals": 8425,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-06-29 20:19:51 UTC"
+  "last_scan": "2026-06-29 21:47:36 UTC"
 }
