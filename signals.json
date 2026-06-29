@@ -1,6 +1,71 @@
 {
   "signals": [
     {
+      "token": "Bongo Cat",
+      "symbol": "Bongo",
+      "address": "378vHhJyftNqtd47c5CT7gL3RPBS3VnrfcK8FNY3pump",
+      "label": "STRONG BUY",
+      "score": 83,
+      "tech_score": 63,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0002088,
+      "change_1h": 1509.0,
+      "liquidity": 8035.64,
+      "volume_1h": 64655.4,
+      "mcap": 55879.0,
+      "dex_url": "https://dexscreener.com/solana/15cxeshobmj7yhuqnlmdcujuh8twgudmv6agvrruwqc",
+      "time": "12:11:48",
+      "date": "2026-06-29",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Noah Thomas",
+      "symbol": "Ansem2",
+      "address": "643djtoUUQdZbFS4PY6vbywrd1pCPhznFoheHQH3pump",
+      "label": "WATCH",
+      "score": 8,
+      "tech_score": 8,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 4.629e-06,
+      "change_1h": 13.39,
+      "liquidity": 4892.0,
+      "volume_1h": 1738.57,
+      "mcap": 4630.0,
+      "dex_url": "https://dexscreener.com/solana/5mvaxnccbabzpuf2utyyghqt1knj84fyvnmu5hen4bsc",
+      "time": "12:11:49",
+      "date": "2026-06-29",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Moo Virus",
+      "symbol": "MOO",
+      "address": "2qviVzJF1CG7yU9nwoz4Jmg79PFQxHm25x1ddwC6pump",
+      "label": "WATCH",
+      "score": 35,
+      "tech_score": 35,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 6.916e-05,
+      "change_1h": 38.71,
+      "liquidity": 19845.66,
+      "volume_1h": 67182.62,
+      "mcap": 69151.0,
+      "dex_url": "https://dexscreener.com/solana/cnuko1x6vxczzae7fepsueulfv72qkswyebg9akzvuyj",
+      "time": "12:11:49",
+      "date": "2026-06-29",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Speedrun To 1 Billion",
       "symbol": "Speedrun",
       "address": "PDqSePtjwXYaruFX7hdujV9wf4X7Z4fu5d2iVMCpump",
@@ -1047,85 +1112,17 @@
       "date": "2026-06-28",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "MustStopMurad",
-      "symbol": "Murad",
-      "address": "GAXFGbcnVfhTSWW64yeTBxXYjsd4Xq9Q2xHVc15Spump",
-      "label": "BUY",
-      "score": 58,
-      "tech_score": 58,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0001481,
-      "change_1h": 201.0,
-      "liquidity": 27365.93,
-      "volume_1h": 43089.17,
-      "mcap": 148157.0,
-      "dex_url": "https://dexscreener.com/solana/caxmqvvhjtaykjjvth1nhs4y6pw2hmegu3cdveepzbk1",
-      "time": "18:08:34",
-      "date": "2026-06-28",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Just a bull",
-      "symbol": "BULL",
-      "address": "i6ogh5RMjBmiey1qZacvAhFeuDneQxhRgSGDh7Tpump",
-      "label": "STRONG BUY",
-      "score": 76,
-      "tech_score": 56,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 6.449e-05,
-      "change_1h": 120.0,
-      "liquidity": 18235.14,
-      "volume_1h": 119485.77,
-      "mcap": 64492.0,
-      "dex_url": "https://dexscreener.com/solana/gnxnf8its92t5xcxvl4xfvbrnbgmgtefwox8jony27rc",
-      "time": "16:57:52",
-      "date": "2026-06-28",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "The White God",
-      "symbol": "FRANK",
-      "address": "HrnmUfiwT7uCpPBMrDh2VGk1MgwHcfpJ4bPJGCY2pump",
-      "label": "BUY",
-      "score": 65,
-      "tech_score": 43,
-      "narr_bonus": 22,
-      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
-      "all_narratives": [
-        "\ud83c\udfdb\ufe0f PolitiFi",
-        "\ud83d\ude80 Pump.fun"
-      ],
-      "price": 5.598e-05,
-      "change_1h": 57.53,
-      "liquidity": 16955.67,
-      "volume_1h": 90750.76,
-      "mcap": 55986.0,
-      "dex_url": "https://dexscreener.com/solana/3uby5ufvc2pbjdkncrbtc1udm3p8efszbagzmmvcovze",
-      "time": "16:57:53",
-      "date": "2026-06-28",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1416,
-    "signals": 8401,
+    "scans": 1417,
+    "signals": 8404,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-06-29 07:13:29 UTC"
+  "last_scan": "2026-06-29 12:11:46 UTC"
 }
