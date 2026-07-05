@@ -1,6 +1,52 @@
 {
   "signals": [
     {
+      "token": "The Earth",
+      "symbol": "EARTH",
+      "address": "4aAHXoQLCUGGVDUBPsxpNf6G61BVrHhhbFYJGRrDpump",
+      "label": "STRONG BUY",
+      "score": 95,
+      "tech_score": 83,
+      "narr_bonus": 12,
+      "narrative": "\ud83d\ude02 Meme Culture",
+      "all_narratives": [
+        "\ud83d\ude02 Meme Culture"
+      ],
+      "price": 0.0002683,
+      "change_1h": 550.0,
+      "liquidity": 41976.83,
+      "volume_1h": 1214695.64,
+      "mcap": 268348.0,
+      "dex_url": "https://dexscreener.com/solana/ws7la8vzalgq6mbirrkxpumrvpyiy5yzteg7y1klph4",
+      "time": "01:25:28",
+      "date": "2026-07-05",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Meep Cat",
+      "symbol": "Meep",
+      "address": "E7wbcQSGnuC29vNeDX8SrosiD46piaUnBHTg5X8apump",
+      "label": "BUY",
+      "score": 63,
+      "tech_score": 43,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0001662,
+      "change_1h": 51.27,
+      "liquidity": 35333.17,
+      "volume_1h": 31366.82,
+      "mcap": 165868.0,
+      "dex_url": "https://dexscreener.com/solana/ac5snsr7qawrsdkxpugbe3ohy9zu9dr2cjuxar3nts7y",
+      "time": "01:25:32",
+      "date": "2026-07-05",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Hodling ",
       "symbol": "Hodling",
       "address": "CP7ejUkzubuLUrmWPq8G5FxcUzmaKnhTduXoe61Mpump",
@@ -1054,59 +1100,17 @@
       "date": "2026-07-04",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "manlet",
-      "symbol": "manlet",
-      "address": "DdPrHYqM8Ueovnk9kAnAgoGhswkuaTqmxcoZzU3Zpump",
-      "label": "WATCH",
-      "score": 17,
-      "tech_score": 17,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.01684,
-      "change_1h": 4.48,
-      "liquidity": 598053.31,
-      "volume_1h": 122346.46,
-      "mcap": 16830855.0,
-      "dex_url": "https://dexscreener.com/solana/ddzuehgsh9late28k8sqeewckq96k6fxgj7zuwhqnwkv",
-      "time": "18:40:59",
-      "date": "2026-07-04",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "KORA",
-      "symbol": "KORA",
-      "address": "3MjoqwNyvoeqneWpzbHqTcJMHZE9FfqYbSg3cQCzpump",
-      "label": "WATCH",
-      "score": 43,
-      "tech_score": 43,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 5.677e-05,
-      "change_1h": 65.81,
-      "liquidity": 18282.24,
-      "volume_1h": 73912.11,
-      "mcap": 56774.0,
-      "dex_url": "https://dexscreener.com/solana/6s9vfqm26c6oh7cymezi1gxokvpwc93kd5jdzay5ucvm",
-      "time": "17:40:48",
-      "date": "2026-07-04",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1484,
-    "signals": 8896,
+    "scans": 1485,
+    "signals": 8898,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-07-04 23:43:38 UTC"
+  "last_scan": "2026-07-05 01:25:27 UTC"
 }
