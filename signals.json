@@ -1,6 +1,96 @@
 {
   "signals": [
     {
+      "token": "The $450 Grass",
+      "symbol": "Grass",
+      "address": "Gs7kpzn5JZo3SSZ2o3f7E6vuKmFNF6qbSLXyjo7PSWyP",
+      "label": "WATCH",
+      "score": 30,
+      "tech_score": 30,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 3.143e-05,
+      "change_1h": 1.1,
+      "liquidity": 13206.33,
+      "volume_1h": 131830.39,
+      "mcap": 31438.0,
+      "dex_url": "https://dexscreener.com/solana/4j28byv94jv8b8j6hnafcfgbs8zkl9knsi9en4gmnjrw",
+      "time": "14:08:53",
+      "date": "2026-07-12",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "The SpaceX Goats",
+      "symbol": "XGOATS",
+      "address": "BCBVn7sNtfXuCaFWLLvsKYTEcQiFgpnq7hfN7Pzspump",
+      "label": "BUY",
+      "score": 56,
+      "tech_score": 56,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001071,
+      "change_1h": 165.0,
+      "liquidity": 25175.93,
+      "volume_1h": 319399.55,
+      "mcap": 107136.0,
+      "dex_url": "https://dexscreener.com/solana/73ipmejzrfwxppahe1q8tdtnyul765lfhwkgumotu8ma",
+      "time": "14:08:53",
+      "date": "2026-07-12",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "memecat",
+      "symbol": "memecat",
+      "address": "CTdVAK1wZ5wgJiMqm41CGF323QTr1ZwAtnJ3MwKDpump",
+      "label": "BUY",
+      "score": 63,
+      "tech_score": 43,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal",
+        "\ud83d\ude02 Meme Culture"
+      ],
+      "price": 7.318e-05,
+      "change_1h": 130.0,
+      "liquidity": 21976.06,
+      "volume_1h": 24712.09,
+      "mcap": 73184.0,
+      "dex_url": "https://dexscreener.com/solana/hxokv1hk53qa1pdmfxb2p4phukm6ns43foa5eeituguz",
+      "time": "14:08:54",
+      "date": "2026-07-12",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "CASHCAT",
+      "symbol": "CASHCAT",
+      "address": "3grmULXrnQyN2A5LFStKFeSQsWvZjzNDsDVVLknFpump",
+      "label": "BUY",
+      "score": 55,
+      "tech_score": 35,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal",
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.0002429,
+      "change_1h": 20.69,
+      "liquidity": 42414.77,
+      "volume_1h": 19626.59,
+      "mcap": 242940.0,
+      "dex_url": "https://dexscreener.com/solana/9asrux6bowivf5mjfbuus1bpszqvoajmftkhpdqvkojx",
+      "time": "14:08:54",
+      "date": "2026-07-12",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "The SpaceX Goats",
       "symbol": "XGOATS",
       "address": "BCBVn7sNtfXuCaFWLLvsKYTEcQiFgpnq7hfN7Pzspump",
@@ -1019,109 +1109,17 @@
       "date": "2026-07-12",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Pointless Coin",
-      "symbol": "POINTLESS",
-      "address": "D4pi5eJNqT5mCzQcxAGfMavgVYLspfYkAQKKvQ8Xpump",
-      "label": "WATCH",
-      "score": 45,
-      "tech_score": 35,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.0001402,
-      "change_1h": 35.63,
-      "liquidity": 30402.07,
-      "volume_1h": 21595.27,
-      "mcap": 140244.0,
-      "dex_url": "https://dexscreener.com/solana/7p1ld2vwkrcdbxnhwak3fkdj7fcakubszmeaucgivngq",
-      "time": "03:59:13",
-      "date": "2026-07-12",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "The Genius Bull",
-      "symbol": "GENIUS",
-      "address": "3RZhwmcD2y1pq9roatMvaXxWR5VadTgxF6AL7TCLpump",
-      "label": "WATCH",
-      "score": 45,
-      "tech_score": 25,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 6.507e-05,
-      "change_1h": 1.51,
-      "liquidity": 19069.17,
-      "volume_1h": 44836.27,
-      "mcap": 65072.0,
-      "dex_url": "https://dexscreener.com/solana/7x4ywmtue5bmad4j8mbxt9xirikdqhudue85gpwhkmqs",
-      "time": "00:13:11",
-      "date": "2026-07-12",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "RIBBIT ZYGO THE FROG ",
-      "symbol": "RIBBIT",
-      "address": "FrtbBAaSZksfh4oV46E7Pvb43QiiUmYLD3dcGS6gpump",
-      "label": "STRONG BUY",
-      "score": 71,
-      "tech_score": 51,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0001348,
-      "change_1h": 141.0,
-      "liquidity": 28407.2,
-      "volume_1h": 22040.52,
-      "mcap": 134807.0,
-      "dex_url": "https://dexscreener.com/solana/ak9j6xqrsdpxgmqrscv67yrjybbvhjqu6twepikc6n6o",
-      "time": "00:13:11",
-      "date": "2026-07-12",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "catwifhat",
-      "symbol": "CATWIF",
-      "address": "5pYB12kEhfhSFXJjZ7JtyqDpt6uUqhsF6iu6Ee9spump",
-      "label": "WATCH",
-      "score": 33,
-      "tech_score": 13,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0004728,
-      "change_1h": 2.96,
-      "liquidity": 113292.14,
-      "volume_1h": 50293.06,
-      "mcap": 472793.0,
-      "dex_url": "https://dexscreener.com/solana/4dytblybdqyqjavjlrht4xtqkvm7qayzuttjfsicromp",
-      "time": "00:13:13",
-      "date": "2026-07-12",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1578,
-    "signals": 9682,
+    "scans": 1579,
+    "signals": 9686,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-07-12 12:32:01 UTC"
+  "last_scan": "2026-07-12 14:08:52 UTC"
 }
