@@ -1,6 +1,73 @@
 {
   "signals": [
     {
+      "token": "smol bull",
+      "symbol": "bul",
+      "address": "DRhgZun6hRwH9ZuN8WnBqNg2o3SxGrPXdXh51XXfpump",
+      "label": "STRONG BUY",
+      "score": 71,
+      "tech_score": 51,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 7.193e-05,
+      "change_1h": 125.0,
+      "liquidity": 19883.51,
+      "volume_1h": 70722.19,
+      "mcap": 71931.0,
+      "dex_url": "https://dexscreener.com/solana/37hxlluia8ztgzhdemyabrnevv94thut44hc6rtvh2xn",
+      "time": "01:08:07",
+      "date": "2026-07-16",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Udin din din dun",
+      "symbol": "Udin",
+      "address": "2aQKC1xiKpEyAWvzSDrULnYLVuybWyx7qrsnpP8hpump",
+      "label": "WATCH",
+      "score": 35,
+      "tech_score": 35,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.000701,
+      "change_1h": 37.38,
+      "liquidity": 75465.48,
+      "volume_1h": 36791.59,
+      "mcap": 701063.0,
+      "dex_url": "https://dexscreener.com/solana/6yismmnysgxcw9awgf3h2gxmr1gdkvwq7oo76rjq1i6v",
+      "time": "01:08:08",
+      "date": "2026-07-16",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "CAMERAMEME",
+      "symbol": "CAM",
+      "address": "CAMyTP53yapXHc9JRYiMKh9fGxNn7uQG2EoFsG5DoPYv",
+      "label": "STRONG BUY",
+      "score": 70,
+      "tech_score": 58,
+      "narr_bonus": 12,
+      "narrative": "\ud83d\ude02 Meme Culture",
+      "all_narratives": [
+        "\ud83d\ude02 Meme Culture"
+      ],
+      "price": 0.0006523,
+      "change_1h": 65.81,
+      "liquidity": 66353.41,
+      "volume_1h": 1351510.1,
+      "mcap": 652348.0,
+      "dex_url": "https://dexscreener.com/solana/7hkxaxoajwd4rqktailif21pkc52avdgqexrqdfujan6",
+      "time": "01:08:08",
+      "date": "2026-07-16",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "TrumpCoin",
       "symbol": "TCOIN",
       "address": "5W9LqxirSuXbyHj5Lysv6ZVKyURWtW8JA9B5vHRXT9Sq",
@@ -1040,86 +1107,17 @@
       "date": "2026-07-15",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "The Black Trump President",
-      "symbol": "BTP",
-      "address": "Aq6bgCBiY3BiBVXcRmTZLu4kC1229pEZZgCkZDeJvAKL",
-      "label": "WATCH",
-      "score": 49,
-      "tech_score": 27,
-      "narr_bonus": 22,
-      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
-      "all_narratives": [
-        "\ud83c\udfdb\ufe0f PolitiFi"
-      ],
-      "price": 3.049e-06,
-      "change_1h": 41.16,
-      "liquidity": 2936.55,
-      "volume_1h": 3765.43,
-      "mcap": 3050.0,
-      "dex_url": "https://dexscreener.com/solana/7nrbai7fdyyjband9jixgi3ut4muhvzmz86qjybdsreg",
-      "time": "18:42:05",
-      "date": "2026-07-15",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "The Black Bear",
-      "symbol": "BlackBear",
-      "address": "8X1N2HmiP11UXidmyRNHLoBGjAhXU4rk5GnrVYGYpump",
-      "label": "WATCH",
-      "score": 49,
-      "tech_score": 29,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.000675,
-      "change_1h": 5.62,
-      "liquidity": 62731.74,
-      "volume_1h": 16117.82,
-      "mcap": 675026.0,
-      "dex_url": "https://dexscreener.com/solana/bwitoefdarynw3cx8w8fmz5g26hbikhjfueifgrxybws",
-      "time": "18:42:06",
-      "date": "2026-07-15",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "SOLDIER",
-      "symbol": "SOLDIER",
-      "address": "GGUxJxZqUDfNbnzQqdCnrEzUX7LuCA9usdAkkSfApump",
-      "label": "BUY",
-      "score": 50,
-      "tech_score": 40,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 1.024e-05,
-      "change_1h": 23.14,
-      "liquidity": 11376.32,
-      "volume_1h": 1302.52,
-      "mcap": 10237.0,
-      "dex_url": "https://dexscreener.com/solana/3wrekyqb76aqstpvtzhgefrqamh1ytv8nk4pqzyfwyew",
-      "time": "18:42:06",
-      "date": "2026-07-15",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1631,
-    "signals": 10094,
+    "scans": 1632,
+    "signals": 10097,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-07-15 23:40:54 UTC"
+  "last_scan": "2026-07-16 01:08:06 UTC"
 }
