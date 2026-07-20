@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "Likweli",
+      "symbol": "Likweli",
+      "address": "8dVvMe71k6qy6ZvZ95cSAPQa4vxyCjdGcrKMnbP21ccb",
+      "label": "WATCH",
+      "score": 43,
+      "tech_score": 43,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 4.879e-05,
+      "change_1h": 75.35,
+      "liquidity": 17564.84,
+      "volume_1h": 28219.91,
+      "mcap": 48790.0,
+      "dex_url": "https://dexscreener.com/solana/ypsbxm9ywjqsj8zg4tqnfzznf51yethwvn5otykfop2",
+      "time": "04:06:42",
+      "date": "2026-07-20",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "horse on horse",
+      "symbol": "hoh",
+      "address": "rG2Q4Re1fSNLbbnqN63N2whNSTJ9yQaa3zsUKg6pump",
+      "label": "WATCH",
+      "score": 46,
+      "tech_score": 26,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 1.36e-05,
+      "change_1h": 15.33,
+      "liquidity": 8904.97,
+      "volume_1h": 4123.12,
+      "mcap": 13599.0,
+      "dex_url": "https://dexscreener.com/solana/gfwbejljzz8uvkpqydlpu2vmratnga8d6a15yawpcutu",
+      "time": "04:06:43",
+      "date": "2026-07-20",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "CONVICTION",
       "symbol": "CONVICTION",
       "address": "fQDN3YED9Rkz5oaPPt9V6xTgmgHtkybgizwvNMzpump",
@@ -1064,59 +1108,17 @@
       "date": "2026-07-19",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Bruno",
-      "symbol": "Bruno",
-      "address": "CKv8UuRDpEYou2QQvwQ2ivVK8yA9wxoM5wYnYpbGpump",
-      "label": "WATCH",
-      "score": 48,
-      "tech_score": 48,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 5.087e-05,
-      "change_1h": 62.78,
-      "liquidity": 17277.02,
-      "volume_1h": 397776.33,
-      "mcap": 50873.0,
-      "dex_url": "https://dexscreener.com/solana/4tlfjcebce3ukp24frdadckd2t9ftjw36sewpve8gk7u",
-      "time": "17:14:04",
-      "date": "2026-07-19",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "\u7334\u5b50\u5e01",
-      "symbol": "\u7334\u5b50\u5e01",
-      "address": "3896JtCMnJp8UREX13EGXH82mEzrUnt8ZKNLThYRpump",
-      "label": "WATCH",
-      "score": 40,
-      "tech_score": 40,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 8.268e-05,
-      "change_1h": 21.61,
-      "liquidity": 21941.97,
-      "volume_1h": 265821.22,
-      "mcap": 82670.0,
-      "dex_url": "https://dexscreener.com/solana/f7uiprcomgsfhynwxmaz8mymkwmjnezal31bpnp3nlu6",
-      "time": "17:14:05",
-      "date": "2026-07-19",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1698,
-    "signals": 10630,
+    "scans": 1699,
+    "signals": 10632,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-07-20 00:13:35 UTC"
+  "last_scan": "2026-07-20 04:06:40 UTC"
 }
