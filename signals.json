@@ -1,6 +1,75 @@
 {
   "signals": [
     {
+      "token": "Moet the Blind Cat",
+      "symbol": "MOET",
+      "address": "B7P99t3yDA7cfSrkiHsoG8ktWvroi4rFqHty326pump",
+      "label": "STRONG BUY",
+      "score": 83,
+      "tech_score": 63,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.000122,
+      "change_1h": 97.85,
+      "liquidity": 24647.13,
+      "volume_1h": 278206.82,
+      "mcap": 122033.0,
+      "dex_url": "https://dexscreener.com/solana/3xek9nnurefeadmw82f19kvdqfbdjlpx9vzpv33k8ubj",
+      "time": "12:50:18",
+      "date": "2026-07-24",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Trump KET",
+      "symbol": "TRUMPKET",
+      "address": "Af72QENbvReeKywXQvi3GRgfWbKF8LdncwCjoQ9npump",
+      "label": "STRONG BUY",
+      "score": 95,
+      "tech_score": 73,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi"
+      ],
+      "price": 0.0003668,
+      "change_1h": 371.0,
+      "liquidity": 44407.56,
+      "volume_1h": 649440.16,
+      "mcap": 366821.0,
+      "dex_url": "https://dexscreener.com/solana/21xmk7f5mzhpmjwu8chhztuy3zc9yvkn1hhcz6nkpepq",
+      "time": "12:50:20",
+      "date": "2026-07-24",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Rupert The Dog",
+      "symbol": "Rupert",
+      "address": "7DRgFDVNskjKK7nmYWuWYva49rH2H7yWzUXPBwKapump",
+      "label": "STRONG BUY",
+      "score": 83,
+      "tech_score": 63,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0001242,
+      "change_1h": 298.0,
+      "liquidity": 25059.85,
+      "volume_1h": 314138.59,
+      "mcap": 124299.0,
+      "dex_url": "https://dexscreener.com/solana/66ov569ghtzgprzbulv6k1uanw77wsapu6ghkh6hu1nz",
+      "time": "12:50:21",
+      "date": "2026-07-24",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Exploding Fish",
       "symbol": "SUNFISH",
       "address": "3CTzpt4xB4nRnMDs1zNvi68uu2tCWwBLqtkjp5Edpump",
@@ -1020,82 +1089,17 @@
       "date": "2026-07-23",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Trade Internet Trends",
-      "symbol": "TIT",
-      "address": "5xhJC2F2q8Mgk1DYaMBTxNY8t8xDE7cdgTcv5cevpump",
-      "label": "BUY",
-      "score": 63,
-      "tech_score": 63,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0001313,
-      "change_1h": 209.0,
-      "liquidity": 27848.35,
-      "volume_1h": 232710.98,
-      "mcap": 129195.0,
-      "dex_url": "https://dexscreener.com/solana/av4xkolrrc1jpspnlg9gej8uqaelrba6n17vwpohi625",
-      "time": "21:44:23",
-      "date": "2026-07-23",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "REDLINE",
-      "symbol": "RDLN",
-      "address": "HzdLSN25vVoPJQkdEV8nipBeVmKwc4RrHKYzCxhGpump",
-      "label": "STRONG BUY",
-      "score": 73,
-      "tech_score": 73,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0006039,
-      "change_1h": 258.0,
-      "liquidity": 61204.57,
-      "volume_1h": 1652950.48,
-      "mcap": 603921.0,
-      "dex_url": "https://dexscreener.com/solana/6dayobwpu898t1rklfsqzmz6qrszkulbcn1fqnb7uk4r",
-      "time": "21:44:24",
-      "date": "2026-07-23",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "SUMOPEPE",
-      "symbol": "$SUMOPEPE",
-      "address": "FoFrcPnRVa6KhvUzwvTcz8rrnQzLouHxVmycaoxspump",
-      "label": "BUY",
-      "score": 68,
-      "tech_score": 48,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 2.13e-05,
-      "change_1h": 51.53,
-      "liquidity": 9346.17,
-      "volume_1h": 2169.73,
-      "mcap": 20512.0,
-      "dex_url": "https://dexscreener.com/solana/ccjmgqo12ktqcqzwbtgmbr8sknk6dy29bfkmy9e6aa4f",
-      "time": "21:44:25",
-      "date": "2026-07-23",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1756,
-    "signals": 11100,
+    "scans": 1757,
+    "signals": 11103,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-07-24 11:20:00 UTC"
+  "last_scan": "2026-07-24 12:50:17 UTC"
 }
