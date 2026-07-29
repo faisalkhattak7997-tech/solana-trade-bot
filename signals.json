@@ -1,6 +1,73 @@
 {
   "signals": [
     {
+      "token": "Butthole sunning",
+      "symbol": "Solanus",
+      "address": "5sEYFen7DcxkdoL4Hvv8Cgi4e9A2NejVnAbAxG76pump",
+      "label": "WATCH",
+      "score": 44,
+      "tech_score": 34,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 3.609e-05,
+      "change_1h": 18.26,
+      "liquidity": 12604.44,
+      "volume_1h": 160034.38,
+      "mcap": 36094.0,
+      "dex_url": "https://dexscreener.com/solana/9pxgayrj8cbpydizagjk53e4tes3mcu1jyb9gkdiumuw",
+      "time": "23:36:08",
+      "date": "2026-07-29",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "The Bull Lion",
+      "symbol": "ROAR",
+      "address": "2u1rsB1jLhDXhLb2JiVefudskRPA9dchnpWozrcKpump",
+      "label": "STRONG BUY",
+      "score": 71,
+      "tech_score": 51,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 7.235e-05,
+      "change_1h": 133.0,
+      "liquidity": 18155.31,
+      "volume_1h": 46515.14,
+      "mcap": 72352.0,
+      "dex_url": "https://dexscreener.com/solana/up6yfp9m1alov5er3h7mkk4pgnmdmjstdlea4fo5lhe",
+      "time": "23:36:09",
+      "date": "2026-07-29",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "CHEEMS",
+      "symbol": "CHEEMS",
+      "address": "73DRYB2YpoHiZUdq37hQmHTR7Yvg5qJKsxxaYrsJSBCJ",
+      "label": "BUY",
+      "score": 61,
+      "tech_score": 61,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001447,
+      "change_1h": 182.0,
+      "liquidity": 28251.21,
+      "volume_1h": 248397.24,
+      "mcap": 144513.0,
+      "dex_url": "https://dexscreener.com/solana/fxh1nzwvgnk9qwzfcvqekzuysdcug7kpeuiguz6muswb",
+      "time": "23:36:10",
+      "date": "2026-07-29",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "AOULINK",
       "symbol": "LP-AOU",
       "address": "JDyXKJgx5JzeLQngz7nJD4VxfoLqXrdYK5ie2mpkpump",
@@ -1026,83 +1093,17 @@
       "date": "2026-07-29",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Make Bulls Great Again",
-      "symbol": "BULLIEVE",
-      "address": "B7soueuN3RoeZsBiAaSbXM2s3CGcUkaq5qhctczvpump",
-      "label": "BUY",
-      "score": 67,
-      "tech_score": 42,
-      "narr_bonus": 25,
-      "narrative": "\ud83e\udd16 AI Agent",
-      "all_narratives": [
-        "\ud83e\udd16 AI Agent",
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0001205,
-      "change_1h": 10.01,
-      "liquidity": 24033.83,
-      "volume_1h": 109910.8,
-      "mcap": 118417.0,
-      "dex_url": "https://dexscreener.com/solana/aqacvvvxpyt3wevjld8o5whiwj4jfn5x5kvd4s3g1jkv",
-      "time": "15:30:28",
-      "date": "2026-07-29",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "buly",
-      "symbol": "buly",
-      "address": "6UozZHF36zk5GAgamH9zWajvPkGh3eRumc5QKN9Dpump",
-      "label": "WATCH",
-      "score": 35,
-      "tech_score": 35,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 5.09e-05,
-      "change_1h": 27.61,
-      "liquidity": 15142.37,
-      "volume_1h": 30152.26,
-      "mcap": 48836.0,
-      "dex_url": "https://dexscreener.com/solana/5pizz3lohwfcpylehzkerpfvr12w8sxozx4odna7cr5l",
-      "time": "15:30:28",
-      "date": "2026-07-29",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Smug Pug",
-      "symbol": "SMUGPUG",
-      "address": "2j3z9Kr4PQuTZowLdWD2UCBFuArNgV3aRtsYkFDFpump",
-      "label": "WATCH",
-      "score": 35,
-      "tech_score": 35,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0002315,
-      "change_1h": 43.25,
-      "liquidity": 34114.73,
-      "volume_1h": 98317.55,
-      "mcap": 229151.0,
-      "dex_url": "https://dexscreener.com/solana/edmkhvwo9kbeawnyqc8xc4wg4y3injhfnkhslkurkq3w",
-      "time": "15:30:29",
-      "date": "2026-07-29",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1835,
-    "signals": 11700,
+    "scans": 1836,
+    "signals": 11703,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-07-29 22:32:04 UTC"
+  "last_scan": "2026-07-29 23:36:08 UTC"
 }
