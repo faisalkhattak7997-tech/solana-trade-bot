@@ -1,6 +1,48 @@
 {
   "signals": [
     {
+      "token": "Anthony Fraudci",
+      "symbol": "Fraudci",
+      "address": "3cac4vjXdvAyyTrDqRgnsiUufz3kmMs1KF9xCBPopump",
+      "label": "BUY",
+      "score": 63,
+      "tech_score": 63,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 9.874e-05,
+      "change_1h": 249.0,
+      "liquidity": 21860.37,
+      "volume_1h": 339652.77,
+      "mcap": 98748.0,
+      "dex_url": "https://dexscreener.com/solana/hclylxsxrfcxv5fh5gcndqtewdufbujh9szms7j5dc1d",
+      "time": "21:30:47",
+      "date": "2026-07-29",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "COVIDGATE",
+      "symbol": "COVIDGATE",
+      "address": "3vU6AJ8iV94rTcGznJ5ZNvf3CDGCyU4UModaz2Vxpump",
+      "label": "WATCH",
+      "score": 29,
+      "tech_score": 29,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 3.568e-05,
+      "change_1h": 19.55,
+      "liquidity": 12411.55,
+      "volume_1h": 99892.32,
+      "mcap": 35690.0,
+      "dex_url": "https://dexscreener.com/solana/6parnexc5ygpaf7qrrpwbban818hv6dajjvfeby95wld",
+      "time": "21:30:48",
+      "date": "2026-07-29",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "pipeelon",
       "symbol": "PIPEELON",
       "address": "4fKj7fLTwzgJARUN8zmHa3o2fmVwJFTo6PYyHDwXpump",
@@ -1050,59 +1092,17 @@
       "date": "2026-07-29",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Frank Retard",
-      "symbol": "Franktard",
-      "address": "GxkeU4o26Mey9nu44S2iDpuRUvwCohJjx2bMBh67pump",
-      "label": "BUY",
-      "score": 61,
-      "tech_score": 61,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 9.248e-05,
-      "change_1h": 148.0,
-      "liquidity": 21799.81,
-      "volume_1h": 650146.53,
-      "mcap": 92481.0,
-      "dex_url": "https://dexscreener.com/solana/azmp6mbvjplt44mmonpztw5pxyaisrdww1azb7kr5ztt",
-      "time": "13:27:35",
-      "date": "2026-07-29",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Gutjang Capuchin",
-      "symbol": "Gutjang",
-      "address": "CiN8FLVRXMcwoLQp5EJCoFwNSkPyD1pWVkrLZNjzpump",
-      "label": "WATCH",
-      "score": 43,
-      "tech_score": 43,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 4.878e-05,
-      "change_1h": 59.39,
-      "liquidity": 14631.18,
-      "volume_1h": 23926.33,
-      "mcap": 48698.0,
-      "dex_url": "https://dexscreener.com/solana/eqx6vkbccszjqhba7krigwo7zpce51gzv81lfhsvfk1m",
-      "time": "13:27:35",
-      "date": "2026-07-29",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1833,
-    "signals": 11695,
+    "scans": 1834,
+    "signals": 11697,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-07-29 20:33:45 UTC"
+  "last_scan": "2026-07-29 21:30:46 UTC"
 }
