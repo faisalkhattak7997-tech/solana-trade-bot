@@ -1,6 +1,71 @@
 {
   "signals": [
     {
+      "token": "CUBE",
+      "symbol": "CUBE",
+      "address": "32LM5tQmT9f6e5pFqkF7tjwgZguoauqW1Y8q54n1pump",
+      "label": "WATCH",
+      "score": 40,
+      "tech_score": 40,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 5.853e-05,
+      "change_1h": 88.67,
+      "liquidity": 16151.63,
+      "volume_1h": 8691.15,
+      "mcap": 58539.0,
+      "dex_url": "https://dexscreener.com/solana/hnpj4bzcke5c6pgudwg3yf8qcuzmb7kldqdx9totnvty",
+      "time": "00:02:13",
+      "date": "2026-08-05",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "CHEEMS",
+      "symbol": "CHEEMS",
+      "address": "73DRYB2YpoHiZUdq37hQmHTR7Yvg5qJKsxxaYrsJSBCJ",
+      "label": "WATCH",
+      "score": 14,
+      "tech_score": 14,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 8.303e-05,
+      "change_1h": 3.02,
+      "liquidity": 25902.9,
+      "volume_1h": 1984.07,
+      "mcap": 80692.0,
+      "dex_url": "https://dexscreener.com/solana/fxh1nzwvgnk9qwzfcvqekzuysdcug7kpeuiguz6muswb",
+      "time": "00:02:14",
+      "date": "2026-08-05",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Corn Dog Cat",
+      "symbol": "CORNCAT",
+      "address": "zh1t3y7gr9dxoW46qo7grVTaHaLrvGDvQMRu1FYpump",
+      "label": "STRONG BUY",
+      "score": 73,
+      "tech_score": 53,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0007061,
+      "change_1h": 84.34,
+      "liquidity": 64881.62,
+      "volume_1h": 123459.09,
+      "mcap": 703796.0,
+      "dex_url": "https://dexscreener.com/solana/bjbmyapw7p5kh55ihytrbd9yukrs93u32wxfv6l69jzb",
+      "time": "00:02:15",
+      "date": "2026-08-05",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Corn Dog Cat",
       "symbol": "CORNCAT",
       "address": "zh1t3y7gr9dxoW46qo7grVTaHaLrvGDvQMRu1FYpump",
@@ -1039,85 +1104,17 @@
       "date": "2026-08-04",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "starecat",
-      "symbol": "helia",
-      "address": "2tnppbXS6UcQZknrkjH7yvB3jQVkGPcrVNZCQwGL2JMD",
-      "label": "BUY",
-      "score": 54,
-      "tech_score": 34,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 5.131e-05,
-      "change_1h": 9.33,
-      "liquidity": 15784.0,
-      "volume_1h": 13736.74,
-      "mcap": 49031.0,
-      "dex_url": "https://dexscreener.com/solana/8yhgyrngkysyfldmghzrrhx7axkcb8j94qkvyhsdvaxd",
-      "time": "13:18:10",
-      "date": "2026-08-04",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Catecoin",
-      "symbol": "CATE",
-      "address": "Bp7wS2tDSE4Cdvvvj4zP3qkWToJpfWQvdRxZaXmJy9Gp",
-      "label": "BUY",
-      "score": 54,
-      "tech_score": 34,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal",
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 2.9e-05,
-      "change_1h": 6.03,
-      "liquidity": 13983.69,
-      "volume_1h": 537.1,
-      "mcap": 28965.0,
-      "dex_url": "https://dexscreener.com/solana/3xxq3x9mewdcznwqzhskvdxzcbtqm8ak3q3yuzufnx4p",
-      "time": "13:18:10",
-      "date": "2026-08-04",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "The Machine Economy",
-      "symbol": "TME",
-      "address": "4Jdwem6D8NyzBS4QkznGfFscjA4uGgJyV4gCX1Njpump",
-      "label": "WATCH",
-      "score": 44,
-      "tech_score": 44,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 6.247e-05,
-      "change_1h": 26.39,
-      "liquidity": 18485.83,
-      "volume_1h": 2471.88,
-      "mcap": 62479.0,
-      "dex_url": "https://dexscreener.com/solana/7huq9hvqqxeyesvy1tmwdvmpddaj9faxib5v4etg2jyz",
-      "time": "13:18:11",
-      "date": "2026-08-04",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1918,
-    "signals": 12268,
+    "scans": 1919,
+    "signals": 12271,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-04 22:55:51 UTC"
+  "last_scan": "2026-08-05 00:02:10 UTC"
 }
