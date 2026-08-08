@@ -1,6 +1,74 @@
 {
   "signals": [
     {
+      "token": "SOTjUA CAT",
+      "symbol": "SOTjUACAT",
+      "address": "CL72hRY4d7CiRZTyYewD5yE7aqLHqqwC2Lh1LNuVpump",
+      "label": "STRONG BUY",
+      "score": 76,
+      "tech_score": 56,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 5.034e-05,
+      "change_1h": 53.55,
+      "liquidity": 15773.41,
+      "volume_1h": 432159.19,
+      "mcap": 50346.0,
+      "dex_url": "https://dexscreener.com/solana/fu9kielp7nwqto6fvhhng9j3pg5padvom7h9jr9b5i4",
+      "time": "13:23:27",
+      "date": "2026-08-08",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Ploddy The Humping Turtle",
+      "symbol": "PLODDY",
+      "address": "HSf6w34nAHiQ2uTPsFH3gSjae7rvbEmgoBEQm2uzpump",
+      "label": "WATCH",
+      "score": 48,
+      "tech_score": 48,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 5.642e-05,
+      "change_1h": 59.76,
+      "liquidity": 16202.78,
+      "volume_1h": 130649.83,
+      "mcap": 56423.0,
+      "dex_url": "https://dexscreener.com/solana/9gff9evgb7icibdzqrlgpxjbxqpnkmg817mx5k7s6qnf",
+      "time": "13:23:28",
+      "date": "2026-08-08",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "world licking cat",
+      "symbol": "lickingcat",
+      "address": "EjD5Y9NVhXmtEqU7wYvAyZvDWZFQeEuHXFatJmTbpump",
+      "label": "STRONG BUY",
+      "score": 83,
+      "tech_score": 63,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal",
+        "\ud83d\ude80 Pump.fun"
+      ],
+      "price": 0.0001301,
+      "change_1h": 319.0,
+      "liquidity": 25417.17,
+      "volume_1h": 207284.27,
+      "mcap": 130182.0,
+      "dex_url": "https://dexscreener.com/solana/hctzakvpnzpfg9hce3fosdtnvjjtgatntivy2wvxxdln",
+      "time": "13:23:29",
+      "date": "2026-08-08",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "El Sapo Pepe",
       "symbol": "PEPE",
       "address": "5vkZWaSoJBvauaX25GALth38AtJ4qMeyZt9b9kmDpump",
@@ -1030,84 +1098,17 @@
       "date": "2026-08-08",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "The Art of Trading",
-      "symbol": "DonTzu",
-      "address": "EceWZ2UAExDHSCxBJhwc4PeGzQ18zhytDS8YaWFLpump",
-      "label": "WATCH",
-      "score": 46,
-      "tech_score": 34,
-      "narr_bonus": 12,
-      "narrative": "\ud83d\ude02 Meme Culture",
-      "all_narratives": [
-        "\ud83d\ude02 Meme Culture"
-      ],
-      "price": 3.598e-05,
-      "change_1h": 19.7,
-      "liquidity": 12577.16,
-      "volume_1h": 118484.17,
-      "mcap": 35988.0,
-      "dex_url": "https://dexscreener.com/solana/5wpxn3nm2roou26edfmrszrmq8mj8myxv6zuwe4knvc6",
-      "time": "08:21:24",
-      "date": "2026-08-08",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "gooncoin",
-      "symbol": "goon",
-      "address": "3c32HTEvDVQC71irgNwQ6HX69Kw387V1aWBn76ugpump",
-      "label": "WATCH",
-      "score": 45,
-      "tech_score": 35,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.0002495,
-      "change_1h": 43.22,
-      "liquidity": 43676.27,
-      "volume_1h": 34654.36,
-      "mcap": 236553.0,
-      "dex_url": "https://dexscreener.com/solana/d4zqhsrbsfw6g9gtb1p4j3ws2uxwedumrzcdjgsqukbn",
-      "time": "08:21:25",
-      "date": "2026-08-08",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "NORD",
-      "symbol": "NORD",
-      "address": "2jrPeHZ9wt2pBTxPEuyNzDtJRTQDEbWhSoXYWsLHpump",
-      "label": "WATCH",
-      "score": 29,
-      "tech_score": 29,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 6.31e-05,
-      "change_1h": 20.91,
-      "liquidity": 17301.12,
-      "volume_1h": 3135.67,
-      "mcap": 60794.0,
-      "dex_url": "https://dexscreener.com/solana/go8vqeyxuitbhbbdj27huastil9wq9gsigsjl1byubp5",
-      "time": "08:21:25",
-      "date": "2026-08-08",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1977,
-    "signals": 12670,
+    "scans": 1978,
+    "signals": 12673,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-08 12:21:38 UTC"
+  "last_scan": "2026-08-08 13:23:26 UTC"
 }
