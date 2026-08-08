@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "Openai Doug",
+      "symbol": "DOUG",
+      "address": "CQ3fnCa3XWBsyUEJkKk2vyeEi9fbZ41K2YTN6irLY78h",
+      "label": "BUY",
+      "score": 65,
+      "tech_score": 40,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent"
+      ],
+      "price": 4.526e-05,
+      "change_1h": 45.16,
+      "liquidity": 14294.94,
+      "volume_1h": 97323.04,
+      "mcap": 45265.0,
+      "dex_url": "https://dexscreener.com/solana/e1zrvidyylkdm9vvzk66vrl7dhb9a2dp2hi4lyd8a8kh",
+      "time": "23:45:18",
+      "date": "2026-08-08",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Proof Of Bagwork",
+      "symbol": "POB",
+      "address": "BAGWtYQm6kei9M9hoVcY3pqXxeiGZ1poGoq51io5mJS6",
+      "label": "WATCH",
+      "score": 26,
+      "tech_score": 26,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 9.368e-05,
+      "change_1h": 9.48,
+      "liquidity": 29768.03,
+      "volume_1h": 2271.61,
+      "mcap": 93669.0,
+      "dex_url": "https://dexscreener.com/solana/5wvk1d9a1sbyx84nyxr9wuevbc4ff84cbd8rhkdqeukt",
+      "time": "23:45:19",
+      "date": "2026-08-08",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Doug",
       "symbol": "DOUG",
       "address": "E3kzJJfKgjw4gHqMPfbSy2T4ybeKWt7gei826dBfpump",
@@ -1038,59 +1082,17 @@
       "date": "2026-08-08",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Restless",
-      "symbol": "Restless",
-      "address": "8ghgo3oGxRQ4P6xGcqBUTfhqs8FneB7C5LSZQ2dmpump",
-      "label": "WATCH",
-      "score": 30,
-      "tech_score": 30,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 2.209e-05,
-      "change_1h": 8.32,
-      "liquidity": 9549.08,
-      "volume_1h": 5210.29,
-      "mcap": 20730.0,
-      "dex_url": "https://dexscreener.com/solana/ectdup7oyptmanlenisu8rdom9fbtkpcme969mibmucu",
-      "time": "20:03:45",
-      "date": "2026-08-08",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "1 call can change your life ",
-      "symbol": "call",
-      "address": "2iWzuWZGLZf3B2jD4GF3hiQb8MN65eWQoL8JEfQYpump",
-      "label": "WATCH",
-      "score": 48,
-      "tech_score": 48,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 4.968e-05,
-      "change_1h": 59.02,
-      "liquidity": 15121.08,
-      "volume_1h": 115028.01,
-      "mcap": 49683.0,
-      "dex_url": "https://dexscreener.com/solana/nl54qhwvlr44c7fdmmsr9u3mh1tu13mspypcvcwa9n1",
-      "time": "19:43:09",
-      "date": "2026-08-08",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 1996,
-    "signals": 12815,
+    "scans": 1997,
+    "signals": 12817,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-08 23:12:03 UTC"
+  "last_scan": "2026-08-08 23:45:17 UTC"
 }
