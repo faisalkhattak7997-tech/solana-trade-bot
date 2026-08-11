@@ -1,6 +1,94 @@
 {
   "signals": [
     {
+      "token": "Copydog",
+      "symbol": "Harley",
+      "address": "FQRGr4nFpC7y6VicqZSLrVBiRft5kiffcPkjKBfKpump",
+      "label": "STRONG BUY",
+      "score": 73,
+      "tech_score": 53,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 5.115e-05,
+      "change_1h": 56.71,
+      "liquidity": 16392.38,
+      "volume_1h": 775576.69,
+      "mcap": 51154.0,
+      "dex_url": "https://dexscreener.com/solana/hwkjhzb7kzs7wpdwjpw5x1yj9zedgfqpjczmtseatjx9",
+      "time": "19:38:12",
+      "date": "2026-08-11",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Fun Coupons",
+      "symbol": "FUN",
+      "address": "P9peJWj9yhi8KNfyZE8tXt7r7gqisTgFoSG27jand35",
+      "label": "WATCH",
+      "score": 46,
+      "tech_score": 34,
+      "narr_bonus": 12,
+      "narrative": "\ud83d\ude02 Meme Culture",
+      "all_narratives": [
+        "\ud83d\ude02 Meme Culture"
+      ],
+      "price": 6.056e-06,
+      "change_1h": 16.88,
+      "liquidity": 5838.52,
+      "volume_1h": 2897.72,
+      "mcap": 6056.0,
+      "dex_url": "https://dexscreener.com/solana/anpzpun3c8nmskefngxo8wtjmyn211mabaee4hsgyhjz",
+      "time": "19:38:14",
+      "date": "2026-08-11",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Ansem Strategy",
+      "symbol": "ANSEMSTR",
+      "address": "6kb54eoN4f9N879CC366VNxgBGw3hvteM1QJTm5bNQ24",
+      "label": "WATCH",
+      "score": 41,
+      "tech_score": 41,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 7.34e-06,
+      "change_1h": 12.24,
+      "liquidity": 7349.63,
+      "volume_1h": 2208.0,
+      "mcap": 7340.0,
+      "dex_url": "https://dexscreener.com/solana/9axsflwk1s2kntwec731d7zhh1k63ufmjedxr49kswkw",
+      "time": "19:38:14",
+      "date": "2026-08-11",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Dark Web Baby",
+      "symbol": "BABY",
+      "address": "5mix1CjdsgAFMEsuJsByrwGd8L7jGoVAb7ALiM18HS6V",
+      "label": "WATCH",
+      "score": 26,
+      "tech_score": 26,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 6.842e-06,
+      "change_1h": 5.71,
+      "liquidity": 6519.09,
+      "volume_1h": 265.06,
+      "mcap": 6843.0,
+      "dex_url": "https://dexscreener.com/solana/dvt2rn7spvje3p6nekcnhxjcbhk68pkd4twossvdqsxe",
+      "time": "19:38:15",
+      "date": "2026-08-11",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Blobody",
       "symbol": "BLOBODY",
       "address": "7JWRrbT85j8isr9r5tkEoJnWG2UJqw9WZVoEBjKzKZrH",
@@ -1017,109 +1105,17 @@
       "date": "2026-08-11",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "The Maned Wolf",
-      "symbol": "WIIN",
-      "address": "DPJFX2fLNqew4h8ZJFyP5XRvKmNasdZpVruARTB9pump",
-      "label": "BUY",
-      "score": 60,
-      "tech_score": 40,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 4.481e-05,
-      "change_1h": 46.24,
-      "liquidity": 14323.92,
-      "volume_1h": 156237.82,
-      "mcap": 44812.0,
-      "dex_url": "https://dexscreener.com/solana/cqypodzzdvnpazq8hjejkyjlpcpnwnvjthar8d3kzgae",
-      "time": "13:35:37",
-      "date": "2026-08-11",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "El Toad Pepe",
-      "symbol": "ELTOAD",
-      "address": "FjkCNoz32SCNrWzcqtfG64Ra1EAfHLBnvwLANCySpump",
-      "label": "STRONG BUY",
-      "score": 88,
-      "tech_score": 68,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0001733,
-      "change_1h": 383.0,
-      "liquidity": 30667.47,
-      "volume_1h": 802266.38,
-      "mcap": 173324.0,
-      "dex_url": "https://dexscreener.com/solana/bprulgqapiv9wa3hyaubgnqazhn65ymst1wafy2auoc3",
-      "time": "13:35:37",
-      "date": "2026-08-11",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "WAGMI",
-      "symbol": "WAGMI",
-      "address": "8vusYaLvBFXVL8xVmqo6acc69G6EdZKtayTBV3Q8pump",
-      "label": "BUY",
-      "score": 58,
-      "tech_score": 40,
-      "narr_bonus": 18,
-      "narrative": "\ud83d\ude80 Pump.fun",
-      "all_narratives": [
-        "\ud83d\ude80 Pump.fun"
-      ],
-      "price": 0.0001426,
-      "change_1h": 40.49,
-      "liquidity": 26479.93,
-      "volume_1h": 102733.19,
-      "mcap": 142700.0,
-      "dex_url": "https://dexscreener.com/solana/epnagiedcf22t31uugvvyyt4hevscu3uvrro78sgbdbl",
-      "time": "13:35:38",
-      "date": "2026-08-11",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "The Black Maned Wolf",
-      "symbol": "LOBO",
-      "address": "k6BE8rsFShzuQ4t2Q5cfpjCdQFFerfqex8Me7Wupump",
-      "label": "STRONG BUY",
-      "score": 98,
-      "tech_score": 78,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0004588,
-      "change_1h": 1397.0,
-      "liquidity": 52051.88,
-      "volume_1h": 1356384.96,
-      "mcap": 458817.0,
-      "dex_url": "https://dexscreener.com/solana/3ujhn5tjc64ja68zbaqtst4uyzztcuxxopub4m7wv8hw",
-      "time": "13:35:39",
-      "date": "2026-08-11",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2068,
-    "signals": 13296,
+    "scans": 2069,
+    "signals": 13300,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-11 18:30:01 UTC"
+  "last_scan": "2026-08-11 19:38:11 UTC"
 }
