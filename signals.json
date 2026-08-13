@@ -1,6 +1,52 @@
 {
   "signals": [
     {
+      "token": "OILCOIN",
+      "symbol": "OILCOIN",
+      "address": "4xcreP7bv6oKzpMWfCauspcqE4yUiTnkeAfSXiTopump",
+      "label": "BUY",
+      "score": 53,
+      "tech_score": 43,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 5.837e-05,
+      "change_1h": 87.97,
+      "liquidity": 16415.91,
+      "volume_1h": 66816.59,
+      "mcap": 58308.0,
+      "dex_url": "https://dexscreener.com/solana/67vgpboputj3xfyq9ztx4uqkfuh8zzwot1o9yiypvsy2",
+      "time": "00:09:53",
+      "date": "2026-08-13",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Organoid brAIn",
+      "symbol": "BRAINOID",
+      "address": "CRjcw3uyqFjGwG7tsc4VBZ8W8xQ1XsMumx1Uor2mpump",
+      "label": "BUY",
+      "score": 54,
+      "tech_score": 29,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent"
+      ],
+      "price": 8.818e-05,
+      "change_1h": 14.45,
+      "liquidity": 20514.11,
+      "volume_1h": 67788.06,
+      "mcap": 86142.0,
+      "dex_url": "https://dexscreener.com/solana/fcpkn35mflxbxd84oc6gepnmtfnjoczv5swkev2sosxn",
+      "time": "00:09:54",
+      "date": "2026-08-13",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Organoid brAIn",
       "symbol": "BRAINOID",
       "address": "CRjcw3uyqFjGwG7tsc4VBZ8W8xQ1XsMumx1Uor2mpump",
@@ -1063,61 +1109,17 @@
       "date": "2026-08-12",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "The DePIN Token",
-      "symbol": "DePIN",
-      "address": "DWCjhpzehnR8RYFQy2e3u7sWL9F7UdcFNmR7UpUpump",
-      "label": "WATCH",
-      "score": 47,
-      "tech_score": 37,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.000119,
-      "change_1h": 22.0,
-      "liquidity": 25082.75,
-      "volume_1h": 8452.37,
-      "mcap": 115743.0,
-      "dex_url": "https://dexscreener.com/solana/pemy5f8c8sxu16lp4phngini1zj4fthbz8xlohabfek",
-      "time": "17:36:16",
-      "date": "2026-08-12",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "BabyGrok",
-      "symbol": "BABYGROK",
-      "address": "9bDRkg5dCXXvPzcZURvy2eGQdpJT56cB8XAppP5ppump",
-      "label": "WATCH",
-      "score": 32,
-      "tech_score": 32,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 2.216e-05,
-      "change_1h": 21.61,
-      "liquidity": 10174.54,
-      "volume_1h": 7538.67,
-      "mcap": 19664.0,
-      "dex_url": "https://dexscreener.com/solana/8rumf2ncrpwskdydnkkh8k9qjfyjejbavjsj9aevwtoi",
-      "time": "17:36:16",
-      "date": "2026-08-12",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2095,
-    "signals": 13484,
+    "scans": 2096,
+    "signals": 13486,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-12 23:32:16 UTC"
+  "last_scan": "2026-08-13 00:09:52 UTC"
 }
