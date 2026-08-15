@@ -1,6 +1,27 @@
 {
   "signals": [
     {
+      "token": "IMPATIENT GOOSE",
+      "symbol": "GOOSE",
+      "address": "GkBx7VC4FxXmAYYTvmqywg9XnMSBH2S9gs2C4VEJpump",
+      "label": "WATCH",
+      "score": 37,
+      "tech_score": 37,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 3.86e-05,
+      "change_1h": 45.68,
+      "liquidity": 13060.57,
+      "volume_1h": 4442.89,
+      "mcap": 36273.0,
+      "dex_url": "https://dexscreener.com/solana/djwq5e7wa3f3wah82ddweytttzbckpnvwyjbshdzlggb",
+      "time": "03:58:48",
+      "date": "2026-08-15",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "JAKSON",
       "symbol": "JAKSON",
       "address": "GJf3j4NNWcfSwfZhmFMQzCtr1vEDM4uCFs1Xpxucpump",
@@ -1084,38 +1105,17 @@
       "date": "2026-08-14",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "ScaryVee",
-      "symbol": "ScaryVee",
-      "address": "E2t3RQYVHoFyj72qoM1BCB9E5GZgKq8XSQkngY58pump",
-      "label": "WATCH",
-      "score": 43,
-      "tech_score": 43,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 4.889e-05,
-      "change_1h": 62.66,
-      "liquidity": 14817.31,
-      "volume_1h": 32502.62,
-      "mcap": 48892.0,
-      "dex_url": "https://dexscreener.com/solana/dmxf9fjvm2ycjakvnlp5ktc9j8ztqtiggf2uuvdwsltu",
-      "time": "23:15:58",
-      "date": "2026-08-14",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2146,
-    "signals": 13842,
+    "scans": 2147,
+    "signals": 13843,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-15 03:21:20 UTC"
+  "last_scan": "2026-08-15 03:58:46 UTC"
 }
