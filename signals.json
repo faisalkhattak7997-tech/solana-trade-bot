@@ -1,6 +1,76 @@
 {
   "signals": [
     {
+      "token": "The Black Doge",
+      "symbol": "DOGESEM",
+      "address": "3Yh7rPrqh8a8jMkDMDizqgAprjbG58ivzRr12FBjpump",
+      "label": "BUY",
+      "score": 65,
+      "tech_score": 43,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi",
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 5.546e-05,
+      "change_1h": 81.67,
+      "liquidity": 15938.65,
+      "volume_1h": 53274.47,
+      "mcap": 55470.0,
+      "dex_url": "https://dexscreener.com/solana/j3gmscxwe46kfhfamwjkz6eg87q93ykmq2e3rnrpyhha",
+      "time": "23:59:35",
+      "date": "2026-08-15",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "The Fomo Bull",
+      "symbol": "FOMOBULL",
+      "address": "HtV29ziKFJuNw3suzkpozEgysas1vD3fkfTkeK2gpump",
+      "label": "STRONG BUY",
+      "score": 83,
+      "tech_score": 63,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0001371,
+      "change_1h": 341.0,
+      "liquidity": 26293.18,
+      "volume_1h": 244453.13,
+      "mcap": 137178.0,
+      "dex_url": "https://dexscreener.com/solana/onqbvtsmku713wnxwxsw6ftdga3tderbyxdcin9d7ki",
+      "time": "23:59:36",
+      "date": "2026-08-15",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "The Black Cat",
+      "symbol": "CATSEM",
+      "address": "5upMUvnBmnAKqMoMFADSixXdJU39oxsbSTBWhMVnpump",
+      "label": "WATCH",
+      "score": 28,
+      "tech_score": 8,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 5.426e-06,
+      "change_1h": 6.9,
+      "liquidity": 4216.53,
+      "volume_1h": 911.48,
+      "mcap": 5186.0,
+      "dex_url": "https://dexscreener.com/solana/42rryewqak79zauuvlydzs2vfe227smhzhpvgxwwzv5g",
+      "time": "23:59:39",
+      "date": "2026-08-15",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "The Fomo Bull",
       "symbol": "FOMOBULL",
       "address": "HtV29ziKFJuNw3suzkpozEgysas1vD3fkfTkeK2gpump",
@@ -1032,83 +1102,17 @@
       "date": "2026-08-15",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Catcoin",
-      "symbol": "CAT",
-      "address": "AgiWS31aSBcvQvCR13D7xwjyE5uJuR3xwYT3Zz95pump",
-      "label": "BUY",
-      "score": 65,
-      "tech_score": 45,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal",
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 4.49e-05,
-      "change_1h": 44.78,
-      "liquidity": 14919.05,
-      "volume_1h": 537600.91,
-      "mcap": 44902.0,
-      "dex_url": "https://dexscreener.com/solana/5uxzbzqjto52krxdktvbcgphbjhf2zzovspxjrls6cw7",
-      "time": "21:16:07",
-      "date": "2026-08-15",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "inbx",
-      "symbol": "inbx",
-      "address": "inbxhnbWhESsjTBuuchZHPywJaU5H5wG9WU1xrrEA8x",
-      "label": "WATCH",
-      "score": 29,
-      "tech_score": 29,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 3.555e-05,
-      "change_1h": 14.61,
-      "liquidity": 12458.01,
-      "volume_1h": 94660.46,
-      "mcap": 35550.0,
-      "dex_url": "https://dexscreener.com/solana/h1rwa1bb8kxbg3y1jgdpiftusfb2dz2yg1kzb3tsmbyz",
-      "time": "21:16:07",
-      "date": "2026-08-15",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Gag City",
-      "symbol": "GAG",
-      "address": "6ZbozMJdW7eJV32yTPTrHA1AxccScgR5NPq4B79dpump",
-      "label": "BUY",
-      "score": 50,
-      "tech_score": 50,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 2.806e-05,
-      "change_1h": 238.0,
-      "liquidity": 11004.25,
-      "volume_1h": 99219.3,
-      "mcap": 28068.0,
-      "dex_url": "https://dexscreener.com/solana/f5kyf22rb2vd3bvqarz3jeus4acwqglazxjkm7ipvwxq",
-      "time": "21:16:08",
-      "date": "2026-08-15",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2195,
-    "signals": 14204,
+    "scans": 2196,
+    "signals": 14207,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-15 23:46:09 UTC"
+  "last_scan": "2026-08-15 23:59:33 UTC"
 }
