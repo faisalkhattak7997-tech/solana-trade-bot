@@ -1,6 +1,75 @@
 {
   "signals": [
     {
+      "token": "FortBlox",
+      "symbol": "$FORTBLOX",
+      "address": "AjxSSbdQd6omQMnpQKFq5q4yuzFa3hpGdBdFHnarpump",
+      "label": "WATCH",
+      "score": 45,
+      "tech_score": 45,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 3.832e-05,
+      "change_1h": 23.92,
+      "liquidity": 13329.14,
+      "volume_1h": 253471.4,
+      "mcap": 38326.0,
+      "dex_url": "https://dexscreener.com/solana/9emtnvpj4ylvjtx9n41mhhwv9untakvn8jnsv1ihu9al",
+      "time": "18:54:21",
+      "date": "2026-08-16",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "memecoin",
+      "symbol": "memecoin",
+      "address": "B77seMgJQrQTmDdFsHwyfHyewmRQbfTAsZCmXxMBpump",
+      "label": "BUY",
+      "score": 60,
+      "tech_score": 48,
+      "narr_bonus": 12,
+      "narrative": "\ud83d\ude02 Meme Culture",
+      "all_narratives": [
+        "\ud83d\ude02 Meme Culture",
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 6.133e-05,
+      "change_1h": 94.06,
+      "liquidity": 17286.58,
+      "volume_1h": 307497.1,
+      "mcap": 61312.0,
+      "dex_url": "https://dexscreener.com/solana/7yrdy5kqjpqft9nkz72nfhvtdmv5ruybpe71rs9bd5lj",
+      "time": "18:54:22",
+      "date": "2026-08-16",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "The Bull is Coming",
+      "symbol": "NiuLai",
+      "address": "8TRVDZhYRUHYyrftAfxHjYnsetKFzspUp9qq31pmpump",
+      "label": "STRONG BUY",
+      "score": 96,
+      "tech_score": 71,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent",
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0001256,
+      "change_1h": 293.0,
+      "liquidity": 25227.69,
+      "volume_1h": 343777.46,
+      "mcap": 125674.0,
+      "dex_url": "https://dexscreener.com/solana/b7uwagitsgboekbu3gc1rbzkdcnj6yb4umjrd46iubss",
+      "time": "18:54:22",
+      "date": "2026-08-16",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "CHICK",
       "symbol": "CHICK",
       "address": "JrxRH2nEX3S9uYzGMGLP6y2G6X9rUue6zZwSLtdpump",
@@ -1043,84 +1112,17 @@
       "date": "2026-08-16",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "SHYMEW",
-      "symbol": "SHY",
-      "address": "7j79QXVk1ujraTHDX3iePvh7iezjW8wYAeS1FkHYpump",
-      "label": "BUY",
-      "score": 61,
-      "tech_score": 61,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 9.106e-05,
-      "change_1h": 174.0,
-      "liquidity": 22700.5,
-      "volume_1h": 984714.0,
-      "mcap": 91069.0,
-      "dex_url": "https://dexscreener.com/solana/ts7pkax4qj6th7pq3vwypuyzgepyugrghpoytc6gbel",
-      "time": "14:59:29",
-      "date": "2026-08-16",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "MarsCoin",
-      "symbol": "MarsCoin",
-      "address": "7pjoah1BbycgJffij2b58P55NiHDbMqdo7Y1Wrzxpump",
-      "label": "WATCH",
-      "score": 36,
-      "tech_score": 26,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 3.404e-05,
-      "change_1h": 12.11,
-      "liquidity": 14167.92,
-      "volume_1h": 4823.71,
-      "mcap": 33235.0,
-      "dex_url": "https://dexscreener.com/solana/7oldfykjjvdmr8zkcgoehw6z4zhnbngc8mguflhdhxxg",
-      "time": "14:59:30",
-      "date": "2026-08-16",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Memestonk",
-      "symbol": "Memestonk",
-      "address": "DWsrPtFNVRpD9W5yAEEwYj9zRoSiz3r82HGu9YtDpump",
-      "label": "WATCH",
-      "score": 35,
-      "tech_score": 23,
-      "narr_bonus": 12,
-      "narrative": "\ud83d\ude02 Meme Culture",
-      "all_narratives": [
-        "\ud83d\ude02 Meme Culture"
-      ],
-      "price": 1.167e-05,
-      "change_1h": 7.99,
-      "liquidity": 6547.24,
-      "volume_1h": 4458.11,
-      "mcap": 11031.0,
-      "dex_url": "https://dexscreener.com/solana/e61zeqzkwipfqq33obgmhbfwj45uhacyyxajppfcunfm",
-      "time": "14:59:31",
-      "date": "2026-08-16",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2232,
-    "signals": 14386,
+    "scans": 2233,
+    "signals": 14389,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-16 18:24:27 UTC"
+  "last_scan": "2026-08-16 18:54:20 UTC"
 }
