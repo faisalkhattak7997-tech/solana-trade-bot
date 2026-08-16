@@ -1,6 +1,29 @@
 {
   "signals": [
     {
+      "token": "MarsCoin",
+      "symbol": "Mars",
+      "address": "5VUDGeHTyEXWtuwdRRbG8eendwzGAkwWCDNP1zwCpump",
+      "label": "BUY",
+      "score": 53,
+      "tech_score": 43,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 5.506e-05,
+      "change_1h": 81.26,
+      "liquidity": 15903.32,
+      "volume_1h": 72064.56,
+      "mcap": 55064.0,
+      "dex_url": "https://dexscreener.com/solana/fgwesmbwzgdsudhxrckw9o5hbk5wryxgwnjadfkedymg",
+      "time": "09:55:18",
+      "date": "2026-08-16",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "ODDLY",
       "symbol": "ODDLY",
       "address": "BDzAgvZymRX6hnXmLLmJCKh4RHsABZMmfLeTxVUapump",
@@ -1078,40 +1101,17 @@
       "date": "2026-08-16",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Meme Season",
-      "symbol": "MemeSeason",
-      "address": "aUWH9iX3BKKeMHP6aoAf2r2KPjLq8h9Kim2YC48pump",
-      "label": "WATCH",
-      "score": 49,
-      "tech_score": 37,
-      "narr_bonus": 12,
-      "narrative": "\ud83d\ude02 Meme Culture",
-      "all_narratives": [
-        "\ud83d\ude02 Meme Culture"
-      ],
-      "price": 0.0002331,
-      "change_1h": 15.82,
-      "liquidity": 34567.78,
-      "volume_1h": 13176.63,
-      "mcap": 217710.0,
-      "dex_url": "https://dexscreener.com/solana/b2cupqoxnczg6ta3vmba992xcvxuphzb7n2nvy1t5nu3",
-      "time": "04:18:14",
-      "date": "2026-08-16",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2210,
-    "signals": 14278,
+    "scans": 2211,
+    "signals": 14279,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-16 09:35:15 UTC"
+  "last_scan": "2026-08-16 09:55:17 UTC"
 }
