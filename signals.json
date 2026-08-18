@@ -1,6 +1,75 @@
 {
   "signals": [
     {
+      "token": "Bull500",
+      "symbol": "Bull500",
+      "address": "HKMK9zw7uCV2D24mpnmdR5491nCyrWBGhUuTQEVZpump",
+      "label": "STRONG BUY",
+      "score": 91,
+      "tech_score": 71,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0001868,
+      "change_1h": 191.0,
+      "liquidity": 30967.51,
+      "volume_1h": 271975.59,
+      "mcap": 186882.0,
+      "dex_url": "https://dexscreener.com/solana/7bw6nyzassoiqmpglpj1cr9ubxiozaedwqoxcvx4mxsg",
+      "time": "07:37:18",
+      "date": "2026-08-18",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Cupsey Bull",
+      "symbol": "BULLSEY",
+      "address": "c9tnt7JsbiDG931okPZbRu6WUsB5nDqzL5BpbnQpump",
+      "label": "STRONG BUY",
+      "score": 83,
+      "tech_score": 63,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0002664,
+      "change_1h": 56.19,
+      "liquidity": 37946.45,
+      "volume_1h": 243668.2,
+      "mcap": 263281.0,
+      "dex_url": "https://dexscreener.com/solana/2yhcdwpwxv9f4aztbmhfnnhpwtwnk8nb6ei2ux2xrodk",
+      "time": "07:37:20",
+      "date": "2026-08-18",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "TOES",
+      "symbol": "TOESCOIN",
+      "address": "6ehEcTMCc85aNF4x9CWx8HuvWGhxQtvKdhKVf2HDpump",
+      "label": "WATCH",
+      "score": 41,
+      "tech_score": 31,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.005413,
+      "change_1h": 0.95,
+      "liquidity": 296071.49,
+      "volume_1h": 108319.31,
+      "mcap": 5412786.0,
+      "dex_url": "https://dexscreener.com/solana/ee3zk9fxp9guair2xerefxf4tsexezffuwetrna2pkcv",
+      "time": "07:37:21",
+      "date": "2026-08-18",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Cupsey Bull",
       "symbol": "BULLSEY",
       "address": "c9tnt7JsbiDG931okPZbRu6WUsB5nDqzL5BpbnQpump",
@@ -1022,85 +1091,17 @@
       "date": "2026-08-18",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "ButtBull Coin",
-      "symbol": "BUTTBULL",
-      "address": "9U7SRJ3aB6SaD7RpPhuFfRmK8GypcXdDUUGvzEtPpump",
-      "label": "STRONG BUY",
-      "score": 83,
-      "tech_score": 63,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal",
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 9.09e-05,
-      "change_1h": 76.91,
-      "liquidity": 21141.32,
-      "volume_1h": 225570.1,
-      "mcap": 90901.0,
-      "dex_url": "https://dexscreener.com/solana/daotxhvonefw9clqr3pyfddnkxgsjfqooisroywgdpzu",
-      "time": "00:27:24",
-      "date": "2026-08-18",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Meme Season",
-      "symbol": "MemeSeason",
-      "address": "aUWH9iX3BKKeMHP6aoAf2r2KPjLq8h9Kim2YC48pump",
-      "label": "WATCH",
-      "score": 41,
-      "tech_score": 29,
-      "narr_bonus": 12,
-      "narrative": "\ud83d\ude02 Meme Culture",
-      "all_narratives": [
-        "\ud83d\ude02 Meme Culture"
-      ],
-      "price": 0.0007436,
-      "change_1h": 8.98,
-      "liquidity": 65684.08,
-      "volume_1h": 87828.74,
-      "mcap": 694160.0,
-      "dex_url": "https://dexscreener.com/solana/b2cupqoxnczg6ta3vmba992xcvxuphzb7n2nvy1t5nu3",
-      "time": "00:27:26",
-      "date": "2026-08-18",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Hobbes",
-      "symbol": "HOBBES",
-      "address": "37WhvcVyK6Mzk1oUmqRoS5zbcdZKhrxcU9Ry1vtBoR94",
-      "label": "WATCH",
-      "score": 21,
-      "tech_score": 21,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0002738,
-      "change_1h": 11.51,
-      "liquidity": 44078.2,
-      "volume_1h": 40937.39,
-      "mcap": 271261.0,
-      "dex_url": "https://dexscreener.com/solana/evzsg1nl7futu2rdztf5xcgf8jrbtuhvyazo7zyeg8pw",
-      "time": "00:27:26",
-      "date": "2026-08-18",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2297,
-    "signals": 14802,
+    "scans": 2298,
+    "signals": 14805,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-18 06:56:04 UTC"
+  "last_scan": "2026-08-18 07:37:17 UTC"
 }
