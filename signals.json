@@ -1,6 +1,71 @@
 {
   "signals": [
     {
+      "token": "Purps",
+      "symbol": "PURPS",
+      "address": "purpFPo5voy6fEu8jxSCwVdMs1zyYEYAH6FBQvTYCZK",
+      "label": "WATCH",
+      "score": 35,
+      "tech_score": 35,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001185,
+      "change_1h": 37.35,
+      "liquidity": 27013.08,
+      "volume_1h": 41392.97,
+      "mcap": 118555.0,
+      "dex_url": "https://dexscreener.com/solana/zglsyjkwc8yu9jvjfrxmd7mjzqy7sebmsaa3resqabf",
+      "time": "22:53:16",
+      "date": "2026-08-20",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Cockroach",
+      "symbol": "COCKROACH",
+      "address": "51VnR1uX2qBFBkUBGESRvaicZnEv2ije44gQ4jyApump",
+      "label": "STRONG BUY",
+      "score": 73,
+      "tech_score": 73,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.00017,
+      "change_1h": 382.0,
+      "liquidity": 35436.17,
+      "volume_1h": 2952495.91,
+      "mcap": 170012.0,
+      "dex_url": "https://dexscreener.com/solana/9qzdl6drofwurdvozzggnpntf2haiwryctqs7vytekxr",
+      "time": "22:53:16",
+      "date": "2026-08-20",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Proud American ",
+      "symbol": "Proud ",
+      "address": "8dxe1NQfevjf1iWv95H2ZPt8xPNKxRAswDTBuw8Spump",
+      "label": "BUY",
+      "score": 63,
+      "tech_score": 41,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi"
+      ],
+      "price": 1.62e-05,
+      "change_1h": 5.79,
+      "liquidity": 8444.68,
+      "volume_1h": 69.33,
+      "mcap": 15504.0,
+      "dex_url": "https://dexscreener.com/solana/cjwmwu1whwofhi9q7ot13urjrnljrkkqkubtixcnw7g9",
+      "time": "22:53:18",
+      "date": "2026-08-20",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "NOBODY",
       "symbol": "NOBODY",
       "address": "AFSZh1h2812Y3FmrrYtcue7Enx2Fodw4MrhMuGe1pump",
@@ -1043,86 +1108,17 @@
       "date": "2026-08-20",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "YIELDR",
-      "symbol": "YIELDR",
-      "address": "7Ru7kZdKBepiKF56vEfa1gEe6BNQCivYRzYQGh19pump",
-      "label": "WATCH",
-      "score": 45,
-      "tech_score": 35,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.000237,
-      "change_1h": 21.86,
-      "liquidity": 39049.45,
-      "volume_1h": 57310.29,
-      "mcap": 234227.0,
-      "dex_url": "https://dexscreener.com/solana/2gf8bba8e3e1jo12qndzqddg4g6zifhflbh5kmnxusdg",
-      "time": "18:54:51",
-      "date": "2026-08-20",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Kei Bull",
-      "symbol": "KEIBULL",
-      "address": "HXD5YL3rwv1mrHC4giBkAb1pxW6ohCQppJsxrzJZpump",
-      "label": "STRONG BUY",
-      "score": 98,
-      "tech_score": 78,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0003867,
-      "change_1h": 535.0,
-      "liquidity": 48593.41,
-      "volume_1h": 523191.1,
-      "mcap": 386763.0,
-      "dex_url": "https://dexscreener.com/solana/dgzldqcxcfd1wraxmdiydd1mjyoyzdppcyjw8nwbevhw",
-      "time": "18:03:47",
-      "date": "2026-08-20",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Bullcycle",
-      "symbol": "Bullcycle",
-      "address": "5b862n9N8RSpZ4Zc5fmFrTbgvJkrMWCrqZ1JCx4vpump",
-      "label": "STRONG BUY",
-      "score": 76,
-      "tech_score": 56,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 7.716e-05,
-      "change_1h": 117.0,
-      "liquidity": 20450.35,
-      "volume_1h": 121400.32,
-      "mcap": 77169.0,
-      "dex_url": "https://dexscreener.com/solana/fxffpuvtu9fft8w5brgwxkcbmamzttxqp6ms1rtejn3q",
-      "time": "18:03:48",
-      "date": "2026-08-20",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2408,
-    "signals": 15558,
+    "scans": 2409,
+    "signals": 15561,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-20 22:24:10 UTC"
+  "last_scan": "2026-08-20 22:53:15 UTC"
 }
