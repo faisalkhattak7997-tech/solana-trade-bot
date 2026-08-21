@@ -1,6 +1,74 @@
 {
   "signals": [
     {
+      "token": "Gigachad Carl",
+      "symbol": "CARL",
+      "address": "4x62cVNST4CnYMSRrxBrhs41aaT34ENnGsbrcKbhEAwq",
+      "label": "STRONG BUY",
+      "score": 86,
+      "tech_score": 68,
+      "narr_bonus": 18,
+      "narrative": "\ud83d\ude80 Pump.fun",
+      "all_narratives": [
+        "\ud83d\ude80 Pump.fun",
+        "\ud83d\ude02 Meme Culture"
+      ],
+      "price": 0.0001102,
+      "change_1h": 210.0,
+      "liquidity": 26089.0,
+      "volume_1h": 648246.63,
+      "mcap": 110275.0,
+      "dex_url": "https://dexscreener.com/solana/7zxleqcwvkxbssqlqtewtgw41g4v9gxkqnyzdq1ihrfg",
+      "time": "04:23:11",
+      "date": "2026-08-21",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "SolFi",
+      "symbol": "SolFi",
+      "address": "Gc59DcTqMALEPLqBnEtyv6TXg4funGBNknDvGgBapump",
+      "label": "STRONG BUY",
+      "score": 73,
+      "tech_score": 63,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.0005509,
+      "change_1h": 334.0,
+      "liquidity": 58980.63,
+      "volume_1h": 279429.96,
+      "mcap": 538170.0,
+      "dex_url": "https://dexscreener.com/solana/5zvtxjfrh5zwmcbnpfqnxdzucnwhekuc8uxiphhahdfw",
+      "time": "04:23:13",
+      "date": "2026-08-21",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "from rug to rug",
+      "symbol": "Guineas",
+      "address": "GqnkeRkiSNMdRNCg94hpsBJnQq9ZFsicWhnyDBWNpump",
+      "label": "WATCH",
+      "score": 48,
+      "tech_score": 48,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 7.706e-05,
+      "change_1h": 81.24,
+      "liquidity": 21406.38,
+      "volume_1h": 117970.37,
+      "mcap": 75452.0,
+      "dex_url": "https://dexscreener.com/solana/69h7gdr84ne6jfvzbt7awyucmssjg1w4cqxndg99n6rt",
+      "time": "04:23:15",
+      "date": "2026-08-21",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "SolFi",
       "symbol": "SolFi",
       "address": "Gc59DcTqMALEPLqBnEtyv6TXg4funGBNknDvGgBapump",
@@ -1023,84 +1091,17 @@
       "date": "2026-08-20",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Rupert",
-      "symbol": "RUPERT",
-      "address": "FxnN4Mr4swvvPVjJ2aNoE6ht2xbCSjftQSRaRR46pump",
-      "label": "WATCH",
-      "score": 48,
-      "tech_score": 48,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0001161,
-      "change_1h": 96.96,
-      "liquidity": 27605.9,
-      "volume_1h": 240908.34,
-      "mcap": 113449.0,
-      "dex_url": "https://dexscreener.com/solana/c4q9venonya5pgcywj3f5rzvcyi6gmfcoh72nckv5sno",
-      "time": "21:30:10",
-      "date": "2026-08-20",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Learn To Bus",
-      "symbol": "James",
-      "address": "BorqazWEAnSQDkCkMSQFHw7cbi5o7CCbsDioMySTpump",
-      "label": "STRONG BUY",
-      "score": 88,
-      "tech_score": 63,
-      "narr_bonus": 25,
-      "narrative": "\ud83e\udd16 AI Agent",
-      "all_narratives": [
-        "\ud83e\udd16 AI Agent"
-      ],
-      "price": 0.0001174,
-      "change_1h": 288.0,
-      "liquidity": 26407.29,
-      "volume_1h": 480679.89,
-      "mcap": 117486.0,
-      "dex_url": "https://dexscreener.com/solana/haeds4mwh7hxkkke9szmewhgnbynp3mxac4rfdy5owq5",
-      "time": "21:30:10",
-      "date": "2026-08-20",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Solyacoin",
-      "symbol": "SOLYA",
-      "address": "Cshsbjv9kyFL8MMeGtUBwX8DbQp8cbfuRELsbY2Kpump",
-      "label": "BUY",
-      "score": 50,
-      "tech_score": 40,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.0004385,
-      "change_1h": 29.16,
-      "liquidity": 52665.82,
-      "volume_1h": 183625.05,
-      "mcap": 435186.0,
-      "dex_url": "https://dexscreener.com/solana/4mgqjbipduvju5x18hy47knovfo8zh1vjdkxf9hkqgax",
-      "time": "21:30:11",
-      "date": "2026-08-20",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2415,
-    "signals": 15597,
+    "scans": 2416,
+    "signals": 15600,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-21 03:41:40 UTC"
+  "last_scan": "2026-08-21 04:23:10 UTC"
 }
