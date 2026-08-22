@@ -1,6 +1,73 @@
 {
   "signals": [
     {
+      "token": "Dotecoin",
+      "symbol": "DOTE",
+      "address": "AX2QTrujcWri5cP87QK2nQChfFeCSFzcTa7n2AwRpump",
+      "label": "BUY",
+      "score": 58,
+      "tech_score": 48,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.0002084,
+      "change_1h": 86.3,
+      "liquidity": 36761.01,
+      "volume_1h": 62598.69,
+      "mcap": 200460.0,
+      "dex_url": "https://dexscreener.com/solana/5jrxzlrfbivnykwrx2bivm3mx64fzrwj6v6mbdueh4es",
+      "time": "10:21:24",
+      "date": "2026-08-22",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "bullpen",
+      "symbol": "bullpen",
+      "address": "9vciqoMDquKyjEEtLkenQ4TxSjDEUNxcQdjhHXNHpump",
+      "label": "WATCH",
+      "score": 38,
+      "tech_score": 18,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 5.813e-05,
+      "change_1h": 5.18,
+      "liquidity": 22280.27,
+      "volume_1h": 1360.89,
+      "mcap": 58130.0,
+      "dex_url": "https://dexscreener.com/solana/62e2uxnsrklj9uen7ez2sf6s86kgjf1rqjesnsg2geue",
+      "time": "10:21:24",
+      "date": "2026-08-22",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "ArmaraOS",
+      "symbol": "ARMARA",
+      "address": "A1TJ3cWdzwcjZMm9Pcb3E51iNjV5eZE3SpZXUrboMARA",
+      "label": "WATCH",
+      "score": 31,
+      "tech_score": 31,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.001133,
+      "change_1h": 6.2,
+      "liquidity": 57145.46,
+      "volume_1h": 3551.55,
+      "mcap": 1088362.0,
+      "dex_url": "https://dexscreener.com/solana/2vsrqvaezaakhjxc1swepvz2rh6qtx8rtddrapvzbcts",
+      "time": "10:21:25",
+      "date": "2026-08-22",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Diamond Balls",
       "symbol": "Balls",
       "address": "44xUtxq5pRFFpwjRmdsEM3KiGhqMVoBxgsoXdAyXpump",
@@ -1048,84 +1115,17 @@
       "date": "2026-08-22",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "CallCat",
-      "symbol": "CallCat",
-      "address": "7sAnqhZvNCVKqc3Jj6QVDrdqtmnZJY3NePgXTqRtpump",
-      "label": "STRONG BUY",
-      "score": 99,
-      "tech_score": 79,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.001726,
-      "change_1h": 2371.0,
-      "liquidity": 106524.7,
-      "volume_1h": 450801.57,
-      "mcap": 1726016.0,
-      "dex_url": "https://dexscreener.com/solana/dzwxxcyjubhpseqblefzzbaepxlf51xuuc1carmrphxy",
-      "time": "05:24:35",
-      "date": "2026-08-22",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "topdawg",
-      "symbol": "DAWG",
-      "address": "V2rSiqm9pMz1x8r2acvcKMf2AuHpn62mSuHhRzYDAWG",
-      "label": "WATCH",
-      "score": 14,
-      "tech_score": 14,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 7.796e-06,
-      "change_1h": 4.44,
-      "liquidity": 5520.58,
-      "volume_1h": 2298.2,
-      "mcap": 7256.0,
-      "dex_url": "https://dexscreener.com/solana/fmg8fzumu8ptzkcedlcyyemjecssztnqsopcyu8jm9gi",
-      "time": "05:24:37",
-      "date": "2026-08-22",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "unstable coin",
-      "symbol": "USDUC",
-      "address": "CB9dDufT3ZuQXqqSfa1c5kY935TEreyBw9XJXxHKpump",
-      "label": "WATCH",
-      "score": 25,
-      "tech_score": 15,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.005524,
-      "change_1h": 1.32,
-      "liquidity": 602015.21,
-      "volume_1h": 68342.45,
-      "mcap": 5523871.0,
-      "dex_url": "https://dexscreener.com/solana/bax9m9a5fvy5cniewwnuwkvdzhsg9psznb4fj9r677tn",
-      "time": "05:24:38",
-      "date": "2026-08-22",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2468,
-    "signals": 15967,
+    "scans": 2469,
+    "signals": 15970,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-22 09:55:43 UTC"
+  "last_scan": "2026-08-22 10:21:21 UTC"
 }
