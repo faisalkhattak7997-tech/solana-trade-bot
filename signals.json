@@ -1,6 +1,96 @@
 {
   "signals": [
     {
+      "token": "Bully",
+      "symbol": "BULLY",
+      "address": "8YVakcmrbeaZUJtpc1ifFjkUKNYLJvXXH6suuFSYpump",
+      "label": "BUY",
+      "score": 63,
+      "tech_score": 43,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 7.468e-05,
+      "change_1h": 89.63,
+      "liquidity": 20900.35,
+      "volume_1h": 43202.27,
+      "mcap": 74687.0,
+      "dex_url": "https://dexscreener.com/solana/8p9p8e6vkideptsgex1w8g7i7jaayxuqpgor8rvzfqyg",
+      "time": "19:40:03",
+      "date": "2026-08-24",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "SMOLCAT",
+      "symbol": "SMOLCAT",
+      "address": "9Y3fY1kwYUTgLwBU7DZKkEwCsZYj3BrXQNP74ZNEpump",
+      "label": "STRONG BUY",
+      "score": 93,
+      "tech_score": 73,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0002057,
+      "change_1h": 419.0,
+      "liquidity": 36826.36,
+      "volume_1h": 550093.31,
+      "mcap": 205588.0,
+      "dex_url": "https://dexscreener.com/solana/mwqyi3goswu3ejtsx2d9gdbnp1j7ftvsikfxppeujp3",
+      "time": "19:40:03",
+      "date": "2026-08-24",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Clown Pussy",
+      "symbol": "Clussy",
+      "address": "nWnDYs4dR57Cek8nsK1W8iWEqKiKZE1hW1CLvP3pump",
+      "label": "WATCH",
+      "score": 35,
+      "tech_score": 35,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0005655,
+      "change_1h": 27.45,
+      "liquidity": 67564.78,
+      "volume_1h": 52912.25,
+      "mcap": 545171.0,
+      "dex_url": "https://dexscreener.com/solana/abjpxbxdv7f2v5jgsqyrn86jp5j27moyq1udniyrhaxf",
+      "time": "19:40:05",
+      "date": "2026-08-24",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "MemeRun",
+      "symbol": "RUN",
+      "address": "2HtutbHpCNCy4jBux1K4taVxshFCHgarydADjUjRpump",
+      "label": "WATCH",
+      "score": 38,
+      "tech_score": 26,
+      "narr_bonus": 12,
+      "narrative": "\ud83d\ude02 Meme Culture",
+      "all_narratives": [
+        "\ud83d\ude02 Meme Culture"
+      ],
+      "price": 4.851e-05,
+      "change_1h": 5.46,
+      "liquidity": 16506.06,
+      "volume_1h": 3772.01,
+      "mcap": 46961.0,
+      "dex_url": "https://dexscreener.com/solana/2qxo1eogufffz5wdpuygkj9defitbvdd2jxanbcwgw7d",
+      "time": "19:40:06",
+      "date": "2026-08-24",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "banana cat",
       "symbol": "bcat",
       "address": "DUPeGi6stKK5zGgVQLc4V8GkZ9o11MucZ5CNXDoYpump",
@@ -1027,109 +1117,17 @@
       "date": "2026-08-24",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "MAGNOPE",
-      "symbol": "MGNOPE",
-      "address": "6ABMQVGdHCzrmTdj31eZFctPtrsXT7LJZ8YGRc1ypump",
-      "label": "BUY",
-      "score": 63,
-      "tech_score": 45,
-      "narr_bonus": 18,
-      "narrative": "\ud83d\ude80 Pump.fun",
-      "all_narratives": [
-        "\ud83d\ude80 Pump.fun"
-      ],
-      "price": 0.0003909,
-      "change_1h": 28.57,
-      "liquidity": 52314.61,
-      "volume_1h": 659587.38,
-      "mcap": 386661.0,
-      "dex_url": "https://dexscreener.com/solana/75kdzn4frvnjvhcirw8tnbjzs7aai5tnyzwccychhmrh",
-      "time": "11:04:33",
-      "date": "2026-08-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "CyberPump",
-      "symbol": "CYBERPUMP",
-      "address": "C88xj9onk6JCStA8HQwqj8TeU2k6E3sP5Ji8RKMqpump",
-      "label": "STRONG BUY",
-      "score": 96,
-      "tech_score": 78,
-      "narr_bonus": 18,
-      "narrative": "\ud83d\ude80 Pump.fun",
-      "all_narratives": [
-        "\ud83d\ude80 Pump.fun"
-      ],
-      "price": 0.0003174,
-      "change_1h": 207.0,
-      "liquidity": 45754.39,
-      "volume_1h": 333225.51,
-      "mcap": 307760.0,
-      "dex_url": "https://dexscreener.com/solana/coeogmud7sgi2ubojpfbcqbivh9qq3o5yrhetkpspsnq",
-      "time": "11:04:33",
-      "date": "2026-08-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "mancoin",
-      "symbol": "MNK",
-      "address": "6W7L2WAzE2nsUsFZ6A9ftQdQhwoqVe8bcbzYUUmHpump",
-      "label": "WATCH",
-      "score": 47,
-      "tech_score": 37,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 1.656e-05,
-      "change_1h": 4.94,
-      "liquidity": 9470.27,
-      "volume_1h": 105.86,
-      "mcap": 16109.0,
-      "dex_url": "https://dexscreener.com/solana/6cq1z6pkbczwtyky54wktwjbnagnsbtecjnfhq2y76xl",
-      "time": "11:04:34",
-      "date": "2026-08-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Cat Cult",
-      "symbol": "CATCULT",
-      "address": "77wvPgk8otNJNsXbCs7nERU8fxh4sgGeouzEVP5Zpump",
-      "label": "BUY",
-      "score": 68,
-      "tech_score": 48,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0001691,
-      "change_1h": 27.73,
-      "liquidity": 33039.53,
-      "volume_1h": 267696.13,
-      "mcap": 165475.0,
-      "dex_url": "https://dexscreener.com/solana/8vtjgsdkjkgnda12pnrfcg1xuzp5t9jwl1bxwsgko1z8",
-      "time": "11:04:35",
-      "date": "2026-08-24",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2577,
-    "signals": 16685,
+    "scans": 2578,
+    "signals": 16689,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-24 19:06:53 UTC"
+  "last_scan": "2026-08-24 19:40:01 UTC"
 }
