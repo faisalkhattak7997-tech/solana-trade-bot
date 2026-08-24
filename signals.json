@@ -1,6 +1,96 @@
 {
   "signals": [
     {
+      "token": "White Gorilla",
+      "symbol": "Harambe",
+      "address": "E51zKbJFhxD4vSsazUF23bCaiEwefFUr6fLW4s8Kpump",
+      "label": "STRONG BUY",
+      "score": 78,
+      "tech_score": 56,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi"
+      ],
+      "price": 8.148e-05,
+      "change_1h": 106.0,
+      "liquidity": 22387.7,
+      "volume_1h": 295901.13,
+      "mcap": 81486.0,
+      "dex_url": "https://dexscreener.com/solana/7ovy7nfqx3tbu5xtjfefyrev6c53g8wxufkjh3zepg8a",
+      "time": "22:58:09",
+      "date": "2026-08-24",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "OTC Sol",
+      "symbol": "OTC",
+      "address": "AUc7hszwXTyRXAkHjjrytyT7sB7r85sc3FxPW5tepump",
+      "label": "WATCH",
+      "score": 39,
+      "tech_score": 29,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.0008299,
+      "change_1h": 9.91,
+      "liquidity": 74216.14,
+      "volume_1h": 28636.65,
+      "mcap": 820700.0,
+      "dex_url": "https://dexscreener.com/solana/64hjajnrbvdvahfwcvtmbba9choy5vyytydqbcad6hcb",
+      "time": "22:58:11",
+      "date": "2026-08-24",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "kylie",
+      "symbol": "kylie",
+      "address": "6b7KQsXqb6JR5Nmeer5zGRmo51dwDfttM5b5Nu2rpump",
+      "label": "BUY",
+      "score": 53,
+      "tech_score": 53,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0002778,
+      "change_1h": 54.2,
+      "liquidity": 50147.64,
+      "volume_1h": 645100.15,
+      "mcap": 275542.0,
+      "dex_url": "https://dexscreener.com/solana/3kbndtpzhw76zogfj4x3mpyu9wp1fqbynyx743dxjtno",
+      "time": "22:58:11",
+      "date": "2026-08-24",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Norman Cat",
+      "symbol": "Norman",
+      "address": "CFbChHeejJBFDLVEx6Tcb9umSwVdA4L3xyenrhTapump",
+      "label": "WATCH",
+      "score": 24,
+      "tech_score": 4,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 2.129e-06,
+      "change_1h": 4.01,
+      "liquidity": 2222.79,
+      "volume_1h": 58.76,
+      "mcap": 2077.0,
+      "dex_url": "https://dexscreener.com/solana/5mshtvpuzj2mpdnpstfpyertptogyq1amlwbsuvj8jxw",
+      "time": "22:58:12",
+      "date": "2026-08-24",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "kylie",
       "symbol": "kylie",
       "address": "6b7KQsXqb6JR5Nmeer5zGRmo51dwDfttM5b5Nu2rpump",
@@ -1035,112 +1125,17 @@
       "date": "2026-08-24",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "pumpfuncat",
-      "symbol": "PCAT",
-      "address": "FWjrvkDKx2gkbGvHvfmv5qahkHwBcQr1XmfHLfPbpump",
-      "label": "BUY",
-      "score": 57,
-      "tech_score": 37,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal",
-        "\ud83d\ude80 Pump.fun",
-        "\ud83d\ude02 Meme Culture"
-      ],
-      "price": 4.067e-05,
-      "change_1h": 6.52,
-      "liquidity": 14940.2,
-      "volume_1h": 64040.56,
-      "mcap": 40670.0,
-      "dex_url": "https://dexscreener.com/solana/6otqaumhkv6r6jzr9eujxwqspiprb2l8kyhngprzgn68",
-      "time": "17:51:43",
-      "date": "2026-08-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "pumpfun changed my life",
-      "symbol": "Life",
-      "address": "BB7aqj7WAwrZNUR3dLT5gLMVQg2pjUpN946MCXSJpump",
-      "label": "BUY",
-      "score": 64,
-      "tech_score": 46,
-      "narr_bonus": 18,
-      "narrative": "\ud83d\ude80 Pump.fun",
-      "all_narratives": [
-        "\ud83d\ude80 Pump.fun",
-        "\ud83d\ude02 Meme Culture"
-      ],
-      "price": 4.392e-05,
-      "change_1h": 11.09,
-      "liquidity": 16010.77,
-      "volume_1h": 347640.64,
-      "mcap": 43921.0,
-      "dex_url": "https://dexscreener.com/solana/7iryqgzxq8q2u5uktjwkgju4es5wrpzxtvleugybz9hh",
-      "time": "17:51:45",
-      "date": "2026-08-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Grok Bot Architecture",
-      "symbol": "ARCHITECTURE",
-      "address": "AP8Wnu37Gf9RHgugPKGvpHe6LcTE2yp5GDy7pL5Upump",
-      "label": "STRONG BUY",
-      "score": 86,
-      "tech_score": 61,
-      "narr_bonus": 25,
-      "narrative": "\ud83e\udd16 AI Agent",
-      "all_narratives": [
-        "\ud83e\udd16 AI Agent"
-      ],
-      "price": 9.917e-05,
-      "change_1h": 151.0,
-      "liquidity": 25483.16,
-      "volume_1h": 741799.12,
-      "mcap": 99178.0,
-      "dex_url": "https://dexscreener.com/solana/6mzjfxt9zpwuzqycufbehavew1bbrthyv9gbcgmunscc",
-      "time": "17:51:45",
-      "date": "2026-08-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "RIBBIT ZYGO THE FROG ",
-      "symbol": "RIBBIT",
-      "address": "FrtbBAaSZksfh4oV46E7Pvb43QiiUmYLD3dcGS6gpump",
-      "label": "BUY",
-      "score": 50,
-      "tech_score": 30,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0002491,
-      "change_1h": 3.36,
-      "liquidity": 48481.86,
-      "volume_1h": 2575.58,
-      "mcap": 249099.0,
-      "dex_url": "https://dexscreener.com/solana/ak9j6xqrsdpxgmqrscv67yrjybbvhjqu6twepikc6n6o",
-      "time": "17:51:46",
-      "date": "2026-08-24",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2584,
-    "signals": 16720,
+    "scans": 2585,
+    "signals": 16724,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-24 22:35:54 UTC"
+  "last_scan": "2026-08-24 22:58:09 UTC"
 }
