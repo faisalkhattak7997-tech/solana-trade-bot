@@ -1,6 +1,94 @@
 {
   "signals": [
     {
+      "token": "BATON",
+      "symbol": "BATON",
+      "address": "6Hebn672FvMSq61mo4HYq86QgLHgBUm6y8A9bXGppump",
+      "label": "STRONG BUY",
+      "score": 78,
+      "tech_score": 78,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.000504,
+      "change_1h": 1194.0,
+      "liquidity": 62317.47,
+      "volume_1h": 1584603.19,
+      "mcap": 504017.0,
+      "dex_url": "https://dexscreener.com/solana/6vkqkcnqljqnlkaboykka6l5gpvsjy2bbwrmevsppjoj",
+      "time": "00:02:05",
+      "date": "2026-08-25",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Power Trenchers",
+      "symbol": "TRENCHERS",
+      "address": "D9qNfYpFtP9E3YpjBJDCD5PuWoD3445cC9K6PMX5pump",
+      "label": "WATCH",
+      "score": 35,
+      "tech_score": 35,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.000125,
+      "change_1h": 28.75,
+      "liquidity": 27938.38,
+      "volume_1h": 70121.48,
+      "mcap": 122359.0,
+      "dex_url": "https://dexscreener.com/solana/7wnu9u2etuvg27ij4az129gwdjz5zm9sdn12ug9na6v6",
+      "time": "00:02:06",
+      "date": "2026-08-25",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Harold The Duck",
+      "symbol": "HAROLD",
+      "address": "5z7gxdrf8NpBrELaB29kXAk7SHBiNG5u726LtyYvpump",
+      "label": "STRONG BUY",
+      "score": 81,
+      "tech_score": 61,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 9.261e-05,
+      "change_1h": 141.0,
+      "liquidity": 24916.86,
+      "volume_1h": 610572.46,
+      "mcap": 92612.0,
+      "dex_url": "https://dexscreener.com/solana/cp1gp5dchkoyczkd9oh3ql1tanfaawzwnuyqpqyoazvf",
+      "time": "00:02:07",
+      "date": "2026-08-25",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "1meme is all it takes ",
+      "symbol": "1meme",
+      "address": "F9RenTXkjT1RW26swmAB6mutkqwFLo1Fbc4W8pHGpump",
+      "label": "WATCH",
+      "score": 37,
+      "tech_score": 25,
+      "narr_bonus": 12,
+      "narrative": "\ud83d\ude02 Meme Culture",
+      "all_narratives": [
+        "\ud83d\ude02 Meme Culture"
+      ],
+      "price": 0.0001474,
+      "change_1h": 2.97,
+      "liquidity": 30967.44,
+      "volume_1h": 15771.85,
+      "mcap": 142574.0,
+      "dex_url": "https://dexscreener.com/solana/3qmd5s3hzn7tpmkm6qhgmduftgg6xz4lnwyhzj8jcnir",
+      "time": "00:02:09",
+      "date": "2026-08-25",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "buck",
       "symbol": "buck",
       "address": "HM75x3BeEtSYfg5GfZWKHdMWPAKWbf8S8h7Gtfhjpump",
@@ -1029,109 +1117,17 @@
       "date": "2026-08-24",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "MemeRun",
-      "symbol": "RUN",
-      "address": "2HtutbHpCNCy4jBux1K4taVxshFCHgarydADjUjRpump",
-      "label": "WATCH",
-      "score": 38,
-      "tech_score": 26,
-      "narr_bonus": 12,
-      "narrative": "\ud83d\ude02 Meme Culture",
-      "all_narratives": [
-        "\ud83d\ude02 Meme Culture"
-      ],
-      "price": 4.851e-05,
-      "change_1h": 5.46,
-      "liquidity": 16506.06,
-      "volume_1h": 3772.01,
-      "mcap": 46961.0,
-      "dex_url": "https://dexscreener.com/solana/2qxo1eogufffz5wdpuygkj9defitbvdd2jxanbcwgw7d",
-      "time": "19:40:06",
-      "date": "2026-08-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "banana cat",
-      "symbol": "bcat",
-      "address": "DUPeGi6stKK5zGgVQLc4V8GkZ9o11MucZ5CNXDoYpump",
-      "label": "STRONG BUY",
-      "score": 88,
-      "tech_score": 68,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0001555,
-      "change_1h": 168.0,
-      "liquidity": 31210.17,
-      "volume_1h": 210456.1,
-      "mcap": 155413.0,
-      "dex_url": "https://dexscreener.com/solana/pvhta9w6wujbt1oo75wdq24zzihubwojkiy1udraywd",
-      "time": "19:06:54",
-      "date": "2026-08-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "SMOLCAT",
-      "symbol": "SMOLCAT",
-      "address": "9Y3fY1kwYUTgLwBU7DZKkEwCsZYj3BrXQNP74ZNEpump",
-      "label": "STRONG BUY",
-      "score": 83,
-      "tech_score": 63,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0002241,
-      "change_1h": 465.0,
-      "liquidity": 37934.84,
-      "volume_1h": 330119.61,
-      "mcap": 223960.0,
-      "dex_url": "https://dexscreener.com/solana/mwqyi3goswu3ejtsx2d9gdbnp1j7ftvsikfxppeujp3",
-      "time": "19:06:55",
-      "date": "2026-08-24",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Dancing Duck",
-      "symbol": "duck",
-      "address": "Gu29wuSbMdQKPpkmZ4wpiURgQbYohpBFpwPbzJLbz8Mr",
-      "label": "BUY",
-      "score": 50,
-      "tech_score": 30,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 4.008e-05,
-      "change_1h": 1.49,
-      "liquidity": 14864.02,
-      "volume_1h": 111498.04,
-      "mcap": 40086.0,
-      "dex_url": "https://dexscreener.com/solana/fz8xxff1hbybf9wmpyrtu7y8gcfmtuzqs12kmlhehwxz",
-      "time": "19:06:56",
-      "date": "2026-08-24",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2587,
-    "signals": 16732,
+    "scans": 2588,
+    "signals": 16736,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-24 23:47:03 UTC"
+  "last_scan": "2026-08-25 00:02:03 UTC"
 }
