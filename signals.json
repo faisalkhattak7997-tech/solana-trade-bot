@@ -1,6 +1,73 @@
 {
   "signals": [
     {
+      "token": "Chillhouse Pussy",
+      "symbol": "Chussy",
+      "address": "7Jo6mxP9dZ2hCDWJi6AkGdQ2kHCV2d7w8s4pu6TLpump",
+      "label": "BUY",
+      "score": 51,
+      "tech_score": 29,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi"
+      ],
+      "price": 4.84e-05,
+      "change_1h": 11.82,
+      "liquidity": 17088.81,
+      "volume_1h": 24745.74,
+      "mcap": 48406.0,
+      "dex_url": "https://dexscreener.com/solana/ecvrcxvjtvfqyagmnzffkd4vqd6mhdhlfpm4oqtb69n5",
+      "time": "10:32:04",
+      "date": "2026-08-30",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "CryptoGDEX",
+      "symbol": "CGX",
+      "address": "6E8fPgsBvwjGRHcoeLUW8iugy736SKo54VvYLbYMpump",
+      "label": "WATCH",
+      "score": 31,
+      "tech_score": 31,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0006021,
+      "change_1h": 9.04,
+      "liquidity": 65713.66,
+      "volume_1h": 1560.39,
+      "mcap": 585755.0,
+      "dex_url": "https://dexscreener.com/solana/7n9drbwkk4lxgw8kvhx8vzw8fagupjjh6ebhyndxj9xb",
+      "time": "10:32:05",
+      "date": "2026-08-30",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Pit Bull on One Wheel",
+      "symbol": "Greyson",
+      "address": "AfGdjAp9djSaqJxzYo3t6jy8tJA3o2aDPHoZ57Egpump",
+      "label": "BUY",
+      "score": 51,
+      "tech_score": 31,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0002893,
+      "change_1h": 6.64,
+      "liquidity": 48933.0,
+      "volume_1h": 103256.52,
+      "mcap": 286900.0,
+      "dex_url": "https://dexscreener.com/solana/caka2ratbnyimjxatpetksj3567mslatbxifws6g2rej",
+      "time": "10:32:05",
+      "date": "2026-08-30",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Pink Cat ",
       "symbol": "PINKCAT",
       "address": "4SnvN9Eja4WkqcUwZWXddmq8caeJQDUBH4mvCRFmpump",
@@ -1037,82 +1104,17 @@
       "date": "2026-08-29",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Mika Life Companion",
-      "symbol": "Mika",
-      "address": "9adhqtbmh3zHEz2WZgtug8LUy4juqSnTuteSzQDzpump",
-      "label": "BUY",
-      "score": 61,
-      "tech_score": 61,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 9.496e-05,
-      "change_1h": 158.0,
-      "liquidity": 25659.44,
-      "volume_1h": 592782.71,
-      "mcap": 91692.0,
-      "dex_url": "https://dexscreener.com/solana/j6r4nvfyy8uruuygfd35xa4jzg79pmuupwsqjjsvxt8m",
-      "time": "13:16:59",
-      "date": "2026-08-29",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Anthropic PBC",
-      "symbol": "ANTH",
-      "address": "5fdhYFj62HZLQJ7L7BUXiwdvPDevsVFqs9JLJXuiyg1q",
-      "label": "WATCH",
-      "score": 26,
-      "tech_score": 26,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 1.192e-05,
-      "change_1h": 17.34,
-      "liquidity": 10269.17,
-      "volume_1h": 617.65,
-      "mcap": 11924.0,
-      "dex_url": "https://dexscreener.com/solana/7ru1wzd7ae3adhh4frssmfokdhyltwux9xe5uqj4wbnm",
-      "time": "13:17:00",
-      "date": "2026-08-29",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Lovely Panda",
-      "symbol": "LOPA",
-      "address": "6ctMBCcT8gimXqGK67ye5vE4HeVz4A6QKbfxohUBV8vv",
-      "label": "WATCH",
-      "score": 32,
-      "tech_score": 12,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 4.777e-06,
-      "change_1h": 2.72,
-      "liquidity": 4240.84,
-      "volume_1h": 919.75,
-      "mcap": 4778.0,
-      "dex_url": "https://dexscreener.com/solana/6axdmsfsnnjkc2xkquxhe3tt2imtnrs55s6wxpvs16ki",
-      "time": "13:17:00",
-      "date": "2026-08-29",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2659,
-    "signals": 17267,
+    "scans": 2660,
+    "signals": 17270,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-08-30 05:19:16 UTC"
+  "last_scan": "2026-08-30 10:32:01 UTC"
 }
