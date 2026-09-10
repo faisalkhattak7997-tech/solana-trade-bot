@@ -1,6 +1,96 @@
 {
   "signals": [
     {
+      "token": "INU",
+      "symbol": "INU",
+      "address": "6LrDt7nBiHraUuk9PZoUL8Qy9WX6pnSpDz1RkWWRR7hN",
+      "label": "BUY",
+      "score": 63,
+      "tech_score": 63,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 5.311e-05,
+      "change_1h": 286.0,
+      "liquidity": 19860.51,
+      "volume_1h": 47134.35,
+      "mcap": 53113.0,
+      "dex_url": "https://dexscreener.com/solana/eqnkemjn4mbwkjtwf5dqed31ax8szm51suyhbe8piwqj",
+      "time": "13:48:03",
+      "date": "2026-09-10",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "FEET COIN",
+      "symbol": "FEET",
+      "address": "AQ1NQ67j9rAB6beCGpxw2y5mue96R33oXnfcDNoApump",
+      "label": "WATCH",
+      "score": 39,
+      "tech_score": 29,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 4.321e-05,
+      "change_1h": 5.43,
+      "liquidity": 15722.07,
+      "volume_1h": 54361.13,
+      "mcap": 43174.0,
+      "dex_url": "https://dexscreener.com/solana/gxb4ianmjuystachhmyvjgekbq9fruvardgg9tqyjt7m",
+      "time": "13:48:04",
+      "date": "2026-09-10",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Autistic Genius Intelligence",
+      "symbol": "AGI",
+      "address": "4scGDg9z7xd57xnPQrfr9u1kuHJQ4i5KxwoYHr3Upump",
+      "label": "STRONG BUY",
+      "score": 100,
+      "tech_score": 81,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent"
+      ],
+      "price": 0.0007889,
+      "change_1h": 903.0,
+      "liquidity": 75731.68,
+      "volume_1h": 925938.31,
+      "mcap": 788996.0,
+      "dex_url": "https://dexscreener.com/solana/2vgrzwxux6rsibdv211wgpczxepqra7pnmddxnqc8nmq",
+      "time": "13:48:04",
+      "date": "2026-09-10",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "CATON",
+      "symbol": "CATON",
+      "address": "C7HaU9X4QRdhjc35EH4WxiFq2xgXKkej1PVsDkM7pump",
+      "label": "WATCH",
+      "score": 24,
+      "tech_score": 4,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 2.045e-06,
+      "change_1h": 3.55,
+      "liquidity": 2143.16,
+      "volume_1h": 67.63,
+      "mcap": 2004.0,
+      "dex_url": "https://dexscreener.com/solana/h42mkqva5t9mcoojjf1w1ddkbntfguenvzxoqd3jyeb",
+      "time": "13:48:06",
+      "date": "2026-09-10",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "YesBlob",
       "symbol": "YES",
       "address": "VzqFToxrHqs7BFtfWvwmGAn6nv7p9W3zdmW95iTpump",
@@ -997,107 +1087,17 @@
       "date": "2026-09-09",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Stonk Season",
-      "symbol": "STONKSZN",
-      "address": "HQSXsxD2BhpA8v21TwTjv6Tbkr8yYH3B8RkGS1Bspump",
-      "label": "WATCH",
-      "score": 34,
-      "tech_score": 34,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0007311,
-      "change_1h": 10.6,
-      "liquidity": 78219.19,
-      "volume_1h": 124510.82,
-      "mcap": 727287.0,
-      "dex_url": "https://dexscreener.com/solana/fetxrocpwbkjnius4f3xczy33jxhryv8ze8kzf74rwur",
-      "time": "17:39:11",
-      "date": "2026-09-09",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Space Cat Index",
-      "symbol": "SPCX",
-      "address": "7gJA6fhVUJ9UgLPLpmCo6aXH5R4hiUNQbaWEnx4Rpump",
-      "label": "STRONG BUY",
-      "score": 91,
-      "tech_score": 71,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0003545,
-      "change_1h": 117.0,
-      "liquidity": 50542.12,
-      "volume_1h": 395138.21,
-      "mcap": 351118.0,
-      "dex_url": "https://dexscreener.com/solana/a3ggb2rzaxaum8dstyvhiwzqz5rsxmt1sp5mtxlptpfw",
-      "time": "13:56:35",
-      "date": "2026-09-09",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Anonymous Dog",
-      "symbol": "ZDOG",
-      "address": "FfFEszstujrteEmNK1SzS7CXyWiuiKUKjrRLov7eLtQ3",
-      "label": "STRONG BUY",
-      "score": 89,
-      "tech_score": 69,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.001255,
-      "change_1h": 632.0,
-      "liquidity": 179634.36,
-      "volume_1h": 929853.25,
-      "mcap": 1255960.0,
-      "dex_url": "https://dexscreener.com/solana/erdn11nvuudavmq3oarsvfvbxzsm8lj3qf73ivzgfs63",
-      "time": "13:56:36",
-      "date": "2026-09-09",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "hamsterunite",
-      "symbol": "HAMSTERUNITE",
-      "address": "b91f2MjW4t7vemWpdiCGrUCy2ZeALSuyhvbDSTBpump",
-      "label": "STRONG BUY",
-      "score": 83,
-      "tech_score": 63,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0001622,
-      "change_1h": 60.62,
-      "liquidity": 33642.05,
-      "volume_1h": 436993.06,
-      "mcap": 159622.0,
-      "dex_url": "https://dexscreener.com/solana/9e7gvfqkx4rpzcnoupjhygzycxyqazmmzuht2k8semmy",
-      "time": "13:56:37",
-      "date": "2026-09-09",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2737,
-    "signals": 17859,
+    "scans": 2738,
+    "signals": 17863,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-09-10 09:37:35 UTC"
+  "last_scan": "2026-09-10 13:48:02 UTC"
 }
