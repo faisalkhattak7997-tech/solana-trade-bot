@@ -1,6 +1,51 @@
 {
   "signals": [
     {
+      "token": "Gigacat",
+      "symbol": "GIGACAT",
+      "address": "ELtpMQefAHa2FZdsJuyigswhhqL5YKSHKsYHiFBXQKeS",
+      "label": "BUY",
+      "score": 59,
+      "tech_score": 39,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal",
+        "\ud83d\ude02 Meme Culture"
+      ],
+      "price": 6.497e-05,
+      "change_1h": 8.73,
+      "liquidity": 23277.1,
+      "volume_1h": 110616.76,
+      "mcap": 64979.0,
+      "dex_url": "https://dexscreener.com/solana/4u2bf1tyh6sx7juad1un5mnjkbkhwt4xpwu3uxvmw1d9",
+      "time": "10:00:18",
+      "date": "2026-09-23",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "4Deer",
+      "symbol": "4Deer",
+      "address": "5aSt1VE6LmtQzMoeXyRL7WCBUTZd8DPCiitBRHDPpump",
+      "label": "WATCH",
+      "score": 45,
+      "tech_score": 45,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 2.113e-05,
+      "change_1h": 78.05,
+      "liquidity": 11180.96,
+      "volume_1h": 5399.22,
+      "mcap": 19770.0,
+      "dex_url": "https://dexscreener.com/solana/4g8ctdz8tqkj7blimcypbba6x2vy9n47v8tszbqdd5ur",
+      "time": "10:00:19",
+      "date": "2026-09-23",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "The Goat Fruits",
       "symbol": "DURIAN",
       "address": "5zT1G7tWhew7GuLFKuiVwvvDv2z14kHG1dA7nt4Rpump",
@@ -1058,61 +1103,17 @@
       "date": "2026-09-22",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "FOURSTD",
-      "symbol": "FOUR",
-      "address": "RnhAUX9A4xr1FPdHbfqu3LxitvFRhpfnr54qsvwpump",
-      "label": "WATCH",
-      "score": 18,
-      "tech_score": 18,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 9.065e-06,
-      "change_1h": 10.33,
-      "liquidity": 6602.53,
-      "volume_1h": 234.78,
-      "mcap": 8661.0,
-      "dex_url": "https://dexscreener.com/solana/2eawighr3zjakiqqn5ycqdxryrt7ci5vtd6fjysdtfjq",
-      "time": "11:48:15",
-      "date": "2026-09-22",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Tokens",
-      "symbol": "Tokens",
-      "address": "C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump",
-      "label": "BUY",
-      "score": 50,
-      "tech_score": 40,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.0003417,
-      "change_1h": 48.99,
-      "liquidity": 60607.7,
-      "volume_1h": 140048.35,
-      "mcap": 309771.0,
-      "dex_url": "https://dexscreener.com/solana/cc1efpiwyod6rnj198hhvqn9vnmn73m1vxehy8ab3994",
-      "time": "11:48:15",
-      "date": "2026-09-22",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2825,
-    "signals": 18534,
+    "scans": 2826,
+    "signals": 18536,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-09-23 05:12:17 UTC"
+  "last_scan": "2026-09-23 10:00:16 UTC"
 }
