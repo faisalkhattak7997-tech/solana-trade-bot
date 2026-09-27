@@ -1,6 +1,29 @@
 {
   "signals": [
     {
+      "token": "Fleshcoin",
+      "symbol": "FLESH",
+      "address": "FFPSq1ByV2XdPTj2UkSPRe14NoQydUkarBLeNfXd1gdj",
+      "label": "BUY",
+      "score": 53,
+      "tech_score": 43,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 6.17e-05,
+      "change_1h": 94.38,
+      "liquidity": 21259.66,
+      "volume_1h": 56181.57,
+      "mcap": 58816.0,
+      "dex_url": "https://dexscreener.com/solana/b1fnsrntltguxe7yzsd47cwfhstxtwvojafnupgabsb5",
+      "time": "20:08:30",
+      "date": "2026-09-27",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Nearwhal",
       "symbol": "NEARWHAL",
       "address": "CC85TwHTjXh23QUkFiAde381Cx6UjTaYXWcx6eUEpump",
@@ -1061,38 +1084,17 @@
       "date": "2026-09-26",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Gatto",
-      "symbol": "$Gatto",
-      "address": "25Lrwta8CGeMt3pmxy7DivhJzRzBp5Ne76bdaxbPpump",
-      "label": "WATCH",
-      "score": 41,
-      "tech_score": 41,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 3.854e-05,
-      "change_1h": 5.18,
-      "liquidity": 16072.14,
-      "volume_1h": 3087.61,
-      "mcap": 36731.0,
-      "dex_url": "https://dexscreener.com/solana/8wptptnyqkjgzuxrhopar4z323rauaoagrraruumjymn",
-      "time": "17:51:44",
-      "date": "2026-09-26",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2852,
-    "signals": 18722,
+    "scans": 2853,
+    "signals": 18723,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-09-27 17:10:17 UTC"
+  "last_scan": "2026-09-27 20:08:29 UTC"
 }
