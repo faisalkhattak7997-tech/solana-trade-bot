@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "CTO",
+      "symbol": "CTO",
+      "address": "EWgq2xUb6eVCApeQombkPxd6uFjM8j9zRUXFS9MjKTiv",
+      "label": "WATCH",
+      "score": 26,
+      "tech_score": 26,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0002301,
+      "change_1h": 5.46,
+      "liquidity": 48347.21,
+      "volume_1h": 2188.18,
+      "mcap": 199291.0,
+      "dex_url": "https://dexscreener.com/solana/3364h2g3kt536qgfv4az9hhn42i4owxgpcs4luenhcba",
+      "time": "02:02:23",
+      "date": "2026-10-01",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "BURSTCOIN",
+      "symbol": "BURST",
+      "address": "8b5c8hbbcKdd4F49RHjCiCntJS68Vro8ZJLumJNFZZHg",
+      "label": "BUY",
+      "score": 66,
+      "tech_score": 56,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 1.121e-05,
+      "change_1h": 146.0,
+      "liquidity": 9958.97,
+      "volume_1h": 6560.12,
+      "mcap": 11220.0,
+      "dex_url": "https://dexscreener.com/solana/6zmrsv48ubx7esyzaocvm1zncsd3lgf1ujt4jmpfkdrt",
+      "time": "02:02:23",
+      "date": "2026-10-01",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Picomatch",
       "symbol": "Picomatch",
       "address": "2F3VSnTdEJAKjWmSahfRG43RZFdkCDzSPySNdpz8pump",
@@ -1061,59 +1105,17 @@
       "date": "2026-09-29",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "XMASLUNA",
-      "symbol": "LUNA",
-      "address": "J9gXX3PtUX2WrhnWokWwibnvvfMbHSqCh6aebaKrpump",
-      "label": "WATCH",
-      "score": 22,
-      "tech_score": 22,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 5.582e-05,
-      "change_1h": 2.09,
-      "liquidity": 19598.41,
-      "volume_1h": 2082.15,
-      "mcap": 53528.0,
-      "dex_url": "https://dexscreener.com/solana/csgf7hxufnk8ssmkv49wpspccpjgrpj9y4vddan7x6jz",
-      "time": "06:54:19",
-      "date": "2026-09-29",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "polar ber",
-      "symbol": "ber",
-      "address": "3sJLXbRoBgVgeDnCCfmdSZuJQRtuyPRsJmMTCZumWH9Y",
-      "label": "WATCH",
-      "score": 27,
-      "tech_score": 27,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 1.515e-05,
-      "change_1h": 33.49,
-      "liquidity": 10000.38,
-      "volume_1h": 27837.47,
-      "mcap": 14710.0,
-      "dex_url": "https://dexscreener.com/solana/btpnkvs4vbjvpvyuv259opikluukvo2cej2q36rdesj",
-      "time": "06:54:19",
-      "date": "2026-09-29",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2868,
-    "signals": 18825,
+    "scans": 2869,
+    "signals": 18827,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-09-30 23:02:50 UTC"
+  "last_scan": "2026-10-01 02:02:21 UTC"
 }
