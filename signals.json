@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "Golden Goose",
+      "symbol": "GG",
+      "address": "6rXCb1aK833n9Xy5Y6VPXpScNAuzQzu3jvSUs6cN2RGy",
+      "label": "BUY",
+      "score": 63,
+      "tech_score": 63,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001812,
+      "change_1h": 266.0,
+      "liquidity": 39597.52,
+      "volume_1h": 162904.82,
+      "mcap": 181212.0,
+      "dex_url": "https://dexscreener.com/solana/hekmpbahzxz13ia6zrzdmqkvy9twysx2wegdrexj9jht",
+      "time": "14:51:39",
+      "date": "2026-10-03",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "jupdotfun",
+      "symbol": "JUF",
+      "address": "GFkfaUEJApu9Jf2AmAN2hgk5SteXRXJ19opJoL5bZwKw",
+      "label": "WATCH",
+      "score": 41,
+      "tech_score": 29,
+      "narr_bonus": 12,
+      "narrative": "\ud83d\ude02 Meme Culture",
+      "all_narratives": [
+        "\ud83d\ude02 Meme Culture"
+      ],
+      "price": 0.0002227,
+      "change_1h": 18.16,
+      "liquidity": 43891.78,
+      "volume_1h": 20449.36,
+      "mcap": 201403.0,
+      "dex_url": "https://dexscreener.com/solana/axsaterkuwjw9ep8hb6ugu6teumn1hoah8rjhzbz4kup",
+      "time": "14:51:40",
+      "date": "2026-10-03",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Crest",
       "symbol": "CREST",
       "address": "QF5DNh3VwuY2Wx2CXAeW75XyRRbSUpSP8Pog8ckpump",
@@ -1053,61 +1097,17 @@
       "date": "2026-10-02",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Clippy Accelerationism",
-      "symbol": "c/acc",
-      "address": "J2AygNiQAkvucTLDja1W1L4VxAT4QvtorAHBqXdcpump",
-      "label": "BUY",
-      "score": 68,
-      "tech_score": 68,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0002194,
-      "change_1h": 351.0,
-      "liquidity": 43062.64,
-      "volume_1h": 955466.26,
-      "mcap": 219463.0,
-      "dex_url": "https://dexscreener.com/solana/cbjsjd7c3sbbzv5ay4tn6oro7xtijk2ut4cpgegoyxbe",
-      "time": "00:08:14",
-      "date": "2026-10-02",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Ramcat",
-      "symbol": "RAMCAT",
-      "address": "5zxzU6duesnfLdtAQ4kJPrcPkiFHz3PcbkmZ5QQm5QgN",
-      "label": "STRONG BUY",
-      "score": 93,
-      "tech_score": 73,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0001707,
-      "change_1h": 251.0,
-      "liquidity": 41370.3,
-      "volume_1h": 2182051.76,
-      "mcap": 170783.0,
-      "dex_url": "https://dexscreener.com/solana/69fypsx4nbpnrqppmpgakqz8tsjhwjrz1bmrwxauizjo",
-      "time": "00:08:14",
-      "date": "2026-10-02",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2880,
-    "signals": 18894,
+    "scans": 2881,
+    "signals": 18896,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-10-03 10:33:47 UTC"
+  "last_scan": "2026-10-03 14:51:37 UTC"
 }
