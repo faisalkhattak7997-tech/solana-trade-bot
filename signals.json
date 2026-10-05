@@ -1,6 +1,48 @@
 {
   "signals": [
     {
+      "token": "Ballin",
+      "symbol": "BALLIN",
+      "address": "AZ1zu3GSbhBAqnaVxZiHE5akV6BtF1knyrbWULAupump",
+      "label": "BUY",
+      "score": 58,
+      "tech_score": 58,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 2.407e-05,
+      "change_1h": 220.0,
+      "liquidity": 12297.74,
+      "volume_1h": 39995.57,
+      "mcap": 23148.0,
+      "dex_url": "https://dexscreener.com/solana/6f4tycvsyvfb1kaggxaztvpq9wvb9jn9hmolmnwwcq3w",
+      "time": "21:53:52",
+      "date": "2026-10-05",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Mintro",
+      "symbol": "MINTRO",
+      "address": "BrUimx7KncgRNTggAdZdaX2s5XUqQyR6XMRmEg4mpump",
+      "label": "BUY",
+      "score": 57,
+      "tech_score": 57,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.001985,
+      "change_1h": 108.0,
+      "liquidity": 134981.17,
+      "volume_1h": 589248.66,
+      "mcap": 1971533.0,
+      "dex_url": "https://dexscreener.com/solana/8t34p7n94man8wcmfdhedykjaweha9nkgjmlzyzuzbn",
+      "time": "21:53:53",
+      "date": "2026-10-05",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Artificial Super Inu",
       "symbol": "ASI",
       "address": "GgPEigvRUuWRf256egenFe3KrQSH8u7ba2C9TdLFpump",
@@ -1047,59 +1089,17 @@
       "date": "2026-10-03",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "XMR20",
-      "symbol": "XMR20",
-      "address": "Cy5TzDyJ4mo6MBAbpwUcAgdfNiXYKrYUPrvhPGVU6XMR",
-      "label": "WATCH",
-      "score": 18,
-      "tech_score": 18,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0002906,
-      "change_1h": 6.68,
-      "liquidity": 50383.05,
-      "volume_1h": 2543.29,
-      "mcap": 290621.0,
-      "dex_url": "https://dexscreener.com/solana/b1w58redpwvgjp5gmtymitxq4khl11ytvkhbf2nlbnuw",
-      "time": "21:37:18",
-      "date": "2026-10-03",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "clanker",
-      "symbol": "Clanker",
-      "address": "CPqq6ceui3H6Ye2J41dmZFkD6iJWKARqKquJjsrvTmku",
-      "label": "BUY",
-      "score": 63,
-      "tech_score": 63,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0001908,
-      "change_1h": 287.0,
-      "liquidity": 39182.53,
-      "volume_1h": 496651.37,
-      "mcap": 190004.0,
-      "dex_url": "https://dexscreener.com/solana/95gefcubb6b1gcg1sehpdyekprnnttxpyceqq7pnlbzx",
-      "time": "18:24:18",
-      "date": "2026-10-03",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2892,
-    "signals": 18952,
+    "scans": 2893,
+    "signals": 18954,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-10-05 14:57:28 UTC"
+  "last_scan": "2026-10-05 21:53:50 UTC"
 }
