@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "zecpad",
+      "symbol": "zecpad",
+      "address": "8TgD6GanjfWaYpYowcjq9hNKL1UTzmygkFGw7DUNpump",
+      "label": "WATCH",
+      "score": 48,
+      "tech_score": 48,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 7.832e-05,
+      "change_1h": 89.79,
+      "liquidity": 23320.22,
+      "volume_1h": 285104.4,
+      "mcap": 78328.0,
+      "dex_url": "https://dexscreener.com/solana/atosqw8ccuhmfb8b7cccr6fzmokwvs5nwkjypkrhnuyx",
+      "time": "02:00:48",
+      "date": "2026-10-06",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "catonputer",
+      "symbol": "puter",
+      "address": "5oYF9aG7rkow6K9yDKzv2yup7xaJqkXm6QNoUYsppump",
+      "label": "STRONG BUY",
+      "score": 73,
+      "tech_score": 53,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0001912,
+      "change_1h": 98.52,
+      "liquidity": 39009.65,
+      "volume_1h": 370839.11,
+      "mcap": 191108.0,
+      "dex_url": "https://dexscreener.com/solana/7wa3rfrv9mnmqzjkdyyfgmxfhykdlnvhugrxzg6d6y23",
+      "time": "02:00:48",
+      "date": "2026-10-06",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Ballin",
       "symbol": "BALLIN",
       "address": "AZ1zu3GSbhBAqnaVxZiHE5akV6BtF1knyrbWULAupump",
@@ -1043,63 +1087,17 @@
       "date": "2026-10-03",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Solana Christmas",
-      "symbol": "SOLMAS",
-      "address": "98S3A9sgLHhdUHUdpviZQrbEGsXFMf4ZXfNRBpeMpump",
-      "label": "BUY",
-      "score": 58,
-      "tech_score": 48,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.0001451,
-      "change_1h": 98.87,
-      "liquidity": 33620.5,
-      "volume_1h": 225004.84,
-      "mcap": 138248.0,
-      "dex_url": "https://dexscreener.com/solana/7jz7yfaeg6yngrubp3qubx9h33zvkmijtfqtfjgwnwea",
-      "time": "21:37:17",
-      "date": "2026-10-03",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "DARKPOOL",
-      "symbol": "DARKPOOL",
-      "address": "fCUBpdeRn76xfRaa4UPHDauGeRG3EvMB3MjuRgdpump",
-      "label": "BUY",
-      "score": 53,
-      "tech_score": 43,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 9.386e-05,
-      "change_1h": 180.0,
-      "liquidity": 28347.97,
-      "volume_1h": 40495.45,
-      "mcap": 82562.0,
-      "dex_url": "https://dexscreener.com/solana/3zooxcy7dwgp5opscmmmhop6ejc1ed2qeorbneai7pgk",
-      "time": "21:37:18",
-      "date": "2026-10-03",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2893,
-    "signals": 18954,
+    "scans": 2894,
+    "signals": 18956,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-10-05 21:53:50 UTC"
+  "last_scan": "2026-10-06 02:00:46 UTC"
 }
