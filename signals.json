@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "My Super Intelligent Cat",
+      "symbol": "Ollie",
+      "address": "564TGXSRPH2a7vJvdp1uSaZ4M1qDmeKgoMZyfBvYpump",
+      "label": "STRONG BUY",
+      "score": 83,
+      "tech_score": 63,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0002032,
+      "change_1h": 348.0,
+      "liquidity": 39362.93,
+      "volume_1h": 239583.13,
+      "mcap": 203300.0,
+      "dex_url": "https://dexscreener.com/solana/bos7g49psy2saynpnwszjdl25sc4qguwmncmgazitv1f",
+      "time": "01:18:39",
+      "date": "2026-10-11",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Super Market Inu",
+      "symbol": "SUPMKT",
+      "address": "3Y9QZ7TR3WUD1ZDsrjWe2uNAdXESZEBo2XacPw7Vpump",
+      "label": "STRONG BUY",
+      "score": 71,
+      "tech_score": 71,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.001186,
+      "change_1h": 224.0,
+      "liquidity": 97710.0,
+      "volume_1h": 433558.13,
+      "mcap": 1178416.0,
+      "dex_url": "https://dexscreener.com/solana/94tupyk7hinha9fu2nqekfh6jkykx88ntubvqc2v9mab",
+      "time": "01:18:41",
+      "date": "2026-10-11",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "bull wif sword",
       "symbol": "swordbull",
       "address": "9S6B3mvPbuMpN1aE4wNqFLFxcUyjQfoMKZsDPS3spump",
@@ -1056,61 +1100,17 @@
       "date": "2026-10-09",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Elon Musk",
-      "symbol": "ELON",
-      "address": "ELon2AbN3GZkhERj1DiZe74uJnjZ8ncVu45qjb1jmUSk",
-      "label": "BUY",
-      "score": 51,
-      "tech_score": 29,
-      "narr_bonus": 22,
-      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
-      "all_narratives": [
-        "\ud83c\udfdb\ufe0f PolitiFi"
-      ],
-      "price": 4.553e-05,
-      "change_1h": 11.88,
-      "liquidity": 16826.99,
-      "volume_1h": 41212.71,
-      "mcap": 45441.0,
-      "dex_url": "https://dexscreener.com/solana/5c915ztxonli1kkne5spgxv6dbeztgj9y5kg3x5edyr9",
-      "time": "14:43:54",
-      "date": "2026-10-09",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "EGGU",
-      "symbol": "EGGU",
-      "address": "49VZNZqvkcsGajJ8k9xrEzDZTLRDV5rZn9YYthg53czn",
-      "label": "WATCH",
-      "score": 38,
-      "tech_score": 38,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0001546,
-      "change_1h": 6.31,
-      "liquidity": 32910.79,
-      "volume_1h": 603.41,
-      "mcap": 154672.0,
-      "dex_url": "https://dexscreener.com/solana/h8s3xm93y6ufmjhjue7xqhh6saq8szqvjgwwnydrpecq",
-      "time": "14:43:55",
-      "date": "2026-10-09",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2916,
-    "signals": 19090,
+    "scans": 2917,
+    "signals": 19092,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-10-10 22:43:34 UTC"
+  "last_scan": "2026-10-11 01:18:39 UTC"
 }
