@@ -1,6 +1,48 @@
 {
   "signals": [
     {
+      "token": "Duge",
+      "symbol": "Duge",
+      "address": "8gkVdgdApzfFKpU8ijqqhCXVL4FdWp8jsmCPbhuGpump",
+      "label": "WATCH",
+      "score": 27,
+      "tech_score": 27,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 1.028e-05,
+      "change_1h": 38.23,
+      "liquidity": 6897.74,
+      "volume_1h": 11540.93,
+      "mcap": 9530.0,
+      "dex_url": "https://dexscreener.com/solana/h14eenptqvxzrdtmtshvqmzxykqc6pdjumcaqk4wkjxo",
+      "time": "23:49:31",
+      "date": "2026-10-12",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Feed Terminal",
+      "symbol": "FEED",
+      "address": "8Tq4hpxkc4Syv9p2dWb7yqn4idciSJhpZQMFNnE6pump",
+      "label": "WATCH",
+      "score": 45,
+      "tech_score": 45,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001134,
+      "change_1h": 44.58,
+      "liquidity": 29074.12,
+      "volume_1h": 460084.91,
+      "mcap": 108235.0,
+      "dex_url": "https://dexscreener.com/solana/6cnxe1vhuzsmcdhzu9awtyjq2rzerkyfzkwxr1qdwbmr",
+      "time": "23:49:31",
+      "date": "2026-10-12",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "MarsX",
       "symbol": "MarsX",
       "address": "Fak3rJEBfR4Vb8DoFpecf6yoxbkkr1gGUH5tdj2rpump",
@@ -1052,59 +1094,17 @@
       "date": "2026-10-10",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Larpcheck",
-      "symbol": "LARPCHECK",
-      "address": "t9bnCGiZVUYsRKvx4d5dPcoDCSyuBM9C33ZNGNULARP",
-      "label": "WATCH",
-      "score": 34,
-      "tech_score": 34,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 7.723e-05,
-      "change_1h": 19.97,
-      "liquidity": 23103.61,
-      "volume_1h": 131030.97,
-      "mcap": 74243.0,
-      "dex_url": "https://dexscreener.com/solana/fj1gf7yyzqnpjad2go6rws14wmstjzyo8xgxmlphhaeu",
-      "time": "22:43:39",
-      "date": "2026-10-10",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "CyberInu",
-      "symbol": "CYBERINU",
-      "address": "CgU6mugt2HXkjaunbaYrauJRRW9kSKbQXcBRzT7Vpump",
-      "label": "WATCH",
-      "score": 42,
-      "tech_score": 42,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.001142,
-      "change_1h": 19.37,
-      "liquidity": 94836.13,
-      "volume_1h": 356984.03,
-      "mcap": 1124342.0,
-      "dex_url": "https://dexscreener.com/solana/79wyzs7wwqrmykueuhxverux6zcfkh6lkiwx3cxyo6xe",
-      "time": "22:43:39",
-      "date": "2026-10-10",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2924,
-    "signals": 19135,
+    "scans": 2925,
+    "signals": 19137,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-10-12 17:48:59 UTC"
+  "last_scan": "2026-10-12 23:49:28 UTC"
 }
