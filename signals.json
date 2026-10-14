@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "Matrixinfinite",
+      "symbol": "MATRIX",
+      "address": "EAWQonhk4Sm1LkEWT8Z1whVmEKLNHdtPUncbcuroKdhF",
+      "label": "WATCH",
+      "score": 12,
+      "tech_score": 12,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 6.615e-06,
+      "change_1h": 4.32,
+      "liquidity": 534.26,
+      "volume_1h": 325.97,
+      "mcap": 6615.0,
+      "dex_url": "https://dexscreener.com/solana/kbjanyyg3fgrhda5mszxqgqwdwb9a7wqyqlkabxjvux",
+      "time": "06:46:23",
+      "date": "2026-10-14",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "kairo",
+      "symbol": "Kairo",
+      "address": "WJJkGmNB6zZB71rHboMzZV9mWsgNBCDrmkPDpbbpump",
+      "label": "BUY",
+      "score": 52,
+      "tech_score": 27,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent"
+      ],
+      "price": 0.0001028,
+      "change_1h": 4.24,
+      "liquidity": 30355.42,
+      "volume_1h": 549.49,
+      "mcap": 98639.0,
+      "dex_url": "https://dexscreener.com/solana/awtgceqya64vohu2twec7honcnni9dtkxrchzbg5i2x9",
+      "time": "06:46:23",
+      "date": "2026-10-14",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Artificial Inufluencer",
       "symbol": "AI",
       "address": "GC428Cbsipwcq7u6x9uhcuff53hNhVBE7zeoKyrepump",
@@ -1046,63 +1090,17 @@
       "date": "2026-10-11",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Slopcats",
-      "symbol": "SC",
-      "address": "4J9KAqH7qTx7EJYzEV1K36yLn4ruowN9sFkPEdGSpump",
-      "label": "BUY",
-      "score": 63,
-      "tech_score": 43,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 6.966e-05,
-      "change_1h": 56.96,
-      "liquidity": 22117.34,
-      "volume_1h": 58626.58,
-      "mcap": 69660.0,
-      "dex_url": "https://dexscreener.com/solana/66hnc78yvwdvykjmc3u2trqaa6bxhkisb8nqwf6as5tf",
-      "time": "22:39:56",
-      "date": "2026-10-11",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Horny Jail",
-      "symbol": "HornyJail",
-      "address": "7JLQd1c2smJdQ2mqUpkgKRz7phvuQs17NfBkgEQYbonk",
-      "label": "STRONG BUY",
-      "score": 73,
-      "tech_score": 48,
-      "narr_bonus": 25,
-      "narrative": "\ud83e\udd16 AI Agent",
-      "all_narratives": [
-        "\ud83e\udd16 AI Agent"
-      ],
-      "price": 5.107e-05,
-      "change_1h": 51.0,
-      "liquidity": 17299.9,
-      "volume_1h": 52350.78,
-      "mcap": 51079.0,
-      "dex_url": "https://dexscreener.com/solana/qxefjyujerxn3rfcow7lysqlmvv6hf7e89bc6yvtpy4",
-      "time": "22:39:56",
-      "date": "2026-10-11",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2930,
-    "signals": 19160,
+    "scans": 2931,
+    "signals": 19162,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-10-14 01:49:24 UTC"
+  "last_scan": "2026-10-14 06:46:20 UTC"
 }
