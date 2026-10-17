@@ -1,6 +1,71 @@
 {
   "signals": [
     {
+      "token": "HeyGrok",
+      "symbol": "HeyGrok",
+      "address": "81a4zMdXnAPCkH3NkE5nYXms56E2qWcrRmxuB9TTpump",
+      "label": "BUY",
+      "score": 63,
+      "tech_score": 63,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001748,
+      "change_1h": 285.0,
+      "liquidity": 35458.67,
+      "volume_1h": 238973.64,
+      "mcap": 174832.0,
+      "dex_url": "https://dexscreener.com/solana/hehobxwtlhlqau1jd8gndzujhvevyiavmsvcr7lzrsom",
+      "time": "17:25:13",
+      "date": "2026-10-17",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Lizardmaxxing",
+      "symbol": "$LIZARDMAX",
+      "address": "FcRvwYyHKbBgjJGhoCykKAWnvMJocRAGD6iuVYWspump",
+      "label": "WATCH",
+      "score": 38,
+      "tech_score": 38,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001014,
+      "change_1h": 5.38,
+      "liquidity": 26458.65,
+      "volume_1h": 770.14,
+      "mcap": 98311.0,
+      "dex_url": "https://dexscreener.com/solana/4albuuvnicopqqt1gnqzklfyrcgeuwaxwmsxyxnsdbor",
+      "time": "17:25:14",
+      "date": "2026-10-17",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Mask Cat",
+      "symbol": "MASKCAT",
+      "address": "GZw7LxHtQKSQ1YsGnpNH7SovnBF8X6poYgavHwrmRekp",
+      "label": "BUY",
+      "score": 63,
+      "tech_score": 43,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0005608,
+      "change_1h": 28.94,
+      "liquidity": 108685.06,
+      "volume_1h": 31044.7,
+      "mcap": 560861.0,
+      "dex_url": "https://dexscreener.com/solana/g7qktr9lr3pf44kp6alkw8sexigdxbg2jajtzrtukk15",
+      "time": "17:25:14",
+      "date": "2026-10-17",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Noxen Privacy",
       "symbol": "NOXEN",
       "address": "AvHocx9sdtbv26PTUTKw63DdKXwyWj8J6qLJxLkDpump",
@@ -1024,84 +1089,17 @@
       "date": "2026-10-16",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "ElonThruster",
-      "symbol": "ElonThrust",
-      "address": "pFibPnQk8ekCCtuBoQFJqeJjHVo92dAME3uH8A4pump",
-      "label": "STRONG BUY",
-      "score": 93,
-      "tech_score": 71,
-      "narr_bonus": 22,
-      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
-      "all_narratives": [
-        "\ud83c\udfdb\ufe0f PolitiFi"
-      ],
-      "price": 0.0008738,
-      "change_1h": 1872.0,
-      "liquidity": 78931.72,
-      "volume_1h": 68100.53,
-      "mcap": 870183.0,
-      "dex_url": "https://dexscreener.com/solana/hn6zrp1bcyypgqrmai5wcu3yjsxexrsoghsj6cqdbncy",
-      "time": "10:20:34",
-      "date": "2026-10-16",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Irene The Orangutan",
-      "symbol": "Irene",
-      "address": "6VdcMnBTCj4tJVwtNdJZNzWeYmxzMnygVSzcfY35pump",
-      "label": "BUY",
-      "score": 61,
-      "tech_score": 61,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0001235,
-      "change_1h": 192.0,
-      "liquidity": 29528.92,
-      "volume_1h": 525814.23,
-      "mcap": 117498.0,
-      "dex_url": "https://dexscreener.com/solana/9econ3c1yq4t4bws3lkdnvpcja2le51ba81y5b8uxccw",
-      "time": "10:20:36",
-      "date": "2026-10-16",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Flying Solana Roadster",
-      "symbol": "FSR",
-      "address": "HiKU8Lsa8aUFkhtCMWp3ySCcpZ899zEhRqzvEgnSpump",
-      "label": "WATCH",
-      "score": 45,
-      "tech_score": 35,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 3.444e-05,
-      "change_1h": 53.58,
-      "liquidity": 14750.4,
-      "volume_1h": 20185.01,
-      "mcap": 31528.0,
-      "dex_url": "https://dexscreener.com/solana/eukyyrhlbvkk2tf6mnkhjpq5tzcvfsgipsquqdjqemwf",
-      "time": "10:20:36",
-      "date": "2026-10-16",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2952,
-    "signals": 19293,
+    "scans": 2953,
+    "signals": 19296,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-10-17 14:25:18 UTC"
+  "last_scan": "2026-10-17 17:25:12 UTC"
 }
