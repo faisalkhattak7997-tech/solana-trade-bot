@@ -1093,7 +1093,7 @@
   ],
   "trades": [],
   "stats": {
-    "scans": 2973,
+    "scans": 2974,
     "signals": 19411,
     "trades": 0
   },
@@ -1101,5 +1101,5 @@
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-10-20 17:36:19 UTC"
+  "last_scan": "2026-10-20 20:51:30 UTC"
 }
