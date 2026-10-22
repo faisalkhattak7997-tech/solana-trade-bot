@@ -1,6 +1,74 @@
 {
   "signals": [
     {
+      "token": "BIKEchi",
+      "symbol": "BIKECHI",
+      "address": "KihGKfriB6eMvEL3bXE3ZMu2qnBgsXJZDotuGoJpump",
+      "label": "STRONG BUY",
+      "score": 78,
+      "tech_score": 78,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0004446,
+      "change_1h": 928.0,
+      "liquidity": 62273.45,
+      "volume_1h": 2778214.67,
+      "mcap": 434610.0,
+      "dex_url": "https://dexscreener.com/solana/9te4fqgdq9pfaxbmqiqnp2dlt1s3gckeuwvbybmpgmp1",
+      "time": "09:34:28",
+      "date": "2026-10-22",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Cartoon Money",
+      "symbol": "CBUCKS",
+      "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "label": "WATCH",
+      "score": 30,
+      "tech_score": 18,
+      "narr_bonus": 12,
+      "narrative": "\ud83d\ude02 Meme Culture",
+      "all_narratives": [
+        "\ud83d\ude02 Meme Culture",
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.001121,
+      "change_1h": 4.86,
+      "liquidity": 108627.85,
+      "volume_1h": 2020.94,
+      "mcap": 1057349.0,
+      "dex_url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+      "time": "09:34:30",
+      "date": "2026-10-22",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Shitcoin",
+      "symbol": "Shitcoin",
+      "address": "5G98xQepSDY4wSwygb4V5ww9cjAe7EmRURsDjApLpump",
+      "label": "WATCH",
+      "score": 32,
+      "tech_score": 22,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 2.25e-05,
+      "change_1h": 0.52,
+      "liquidity": 11325.45,
+      "volume_1h": 299.56,
+      "mcap": 21483.0,
+      "dex_url": "https://dexscreener.com/solana/3tbkchw49awdxwfyhzefctfeyzd2sf9arckbmdadkmwg",
+      "time": "09:34:30",
+      "date": "2026-10-22",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "GTAVI $1 Coin",
       "symbol": "1GTA",
       "address": "5V8QnDgzmzG6gPtikA3YmfYUF9eaMoYJyvygG2C9pump",
@@ -1027,84 +1095,17 @@
       "date": "2026-10-21",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Kimchi Boss",
-      "symbol": "KIMCHIBOSS",
-      "address": "AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump",
-      "label": "WATCH",
-      "score": 46,
-      "tech_score": 46,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0007785,
-      "change_1h": 5.77,
-      "liquidity": 77866.41,
-      "volume_1h": 307205.56,
-      "mcap": 772292.0,
-      "dex_url": "https://dexscreener.com/solana/a8hs75tmwqstj2yhzaerjhehkna2qznzndf3ckhsajrj",
-      "time": "01:56:37",
-      "date": "2026-10-21",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Kimchi Coin",
-      "symbol": "KIMCHI",
-      "address": "7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump",
-      "label": "BUY",
-      "score": 61,
-      "tech_score": 51,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.01448,
-      "change_1h": 29.4,
-      "liquidity": 353503.84,
-      "volume_1h": 2048108.33,
-      "mcap": 14437769.0,
-      "dex_url": "https://dexscreener.com/solana/ayq1hkkkq6oitjcnbdeyuo9ahho6flaxjuybmlbvvpzd",
-      "time": "01:56:37",
-      "date": "2026-10-21",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Pokecity Coin",
-      "symbol": "Pokecity",
-      "address": "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump",
-      "label": "BUY",
-      "score": 59,
-      "tech_score": 49,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.000768,
-      "change_1h": 6.97,
-      "liquidity": 76119.62,
-      "volume_1h": 115086.43,
-      "mcap": 759892.0,
-      "dex_url": "https://dexscreener.com/solana/13ah1xkrftsxeapdvvqn8gigps3hjvxfvwq9qtapsqxf",
-      "time": "01:56:38",
-      "date": "2026-10-21",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 2982,
-    "signals": 19468,
+    "scans": 2983,
+    "signals": 19471,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-10-22 04:30:59 UTC"
+  "last_scan": "2026-10-22 09:34:27 UTC"
 }
