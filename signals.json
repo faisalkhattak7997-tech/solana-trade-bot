@@ -1,6 +1,50 @@
 {
   "signals": [
     {
+      "token": "Elon 2028",
+      "symbol": "ELON2028",
+      "address": "FdBEsLzCN3mHUcFVDCH9SisexM2c3rByTvm4tFWQpump",
+      "label": "STRONG BUY",
+      "score": 88,
+      "tech_score": 66,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi"
+      ],
+      "price": 0.0001084,
+      "change_1h": 168.0,
+      "liquidity": 38628.15,
+      "volume_1h": 1400866.59,
+      "mcap": 108496.0,
+      "dex_url": "https://dexscreener.com/solana/9everybuonmjsv5w9qpjquvtgdgyg6mpaqxdgwzary72",
+      "time": "23:23:15",
+      "date": "2026-10-26",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Super Pussy 500",
+      "symbol": "SP500",
+      "address": "2zk2ajqf4U8m97yY33GF5PLXh12q6i8JmE4a7bQgpump",
+      "label": "WATCH",
+      "score": 22,
+      "tech_score": 22,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 8.011e-05,
+      "change_1h": 3.35,
+      "liquidity": 18704.73,
+      "volume_1h": 4653.35,
+      "mcap": 78064.0,
+      "dex_url": "https://dexscreener.com/solana/8rjpfqwoe6amtgdfjvu1rutrqpswetfuhpnfnyvbcdas",
+      "time": "23:23:17",
+      "date": "2026-10-26",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Liquititty Pair",
       "symbol": "LP",
       "address": "3kFWwzjQ6cuLw5KUCmLX3t2h5F1NawncF5dL8wxUpump",
@@ -1043,61 +1087,17 @@
       "date": "2026-10-25",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "JuJu",
-      "symbol": "JuJu",
-      "address": "FFrv51GpLpexAjcHAKK4viywVa3WX74rF4UveyHCpump",
-      "label": "WATCH",
-      "score": 21,
-      "tech_score": 21,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 3.51e-05,
-      "change_1h": 13.1,
-      "liquidity": 14124.53,
-      "volume_1h": 16986.75,
-      "mcap": 33087.0,
-      "dex_url": "https://dexscreener.com/solana/4v8g346lkmrxn8ckcj9q9emdtcphh4v1rogszeui7tfn",
-      "time": "16:09:38",
-      "date": "2026-10-25",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Gigantic Tits Agency",
-      "symbol": "GTA",
-      "address": "7iXNTHrz6BfgXcGzB74WSPkvXCCeUkyYnqyJNPtXpump",
-      "label": "STRONG BUY",
-      "score": 80,
-      "tech_score": 68,
-      "narr_bonus": 12,
-      "narrative": "\ud83d\ude02 Meme Culture",
-      "all_narratives": [
-        "\ud83d\ude02 Meme Culture"
-      ],
-      "price": 0.000142,
-      "change_1h": 233.0,
-      "liquidity": 32285.74,
-      "volume_1h": 384452.37,
-      "mcap": 142028.0,
-      "dex_url": "https://dexscreener.com/solana/dhftk1nxz9btuwsjpubgcnhmx7nmed5w6bbezdyq5bt9",
-      "time": "12:07:58",
-      "date": "2026-10-25",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 3011,
-    "signals": 19629,
+    "scans": 3012,
+    "signals": 19631,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-10-26 19:47:26 UTC"
+  "last_scan": "2026-10-26 23:23:14 UTC"
 }
