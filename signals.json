@@ -1,6 +1,71 @@
 {
   "signals": [
     {
+      "token": "Grokia",
+      "symbol": "GROKIA",
+      "address": "BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump",
+      "label": "WATCH",
+      "score": 30,
+      "tech_score": 30,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 4.492e-05,
+      "change_1h": 1.86,
+      "liquidity": 17162.27,
+      "volume_1h": 46247.77,
+      "mcap": 44930.0,
+      "dex_url": "https://dexscreener.com/solana/abra53jjhihzwc9xva4hwo5grn7lvgqahcarxg3ztpcw",
+      "time": "19:32:17",
+      "date": "2026-11-08",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "The White Scammer ",
+      "symbol": "SLINGOOR",
+      "address": "DNYRJmZuD7cx3rXjaoosQyDx5QBV8ZS3eBWWnUFbpump",
+      "label": "STRONG BUY",
+      "score": 90,
+      "tech_score": 68,
+      "narr_bonus": 22,
+      "narrative": "\ud83c\udfdb\ufe0f PolitiFi",
+      "all_narratives": [
+        "\ud83c\udfdb\ufe0f PolitiFi"
+      ],
+      "price": 0.0007283,
+      "change_1h": 257.0,
+      "liquidity": 88086.13,
+      "volume_1h": 517310.11,
+      "mcap": 713188.0,
+      "dex_url": "https://dexscreener.com/solana/7wkjfnlp1iebbumayywyqiup2d2sev4n3lz4i3lgevf6",
+      "time": "19:32:18",
+      "date": "2026-11-08",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "State of Leonida",
+      "symbol": "Leonida",
+      "address": "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump",
+      "label": "WATCH",
+      "score": 32,
+      "tech_score": 32,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0002121,
+      "change_1h": 26.67,
+      "liquidity": 37006.16,
+      "volume_1h": 9445.36,
+      "mcap": 205927.0,
+      "dex_url": "https://dexscreener.com/solana/5gxdopck2lj6qycj3uvtc37tgsfhma55ulfkuftye49r",
+      "time": "19:32:20",
+      "date": "2026-11-08",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "forg",
       "symbol": "forg",
       "address": "2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump",
@@ -1031,84 +1096,17 @@
       "date": "2026-11-06",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Finance Inu",
-      "symbol": "FI",
-      "address": "5do6LBiSP7hnm5nRndRe14fMMoYb9JA7aw272YHfMTT5",
-      "label": "BUY",
-      "score": 50,
-      "tech_score": 40,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 3.832e-05,
-      "change_1h": 2.84,
-      "liquidity": 15270.45,
-      "volume_1h": 1020624.65,
-      "mcap": 36743.0,
-      "dex_url": "https://dexscreener.com/solana/5opmyfrqzqfegjyfd2gkl2z58vf7wx233hfzta4bise",
-      "time": "17:07:08",
-      "date": "2026-11-06",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "CHICXU",
-      "symbol": "Chicxu",
-      "address": "GAMiPgBnyW9RJ3TBobpzUC8UAa8CidBJ348A7uHEpump",
-      "label": "STRONG BUY",
-      "score": 76,
-      "tech_score": 76,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 0.0003406,
-      "change_1h": 481.0,
-      "liquidity": 47699.55,
-      "volume_1h": 882395.79,
-      "mcap": 335973.0,
-      "dex_url": "https://dexscreener.com/solana/abkn72wf7fzdno2nyerldoun7pxjy4qufymwqgtmkhyz",
-      "time": "17:07:09",
-      "date": "2026-11-06",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Finance Inu",
-      "symbol": "FI",
-      "address": "4QDPF5TtNAKtU5p5pvcq9h9b44nRSikRzNrKzsUfLoat",
-      "label": "BUY",
-      "score": 69,
-      "tech_score": 59,
-      "narr_bonus": 10,
-      "narrative": "\ud83d\udcb0 DeFi",
-      "all_narratives": [
-        "\ud83d\udcb0 DeFi"
-      ],
-      "price": 0.0004027,
-      "change_1h": 201.0,
-      "liquidity": 125165.55,
-      "volume_1h": 481418.66,
-      "mcap": 402791.0,
-      "dex_url": "https://dexscreener.com/solana/9f13jfmgnwustqmy86s7ea1ag4qulw39uggn19wencex",
-      "time": "17:07:10",
-      "date": "2026-11-06",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 3068,
-    "signals": 19982,
+    "scans": 3069,
+    "signals": 19985,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-11-08 15:02:49 UTC"
+  "last_scan": "2026-11-08 19:32:17 UTC"
 }
