@@ -1,6 +1,51 @@
 {
   "signals": [
     {
+      "token": "Gamer",
+      "symbol": "GAMER",
+      "address": "DunXr5Kq12ZVRCPj8JX2YUJpbDy7B91ULXbEEUpxpump",
+      "label": "WATCH",
+      "score": 35,
+      "tech_score": 35,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 0.0001055,
+      "change_1h": 32.83,
+      "liquidity": 23130.81,
+      "volume_1h": 19203.65,
+      "mcap": 103512.0,
+      "dex_url": "https://dexscreener.com/solana/au1k9akxbww9nvmay9yuyzh2k4odvgj1ubdq8s4qk7z",
+      "time": "10:45:51",
+      "date": "2026-11-18",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Cartoon Money",
+      "symbol": "CBUCKS",
+      "address": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "label": "WATCH",
+      "score": 25,
+      "tech_score": 13,
+      "narr_bonus": 12,
+      "narrative": "\ud83d\ude02 Meme Culture",
+      "all_narratives": [
+        "\ud83d\ude02 Meme Culture",
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 0.003524,
+      "change_1h": 3.56,
+      "liquidity": 208282.61,
+      "volume_1h": 20522.48,
+      "mcap": 3322204.0,
+      "dex_url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb",
+      "time": "10:45:52",
+      "date": "2026-11-18",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Nadja the Iguana",
       "symbol": "NADJA",
       "address": "4sTdeEFkQisRpWS9abeW8XvNFxxaTwCboFe9oDrNpump",
@@ -1040,62 +1085,17 @@
       "date": "2026-11-15",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "GTA VI",
-      "symbol": "GTAVI",
-      "address": "2anhKq7srLuvKDi63EyAPYyK71vSGeyTrVxTJRN4fc8N",
-      "label": "WATCH",
-      "score": 18,
-      "tech_score": 18,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 1.325e-05,
-      "change_1h": 12.1,
-      "liquidity": 7007.21,
-      "volume_1h": 3495.52,
-      "mcap": 12733.0,
-      "dex_url": "https://dexscreener.com/solana/daqf915piaswkagpn8zjvyvu5zvzras2bq2bm3amabwz",
-      "time": "19:50:44",
-      "date": "2026-11-15",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "paperdog",
-      "symbol": "paperdog",
-      "address": "6wnMkKcJTsvFy2ksWeKopm9YMs2Xpy4jSHuQB12Mpump",
-      "label": "BUY",
-      "score": 63,
-      "tech_score": 43,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal",
-        "\ud83d\ude80 Pump.fun"
-      ],
-      "price": 2.752e-05,
-      "change_1h": 137.0,
-      "liquidity": 10570.53,
-      "volume_1h": 20271.11,
-      "mcap": 25803.0,
-      "dex_url": "https://dexscreener.com/solana/4uchjse6tnlqxqhuv4vqy2emtb1gp1cfctfbgp2gpiki",
-      "time": "19:50:44",
-      "date": "2026-11-15",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 3103,
-    "signals": 20206,
+    "scans": 3104,
+    "signals": 20208,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-11-18 02:44:10 UTC"
+  "last_scan": "2026-11-18 10:45:50 UTC"
 }
