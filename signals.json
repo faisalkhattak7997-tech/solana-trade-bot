@@ -1,6 +1,52 @@
 {
   "signals": [
     {
+      "token": "OUROBOROS",
+      "symbol": "OUROBOROS",
+      "address": "38EDdUxnJvrnDsJyB45E2W3pK26qLEjmWTvsEmMuG9ZR",
+      "label": "BUY",
+      "score": 60,
+      "tech_score": 35,
+      "narr_bonus": 25,
+      "narrative": "\ud83e\udd16 AI Agent",
+      "all_narratives": [
+        "\ud83e\udd16 AI Agent"
+      ],
+      "price": 8.048e-05,
+      "change_1h": 33.94,
+      "liquidity": 19552.81,
+      "volume_1h": 86713.19,
+      "mcap": 80308.0,
+      "dex_url": "https://dexscreener.com/solana/2shpxaj6vzmf9nwzfgsgnohgp2mfnyevyt7s9qyvkuhy",
+      "time": "13:38:05",
+      "date": "2026-11-25",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Memeployed",
+      "symbol": "Memeployed",
+      "address": "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn",
+      "label": "BUY",
+      "score": 52,
+      "tech_score": 40,
+      "narr_bonus": 12,
+      "narrative": "\ud83d\ude02 Meme Culture",
+      "all_narratives": [
+        "\ud83d\ude02 Meme Culture"
+      ],
+      "price": 5.667e-05,
+      "change_1h": 52.27,
+      "liquidity": 20088.79,
+      "volume_1h": 8294.03,
+      "mcap": 54653.0,
+      "dex_url": "https://dexscreener.com/solana/gy7pc4tijsvfds85hmdsngx5rccp3vmdysjtghlgdh8",
+      "time": "13:38:06",
+      "date": "2026-11-25",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Manlet",
       "symbol": "Manlet",
       "address": "HyXjbs37EKU1QPKm2MnSQ3YaxNCugdh2W8bktSfYpump",
@@ -1059,59 +1105,17 @@
       "date": "2026-11-22",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "Foam Trade",
-      "symbol": "FOAM",
-      "address": "2MdCPWNFufmJSZhajSvi1yqBFTB24GQ4ipjNcB8Vpump",
-      "label": "BUY",
-      "score": 56,
-      "tech_score": 56,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 7.391e-05,
-      "change_1h": 152.0,
-      "liquidity": 18753.47,
-      "volume_1h": 337933.42,
-      "mcap": 71770.0,
-      "dex_url": "https://dexscreener.com/solana/6c6xpds1pr2grlsegbsfb78utuv2pqnagvhmcbeynvbh",
-      "time": "17:44:52",
-      "date": "2026-11-22",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Mike Dyson",
-      "symbol": "MIKEDYSON",
-      "address": "6RE3WnDYmkKquontjFXD2me6vuqjan45EHVCtL3kpump",
-      "label": "WATCH",
-      "score": 8,
-      "tech_score": 8,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 4.333e-06,
-      "change_1h": 9.91,
-      "liquidity": 4094.91,
-      "volume_1h": 1017.25,
-      "mcap": 4161.0,
-      "dex_url": "https://dexscreener.com/solana/4biunygb8bynqjhzzbdnnahu4ug4vsmyteofrmhmqgzj",
-      "time": "17:44:53",
-      "date": "2026-11-22",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 3126,
-    "signals": 20351,
+    "scans": 3127,
+    "signals": 20353,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-11-25 03:48:49 UTC"
+  "last_scan": "2026-11-25 13:38:03 UTC"
 }
