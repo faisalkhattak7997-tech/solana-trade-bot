@@ -1,6 +1,73 @@
 {
   "signals": [
     {
+      "token": "Cate Inu ",
+      "symbol": "CINU",
+      "address": "CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump",
+      "label": "STRONG BUY",
+      "score": 71,
+      "tech_score": 51,
+      "narr_bonus": 20,
+      "narrative": "\ud83d\udc3e Animal",
+      "all_narratives": [
+        "\ud83d\udc3e Animal"
+      ],
+      "price": 0.0001183,
+      "change_1h": 158.0,
+      "liquidity": 28681.91,
+      "volume_1h": 24481.21,
+      "mcap": 118150.0,
+      "dex_url": "https://dexscreener.com/solana/yauaveovue4y2kpfnqht11c5jgwoyyidqazeagvgyg4",
+      "time": "23:03:37",
+      "date": "2026-11-26",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "JenZ",
+      "symbol": "JENZ",
+      "address": "2GKLwk39FgPMvTdogfFCmDRQq7xTcBj4ArStLYXHwT7Y",
+      "label": "WATCH",
+      "score": 22,
+      "tech_score": 22,
+      "narr_bonus": 0,
+      "narrative": null,
+      "all_narratives": [],
+      "price": 4.679e-07,
+      "change_1h": 25.74,
+      "liquidity": 542.4,
+      "volume_1h": 88.11,
+      "mcap": 468.0,
+      "dex_url": "https://dexscreener.com/solana/8hnsmpdxampd4fw59tuxru3tkz4nermkzmarcbafrxxl",
+      "time": "23:03:39",
+      "date": "2026-11-26",
+      "traded": false,
+      "tx": null
+    },
+    {
+      "token": "Monacoin",
+      "symbol": "MONA",
+      "address": "6is11V1KgpybgPdMkYGBacbiT62kqunsvnLDNzDfpump",
+      "label": "WATCH",
+      "score": 34,
+      "tech_score": 24,
+      "narr_bonus": 10,
+      "narrative": "\ud83d\udcb0 DeFi",
+      "all_narratives": [
+        "\ud83d\udcb0 DeFi"
+      ],
+      "price": 1.371e-05,
+      "change_1h": 45.22,
+      "liquidity": 7039.14,
+      "volume_1h": 3505.35,
+      "mcap": 13717.0,
+      "dex_url": "https://dexscreener.com/solana/eevgnajhdfqcf855ecjttbypfbpvvycshen4b8ox7mht",
+      "time": "23:03:40",
+      "date": "2026-11-26",
+      "traded": false,
+      "tx": null
+    },
+    {
       "token": "Legatum",
       "symbol": "Legatum",
       "address": "HkPSDYRcw4uqgRzZMDd5sRnMpE4ungR1K8MRNXnBVtQ2",
@@ -1030,85 +1097,17 @@
       "date": "2026-11-23",
       "traded": false,
       "tx": null
-    },
-    {
-      "token": "earball",
-      "symbol": "earball",
-      "address": "FryQiSLqU7NfPvpQJRiYrVuvRRW66uB4FLorrKmjpump",
-      "label": "WATCH",
-      "score": 22,
-      "tech_score": 22,
-      "narr_bonus": 0,
-      "narrative": null,
-      "all_narratives": [],
-      "price": 8.177e-05,
-      "change_1h": 2.67,
-      "liquidity": 19874.51,
-      "volume_1h": 6722.55,
-      "mcap": 77806.0,
-      "dex_url": "https://dexscreener.com/solana/ctxava9kjrsy8t9dlzqavsgdnmfd1andjdfgeref8ws7",
-      "time": "13:11:37",
-      "date": "2026-11-23",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "PumpMeme",
-      "symbol": "PumpMeme",
-      "address": "93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump",
-      "label": "BUY",
-      "score": 53,
-      "tech_score": 35,
-      "narr_bonus": 18,
-      "narrative": "\ud83d\ude80 Pump.fun",
-      "all_narratives": [
-        "\ud83d\ude80 Pump.fun",
-        "\ud83d\ude02 Meme Culture"
-      ],
-      "price": 0.002056,
-      "change_1h": 11.64,
-      "liquidity": 105026.88,
-      "volume_1h": 196608.05,
-      "mcap": 2050381.0,
-      "dex_url": "https://dexscreener.com/solana/6dbfy11iez64hg8g67e1codqytezrpllncameicud2qq",
-      "time": "13:11:37",
-      "date": "2026-11-23",
-      "traded": false,
-      "tx": null
-    },
-    {
-      "token": "Confidential Cat",
-      "symbol": "hCAT",
-      "address": "2FYs4vApfj4ErsggpFDfzMv1WvxnyiLtzNEj84mS6TLh",
-      "label": "STRONG BUY",
-      "score": 83,
-      "tech_score": 63,
-      "narr_bonus": 20,
-      "narrative": "\ud83d\udc3e Animal",
-      "all_narratives": [
-        "\ud83d\udc3e Animal"
-      ],
-      "price": 0.0001466,
-      "change_1h": 391.0,
-      "liquidity": 26882.86,
-      "volume_1h": 188323.9,
-      "mcap": 146618.0,
-      "dex_url": "https://dexscreener.com/solana/j57k53g3mhhn9kct6ztn7ubgblddwgwb29n3h5qd7uwm",
-      "time": "03:16:41",
-      "date": "2026-11-23",
-      "traded": false,
-      "tx": null
     }
   ],
   "trades": [],
   "stats": {
-    "scans": 3130,
-    "signals": 20371,
+    "scans": 3131,
+    "signals": 20374,
     "trades": 0
   },
   "wallet": {
     "address": "",
     "balance": 0.2
   },
-  "last_scan": "2026-11-26 14:16:14 UTC"
+  "last_scan": "2026-11-26 23:03:36 UTC"
 }
